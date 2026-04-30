@@ -16,7 +16,7 @@ export default function App() {
         <div className="px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
-              <img src={mewsLogo} alt="Mews" className="h-20 w-auto cursor-pointer" onClick={() => setActiveSection('overview')} />
+              <img src={mewsLogo} alt="Mews" className="h-28 w-auto cursor-pointer" onClick={() => setActiveSection('overview')} />
             </div>
             <nav className="hidden md:flex items-center gap-6 text-sm">
               {[

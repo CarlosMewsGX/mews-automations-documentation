@@ -107,7 +107,7 @@ export default function App() {
             <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-screen sticky top-0 overflow-y-auto">
               <div className="p-4">
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Component Library</h3>
-                <nav className="space-y-4">
+                <nav className="space-y-4 pb-8">
                   <div>
                     <h4 className="text-xs font-semibold text-pink-600 uppercase tracking-wider mb-2">Triggers</h4>
                     <div className="space-y-1">

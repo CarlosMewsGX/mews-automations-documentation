@@ -104,7 +104,7 @@ export default function App() {
       <header className="flex-shrink-0 bg-neutral-900 text-white">
         <div className="px-4 h-14 flex items-center">
           <div className="cursor-pointer" onClick={() => navigate('overview')}>
-            <span className="text-base text-white font-medium tracking-wide">Automations Documentation</span>
+            <span className="text-xl text-white font-bold tracking-wide">Automations Documentation</span>
           </div>
         </div>
       </header>

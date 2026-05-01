@@ -12,23 +12,23 @@ export default function App() {
   return (
     <div className="size-full flex flex-col bg-white">
       {/* Header */}
-      <header className="border-b border-gray-200 bg-white">
-        <div className="px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-8">
-            <div className="flex items-center gap-2">
-              <img src={mewsLogo} alt="Mews" className="h-28 w-auto cursor-pointer" onClick={() => setActiveSection('overview')} />
+      <header className="border-b border-gray-100 bg-white">
+        <div className="px-8 py-5 flex items-center justify-between">
+          <div className="flex items-center gap-12">
+            <div className="flex items-center">
+              <img src={mewsLogo} alt="Mews" className="h-7 w-auto cursor-pointer" onClick={() => setActiveSection('overview')} />
             </div>
-            <nav className="hidden md:flex items-center gap-6 text-sm">
+            <nav className="hidden md:flex items-center gap-8">
               {[
                 { key: 'overview', label: 'Overview' },
-                { key: 'getting-started', label: 'Getting Started with Mews Automations' },
+                { key: 'getting-started', label: 'Getting Started' },
                 { key: 'templates', label: 'Templates' },
                 { key: 'components', label: 'Components' },
               ].map((tab) => (
                 <button
                   key={tab.key}
                   onClick={() => setActiveSection(tab.key)}
-                  className={`hover:text-pink-600 transition-colors ${activeSection === tab.key ? 'text-pink-600 font-bold' : ''}`}
+                  className={`text-base transition-colors ${activeSection === tab.key ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700'}`}
                 >
                   {tab.label}
                 </button>
@@ -44,11 +44,11 @@ export default function App() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto">
-        <div className="flex">
+      <main className="flex-1 flex overflow-hidden">
+        <div className="flex flex-1 overflow-hidden">
           {/* Getting Started sidebar */}
           {activeSection === 'getting-started' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-screen sticky top-0 overflow-y-auto">
+            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
               <div className="p-4">
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Guide Navigation</h3>
                 <nav className="space-y-1">
@@ -84,7 +84,7 @@ export default function App() {
 
           {/* Templates sidebar */}
           {activeSection === 'templates' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-screen sticky top-0 overflow-y-auto">
+            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
               <div className="p-4">
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Available Templates</h3>
                 <nav className="space-y-1">
@@ -104,7 +104,7 @@ export default function App() {
 
           {/* Components sidebar */}
           {activeSection === 'components' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-screen sticky top-0 overflow-y-auto">
+            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
               <div className="p-4">
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Component Library</h3>
                 <nav className="space-y-4 pb-16">
@@ -156,7 +156,8 @@ export default function App() {
             </aside>
           )}
 
-          <div className="flex-1 max-w-4xl mx-auto px-8 py-12">
+          <div className="flex-1 overflow-y-auto">
+          <div className="max-w-4xl mx-auto px-8 py-12">
             <div className="mb-8">
               <h1 className="text-4xl font-bold mb-4">
                 {activeSection === 'overview' && 'Overview'}
@@ -178,6 +179,7 @@ export default function App() {
               {activeSection === 'overview' && <OverviewSection />}
               {activeSection === 'components' && <ComponentsSection />}
             </div>
+          </div>
           </div>
         </div>
       </main>

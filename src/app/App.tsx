@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { GettingStartedSection } from './components/GettingStartedSection';
 import { TemplatesSection } from './components/TemplatesSection';
@@ -62,6 +62,7 @@ export default function App() {
   const [activeSection, setActiveSection] = useState('overview');
   const [activeItem, setActiveItem] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<string[]>([]);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   const toggleExpand = (key: string) => {
     setExpanded(prev =>
@@ -72,6 +73,9 @@ export default function App() {
   const navigate = (section: string) => {
     setActiveSection(section);
     setActiveItem(null);
+    setTimeout(() => {
+      if (contentRef.current) contentRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 50);
   };
 
   const navigateToAnchor = (section: string, id: string) => {
@@ -185,7 +189,7 @@ export default function App() {
         </aside>
 
         {/* Main Content */}
-        <div className="flex-1 overflow-y-auto">
+        <div ref={contentRef} className="flex-1 overflow-y-auto">
           <div className="max-w-4xl mx-auto px-8 py-12">
             <div className="mb-8">
               <h1 className="text-4xl font-bold mb-4">

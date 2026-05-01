@@ -73,9 +73,6 @@ export default function App() {
   const navigate = (section: string) => {
     setActiveSection(section);
     setActiveItem(null);
-    if (!expanded.includes(section)) {
-      setExpanded(prev => [...prev, section]);
-    }
   };
 
   const navigateToAnchor = (section: string, id: string) => {

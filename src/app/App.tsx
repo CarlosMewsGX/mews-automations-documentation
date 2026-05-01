@@ -61,6 +61,7 @@ const actionItems = [
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('overview');
+  const [activeItem, setActiveItem] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<string[]>([]);
 
   const toggleExpand = (key: string) => {
@@ -71,6 +72,7 @@ export default function App() {
 
   const navigate = (section: string) => {
     setActiveSection(section);
+    setActiveItem(null);
     if (!expanded.includes(section)) {
       setExpanded(prev => [...prev, section]);
     }
@@ -78,11 +80,26 @@ export default function App() {
 
   const navigateToAnchor = (section: string, id: string) => {
     setActiveSection(section);
+    setActiveItem(id);
     setTimeout(() => {
       const el = document.getElementById(id);
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 50);
   };
+
+  const sectionCls = (key: string) =>
+    `w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors border-l-[3px] ${
+      activeSection === key && activeItem === null
+        ? 'border-pink-600 bg-gray-100 text-gray-900 font-semibold'
+        : 'border-transparent text-gray-700 hover:bg-gray-50'
+    }`;
+
+  const itemCls = (id: string) =>
+    `w-full text-left pl-5 pr-4 py-2 text-sm transition-colors border-l-[3px] ${
+      activeItem === id
+        ? 'border-pink-600 bg-gray-100 text-gray-900 font-semibold'
+        : 'border-transparent text-gray-500 hover:bg-gray-50 hover:text-gray-900'
+    }`;
 
   return (
     <div className="size-full flex flex-col bg-white">
@@ -113,36 +130,20 @@ export default function App() {
           <nav className="py-1">
 
             {/* Overview */}
-            <button
-              onClick={() => navigate('overview')}
-              className={`w-full text-left px-4 py-3 text-sm transition-colors flex items-center justify-between
-                ${activeSection === 'overview'
-                  ? 'bg-gray-100 text-gray-900 font-semibold'
-                  : 'text-gray-700 hover:bg-gray-50'}`}
-            >
+            <button onClick={() => navigate('overview')} className={sectionCls('overview')}>
               Overview
             </button>
 
             {/* Getting Started */}
             <div>
-              <button
-                onClick={() => { navigate('getting-started'); toggleExpand('getting-started'); }}
-                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
-                  ${activeSection === 'getting-started'
-                    ? 'bg-gray-100 text-gray-900 font-semibold'
-                    : 'text-gray-700 hover:bg-gray-50'}`}
-              >
+              <button onClick={() => { navigate('getting-started'); toggleExpand('getting-started'); }} className={sectionCls('getting-started')}>
                 <span>Getting Started</span>
                 <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('getting-started') ? 'rotate-180' : ''}`} />
               </button>
               {expanded.includes('getting-started') && (
-                <div className="border-l border-gray-200 ml-4">
+                <div>
                   {gettingStartedItems.map(item => (
-                    <button
-                      key={item.id}
-                      onClick={() => navigateToAnchor('getting-started', item.id)}
-                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-                    >
+                    <button key={item.id} onClick={() => navigateToAnchor('getting-started', item.id)} className={itemCls(item.id)}>
                       {item.label}
                     </button>
                   ))}
@@ -152,24 +153,14 @@ export default function App() {
 
             {/* Templates */}
             <div>
-              <button
-                onClick={() => { navigate('templates'); toggleExpand('templates'); }}
-                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
-                  ${activeSection === 'templates'
-                    ? 'bg-gray-100 text-gray-900 font-semibold'
-                    : 'text-gray-700 hover:bg-gray-50'}`}
-              >
+              <button onClick={() => { navigate('templates'); toggleExpand('templates'); }} className={sectionCls('templates')}>
                 <span>Templates</span>
                 <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('templates') ? 'rotate-180' : ''}`} />
               </button>
               {expanded.includes('templates') && (
-                <div className="border-l border-gray-200 ml-4">
+                <div>
                   {templateItems.map(item => (
-                    <button
-                      key={item.id}
-                      onClick={() => navigateToAnchor('templates', item.id)}
-                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-                    >
+                    <button key={item.id} onClick={() => navigateToAnchor('templates', item.id)} className={itemCls(item.id)}>
                       {item.label}
                     </button>
                   ))}
@@ -179,39 +170,21 @@ export default function App() {
 
             {/* Components */}
             <div>
-              <button
-                onClick={() => { navigate('components'); toggleExpand('components'); }}
-                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
-                  ${activeSection === 'components'
-                    ? 'bg-gray-100 text-gray-900 font-semibold'
-                    : 'text-gray-700 hover:bg-gray-50'}`}
-              >
+              <button onClick={() => { navigate('components'); toggleExpand('components'); }} className={sectionCls('components')}>
                 <span>Components</span>
                 <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('components') ? 'rotate-180' : ''}`} />
               </button>
               {expanded.includes('components') && (
-                <div className="border-l border-gray-200 ml-4">
-                  <div className="pl-4 pr-4 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">
-                    Triggers
-                  </div>
+                <div>
+                  <div className="pl-5 pr-4 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Triggers</div>
                   {triggerItems.map(item => (
-                    <button
-                      key={item.id}
-                      onClick={() => navigateToAnchor('components', item.id)}
-                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-                    >
+                    <button key={item.id} onClick={() => navigateToAnchor('components', item.id)} className={itemCls(item.id)}>
                       {item.label}
                     </button>
                   ))}
-                  <div className="pl-4 pr-4 pt-3 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">
-                    Actions
-                  </div>
+                  <div className="pl-5 pr-4 pt-3 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Actions</div>
                   {actionItems.map(item => (
-                    <button
-                      key={item.id}
-                      onClick={() => navigateToAnchor('components', item.id)}
-                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-                    >
+                    <button key={item.id} onClick={() => navigateToAnchor('components', item.id)} className={itemCls(item.id)}>
                       {item.label}
                     </button>
                   ))}
@@ -225,7 +198,7 @@ export default function App() {
               href="https://github.com/CarlosMewsGX/mews-automations-documentation"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center justify-between transition-colors"
+              className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center justify-between transition-colors border-l-[3px] border-transparent"
             >
               <span>GitHub</span>
               <ExternalLink className="w-4 h-4 text-gray-400 flex-shrink-0" />

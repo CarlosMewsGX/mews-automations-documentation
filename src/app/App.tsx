@@ -105,12 +105,6 @@ export default function App() {
       <header className="flex-shrink-0 bg-neutral-900 text-white">
         <div className="px-4 h-12 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('overview')}>
-            <img
-              src={mewsLogo}
-              alt="Mews"
-              className="h-5 w-auto"
-              style={{ filter: 'brightness(0) invert(1)' }}
-            />
             <span className="text-sm text-neutral-300 font-light tracking-wide">Automations Documentation</span>
           </div>
           <button className="p-2 hover:bg-white/10 rounded transition-colors">

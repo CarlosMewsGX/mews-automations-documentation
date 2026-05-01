@@ -85,7 +85,7 @@ export default function App() {
   };
 
   const sectionCls = (key: string) =>
-    `w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors border-l-[3px] ${
+    `w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors border-2 ${
       activeSection === key && activeItem === null
         ? 'border-pink-600 bg-gray-100 text-gray-900 font-semibold'
         : 'border-transparent text-gray-700 hover:bg-gray-50'

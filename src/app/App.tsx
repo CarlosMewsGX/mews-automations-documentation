@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { Search, ChevronDown, ExternalLink } from 'lucide-react';
-import mewsLogo from '../imports/mews-systems-logo-vector.png';
+import { ChevronDown } from 'lucide-react';
 import { GettingStartedSection } from './components/GettingStartedSection';
 import { TemplatesSection } from './components/TemplatesSection';
 import { OverviewSection } from './components/OverviewSection';
@@ -103,13 +102,10 @@ export default function App() {
 
       {/* Header */}
       <header className="flex-shrink-0 bg-neutral-900 text-white">
-        <div className="px-4 h-12 flex items-center justify-between">
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('overview')}>
-            <span className="text-sm text-neutral-300 font-light tracking-wide">Automations Documentation</span>
+        <div className="px-4 h-14 flex items-center">
+          <div className="cursor-pointer" onClick={() => navigate('overview')}>
+            <span className="text-base text-white font-medium tracking-wide">Automations Documentation</span>
           </div>
-          <button className="p-2 hover:bg-white/10 rounded transition-colors">
-            <Search className="w-4 h-4" />
-          </button>
         </div>
       </header>
 
@@ -184,16 +180,6 @@ export default function App() {
               )}
             </div>
 
-            {/* GitHub */}
-            <a
-              href="https://github.com/CarlosMewsGX/mews-automations-documentation"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center justify-between transition-colors border-l-[3px] border-transparent"
-            >
-              <span>GitHub</span>
-              <ExternalLink className="w-4 h-4 text-gray-400 flex-shrink-0" />
-            </a>
 
           </nav>
         </aside>

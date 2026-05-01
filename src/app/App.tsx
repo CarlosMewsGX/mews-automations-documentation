@@ -1,162 +1,241 @@
 import { useState } from 'react';
-import { Search } from 'lucide-react';
+import { Search, ChevronDown, ExternalLink } from 'lucide-react';
 import mewsLogo from '../imports/mews-systems-logo-vector.png';
 import { GettingStartedSection } from './components/GettingStartedSection';
 import { TemplatesSection } from './components/TemplatesSection';
 import { OverviewSection } from './components/OverviewSection';
 import { ComponentsSection } from './components/ComponentsSection';
 
+const gettingStartedItems = [
+  { id: 'what-are-automations', label: 'What are Automations?' },
+  { id: 'key-concepts', label: 'Key concepts' },
+  { id: 'accessing-automations', label: 'Accessing' },
+  { id: 'automations-dashboard', label: 'Dashboard' },
+  { id: 'creating-first-automation', label: 'First automation' },
+  { id: 'flow-designer', label: 'Flow designer' },
+  { id: 'adding-components', label: 'Adding components' },
+  { id: 'connecting-components', label: 'Connecting' },
+  { id: 'configuring-components', label: 'Configuring' },
+  { id: 'using-variables', label: 'Variables' },
+  { id: 'modifiers', label: 'Modifiers' },
+  { id: 'mews-components', label: 'Mews components' },
+  { id: 'utility-components', label: 'Utilities' },
+  { id: 'starting-stopping-testing', label: 'Start / Stop / Test' },
+  { id: 'action-log', label: 'Action Log' },
+  { id: 'using-templates', label: 'Templates' },
+  { id: 'best-practices', label: 'Best practices' },
+  { id: 'troubleshooting', label: 'Troubleshooting' },
+];
+
+const templateItems = [
+  { id: 'upgrade-room-loyalty', label: 'Upgrade Room for Loyalty Members' },
+  { id: 'welcome-gift-vip', label: 'Welcome Gift for VIP Guests' },
+];
+
+const triggerItems = [
+  { id: 'guest-profile-created', label: 'Guest Profile Created' },
+  { id: 'reservation-created', label: 'Reservation Created' },
+  { id: 'reservation-checked-in', label: 'Reservation Checked In' },
+];
+
+const actionItems = [
+  { id: 'send-sms', label: 'Send SMS' },
+  { id: 'upgrade-room-category', label: 'Upgrade Assigned Room Category' },
+  { id: 'get-services', label: 'Get Services' },
+  { id: 'get-space-categories', label: 'Get Space Categories' },
+  { id: 'get-rates', label: 'Get Rates' },
+  { id: 'add-note-to-guest-profile', label: 'Add Note To Guest Profile' },
+  { id: 'add-note-to-reservation', label: 'Add Note To Reservation' },
+  { id: 'add-product-to-reservation', label: 'Add Product To Reservation' },
+  { id: 'add-task', label: 'Add Task' },
+  { id: 'check-occupancy', label: 'Check Occupancy' },
+  { id: 'get-compatible-products', label: 'Get Compatible Products' },
+  { id: 'get-departments', label: 'Get Departments' },
+  { id: 'get-eligible-arrivals', label: 'Get Eligible Arrivals' },
+  { id: 'get-loyalty-programs', label: 'Get Loyalty Programs' },
+  { id: 'get-loyalty-tiers', label: 'Get Loyalty Tiers' },
+  { id: 'get-occupancy', label: 'Get Occupancy' },
+  { id: 'get-products', label: 'Get Products' },
+  { id: 'get-products-for-reservations', label: 'Get Products For Reservations' },
+];
+
 export default function App() {
   const [activeSection, setActiveSection] = useState('overview');
+  const [expanded, setExpanded] = useState<string[]>([]);
+
+  const toggleExpand = (key: string) => {
+    setExpanded(prev =>
+      prev.includes(key) ? prev.filter(k => k !== key) : [...prev, key]
+    );
+  };
+
+  const navigate = (section: string) => {
+    setActiveSection(section);
+    if (!expanded.includes(section)) {
+      setExpanded(prev => [...prev, section]);
+    }
+  };
+
+  const navigateToAnchor = (section: string, id: string) => {
+    setActiveSection(section);
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  };
 
   return (
     <div className="size-full flex flex-col bg-white">
+
       {/* Header */}
-      <header className="border-b border-gray-100 bg-white">
-        <div className="px-8 py-5 flex items-center justify-between">
-          <div className="flex items-center gap-12">
-            <div className="flex items-center">
-              <img src={mewsLogo} alt="Mews" className="h-7 w-auto cursor-pointer" onClick={() => setActiveSection('overview')} />
-            </div>
-            <nav className="hidden md:flex items-center gap-8">
-              {[
-                { key: 'overview', label: 'Overview' },
-                { key: 'getting-started', label: 'Getting Started' },
-                { key: 'templates', label: 'Templates' },
-                { key: 'components', label: 'Components' },
-              ].map((tab) => (
-                <button
-                  key={tab.key}
-                  onClick={() => setActiveSection(tab.key)}
-                  className={`text-base transition-colors ${activeSection === tab.key ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700'}`}
-                >
-                  {tab.label}
-                </button>
-              ))}
-            </nav>
+      <header className="flex-shrink-0 bg-neutral-900 text-white">
+        <div className="px-4 h-12 flex items-center justify-between">
+          <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('overview')}>
+            <img
+              src={mewsLogo}
+              alt="Mews"
+              className="h-5 w-auto"
+              style={{ filter: 'brightness(0) invert(1)' }}
+            />
+            <span className="text-sm text-neutral-300 font-light tracking-wide">Automations Documentation</span>
           </div>
-          <div className="flex items-center gap-4">
-            <button className="p-2 hover:bg-gray-100 rounded-full transition-colors">
-              <Search className="w-5 h-5" />
-            </button>
-          </div>
+          <button className="p-2 hover:bg-white/10 rounded transition-colors">
+            <Search className="w-4 h-4" />
+          </button>
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Body */}
       <main className="flex-1 flex overflow-hidden">
-        <div className="flex flex-1 overflow-hidden">
-          {/* Getting Started sidebar */}
-          {activeSection === 'getting-started' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
-              <div className="p-4">
-                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Guide Navigation</h3>
-                <nav className="space-y-1">
-                  {[
-                    { id: 'what-are-automations', label: 'What are Automations?', num: '1' },
-                    { id: 'key-concepts', label: 'Key concepts', num: '2' },
-                    { id: 'accessing-automations', label: 'Accessing', num: '3' },
-                    { id: 'automations-dashboard', label: 'Dashboard', num: '4' },
-                    { id: 'creating-first-automation', label: 'First automation', num: '5' },
-                    { id: 'flow-designer', label: 'Flow designer', num: '6' },
-                    { id: 'adding-components', label: 'Adding components', num: '7' },
-                    { id: 'connecting-components', label: 'Connecting', num: '8' },
-                    { id: 'configuring-components', label: 'Configuring', num: '9' },
-                    { id: 'using-variables', label: 'Variables', num: '10' },
-                    { id: 'modifiers', label: 'Modifiers', num: '11' },
-                    { id: 'mews-components', label: 'Mews components', num: '12' },
-                    { id: 'utility-components', label: 'Utilities', num: '13' },
-                    { id: 'starting-stopping-testing', label: 'Start/Stop/Test', num: '14' },
-                    { id: 'action-log', label: 'Action Log', num: '15' },
-                    { id: 'using-templates', label: 'Templates', num: '16' },
-                    { id: 'best-practices', label: 'Best practices', num: '17' },
-                    { id: 'troubleshooting', label: 'Troubleshooting', num: '18' },
-                  ].map((item) => (
-                    <a key={item.id} href={`#${item.id}`} className="flex items-start gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-700 rounded-md transition-colors group">
-                      <span className="text-pink-600 font-semibold text-xs mt-0.5 flex-shrink-0">{item.num}.</span>
-                      <span className="leading-tight">{item.label}</span>
-                    </a>
+
+        {/* Sidebar */}
+        <aside className="w-64 flex-shrink-0 border-r border-gray-200 h-full overflow-y-auto bg-white">
+          <nav className="py-1">
+
+            {/* Overview */}
+            <button
+              onClick={() => navigate('overview')}
+              className={`w-full text-left px-4 py-3 text-sm transition-colors flex items-center justify-between
+                ${activeSection === 'overview'
+                  ? 'bg-gray-100 text-gray-900 font-semibold'
+                  : 'text-gray-700 hover:bg-gray-50'}`}
+            >
+              Overview
+            </button>
+
+            {/* Getting Started */}
+            <div>
+              <button
+                onClick={() => { navigate('getting-started'); toggleExpand('getting-started'); }}
+                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
+                  ${activeSection === 'getting-started'
+                    ? 'bg-gray-100 text-gray-900 font-semibold'
+                    : 'text-gray-700 hover:bg-gray-50'}`}
+              >
+                <span>Getting Started</span>
+                <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('getting-started') ? 'rotate-180' : ''}`} />
+              </button>
+              {expanded.includes('getting-started') && (
+                <div className="border-l border-gray-200 ml-4">
+                  {gettingStartedItems.map(item => (
+                    <button
+                      key={item.id}
+                      onClick={() => navigateToAnchor('getting-started', item.id)}
+                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+                    >
+                      {item.label}
+                    </button>
                   ))}
-                </nav>
-              </div>
-            </aside>
-          )}
+                </div>
+              )}
+            </div>
 
-          {/* Templates sidebar */}
-          {activeSection === 'templates' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
-              <div className="p-4">
-                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Available Templates</h3>
-                <nav className="space-y-1">
-                  {[
-                    { id: 'upgrade-room-loyalty', label: 'Upgrade Room for Loyalty Members', num: '1' },
-                    { id: 'welcome-gift-vip', label: 'Welcome Gift for VIP Guests', num: '2' },
-                  ].map((item) => (
-                    <a key={item.id} href={`#${item.id}`} className="flex items-start gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-700 rounded-md transition-colors group">
-                      <span className="text-pink-600 font-semibold text-xs mt-0.5 flex-shrink-0">{item.num}.</span>
-                      <span className="leading-tight">{item.label}</span>
-                    </a>
+            {/* Templates */}
+            <div>
+              <button
+                onClick={() => { navigate('templates'); toggleExpand('templates'); }}
+                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
+                  ${activeSection === 'templates'
+                    ? 'bg-gray-100 text-gray-900 font-semibold'
+                    : 'text-gray-700 hover:bg-gray-50'}`}
+              >
+                <span>Templates</span>
+                <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('templates') ? 'rotate-180' : ''}`} />
+              </button>
+              {expanded.includes('templates') && (
+                <div className="border-l border-gray-200 ml-4">
+                  {templateItems.map(item => (
+                    <button
+                      key={item.id}
+                      onClick={() => navigateToAnchor('templates', item.id)}
+                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+                    >
+                      {item.label}
+                    </button>
                   ))}
-                </nav>
-              </div>
-            </aside>
-          )}
+                </div>
+              )}
+            </div>
 
-          {/* Components sidebar */}
-          {activeSection === 'components' && (
-            <aside className="w-64 flex-shrink-0 border-r border-gray-200 bg-gradient-to-b from-pink-50 to-white h-full overflow-y-auto">
-              <div className="p-4">
-                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Component Library</h3>
-                <nav className="space-y-4 pb-16">
-                  <div>
-                    <h4 className="text-xs font-semibold text-pink-600 uppercase tracking-wider mb-2">Triggers</h4>
-                    <div className="space-y-1">
-                      {[
-                        { id: 'guest-profile-created', label: 'Guest Profile Created' },
-                        { id: 'reservation-created', label: 'Reservation Created' },
-                        { id: 'reservation-checked-in', label: 'Reservation Checked In' },
-                      ].map((item) => (
-                        <a key={item.id} href={`#${item.id}`} className="block px-3 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-700 rounded-md transition-colors">
-                          {item.label}
-                        </a>
-                      ))}
-                    </div>
+            {/* Components */}
+            <div>
+              <button
+                onClick={() => { navigate('components'); toggleExpand('components'); }}
+                className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors
+                  ${activeSection === 'components'
+                    ? 'bg-gray-100 text-gray-900 font-semibold'
+                    : 'text-gray-700 hover:bg-gray-50'}`}
+              >
+                <span>Components</span>
+                <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('components') ? 'rotate-180' : ''}`} />
+              </button>
+              {expanded.includes('components') && (
+                <div className="border-l border-gray-200 ml-4">
+                  <div className="pl-4 pr-4 pt-2 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">
+                    Triggers
                   </div>
-                  <div>
-                    <h4 className="text-xs font-semibold text-pink-600 uppercase tracking-wider mb-2">Actions</h4>
-                    <div className="space-y-1">
-                      {[
-                        { id: 'send-sms', label: 'Send SMS' },
-                        { id: 'upgrade-room-category', label: 'Upgrade Assigned Room Category' },
-                        { id: 'get-services', label: 'Get Services' },
-                        { id: 'get-space-categories', label: 'Get Space Categories' },
-                        { id: 'get-rates', label: 'Get Rates' },
-                        { id: 'add-note-to-guest-profile', label: 'Add Note To Guest Profile' },
-                        { id: 'add-note-to-reservation', label: 'Add Note To Reservation' },
-                        { id: 'add-product-to-reservation', label: 'Add Product To Reservation' },
-                        { id: 'add-task', label: 'Add Task' },
-                        { id: 'check-occupancy', label: 'Check Occupancy' },
-                        { id: 'get-compatible-products', label: 'Get Compatible Products' },
-                        { id: 'get-departments', label: 'Get Departments' },
-                        { id: 'get-eligible-arrivals', label: 'Get Eligible Arrivals' },
-                        { id: 'get-loyalty-programs', label: 'Get Loyalty Programs' },
-                        { id: 'get-loyalty-tiers', label: 'Get Loyalty Tiers' },
-                        { id: 'get-occupancy', label: 'Get Occupancy' },
-                        { id: 'get-products', label: 'Get Products' },
-                        { id: 'get-products-for-reservations', label: 'Get Products For Reservations' },
-                      ].map((item) => (
-                        <a key={item.id} href={`#${item.id}`} className="block px-3 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-700 rounded-md transition-colors">
-                          {item.label}
-                        </a>
-                      ))}
-                    </div>
+                  {triggerItems.map(item => (
+                    <button
+                      key={item.id}
+                      onClick={() => navigateToAnchor('components', item.id)}
+                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                  <div className="pl-4 pr-4 pt-3 pb-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">
+                    Actions
                   </div>
-                </nav>
-              </div>
-            </aside>
-          )}
+                  {actionItems.map(item => (
+                    <button
+                      key={item.id}
+                      onClick={() => navigateToAnchor('components', item.id)}
+                      className="w-full text-left pl-4 pr-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                  <div className="pb-4" />
+                </div>
+              )}
+            </div>
 
-          <div className="flex-1 overflow-y-auto">
+            {/* GitHub */}
+            <a
+              href="https://github.com/CarlosMewsGX/mews-automations-documentation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 flex items-center justify-between transition-colors"
+            >
+              <span>GitHub</span>
+              <ExternalLink className="w-4 h-4 text-gray-400 flex-shrink-0" />
+            </a>
+
+          </nav>
+        </aside>
+
+        {/* Main Content */}
+        <div className="flex-1 overflow-y-auto">
           <div className="max-w-4xl mx-auto px-8 py-12">
             <div className="mb-8">
               <h1 className="text-4xl font-bold mb-4">
@@ -172,7 +251,6 @@ export default function App() {
                 {activeSection === 'components' && 'Browse available automation components'}
               </p>
             </div>
-
             <div className="space-y-10">
               {activeSection === 'getting-started' && <GettingStartedSection />}
               {activeSection === 'templates' && <TemplatesSection />}
@@ -180,8 +258,8 @@ export default function App() {
               {activeSection === 'components' && <ComponentsSection />}
             </div>
           </div>
-          </div>
         </div>
+
       </main>
     </div>
   );

@@ -1,0 +1,468 @@
+Date: Thu, 30 Apr 2026 08:09:44 +0000 (UTC)
+Message-ID: <1345947059.41.1777536584195@cc3d8346c9d7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1085244166.1777536584195"
+
+------=_Part_40_1085244166.1777536584195
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Send SMS</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Send SMS</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"125a1fe0b6c8"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"2dddb7934683"><strong>Category:</strong> Messaging</p>
+<h2 local-id=3D"546099a3857a" id=3D"SendSMS-Overview">Overview</h2>
+<p local-id=3D"3ed325391021">The <strong>Send SMS</strong> action sends an =
+SMS message to a guest's phone number. The message can be sent on behalf of=
+ the hotel or the guest, and can optionally be linked to a reservation. Thi=
+s is useful for automating guest communication as part of a workflow =E2=80=
+=94 for example, sending a welcome message when a reservation is confirmed,=
+ or notifying a guest about a room upgrade.</p>
+<p local-id=3D"6fb09cd9ae14">The recipient guest can be specified directly =
+via their Guest ID, or resolved automatically from a Reservation ID. At lea=
+st one of these two fields must be provided. When the SMS is sent successfu=
+lly, the component signals completion on the <strong>out</strong> port, all=
+owing the workflow to continue to the next step.</p>
+<hr local-id=3D"90f11255-484e-4b4c-b6b9-e08a4e93015a">
+<h2 local-id=3D"6e40336c08f3" id=3D"SendSMS-InputFields">Input Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"99d5cb39-112d-4b67-9bbe-91e=
+39d8ab4ca" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"e6995fa2-bae0-4609-b602-13146cf25c95">
+<th data-local-id=3D"748c63d0-f86b-45b5-9d90-7515bd7a7430" class=3D"conflue=
+nceTh">
+<p local-id=3D"623409effc07">Field</p></th>
+<th data-local-id=3D"521fb8f2-e1fc-40b1-9131-31eb796f14bd" class=3D"conflue=
+nceTh">
+<p local-id=3D"38fccf2dea14">Required</p></th>
+<th data-local-id=3D"ce988c59-f2fc-4fc2-bba1-a5cc1042990e" class=3D"conflue=
+nceTh">
+<p local-id=3D"93d50e7e64ab">Type</p></th>
+<th data-local-id=3D"8f5fead1-6fb5-4b54-ad5d-4ba86ac47c1e" class=3D"conflue=
+nceTh">
+<p local-id=3D"8c742f997fe5">Description</p></th>
+</tr>
+<tr data-local-id=3D"f7f9e42f-c0c6-464d-9f0e-f8dca682f0a3">
+<td data-local-id=3D"7fe0a358-12da-49b8-bbf1-3d15de1d059b" class=3D"conflue=
+nceTd">
+<p local-id=3D"0af67323ad94"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"1bdd7077-6b05-49f5-9f6c-34097c77647d" class=3D"conflue=
+nceTd">
+<p local-id=3D"2a3b2db60df0"><strong>Conditional</strong></p></td>
+<td data-local-id=3D"47616af2-04ac-4f7d-8bf5-1eda3bcf4993" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb69032db0e1">Text (GUID)</p></td>
+<td data-local-id=3D"803f806f-6e0f-4d21-b489-a43726c664a2" class=3D"conflue=
+nceTd">
+<p local-id=3D"c3326c880a9c">The unique identifier of the guest to send the=
+ SMS to. If provided, the SMS is sent directly to this guest and the Reserv=
+ation ID is only used to link the message to the reservation. If not provid=
+ed, the guest is resolved automatically from the Reservation ID.</p></td>
+</tr>
+<tr data-local-id=3D"9177627a-79bd-417c-b862-410bf23e380d">
+<td data-local-id=3D"15a24c12-059c-4b73-960c-153b92001d7a" class=3D"conflue=
+nceTd">
+<p local-id=3D"ac58dd784b44"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"4ad0956f-7e1c-4bc3-96c1-f8607d21fd34" class=3D"conflue=
+nceTd">
+<p local-id=3D"24349cd5c9eb"><strong>Conditional</strong></p></td>
+<td data-local-id=3D"ae63b569-f410-44a7-a410-feb51b7eaf69" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e5350b97ac6">Text (GUID)</p></td>
+<td data-local-id=3D"3b3328f7-c087-4283-bc83-198a9ab7cee6" class=3D"conflue=
+nceTd">
+<p local-id=3D"0751fce0289f">The unique identifier of a reservation. If Gue=
+st ID is not provided, the guest is resolved from this reservation. If Gues=
+t ID is provided, the reservation is only used to link the SMS to it. Typic=
+ally populated dynamically from a previous step in the workflow (e.g., a tr=
+igger that provides a reservation ID).</p></td>
+</tr>
+<tr data-local-id=3D"e0105ea6-88b7-49e1-b71c-e6f875a02907">
+<td data-local-id=3D"0eda3675-1e72-4c8b-8b19-09acc78060a0" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe57a5e9db2b"><strong>Message body</strong></p></td>
+<td data-local-id=3D"b5589a85-7d0c-4d56-8a99-0b4184ea50d9" class=3D"conflue=
+nceTd">
+<p local-id=3D"c1ae2ca65b4f"><strong>Required</strong></p></td>
+<td data-local-id=3D"4d04c4e0-00a3-4c7a-ad58-9affca4d3e19" class=3D"conflue=
+nceTd">
+<p local-id=3D"0651b631bf3f">Text (multiline)</p></td>
+<td data-local-id=3D"a308ee7e-3311-4ce5-94be-f48db1373a5c" class=3D"conflue=
+nceTd">
+<p local-id=3D"bc4709f5607d">The text content of the SMS message to send. T=
+his field cannot be empty or whitespace-only.</p></td>
+</tr>
+<tr data-local-id=3D"9ce71f7f-f58f-4caf-bc77-949c65b9944c">
+<td data-local-id=3D"b7cc8953-b7a3-4f25-a167-ad30eca3c9d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"b501332cbc35"><strong>Sender</strong></p></td>
+<td data-local-id=3D"4b34e06a-e312-4f1c-bd32-eb9d9c17c107" class=3D"conflue=
+nceTd">
+<p local-id=3D"82ac0a0231d6"><strong>Required</strong></p></td>
+<td data-local-id=3D"2c58f141-69c8-4e89-b9cd-96748ea7cd47" class=3D"conflue=
+nceTd">
+<p local-id=3D"24411f75ae39">Dropdown (select)</p></td>
+<td data-local-id=3D"4b7944f4-59ae-4148-8150-0c508705fd7d" class=3D"conflue=
+nceTd">
+<p local-id=3D"3212a93a06bf">Determines who the message is sent on behalf o=
+f. Options:</p>
+<ul local-id=3D"07356154-2cf5-467c-ba6d-c97f50e74f09">
+<li local-id=3D"bf16a559-1e66-4f3b-8b45-480fe9c357b6">
+<p local-id=3D"dbef4ccdd519"><strong>Hotel</strong> (default) =E2=80=94 The=
+ SMS is sent on behalf of the hotel.</p></li>
+<li local-id=3D"2a5cd58e-6573-49e4-a08a-4acb58564c7b">
+<p local-id=3D"8ca08fb7e62e"><strong>Guest</strong> =E2=80=94 The SMS is se=
+nt on behalf of the guest.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e2bb4b321ec7"><strong>Important:</strong> At least one of <s=
+trong>Guest ID</strong> or <strong>Reservation ID</strong> must be provided=
+. If neither is supplied, the action will fail with a validation error.</p>
+<p local-id=3D"a2682fa2015f"><strong>Note:</strong> When both <strong>Guest=
+ ID</strong> and <strong>Reservation ID</strong> are provided, the SMS is s=
+ent to the specified guest and the reservation is used only to associate th=
+e message with that reservation. When only <strong>Reservation ID</strong> =
+is provided, the guest is automatically looked up from the reservation.</p>
+<hr local-id=3D"32d60ec7-969b-4a11-972f-07b2a2d3a009">
+<h2 local-id=3D"741827f45c70" id=3D"SendSMS-Output">Output</h2>
+<p local-id=3D"716c263f696c">When the SMS is sent successfully, the compone=
+nt signals completion on the <strong>out</strong> output port. This port do=
+es not carry additional data fields =E2=80=94 it serves as a signal that th=
+e message was sent, allowing subsequent steps in the workflow to proceed.</=
+p>
+<hr local-id=3D"d6d4ba91-edc7-4033-aaf6-8f4179ca43d8">
+<h2 local-id=3D"f06c32fee5d2" id=3D"SendSMS-HowItWorks">How It Works</h2>
+<ol start=3D"1" local-id=3D"d6f27a66-acba-49cd-8216-f2e32a733786">
+<li local-id=3D"db8005ea-0ed8-410b-8358-c05e7bad1efc">
+<p local-id=3D"978f9df64433">The component receives input values from the p=
+revious step in the workflow (or from manually configured values).</p></li>
+<li local-id=3D"245ecf82-5b6d-4f65-8d81-107aaf8ed1c3">
+<p local-id=3D"68ed177bbe3f">It validates that at least one of <strong>Gues=
+t ID</strong> or <strong>Reservation ID</strong> is provided and that the <=
+strong>Message body</strong> is not empty.</p></li>
+<li local-id=3D"437ea962-ceff-42b2-978d-45d19271c814">
+<p local-id=3D"8f1430e1730f">If <strong>Guest ID</strong> is not provided, =
+the system looks up the guest associated with the given <strong>Reservation=
+ ID</strong>. If no matching reservation is found, the action fails with an=
+ error.</p></li>
+<li local-id=3D"13e27ef3-52cc-4649-b8e0-93cea3745291">
+<p local-id=3D"b523b4fd441a">The SMS is sent to the resolved guest via the =
+Mews messaging service, using the specified <strong>Sender</strong> and opt=
+ionally linking the message to the reservation.</p></li>
+<li local-id=3D"d32ed442-b441-4318-95b5-474320aacf9b">
+<p local-id=3D"e90c773c8a37">If the SMS is sent successfully, the <strong>o=
+ut</strong> port is triggered, allowing the workflow to continue.</p></li>
+<li local-id=3D"a36eb2b8-dd6a-4144-abe6-954d4fe6ae95">
+<p local-id=3D"bbc338b5e9ac">If the sending fails (e.g., due to an invalid =
+guest, a service issue, or an empty message body), the component returns an=
+ error.</p></li>
+</ol>
+<hr local-id=3D"70366f59-bd99-45e9-808a-f79e66270fa4">
+<h2 local-id=3D"6b33f5347c6f" id=3D"SendSMS-ExampleUseCases">Example Use Ca=
+ses</h2>
+<ul local-id=3D"250b3afb-a566-4d0c-a015-85ff8b555743">
+<li local-id=3D"7232207a-1e34-4b95-9372-12f7bafba7d0">
+<p local-id=3D"1189b3b5fc1c"><strong>Welcome message</strong> =E2=80=94 Whe=
+n a reservation is confirmed, automatically send a welcome SMS to the guest=
+ with check-in instructions or property information.</p></li>
+<li local-id=3D"3a1f8d8b-46aa-4260-a8d4-d0cb83dd8fcd">
+<p local-id=3D"c8dcbd73f745"><strong>Room upgrade notification</strong> =E2=
+=80=94 After upgrading a guest's room, send an SMS informing them of the up=
+grade details.</p></li>
+<li local-id=3D"1274c4e4-be85-4458-8e6f-ccb400699fa4">
+<p local-id=3D"e2598001f57e"><strong>Check-out reminder</strong> =E2=80=94 =
+On the day of departure, send a reminder SMS to the guest with check-out ti=
+me and instructions.</p></li>
+<li local-id=3D"74e80082-e7eb-4112-af06-5e62dbd7f160">
+<p local-id=3D"1342ee3313aa"><strong>Custom communication</strong> =E2=80=
+=94 Use dynamic message content from previous workflow steps to send person=
+alized messages based on guest preferences or reservation details.</p></li>
+</ul>
+<hr local-id=3D"3695c18d-0737-4349-aee1-3c306125dd62">
+<h2 local-id=3D"ab0afbe50911" id=3D"SendSMS-ErrorHandling">Error Handling</=
+h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"d975f2dd-817d-4204-902a-028=
+3953f112c" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"46e2d4d4-3209-427d-a5a6-c63289a8365d">
+<th data-local-id=3D"fa5f1248-c16f-41c3-8eae-6ca979547337" class=3D"conflue=
+nceTh">
+<p local-id=3D"650e7fc7085e">Error</p></th>
+<th data-local-id=3D"29dcadde-d3d4-41e5-a5de-940fd6f29ab3" class=3D"conflue=
+nceTh">
+<p local-id=3D"49fc62ec6401">Cause</p></th>
+</tr>
+<tr data-local-id=3D"9e840387-e7ff-4c4d-94bc-8d82760c0e6f">
+<td data-local-id=3D"09e92da9-fa3c-4ffc-abd4-e09f06a86d4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b53e2cf6d57"><code>At least one of GuestId or ReservationId=
+ must be provided.</code></p></td>
+<td data-local-id=3D"66f95bf8-8c2e-4a6b-b9da-93e4110ba7b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"74c2b9bc5e37">Neither Guest ID nor Reservation ID was suppli=
+ed. Provide at least one of the two fields.</p></td>
+</tr>
+<tr data-local-id=3D"86cc1bb0-902f-4857-a3fc-9f14f111b480">
+<td data-local-id=3D"6f99c1fa-adf6-417b-99a6-632d8e2cfc7e" class=3D"conflue=
+nceTd">
+<p local-id=3D"e6717d11e283"><code>Reservation not found.</code></p></td>
+<td data-local-id=3D"beea9502-da24-4425-ad54-c7eed1ac0d09" class=3D"conflue=
+nceTd">
+<p local-id=3D"f340ebe769e2">The provided Reservation ID does not match any=
+ existing reservation in the property. Verify the reservation ID is correct=
+.</p></td>
+</tr>
+<tr data-local-id=3D"b5ae9ac6-68ee-42d2-b64e-fba5a77e426d">
+<td data-local-id=3D"9ff9ce27-2f39-4d65-9c21-4ff3b7a83327" class=3D"conflue=
+nceTd">
+<p local-id=3D"f0f1931d4980"><code>Body is required.</code></p></td>
+<td data-local-id=3D"b42ec253-7095-4306-b14b-550e8c1f2856" class=3D"conflue=
+nceTd">
+<p local-id=3D"733d0b3ac706">The Message body field was left empty or conta=
+ins only whitespace.</p></td>
+</tr>
+<tr data-local-id=3D"513a55fa-ba74-4b3b-89c2-cac2bc6386b6">
+<td data-local-id=3D"424c7680-72b1-4b1e-80d5-e713fd47b93d" class=3D"conflue=
+nceTd">
+<p local-id=3D"6837b719adb7"><code>An error occurred while sending the SMS.=
+</code></p></td>
+<td data-local-id=3D"7a0dac7f-9aa2-4232-9f03-37c025eaffcf" class=3D"conflue=
+nceTd">
+<p local-id=3D"9cd90f970b46">The request to the messaging service failed. T=
+his may indicate a temporary service issue or a problem with the guest's co=
+ntact information.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_40_1085244166.1777536584195--

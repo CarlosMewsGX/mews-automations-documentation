@@ -1,0 +1,474 @@
+Date: Thu, 30 Apr 2026 08:08:55 +0000 (UTC)
+Message-ID: <228593101.39.1777536535698@cc3d8346c9d7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_38_418786640.1777536535698"
+
+------=_Part_38_418786640.1777536535698
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Check Occupancy</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Check Occupancy</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"9678bd3beb79"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"e9101b8e3baf"><strong>Category:</strong> Spaces, Rates &amp;=
+ Occupancy</p>
+<h2 local-id=3D"bdbfa81960da" id=3D"CheckOccupancy-Overview">Overview</h2>
+<p local-id=3D"04a65139286e">The <strong>Check Occupancy</strong> action ca=
+lculates the occupancy percentage for your property on a specific date and =
+compares it against a threshold you define. Based on the result, the workfl=
+ow continues through one of two output ports =E2=80=94 <strong>Above Thresh=
+old</strong> or <strong>Below Threshold</strong> =E2=80=94 allowing you to =
+build conditional logic into your automations.</p>
+<p local-id=3D"b5e2485e0e1d">This is useful for scenarios where you want to=
+ trigger different actions depending on how busy the property is. For examp=
+le, you could automatically adjust pricing, send promotional offers when oc=
+cupancy is low, or notify managers when occupancy is high.</p>
+<hr local-id=3D"8df5e997-1c14-4abd-9328-62ab4861539d">
+<h2 local-id=3D"7d014b12b0c9" id=3D"CheckOccupancy-InputFields">Input Field=
+s</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c8f7f8b2-763b-46d0-8637-b2c=
+d5805432f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"40b5882c-07c2-48c2-82e9-c670e8588d61">
+<th data-local-id=3D"17f59042-bc4b-48f1-a371-32579c78ec48" class=3D"conflue=
+nceTh">
+<p local-id=3D"305497730d11">Field</p></th>
+<th data-local-id=3D"ebfaa8cf-2d94-4e1c-86a8-5c0e2246b64f" class=3D"conflue=
+nceTh">
+<p local-id=3D"2b2921fb488c">Required</p></th>
+<th data-local-id=3D"26007e85-c461-40b7-a0cd-454656524614" class=3D"conflue=
+nceTh">
+<p local-id=3D"499a24e34e41">Type</p></th>
+<th data-local-id=3D"f0b9023a-3b7b-4912-822c-03eadfcf4c95" class=3D"conflue=
+nceTh">
+<p local-id=3D"34b39995b9ed">Description</p></th>
+</tr>
+<tr data-local-id=3D"7093ed31-8c64-4b16-a02a-142fdb596895">
+<td data-local-id=3D"f9c342e2-1e73-4fcb-b98b-71963603de19" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2a5a90f4a7d"><strong>Date</strong></p></td>
+<td data-local-id=3D"911e0050-be49-4a0a-9463-b9c3636c7fae" class=3D"conflue=
+nceTd">
+<p local-id=3D"01212216d6ab"><strong>Required</strong></p></td>
+<td data-local-id=3D"aa4275fd-cb57-4312-90fa-4338b8715e6c" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d31347695cc">Date</p></td>
+<td data-local-id=3D"fd17cd79-ba0d-4f19-a4ed-3e30e984a69f" class=3D"conflue=
+nceTd">
+<p local-id=3D"7479b5c8594d">The date to check occupancy for. The format is=
+ <code>YYYY-MM-DD</code>. Only the date portion is used; time is ignored. O=
+ccupancy is calculated for the full day (from the start of the specified da=
+te to the start of the next day).</p></td>
+</tr>
+<tr data-local-id=3D"c64b85e4-7fe3-4a16-891f-459fb77ecb47">
+<td data-local-id=3D"07c5ad05-068a-47c1-980c-1204c78bcb71" class=3D"conflue=
+nceTd">
+<p local-id=3D"3df268e586bf"><strong>Occupancy Percentage Threshold</strong=
+></p></td>
+<td data-local-id=3D"7cb5286b-f593-48d0-9680-2ea4ae8c9399" class=3D"conflue=
+nceTd">
+<p local-id=3D"43c68c406eea"><strong>Required</strong></p></td>
+<td data-local-id=3D"c031573f-30bb-430e-9d4c-85eae74b1d53" class=3D"conflue=
+nceTd">
+<p local-id=3D"6cd9e507f3d8">Number</p></td>
+<td data-local-id=3D"bc179337-3ecd-4273-9877-42d81dc96ae0" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab29fdc7f6d2">The occupancy percentage to compare against, e=
+xpressed as a value between <code>0</code> and <code>100</code>. For exampl=
+e, entering <code>80</code> means 80%. The calculated occupancy is compared=
+ to this threshold to determine which output port the workflow continues th=
+rough.</p></td>
+</tr>
+<tr data-local-id=3D"baf9f1f6-f1fb-4730-afd8-bbcb04df799f">
+<td data-local-id=3D"cf84f9c7-f75d-4c1e-a51f-d7baddcab299" class=3D"conflue=
+nceTd">
+<p local-id=3D"6b719b331c0c"><strong>Bookable Services</strong></p></td>
+<td data-local-id=3D"560974ce-0fef-4d7a-a4cb-2817597ac9e3" class=3D"conflue=
+nceTd">
+<p local-id=3D"b283eb616477"><strong>Optional</strong></p></td>
+<td data-local-id=3D"ca811eb7-eba5-43f9-89e2-77f917dd0fc7" class=3D"conflue=
+nceTd">
+<p local-id=3D"58ef07678f55">Multi-select dropdown</p></td>
+<td data-local-id=3D"56b5b81a-3dc7-4ba6-bb2b-5be400783930" class=3D"conflue=
+nceTd">
+<p local-id=3D"46a21dc12f4d">Select one or more bookable services to narrow=
+ the occupancy calculation to specific services (e.g., only the "Stay" serv=
+ice). If no services are selected, all bookable services in the property ar=
+e included in the calculation.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"cf4f4335-c60e-4148-877a-4f4e14e78008">
+<h2 local-id=3D"dd9164206766" id=3D"CheckOccupancy-OutputPorts">Output Port=
+s</h2>
+<p local-id=3D"b851f2db5c34">This component has two output ports. Only one =
+is activated per execution, depending on whether the calculated occupancy i=
+s above or below the specified threshold. This allows you to branch your wo=
+rkflow into different paths.</p>
+<h3 local-id=3D"2ded9d9dbe2a" id=3D"CheckOccupancy-AboveThreshold">Above Th=
+reshold</h3>
+<p local-id=3D"40d76a40b92f">Activated when the calculated occupancy percen=
+tage is <strong>equal to or greater than</strong> the specified threshold.<=
+/p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"e5f81b7d-c26e-47aa-a512-5cd=
+95014800b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"346dbd1d-fa51-454a-a2fb-fad3d2c161c2">
+<th data-local-id=3D"1a2b14c6-c87d-4594-873b-924ed938e73d" class=3D"conflue=
+nceTh">
+<p local-id=3D"210d04d5c016">Field</p></th>
+<th data-local-id=3D"86553ec1-a6f3-425a-8c26-5eb1417827ab" class=3D"conflue=
+nceTh">
+<p local-id=3D"77ac9c5b2528">Type</p></th>
+<th data-local-id=3D"764f23d4-352d-4a11-a878-db9adeaa798b" class=3D"conflue=
+nceTh">
+<p local-id=3D"6db5b23eb510">Description</p></th>
+</tr>
+<tr data-local-id=3D"23d16026-d688-4e69-a5a9-4345b64bccdc">
+<td data-local-id=3D"d691b6b2-f9d6-4f01-bfd0-f0255a056d0d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d266d6ef0a50"><strong>Above Threshold</strong></p></td>
+<td data-local-id=3D"b8158e7b-2863-4e08-a1dd-3140068ce829" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ac59809028c">Boolean</p></td>
+<td data-local-id=3D"e32a332f-0707-4867-befd-f167498e53ed" class=3D"conflue=
+nceTd">
+<p local-id=3D"49f41fd70b33">Always <code>true</code> on this port. Indicat=
+es that the occupancy met or exceeded the threshold.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"1e85636ab930" id=3D"CheckOccupancy-BelowThreshold">Below Th=
+reshold</h3>
+<p local-id=3D"61f007796267">Activated when the calculated occupancy percen=
+tage is <strong>strictly less than</strong> the specified threshold.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"bcb4615b-59e1-4c95-b9db-488=
+561a87745" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"1e896bd7-747d-42f2-9fc2-7732716b0ddf">
+<th data-local-id=3D"f559fa6f-0620-41f2-9a6b-1e688ca6645a" class=3D"conflue=
+nceTh">
+<p local-id=3D"b91d1b863d10">Field</p></th>
+<th data-local-id=3D"afe39de5-8a2d-4c63-99f5-ff27b7ad199d" class=3D"conflue=
+nceTh">
+<p local-id=3D"f11cdc1ba9b9">Type</p></th>
+<th data-local-id=3D"5a16ac20-4fd0-4b23-a1c5-3698ee5999a6" class=3D"conflue=
+nceTh">
+<p local-id=3D"e3c30b5a6337">Description</p></th>
+</tr>
+<tr data-local-id=3D"cbce9c0a-2b75-4d9a-920f-132e14c369b9">
+<td data-local-id=3D"db112388-5621-45ab-a098-9891912901ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"7254de61cc13"><strong>Above Threshold</strong></p></td>
+<td data-local-id=3D"a035a787-7b4e-43fc-b709-ec5ff845e68b" class=3D"conflue=
+nceTd">
+<p local-id=3D"d496484b6830">Boolean</p></td>
+<td data-local-id=3D"f31b6e1a-3d78-4009-a657-471bd853fb7a" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc55f6de2f34">Always <code>false</code> on this port. Indica=
+tes that the occupancy was below the threshold.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"8847197c286f"><strong>Tip:</strong> You do not need to use t=
+he output value itself. The power of this component is in the branching =E2=
+=80=94 simply connect different workflow steps to each output port to defin=
+e what happens in each scenario.</p>
+<hr local-id=3D"8feaef15-ea14-4154-96fb-0a81f1e967f5">
+<h2 local-id=3D"da836b2300f9" id=3D"CheckOccupancy-HowItWorks">How It Works=
+</h2>
+<ol start=3D"1" local-id=3D"7c5a7344-fb01-4b92-97c7-f903072ee08f">
+<li local-id=3D"ec2e4a01-e99d-48a9-ad23-2a6b5127c014">
+<p local-id=3D"8356d4d25e8d">The component receives the target date, thresh=
+old, and optional service filter from the previous step in the workflow (or=
+ from manually configured values).</p></li>
+<li local-id=3D"49b8d9f6-eb5d-4942-8a30-661e92768928">
+<p local-id=3D"d5c5771f4a5b">It identifies all <strong>occupiable spaces</s=
+trong> (rooms, beds, etc.) in your property that belong to the selected boo=
+kable services. If no services are selected, all bookable services are cons=
+idered.</p></li>
+<li local-id=3D"278530f3-77e9-41f7-a5ff-3ac993794daa">
+<p local-id=3D"aa96468957c8">It counts the <strong>occupied spaces</strong>=
+ for the specified date. A space is considered occupied if it has an active=
+ reservation or a resource block overlapping the target date. Canceled and =
+already processed reservations are excluded.</p></li>
+<li local-id=3D"b2da93df-05e9-4a26-bad9-ea73d6938845">
+<p local-id=3D"88db76664851">The occupancy percentage is calculated as: <co=
+de>(occupied spaces / total occupiable spaces) =C3=97 100</code>, rounded t=
+o two decimal places. If there are no occupiable spaces, the occupancy is <=
+code>0%</code>.</p></li>
+<li local-id=3D"f18860b8-4cfa-425e-9650-fe12c36aabf0">
+<p local-id=3D"c32a12453ac6">The result is compared against the threshold:<=
+/p>
+<ul local-id=3D"cfde704c-68cd-4c94-87f5-c02559a80300">
+<li local-id=3D"50793933-d3b9-4ca6-bd6b-2036648ec27b">
+<p local-id=3D"ae3713e0d20e">If the occupancy is <strong>greater than or eq=
+ual to</strong> the threshold =E2=86=92 the workflow continues through the =
+<strong>Above Threshold</strong> port.</p></li>
+<li local-id=3D"802e4956-21d1-4df6-9917-f5b6fd05dea1">
+<p local-id=3D"908075d6877b">If the occupancy is <strong>less than</strong>=
+ the threshold =E2=86=92 the workflow continues through the <strong>Below T=
+hreshold</strong> port.</p></li>
+</ul></li>
+</ol>
+<p local-id=3D"ab94a262196e"><strong>Note:</strong> The occupancy calculati=
+on takes into account the full resource hierarchy. If a parent space (e.g.,=
+ a room) is occupied, all its child spaces (e.g., individual beds) are also=
+ considered occupied, and vice versa. This ensures the occupancy percentage=
+ accurately reflects the true availability of your property.</p>
+<hr local-id=3D"c83a43e8-8d0a-4312-9b24-fa0f6ff841e4">
+<h2 local-id=3D"17bba1c9819a" id=3D"CheckOccupancy-ExampleUseCases">Example=
+ Use Cases</h2>
+<ul local-id=3D"56d10da0-576c-495b-93ab-a706dc7ee1e7">
+<li local-id=3D"f5dc226b-a405-4dd6-913c-7b72f53efc76">
+<p local-id=3D"d0843edae2a4"><strong>Low-occupancy promotions</strong> =E2=
+=80=94 Check tomorrow's occupancy every morning. If it is below 50%, automa=
+tically send a promotional offer to past guests or update rates on connecte=
+d channels.</p></li>
+<li local-id=3D"0ab13c81-d31f-4919-925f-efb781f12b1d">
+<p local-id=3D"75a6d561282d"><strong>High-occupancy alerts</strong> =E2=80=
+=94 When a new reservation is created, check the occupancy for the arrival =
+date. If it is above 90%, notify the front desk manager to prepare for a bu=
+sy day.</p></li>
+<li local-id=3D"e5bedaed-b93b-4103-a2bd-135ef5969dfe">
+<p local-id=3D"31b9232bd586"><strong>Staffing decisions</strong> =E2=80=94 =
+Check occupancy for the upcoming weekend. If it is below 30%, send a notifi=
+cation to the operations team suggesting reduced staffing.</p></li>
+<li local-id=3D"9aa7b1f9-798e-48f3-8b36-0b57321a1065">
+<p local-id=3D"3fa067b8ca2b"><strong>Conditional upselling</strong> =E2=80=
+=94 Before sending a room upgrade offer, check if the property's occupancy =
+is below a certain threshold to ensure there are enough available rooms to =
+offer upgrades.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_38_418786640.1777536535698--

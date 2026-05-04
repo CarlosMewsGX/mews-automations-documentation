@@ -1,0 +1,502 @@
+Date: Thu, 30 Apr 2026 09:12:23 +0000 (UTC)
+Message-ID: <621590900.25.1777540343095@3b5441baf992>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_262902742.1777540343095"
+
+------=_Part_24_262902742.1777540343095
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Components and Templates Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Components and Templates Documentation</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"4ab92a43ec02" id=3D"ComponentsandTemplatesDocumenta=
+tion-Overview">Overview</h2>
+<p local-id=3D"9cc0fc57a552">The Mews Automation platform enables propertie=
+s to build no-code workflows that react to events in Mews and perform actio=
+ns automatically. It is powered by the <strong>Automation Gateway</strong> =
+(.NET API) and <strong>Appmixer</strong> (visual workflow engine). This pag=
+e serves as the index for all component and flow documentation.</p>
+<h2 local-id=3D"0d2f57efbb43" id=3D"ComponentsandTemplatesDocumentation-Tri=
+ggers">Triggers</h2>
+<p local-id=3D"fec59fc1fa89">Triggers start a workflow when something happe=
+ns in Mews.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5a=
+cf8e71-afe7-440a-a08f-24774b95f18b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"79fcf8c6-07be-478b-99e0-11ab8b2bf8b6">
+<th data-local-id=3D"8613cd5b-8a1f-42e0-905c-ae7c25cb5a64" class=3D"conflue=
+nceTh">
+<p local-id=3D"58f964f8cb4f">Component</p></th>
+<th data-local-id=3D"1d68e5e3-17a3-4ac5-81ba-1679c9e5478b" class=3D"conflue=
+nceTh">
+<p local-id=3D"5edce8de09e3">Description</p></th>
+</tr>
+<tr data-local-id=3D"f04790fe-fa45-4e02-b525-0d36de428468">
+<td data-local-id=3D"af679692-8c9f-40f2-ac7a-a2e3bb1eca05" class=3D"conflue=
+nceTd">
+<p local-id=3D"f115ac186fe3">Guest Profile Created</p></td>
+<td data-local-id=3D"f8d96740-426b-493a-9562-5eebfdc8f411" class=3D"conflue=
+nceTd">
+<p local-id=3D"e733d22325ec">Fires when a new guest profile is created, out=
+putting guest details such as name, contact info, nationality, language, an=
+d loyalty code.</p></td>
+</tr>
+<tr data-local-id=3D"4543ac76-5772-4fc9-adbd-2e8cb4fdd7b8">
+<td data-local-id=3D"5e1f1499-9829-4dee-a1b0-051878324665" class=3D"conflue=
+nceTd">
+<p local-id=3D"e12dadeee88e">Reservation Created</p></td>
+<td data-local-id=3D"a65d4ddb-e9d4-42b9-8f30-5725366cf4f8" class=3D"conflue=
+nceTd">
+<p local-id=3D"4e6ea1aa4ac1">Fires when a new reservation is created, outpu=
+tting reservation and guest details including confirmation number, origin, =
+assigned space, and rate.</p></td>
+</tr>
+<tr data-local-id=3D"b3a33a28-b8d8-4aa5-909b-5ba648cce9c0">
+<td data-local-id=3D"1725735d-e2ff-41cf-849d-1a91499e7f10" class=3D"conflue=
+nceTd">
+<p local-id=3D"da83630c97f2">Reservation Checked In</p></td>
+<td data-local-id=3D"a331279b-0d1b-483d-95c3-c3a18f7abea9" class=3D"conflue=
+nceTd">
+<p local-id=3D"73120b129e96">Fires when a guest checks in, outputting compr=
+ehensive reservation and guest details including room assignment and dates.=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"b4405f898809" id=3D"ComponentsandTemplatesDocumentation-Act=
+ions">Actions</h2>
+<p local-id=3D"49d2f8e3b75b">Actions perform an operation inside a workflow=
+ =E2=80=94 retrieving data, modifying reservations, or communicating with g=
+uests.</p>
+<h3 local-id=3D"631e300c954b" id=3D"ComponentsandTemplatesDocumentation-Gue=
+st&amp;ReservationOperations">Guest &amp; Reservation Operations</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fa=
+da530b-e13f-493f-a507-9c6ccf225382" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"55ba10da-0873-407d-9d7d-6ae296829536">
+<th data-local-id=3D"3989c7bb-0a97-4bc2-91e3-ea2246de9427" class=3D"conflue=
+nceTh">
+<p local-id=3D"f5df0d8dbbb5">Component</p></th>
+<th data-local-id=3D"2196df12-4017-49a2-b3a6-8a96503f39cd" class=3D"conflue=
+nceTh">
+<p local-id=3D"7c7191eab1b3">Description</p></th>
+</tr>
+<tr data-local-id=3D"3a5557ee-0651-43df-813d-d04ebac20bc8">
+<td data-local-id=3D"e864b65e-f24a-418c-ad89-47e662213f35" class=3D"conflue=
+nceTd">
+<p local-id=3D"158d81662024">Add Note to Guest Profile</p></td>
+<td data-local-id=3D"c687e4af-8684-40fd-987c-999676cb6454" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa92097aa2ed">Adds a categorised text note (e.g. Housekeepin=
+g, Complaints) to a guest profile.</p></td>
+</tr>
+<tr data-local-id=3D"56f68bca-7fc9-41a7-844c-99f3c676a6b1">
+<td data-local-id=3D"03a9a988-2d77-4543-8fe7-736404edb6b0" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b1131ec6a7f">Add Note to Reservation</p></td>
+<td data-local-id=3D"bb449a60-b8fb-4401-842d-df7e6b4654cd" class=3D"conflue=
+nceTd">
+<p local-id=3D"a2d99a7816dc">Adds a note to one or more reservations at onc=
+e, useful for group bookings or operational remarks.</p></td>
+</tr>
+<tr data-local-id=3D"94fbed2b-9fa4-4365-ba24-d2fac0b69399">
+<td data-local-id=3D"5f6863b0-674c-4d31-996b-59e5341fae8b" class=3D"conflue=
+nceTd">
+<p local-id=3D"5848ea42aabc">Add Product to Reservation</p></td>
+<td data-local-id=3D"8db910d3-83e1-40ed-bfe5-9d472ae061e3" class=3D"conflue=
+nceTd">
+<p local-id=3D"74b3518cd145">Adds a product (charge) to a reservation with =
+configurable quantity and date range =E2=80=94 e.g. breakfast, parking, lat=
+e checkout.</p></td>
+</tr>
+<tr data-local-id=3D"fc0b10f1-b8a3-46ef-96dd-2d53f195a747">
+<td data-local-id=3D"38317479-d5fc-4dae-8ccd-9ee28c966585" class=3D"conflue=
+nceTd">
+<p local-id=3D"af42447156c8">Upgrade Assigned Room Category</p></td>
+<td data-local-id=3D"83d66369-8001-4616-a14c-4d3406252630" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b2710c2d9d5">Upgrades a guest to a higher room category bas=
+ed on configurable upgrade paths, availability, and buffer settings.</p></t=
+d>
+</tr>
+<tr data-local-id=3D"54ba92bf-247a-41a4-a8cd-4742f5a69bad">
+<td data-local-id=3D"7c3f1236-9076-4798-b152-3f627bb4e94a" class=3D"conflue=
+nceTd">
+<p local-id=3D"27b5ae077966">Send SMS</p></td>
+<td data-local-id=3D"80bd59fc-4dc2-4905-ada8-5910ca70c846" class=3D"conflue=
+nceTd">
+<p local-id=3D"db5f628fcda2">Sends an SMS to a guest, optionally linked to =
+a reservation.</p></td>
+</tr>
+<tr data-local-id=3D"3aadf43f-f369-4450-92e8-f196c6e1af4e">
+<td data-local-id=3D"3aa83e6f-21b0-4888-8a58-9c965a882371" class=3D"conflue=
+nceTd">
+<p local-id=3D"ac4ea49a932e">Add Task</p></td>
+<td data-local-id=3D"cc52d332-59c7-4e5c-9475-4bd95aa294c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"738e3c25be64">Creates a task in Mews Operations with a deadl=
+ine, optional description, department, and reservation link.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"b7d6032bd55a" id=3D"ComponentsandTemplatesDocumentation-Dat=
+aRetrieval&amp;Filtering">Data Retrieval &amp; Filtering</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+9019be-6110-4504-a4ed-99df4bee6f23" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"87c97c43-e45a-45b4-baab-884c15ec60c8">
+<th data-local-id=3D"46d2a9c3-2a22-4559-a457-546e7fc3ceb8" class=3D"conflue=
+nceTh">
+<p local-id=3D"0a8571d8793c">Component</p></th>
+<th data-local-id=3D"ac04281a-348b-43e7-bfe9-6219e59c0a52" class=3D"conflue=
+nceTh">
+<p local-id=3D"24c29d15eb70">Description</p></th>
+</tr>
+<tr data-local-id=3D"dbba837d-32c1-465a-b98c-49244d257970">
+<td data-local-id=3D"cbbec171-feb2-4808-a5d6-8223e8db13e4" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f147db81bb3">Get Eligible Arrivals</p></td>
+<td data-local-id=3D"99bfa84a-e78a-448b-8ef2-64a48efad101" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f6228b6e357">Retrieves confirmed reservations arriving on a=
+ given date, with optional loyalty, behavioural, and rate filters.</p></td>
+</tr>
+<tr data-local-id=3D"2d576d32-de28-4b4c-b04e-4dc1e5fe6e92">
+<td data-local-id=3D"fe8e4afe-fc54-4add-b614-b4d8d56ca12a" class=3D"conflue=
+nceTd">
+<p local-id=3D"d5e3f6b91242">Get Occupancy / Check Occupancy</p></td>
+<td data-local-id=3D"2839b597-f464-46ee-8d93-d7ad64e4a9a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"8adf9bd6fd03">Returns the occupancy percentage for a date. <=
+em>Check Occupancy</em> additionally compares it against a threshold for co=
+nditional branching.</p></td>
+</tr>
+<tr data-local-id=3D"60e48037-88cb-40c6-bade-c30dd0b4a41f">
+<td data-local-id=3D"05052c78-a262-47dc-8353-d393aad5c069" class=3D"conflue=
+nceTd">
+<p local-id=3D"95ee7e163327">Get Products / Get Products for Reservations /=
+ Get Compatible Products</p></td>
+<td data-local-id=3D"6015c8ba-8392-47f6-9eac-a66be6325f6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"73b79c3a8da5">Retrieve orderable products =E2=80=94 property=
+-wide, per reservation, or filtered for compatibility.</p></td>
+</tr>
+<tr data-local-id=3D"76c47603-d32c-44c2-8ce2-c59bc2bf8d61">
+<td data-local-id=3D"fcc274b5-1a8a-4830-9a87-eb8d5597f87e" class=3D"conflue=
+nceTd">
+<p local-id=3D"34bea68bcd5f">Get Services</p></td>
+<td data-local-id=3D"25c1c70f-4c7f-4810-ba7d-3e30d340b6ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"64fa9d6c2e46">Lists active (optionally bookable-only) servic=
+es at the property.</p></td>
+</tr>
+<tr data-local-id=3D"388ca089-daed-4b35-8444-ee4c6557d97b">
+<td data-local-id=3D"a1843bbb-84ce-4a51-b9a4-08a4a416a26d" class=3D"conflue=
+nceTd">
+<p local-id=3D"c6fef98a67ab">Get Space Categories</p></td>
+<td data-local-id=3D"71afe445-5962-4623-9a72-264e748e7d84" class=3D"conflue=
+nceTd">
+<p local-id=3D"caa7da2c1c11">Lists room/space categories, optionally filter=
+ed by service.</p></td>
+</tr>
+<tr data-local-id=3D"5fd3e280-f563-4f10-b1fa-305b10d50f56">
+<td data-local-id=3D"948a9eca-7304-4e4e-b48f-91a01e9226ba" class=3D"conflue=
+nceTd">
+<p local-id=3D"a9c75295a04a">Get Rates</p></td>
+<td data-local-id=3D"bc0010ff-d6c5-4e6c-9ba4-b8190c4633ac" class=3D"conflue=
+nceTd">
+<p local-id=3D"696d4f44e950">Lists enabled rates across bookable services.<=
+/p></td>
+</tr>
+<tr data-local-id=3D"4219f1b4-e48d-4e13-8628-3f92bfb095e9">
+<td data-local-id=3D"6d06f9a4-f326-4570-b58f-8c82e36848eb" class=3D"conflue=
+nceTd">
+<p local-id=3D"3a7149089de1">Get Departments</p></td>
+<td data-local-id=3D"14217974-6ee6-4c6b-a000-486d11148e70" class=3D"conflue=
+nceTd">
+<p local-id=3D"09432dc2b3bd">Lists active departments for task routing.</p>=
+</td>
+</tr>
+<tr data-local-id=3D"025a6928-3f52-4192-b81e-90c28eee839f">
+<td data-local-id=3D"531b9a8d-0476-4821-86b0-ef6d3bf431ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"e6a70210f0b8">Get Loyalty Programs / Get Loyalty Tiers</p></=
+td>
+<td data-local-id=3D"ad6294ea-8bc3-4fbb-ae15-ec42939926d5" class=3D"conflue=
+nceTd">
+<p local-id=3D"95f2620d5af7">Lists loyalty programs and their tiers for seg=
+mentation and filtering.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"16681ee31b62" id=3D"ComponentsandTemplatesDocumentation-Exa=
+mpleFlows">Example Flows</h2>
+<p local-id=3D"0ee23105d01f">End-to-end automation recipes that combine the=
+ components above.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"cf=
+8cebde-b965-44ec-a3e4-614a85017f04" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"3c209448-bc03-44fe-8b68-304ee7337f86">
+<th data-local-id=3D"ecc5f5e1-f99e-429f-8269-f2cbfa4e4204" class=3D"conflue=
+nceTh">
+<p local-id=3D"57217a73cf98">Flow</p></th>
+<th data-local-id=3D"f022349d-3603-4a1f-a4ce-e06e32d427ce" class=3D"conflue=
+nceTh">
+<p local-id=3D"d6c405faf2ee">Description</p></th>
+</tr>
+<tr data-local-id=3D"77b04ece-6175-4b5a-ab59-405b00f029a8">
+<td data-local-id=3D"29d0934c-6199-4832-8254-6e25dca1f0aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d31b2214398">Upgrade Room for Loyalty Members</p></td>
+<td data-local-id=3D"3d6d1fae-ddb3-4fc9-a5e9-1bebac87de87" class=3D"conflue=
+nceTd">
+<p local-id=3D"4239433b04fb">Runs daily: identifies arriving guests (with o=
+ptional loyalty/behavioural filters), checks occupancy, attempts room upgra=
+des with availability buffers, sends SMS to upgraded guests, and notes fail=
+ed upgrades.</p></td>
+</tr>
+<tr data-local-id=3D"63a810a6-d64a-48a3-9959-66e090fe26d2">
+<td data-local-id=3D"c0b1f133-ff16-4e55-a9fb-9947c4d497db" class=3D"conflue=
+nceTd">
+<p local-id=3D"741403a667c4">Welcome Gift for VIP Guests</p></td>
+<td data-local-id=3D"16bfb7b5-3ccb-4d33-962d-f726afa4e765" class=3D"conflue=
+nceTd">
+<p local-id=3D"149f22318197">Runs daily: identifies arriving guests, checks=
+ product compatibility, creates staff tasks for welcome gifts, and sends SM=
+S to notify guests.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_24_262902742.1777540343095--

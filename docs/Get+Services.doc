@@ -1,0 +1,436 @@
+Date: Thu, 30 Apr 2026 08:09:40 +0000 (UTC)
+Message-ID: <1944727805.23.1777536580432@ec673223d0fd>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22_1965839480.1777536580432"
+
+------=_Part_22_1965839480.1777536580432
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Services</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Services</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"1eaf8eb68ff1"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"180e6ecd64b2"><strong>Category:</strong> Billing &amp; Produ=
+cts</p>
+<h2 local-id=3D"5ec6855c7e55" id=3D"GetServices-Overview">Overview</h2>
+<p local-id=3D"716abc4d8d43">The <strong>Get Services</strong> action retri=
+eves the list of services configured at your property. Services in Mews rep=
+resent the different types of offerings your property provides, such as acc=
+ommodation (stays), spa treatments, restaurant services, or other ancillary=
+ products.</p>
+<p local-id=3D"8833a6f6e105">By default, all active services are returned. =
+You can optionally filter the results to only include <strong>bookable serv=
+ices</strong> (i.e., services that guests can book a stay against, such as =
+accommodation). This is useful when you need to reference a specific servic=
+e in a subsequent workflow step =E2=80=94 for example, when adding a produc=
+t to a reservation and you need to specify which service it belongs to.</p>
+<p local-id=3D"343a91337a27">The component outputs a list of items, each co=
+ntaining a <strong>value</strong> (the service ID) and a <strong>label</str=
+ong> (the service name, localized to the property's language). This output =
+format is designed to be used as a data source for dropdown selectors in ot=
+her components.</p>
+<hr local-id=3D"e91985ad-f476-4304-abe3-828eeec76998">
+<h2 local-id=3D"f84dc93ba51c" id=3D"GetServices-InputFields">Input Fields</=
+h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"d0a025c6-78e3-4e04-a84b-b0a=
+591923ad2" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"8e0ebd66-defe-437b-8ac4-adcd0894a905">
+<th data-local-id=3D"e6141b0b-87b8-4b32-95e2-b0b65ae7c1fe" class=3D"conflue=
+nceTh">
+<p local-id=3D"d4bf14cf8576">Field</p></th>
+<th data-local-id=3D"13f51f82-accf-413d-9c24-8210e625aafd" class=3D"conflue=
+nceTh">
+<p local-id=3D"7b6cc6e49547">Required</p></th>
+<th data-local-id=3D"be809d45-16da-4714-95ed-b0a08ab40be5" class=3D"conflue=
+nceTh">
+<p local-id=3D"19be1e0272aa">Type</p></th>
+<th data-local-id=3D"2ee00605-ec45-4cff-b7c1-8d54d5f2e945" class=3D"conflue=
+nceTh">
+<p local-id=3D"b021931d3a35">Description</p></th>
+</tr>
+<tr data-local-id=3D"c5f09f6e-7e0b-4bc3-b2af-b880d5b058ce">
+<td data-local-id=3D"83dd7637-6686-4125-8752-5ab1d125e1df" class=3D"conflue=
+nceTd">
+<p local-id=3D"f593cd7222f8"><strong>Get only bookable services</strong></p=
+></td>
+<td data-local-id=3D"8f54acee-dea5-4963-823b-4b37cda48b18" class=3D"conflue=
+nceTd">
+<p local-id=3D"f31608fa18fc"><strong>Optional</strong></p></td>
+<td data-local-id=3D"9c96eda8-c385-45d6-9811-6857a1ebdf4a" class=3D"conflue=
+nceTd">
+<p local-id=3D"508706a57107">Toggle (boolean)</p></td>
+<td data-local-id=3D"9952e7f5-12de-4682-9e8a-90f3e00afdf3" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd6f706b68bb">When enabled, only bookable services (e.g., ac=
+commodation/stay services) are returned. When disabled (default), all activ=
+e services at the property are included in the results.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"00d0adcc10bd"><strong>Note:</strong> Bookable services are t=
+hose that represent a stay or visit (e.g., accommodation). Non-bookable ser=
+vices include ancillary offerings such as a spa, restaurant, or minibar tha=
+t cannot be directly booked as a reservation but can have products attached=
+ to them.</p>
+<hr local-id=3D"dfaefe35-174c-4087-ba41-99fff500c384">
+<h2 local-id=3D"6f1e1b01f7e0" id=3D"GetServices-OutputFields">Output Fields=
+</h2>
+<p local-id=3D"152527cbe30b">When the services are successfully retrieved, =
+the following values are available on the <strong>out</strong> output port =
+for use in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b40eb683-1a69-4213-9985-0d7=
+a0e08dd0a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"9cdcf1ee-d4c9-449e-99be-046ff6a9d323">
+<th data-local-id=3D"b0baca71-c249-4626-a2ec-50e522dd41c9" class=3D"conflue=
+nceTh">
+<p local-id=3D"b0d389e74b40">Field</p></th>
+<th data-local-id=3D"302ee504-f114-48dc-b05d-d197bca84911" class=3D"conflue=
+nceTh">
+<p local-id=3D"f2dd41ac4126">Type</p></th>
+<th data-local-id=3D"d52e414a-d9aa-4bb8-9666-f7fdfd49ff13" class=3D"conflue=
+nceTh">
+<p local-id=3D"2107a90865c9">Description</p></th>
+</tr>
+<tr data-local-id=3D"4c49f322-04cf-47bb-af11-81f7dd23e005">
+<td data-local-id=3D"038a7614-4dfd-4ed3-bef6-15b47eb9151d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f22a4e2ed869"><strong>Items</strong></p></td>
+<td data-local-id=3D"d166b33b-3f0e-4f51-99e7-695a15230953" class=3D"conflue=
+nceTd">
+<p local-id=3D"bd4ad1e630f3">Array</p></td>
+<td data-local-id=3D"42e09801-54b6-44cc-8e88-ec51c346707f" class=3D"conflue=
+nceTd">
+<p local-id=3D"d03eb2666fc4">A list of services. Each item in the array con=
+tains:</p>
+<ul local-id=3D"10bb3e44-d367-446e-a00e-b9406a31432f">
+<li local-id=3D"bcb9d969-796d-44cd-ad43-22f065a6814a">
+<p local-id=3D"ac2ec078598a"><strong>Value</strong> (Text) =E2=80=94 The un=
+ique identifier (GUID) of the service.</p></li>
+<li local-id=3D"d9324a50-f9de-4968-9e6a-9f2aa23d682a">
+<p local-id=3D"1e42aec79cbe"><strong>Label</strong> (Text) =E2=80=94 The di=
+splay name of the service, localized to the property's configured language.=
+</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"a25cc979df8e"><strong>Tip:</strong> The output of this compo=
+nent is commonly used as a data source for dropdown fields in other compone=
+nts. For example, you can feed the <strong>Items</strong> list into a servi=
+ce selector in a subsequent "Add Product to Reservation" action.</p>
+<hr local-id=3D"0404fb4f-6239-4f86-b66f-cd501f3e61c9">
+<h2 local-id=3D"39ac1ce69bfc" id=3D"GetServices-HowItWorks">How It Works</h=
+2>
+<ol start=3D"1" local-id=3D"013250a0-3316-4e2b-9f03-4bb41c85c961">
+<li local-id=3D"7cc737a3-b75a-40ec-a449-70d76e261ffb">
+<p local-id=3D"25b1d69e0b34">The component receives input from the previous=
+ step in the workflow (or uses the default configuration).</p></li>
+<li local-id=3D"96e8b1d4-f0d8-4eaf-88af-8dfb0b2c9e55">
+<p local-id=3D"4c0c81d8553c">A request is sent to the Automation Gateway to=
+ retrieve all active services for your property.</p></li>
+<li local-id=3D"900fdb45-f8de-4873-9878-4de0b2d78c82">
+<p local-id=3D"dc9b65cbd1d9">If the <strong>Get only bookable services</str=
+ong> toggle is enabled, the results are filtered to include only bookable (=
+stay/visit) services.</p></li>
+<li local-id=3D"db2e4da2-97e8-48cb-8074-7749cff7d83e">
+<p local-id=3D"500211073d5c">The service names are localized based on the p=
+roperty's language settings.</p></li>
+<li local-id=3D"e077ee57-f8fb-4290-b34a-9da12e61e4fb">
+<p local-id=3D"6f3c37466b0e">The list of services is sent to the <strong>ou=
+t</strong> output port as an array of items, each with a value (ID) and lab=
+el (name).</p></li>
+</ol>
+<p local-id=3D"93b3e71ca1a0"><strong>Note:</strong> The results are cached =
+for performance. If you have recently added or modified services in your pr=
+operty, there may be a short delay before the changes are reflected in the =
+component's output.</p>
+<hr local-id=3D"6c9d6d50-a93a-4a5c-a0a4-cde03221f06d">
+<h2 local-id=3D"9c89526f267d" id=3D"GetServices-ExampleUseCases">Example Us=
+e Cases</h2>
+<ul local-id=3D"a2f5c227-0055-46dd-ae7d-1467257bc42b">
+<li local-id=3D"af521512-fa53-476a-9be2-621f925f58cb">
+<p local-id=3D"7aa1b0ec16b4"><strong>Dynamic service selection</strong> =E2=
+=80=94 Use Get Services to populate a dropdown in a workflow configuration,=
+ allowing operators to select which service a product should be added to.</=
+p></li>
+<li local-id=3D"28e53a49-f777-4d5f-8b1a-32ca1a9a5e85">
+<p local-id=3D"30d374c8d2aa"><strong>Service-specific workflows</strong> =
+=E2=80=94 Retrieve all bookable services and use the output to route reserv=
+ations to different workflow branches depending on the service (e.g., handl=
+e spa bookings differently from accommodation bookings).</p></li>
+<li local-id=3D"be003d9a-e24f-4944-ac28-e6816467c38c">
+<p local-id=3D"6ef56aa89663"><strong>Reporting and auditing</strong> =E2=80=
+=94 Retrieve the full list of services to include service names in automate=
+d reports or notifications sent to staff.</p></li>
+</ul>
+<hr local-id=3D"2e7f7d27-05b4-4648-a510-d2e7f06e05a8">
+<h2 local-id=3D"5fd0e8451916" id=3D"GetServices-ErrorHandling">Error Handli=
+ng</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f93738dd-f698-4797-b4ab-626=
+e7de2a468" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"3b8dc00a-d9cc-4ff2-aa02-4e1008fe3ea3">
+<th data-local-id=3D"20924ccf-96b2-4475-bdc4-631de2914ad0" class=3D"conflue=
+nceTh">
+<p local-id=3D"dd94ca3bec2c">Error</p></th>
+<th data-local-id=3D"54ab60a8-8ae3-4175-aaf1-2450f5973d07" class=3D"conflue=
+nceTh">
+<p local-id=3D"99e81221e3b4">Cause</p></th>
+</tr>
+<tr data-local-id=3D"d6d026ec-10bc-425b-b2fb-371b94ec892b">
+<td data-local-id=3D"c2221b08-b928-43f8-a110-176a3c60691d" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd4f09cfb22f"><code>No results</code></p></td>
+<td data-local-id=3D"34e6ee68-0f29-4925-9eba-270d737deb92" class=3D"conflue=
+nceTd">
+<p local-id=3D"9a20a727a682">No services were found for the property. This =
+may occur if no services are configured or if all services have been deacti=
+vated.</p></td>
+</tr>
+<tr data-local-id=3D"1a99adf4-d2f0-4ceb-b689-5899953e0a45">
+<td data-local-id=3D"0aa43860-8325-4934-87af-8a03179e1dfc" class=3D"conflue=
+nceTd">
+<p local-id=3D"8cc9327c9a22"><code>Request failed with status code {code}</=
+code></p></td>
+<td data-local-id=3D"4d79ec5e-7032-4356-8995-16a4aeda0158" class=3D"conflue=
+nceTd">
+<p local-id=3D"e6f4b1d4ed2e">The request to retrieve services failed. This =
+may indicate a temporary service issue or an authentication problem.</p></t=
+d>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_22_1965839480.1777536580432--

@@ -1,0 +1,411 @@
+Date: Thu, 30 Apr 2026 08:08:25 +0000 (UTC)
+Message-ID: <1066358782.71.1777536505315@b73b08cde6da>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_70_1309351594.1777536505314"
+
+------=_Part_70_1309351594.1777536505314
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Space Categories</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Space Categories</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"4baec779cfac"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"2fd7890fe628"><strong>Category:</strong> Spaces, Rates &amp;=
+ Occupancy</p>
+<h2 local-id=3D"aaa28da61617" id=3D"GetSpaceCategories-Overview">Overview</=
+h2>
+<p local-id=3D"3e050cb20abc">The <strong>Get Space Categories</strong> acti=
+on retrieves all the space categories (e.g., Standard, Deluxe, Suite) confi=
+gured for your property. Space categories define the different types of roo=
+ms or spaces available for booking.</p>
+<p local-id=3D"2b5fdbb1e75b">You can optionally filter the results by one o=
+r more bookable services to retrieve only the categories associated with sp=
+ecific services. If no services are selected, categories across all bookabl=
+e services are returned.</p>
+<p local-id=3D"5ccbd02086f6">The component outputs a list of categories on =
+the <strong>out</strong> port, where each item contains an identifier and a=
+ display label. This is commonly used as a helper step within a workflow to=
+ provide a list of available space categories for downstream actions or con=
+ditions =E2=80=94 for example, to check which category a reservation belong=
+s to, or to populate a selection in a subsequent step.</p>
+<hr local-id=3D"1a59193f-95f6-43cd-9bbe-6297cedeb204">
+<h2 local-id=3D"4f0826173abb" id=3D"GetSpaceCategories-InputFields">Input F=
+ields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"619afe68-a758-4232-aec3-f4c=
+a1ac010ff" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b08a0985-ae85-47c6-a8ab-1a50cf215ef1">
+<th data-local-id=3D"855b68f9-6561-45fc-a468-95149241a234" class=3D"conflue=
+nceTh">
+<p local-id=3D"e06a35952f40">Field</p></th>
+<th data-local-id=3D"95d4e7a7-1b04-4a7a-9187-0dd70c32a0df" class=3D"conflue=
+nceTh">
+<p local-id=3D"ad4041afb1d2">Required</p></th>
+<th data-local-id=3D"2949748f-5e63-470f-ae1c-942cf79a7063" class=3D"conflue=
+nceTh">
+<p local-id=3D"550d0725bda2">Type</p></th>
+<th data-local-id=3D"62ab10ac-c69a-436f-9744-7f42c390e0fd" class=3D"conflue=
+nceTh">
+<p local-id=3D"4ce0e3ce21c6">Description</p></th>
+</tr>
+<tr data-local-id=3D"2d09f44a-5702-428d-95e8-b5ba87806f95">
+<td data-local-id=3D"4e3ecdf8-7c81-47c0-b856-dba37dc65e9b" class=3D"conflue=
+nceTd">
+<p local-id=3D"3dd34ece8ecd"><strong>Bookable Services</strong></p></td>
+<td data-local-id=3D"b9d7a2d5-9fd5-447d-9b9e-a7dd67dcfd90" class=3D"conflue=
+nceTd">
+<p local-id=3D"e0691fadf00f"><strong>Optional</strong></p></td>
+<td data-local-id=3D"ce761202-511b-45d2-a528-04e29049bacf" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8913c1a7954">Multi-select dropdown</p></td>
+<td data-local-id=3D"042e369d-43b3-4b07-8b5f-fc2a4145edb6" class=3D"conflue=
+nceTd">
+<p local-id=3D"d77a29bf0ade">Select one or more bookable services to filter=
+ the returned space categories. Only categories belonging to the selected s=
+ervices will be included in the results. If no services are selected, categ=
+ories from all bookable services in the property are returned.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"6b3cb4c3c55a"><strong>Note:</strong> The <strong>Bookable Se=
+rvices</strong> dropdown is populated dynamically with the bookable service=
+s configured in your property.</p>
+<hr local-id=3D"da5146ab-69a9-4eb5-9520-b158be044c03">
+<h2 local-id=3D"c63971d47060" id=3D"GetSpaceCategories-OutputFields">Output=
+ Fields</h2>
+<p local-id=3D"753d9d9d1769">When the space categories are successfully ret=
+rieved, the following values are available on the <strong>out</strong> outp=
+ut port as an array called <strong>Items</strong>. Each item in the array c=
+ontains:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"cbcd7a63-66da-4c56-a601-f68=
+7e9aae817" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"1bde1397-bfb8-4fb0-9ac6-f615e913a88e">
+<th data-local-id=3D"63f3fe9d-1c0d-499d-879f-8a6a70dce103" class=3D"conflue=
+nceTh">
+<p local-id=3D"1dd9db7236d4">Field</p></th>
+<th data-local-id=3D"eb7d5908-d241-4d4f-8322-cf758d674a0d" class=3D"conflue=
+nceTh">
+<p local-id=3D"5dd8d267ba66">Type</p></th>
+<th data-local-id=3D"6eea2cb8-a4ea-4b34-8b2c-5314dc91ed97" class=3D"conflue=
+nceTh">
+<p local-id=3D"513e5c3b8a51">Description</p></th>
+</tr>
+<tr data-local-id=3D"6f85e401-47a6-49e8-960d-c6bc157d85ed">
+<td data-local-id=3D"de54b44c-1384-44b6-8259-18440e920ee5" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0afdcd07f6c"><strong>Value</strong></p></td>
+<td data-local-id=3D"bddd84bb-4772-452a-933e-df5b10d51bb7" class=3D"conflue=
+nceTd">
+<p local-id=3D"e79a0d85b363">Text (GUID)</p></td>
+<td data-local-id=3D"878e054f-fb7b-4ae7-9631-4c0bf2e81c19" class=3D"conflue=
+nceTd">
+<p local-id=3D"863ed516a8a1">The unique identifier of the space category. T=
+his ID can be used in subsequent workflow steps to reference a specific cat=
+egory.</p></td>
+</tr>
+<tr data-local-id=3D"5215649b-915d-4eb0-b617-9e879cf9bef3">
+<td data-local-id=3D"81fa7147-fbf5-4c16-b15d-e0e0182dfbca" class=3D"conflue=
+nceTd">
+<p local-id=3D"a2ed8bbd2fb4"><strong>Label</strong></p></td>
+<td data-local-id=3D"c0c2ba8c-064c-4309-8158-c24c880cf92d" class=3D"conflue=
+nceTd">
+<p local-id=3D"1b9f4fde1549">Text</p></td>
+<td data-local-id=3D"07286172-b2f1-41b9-863e-bf6164e49de1" class=3D"conflue=
+nceTd">
+<p local-id=3D"3aaea2d64414">The display name of the space category, locali=
+zed to the property's language. If the property has multiple bookable servi=
+ces, the service name is appended in parentheses to distinguish categories =
+across services (e.g., "Deluxe (Accommodation)").</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"15f0e7a3de4a"><strong>Note:</strong> The label is automatica=
+lly localized based on your property's language settings. When multiple boo=
+kable services exist, the service name is included in the label to help dis=
+tinguish categories that may share the same name across different services.=
+</p>
+<hr local-id=3D"68c553b2-c300-42fc-95b8-a3fc4ab0b5db">
+<h2 local-id=3D"dac1bde3c70e" id=3D"GetSpaceCategories-HowItWorks">How It W=
+orks</h2>
+<ol start=3D"1" local-id=3D"20cb3f1c-ed4c-4083-9e6f-d8633db5dcf5">
+<li local-id=3D"1c75b82e-4779-48b1-95bf-4fb1054ffc3f">
+<p local-id=3D"d5ffbee9e320">The component receives the optional bookable s=
+ervice filter from the input.</p></li>
+<li local-id=3D"7a0488d5-c6e6-4a38-a445-eed0c3640cee">
+<p local-id=3D"edc6245a6b67">A request is sent to retrieve all active space=
+ categories for the property. If one or more bookable services were selecte=
+d, only categories associated with those services are returned.</p></li>
+<li local-id=3D"52651679-7ef5-4a8e-9271-f03ce6aad233">
+<p local-id=3D"d05644cc7939">Each category is mapped to a label (display na=
+me) and value (unique ID). The label is localized to the property's configu=
+red language.</p></li>
+<li local-id=3D"47704f63-6694-4ed2-ba4a-eba0c927a810">
+<p local-id=3D"2eace99cb4c0">If the property has categories across multiple=
+ bookable services, the service name is automatically appended to each labe=
+l for clarity (e.g., "Standard (Accommodation)" vs. "Standard (Parking)").<=
+/p></li>
+<li local-id=3D"e3ef0d90-4fb8-4cef-811d-1db355e272f4">
+<p local-id=3D"769ab1089843">The list of categories is sent to the <strong>=
+out</strong> output port as an array of items.</p></li>
+</ol>
+<hr local-id=3D"268fbcae-f703-4aa5-85a0-119f3993de02">
+<h2 local-id=3D"a46bd498741d" id=3D"GetSpaceCategories-ExampleUseCases">Exa=
+mple Use Cases</h2>
+<ul local-id=3D"11c591b3-9f03-408f-814e-5004b956bfe7">
+<li local-id=3D"2deb0e03-01a2-4fa1-ab8e-ffe7a61d70ab">
+<p local-id=3D"b8881d486fd2"><strong>Filter reservations by category</stron=
+g> =E2=80=94 Use Get Space Categories as a reference step to identify the I=
+D of a specific category (e.g., "Suite"), then use that ID in a subsequent =
+step to filter or route reservations based on their assigned category.</p><=
+/li>
+<li local-id=3D"0c8ba4fd-7b7e-44e8-baf6-35868e27dd8f">
+<p local-id=3D"50aedf69e8ab"><strong>Dynamic category selection</strong> =
+=E2=80=94 Retrieve all available space categories and pass them to a condit=
+ional step that applies different logic depending on the category type (e.g=
+., send a welcome email with different content for standard vs. premium cat=
+egories).</p></li>
+<li local-id=3D"cfe7241e-7cea-42c3-bf5f-3a47c9e7df7e">
+<p local-id=3D"196fa2fbbd14"><strong>Service-specific reporting</strong> =
+=E2=80=94 Filter categories by a specific bookable service (e.g., only "Acc=
+ommodation") to generate reports or trigger actions scoped to a particular =
+service offering.</p></li>
+</ul>
+<hr local-id=3D"e3140682-3ae1-40d8-ae04-f4d279b838c3">
+<h2 local-id=3D"84c49e0b674f" id=3D"GetSpaceCategories-Caching">Caching</h2=
+>
+<p local-id=3D"43bac13dfdd1">The results of this component are cached to im=
+prove performance. Space categories are relatively static data that does no=
+t change frequently. If you have recently added or modified space categorie=
+s in your property settings, there may be a short delay before the updated =
+categories appear in the component's output.</p>
+    </div>
+</body>
+</html>
+------=_Part_70_1309351594.1777536505314--

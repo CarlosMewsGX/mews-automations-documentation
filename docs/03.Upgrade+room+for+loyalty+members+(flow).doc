@@ -1,0 +1,1807 @@
+Date: Thu, 30 Apr 2026 08:08:06 +0000 (UTC)
+Message-ID: <1035796603.41.1777536486387@0334bf97345a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1123211427.1777536486386"
+
+------=_Part_40_1123211427.1777536486386
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Upgrade room for loyalty members (flow)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Upgrade room for loyalty members (flow)</h1>
+    <div class=3D"Section1">
+        <span class=3D"confluence-embedded-file-wrapper image-center-wrappe=
+r confluence-embedded-manual-size">
+<style>[data-colorid=3Dfumasiiseq]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dfumasiiseq]{color:#99ffdd}[data-colorid=3Dyx736bth0v]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dyx736bth0v]{colo=
+r:#99ffdd}[data-colorid=3Diz0it71q6g]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Diz0it71q6g]{color:#99ffdd}[data-colorid=3Dq4zeo3ko=
+bi]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dq4zeo3kobi]=
+{color:#99ffdd}[data-colorid=3Dqnwsk62aee]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dqnwsk62aee]{color:#99ffdd}[data-colorid=3Dlzcny=
+zdb00]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dlzcnyzdb=
+00]{color:#99ffdd}[data-colorid=3Dv5tgcdvlri]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dv5tgcdvlri]{color:#99ffdd}[data-colorid=3Dha=
+mctof2bn]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dhamct=
+of2bn]{color:#99ffdd}[data-colorid=3Dld3eixs6u6]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dld3eixs6u6]{color:#99ffdd}[data-colorid=
+=3Dr9by0fyhgp]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+r9by0fyhgp]{color:#99ffdd}[data-colorid=3Dhydnljan2l]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dhydnljan2l]{color:#99ffdd}[data-colo=
+rid=3Dnqsd0ql3o5]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dnqsd0ql3o5]{color:#99ffdd}[data-colorid=3Dshp11a7k38]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dshp11a7k38]{color:#99ffdd}[data-c=
+olorid=3Dwel0ge6gt3]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dwel0ge6gt3]{color:#99ffdd}[data-colorid=3Dky3w98l1kx]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dky3w98l1kx]{color:#99ffdd}[dat=
+a-colorid=3Do0n9uoiuxy]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Do0n9uoiuxy]{color:#99ffdd}[data-colorid=3Dlfb7b88grq]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dlfb7b88grq]{color:#99ffdd}[=
+data-colorid=3Denwah0dd2r]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Denwah0dd2r]{color:#99ffdd}</style><img class=3D"confluence-embe=
+dded-image image-center" alt=3D"image-20260429-114827.png" width=3D"468" lo=
+ading=3D"lazy" src=3D"42d879c27274fb956a4d44729830dac0df79d06568edb367e5975=
+d338bda0848" data-image-src=3D"https://mews.atlassian.net/wiki/download/att=
+achments/1923679335/image-20260429-114827.png?version=3D1&amp;modificationD=
+ate=3D1777463309726&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"749" =
+data-width=3D"1626" data-unresolved-comment-count=3D"0" data-linked-resourc=
+e-id=3D"1930396312" data-linked-resource-version=3D"1" data-linked-resource=
+-type=3D"attachment" data-linked-resource-default-alias=3D"image-20260429-1=
+14827.png" data-base-url=3D"https://mews.atlassian.net/wiki" data-linked-re=
+source-content-type=3D"image/png" data-linked-resource-container-id=3D"1923=
+679335" data-linked-resource-container-version=3D"4" data-media-id=3D"974ed=
+618-48ab-4521-84ef-0254927ef8cd" data-media-type=3D"file" height=3D"215"></=
+span>
+<h2 local-id=3D"3b9eb72d347e" id=3D"Upgraderoomforloyaltymembers(flow)-Over=
+view">Overview</h2>
+<p local-id=3D"41b14981ae91">The <strong>Upgrade Room for Loyalty Members</=
+strong> flow automates the process of upgrading rooms for arriving guests b=
+ased on loyalty status and configurable criteria. It runs on a schedule (da=
+ily by default), identifies today's eligible arrivals, attempts to upgrade =
+their assigned room category, and then handles the results =E2=80=94 sendin=
+g an SMS to guests whose rooms were successfully upgraded, and adding a not=
+e to reservations where the upgrade could not be completed so that hotel st=
+aff are informed.</p>
+<p local-id=3D"ab0dba9097a7">This flow is designed to be nearly ready to us=
+e out of the box. Most fields come pre-configured with sensible defaults. <=
+strong>Only one setting is mandatory before the flow can run:</strong> you =
+must configure the <strong>Upgrade Path</strong> in the Upgrade Assigned Ro=
+om Category component to define which room categories should be upgraded an=
+d to which target categories.</p>
+<hr local-id=3D"c867b0be-098f-4579-9da4-f6a309714c20">
+<h2 local-id=3D"6b9ecd115141" id=3D"Upgraderoomforloyaltymembers(flow)-Befo=
+reYouStart">Before You Start</h2>
+<p local-id=3D"a6e3133dbe42"><strong>Required setup:</strong> Before starti=
+ng the flow, you must configure the <strong>Upgrade Path</strong> in the <s=
+trong>Upgrade Assigned Room Category</strong> component. This defines which=
+ room categories are eligible for an upgrade and what the target category i=
+s for each. Without this configuration, the flow will not know how to upgra=
+de rooms.</p>
+<p local-id=3D"9cb5cc3b5bee">All other settings in the flow come pre-filled=
+ with default values and are ready to use. You can customize any of them to=
+ match your property's needs =E2=80=94 see the component-by-component break=
+down below for details on what can be adjusted.</p>
+<hr local-id=3D"2cba0ee4-f0b2-46b5-bdf4-ccd258ec740d">
+<h2 local-id=3D"cb2b6e775432" id=3D"Upgraderoomforloyaltymembers(flow)-Howt=
+heFlowWorks">How the Flow Works</h2>
+<p local-id=3D"53900aeb0c46">The flow consists of seven components connecte=
+d in sequence, with branching logic to handle successful and failed upgrade=
+s separately:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b91aad6b-3d20-40be-a497-bbb=
+36b4eee7d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4e63a4c5-7fe4-4175-96a0-c7bf3cabcc35">
+<th data-local-id=3D"ab43dacb-3750-4064-ba29-fc9752c1d0ce" class=3D"conflue=
+nceTh">
+<p local-id=3D"6b1ef6c838d4">Step</p></th>
+<th data-local-id=3D"0d8230a9-fc32-49d6-ab47-92867f6381d9" class=3D"conflue=
+nceTh">
+<p local-id=3D"afa58340a63c">Component</p></th>
+<th data-local-id=3D"ad2bb448-548f-494a-9772-935a4ffa45fa" class=3D"conflue=
+nceTh">
+<p local-id=3D"2c14558ed389">Connects to</p></th>
+<th data-local-id=3D"90973884-445d-4d21-897f-df66d8df99af" class=3D"conflue=
+nceTh">
+<p local-id=3D"c8763e58c645">Description</p></th>
+</tr>
+<tr data-local-id=3D"5a0944a9-7be9-4be0-b1ea-188579f4514a">
+<td data-local-id=3D"0a9692a3-9500-4e2f-ab14-26735768e374" class=3D"conflue=
+nceTd">
+<p local-id=3D"53294be23ad7">1</p></td>
+<td data-local-id=3D"81a3b5c9-0346-49bf-951d-4f8a55ab904f" class=3D"conflue=
+nceTd">
+<p local-id=3D"4adca445a5ac">Cron Scheduler</p></td>
+<td data-local-id=3D"c965c97a-3f78-4a21-998a-e78a4c2a8e3d" class=3D"conflue=
+nceTd">
+<p local-id=3D"92ec7b5aee59">=E2=86=92 Step 2</p></td>
+<td data-local-id=3D"b84bce4b-71d4-4c2e-b474-533f67d070dd" class=3D"conflue=
+nceTd">
+<p local-id=3D"d50c09027eba">Triggers the flow on a recurring schedule (dai=
+ly at noon by default).</p></td>
+</tr>
+<tr data-local-id=3D"30c477a6-1555-4375-a26a-75e0a0e22117">
+<td data-local-id=3D"9de8339f-b896-4cd4-91f6-705a1d17b6fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f908f67e444">2</p></td>
+<td data-local-id=3D"82627d12-99eb-45db-a38b-1cd06aa431d0" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ae506e8f61d">Check Occupancy</p></td>
+<td data-local-id=3D"3f8164c4-ce06-48e1-b206-169aac89d8dd" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4156d4ad1d9"><em>Below threshold</em> =E2=86=92 Step 3</p><=
+/td>
+<td data-local-id=3D"369904c9-c68b-4858-b5ff-145f6e1b1412" class=3D"conflue=
+nceTd">
+<p local-id=3D"036020224c56">Checks whether the property's occupancy is bel=
+ow a configured threshold. If occupancy is at or above the threshold, the f=
+low stops =E2=80=94 no upgrades are attempted when the property is fully oc=
+cupied.</p></td>
+</tr>
+<tr data-local-id=3D"076d6a71-a81c-48ea-a180-7edd94ca3f79">
+<td data-local-id=3D"64ed85cc-6f10-41b6-ad1f-6ccde33a752f" class=3D"conflue=
+nceTd">
+<p local-id=3D"5489eea7d937">3</p></td>
+<td data-local-id=3D"1dbf3d48-9ec1-471b-9054-c9ff49f51de9" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b53cebb1137">Get Eligible Arrivals</p></td>
+<td data-local-id=3D"8135c5f7-7b4c-40ae-bc50-cde09e99d0dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"0ade1913fabd">=E2=86=92 Step 4</p></td>
+<td data-local-id=3D"204ec292-cfbb-4fb5-b636-65798edcced9" class=3D"conflue=
+nceTd">
+<p local-id=3D"f940ad09df7d">Retrieves confirmed reservations arriving on t=
+he target date, optionally filtered by loyalty program membership, behavior=
+al signals, or rate codes.</p></td>
+</tr>
+<tr data-local-id=3D"e62789a9-d65c-4c60-b091-21648322dee6">
+<td data-local-id=3D"5667ba21-73e6-41d7-a5ac-ae7d6a62ac3d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f062c82ba332">4</p></td>
+<td data-local-id=3D"ee22dd69-4e32-4943-9aa0-a1071fb8cf17" class=3D"conflue=
+nceTd">
+<p local-id=3D"03966a39d172">Upgrade Assigned Room Category</p></td>
+<td data-local-id=3D"f8460b68-4991-4042-966f-b00e5ecc08cb" class=3D"conflue=
+nceTd">
+<p local-id=3D"84c5432fc16b"><em>Upgraded</em> =E2=86=92 Step 5<br><em>Fail=
+ed</em> =E2=86=92 Step 7</p></td>
+<td data-local-id=3D"ecfaa836-67b4-4e68-aff5-8dea294394c2" class=3D"conflue=
+nceTd">
+<p local-id=3D"e61a24a8f405">Attempts to upgrade the room category for each=
+ eligible reservation based on the configured upgrade paths and real-time a=
+vailability. Results are split into two branches.</p></td>
+</tr>
+<tr data-local-id=3D"46038ab0-5fc6-4595-8612-e19fe6e7bec7">
+<td data-local-id=3D"1087cfb0-a39c-4fc0-932f-4dc2da2ccb13" class=3D"conflue=
+nceTd">
+<p local-id=3D"1aa724cd2ff1">5</p></td>
+<td data-local-id=3D"66113987-d3a9-43fa-96be-6170d5bda2b5" class=3D"conflue=
+nceTd">
+<p local-id=3D"d00df1a9ddab">Each (Iterator)</p></td>
+<td data-local-id=3D"718ea024-d506-4fb6-89cf-ef83444edc9b" class=3D"conflue=
+nceTd">
+<p local-id=3D"66e2fddea54f">=E2=86=92 Step 6</p></td>
+<td data-local-id=3D"3855ee4c-fd0e-446f-a57e-78aaafb0bb08" class=3D"conflue=
+nceTd">
+<p local-id=3D"0239297bc801">Iterates over the list of successfully upgrade=
+d reservations and triggers the next step for each one individually.</p></t=
+d>
+</tr>
+<tr data-local-id=3D"9819c02d-b452-476a-b192-2741299db105">
+<td data-local-id=3D"cc079bb1-15e2-46ce-896c-dc8c165e2441" class=3D"conflue=
+nceTd">
+<p local-id=3D"0eb2b82574ab">6</p></td>
+<td data-local-id=3D"1cc01b4b-4b0a-4a10-a29b-5d914aac81b0" class=3D"conflue=
+nceTd">
+<p local-id=3D"b9193617e43c">Send SMS</p></td>
+<td data-local-id=3D"61ec4413-24ac-4bea-a1d8-043bbc89e403" class=3D"conflue=
+nceTd">
+<p local-id=3D"d59b655cd4b8"><em>End of branch</em></p></td>
+<td data-local-id=3D"21ab6683-a81a-4d70-900b-0e2f96e2bd5a" class=3D"conflue=
+nceTd">
+<p local-id=3D"a8f36eb40c94">Sends an SMS notification to each guest whose =
+room was successfully upgraded.</p></td>
+</tr>
+<tr data-local-id=3D"83282d4f-f5df-49f5-8ebc-477dfebab5dc">
+<td data-local-id=3D"0b2a3b9b-b36c-400f-bae9-2fa748db3785" class=3D"conflue=
+nceTd">
+<p local-id=3D"b03689c102f5">7</p></td>
+<td data-local-id=3D"443f570f-d4c1-4da0-88bf-21986d85e3af" class=3D"conflue=
+nceTd">
+<p local-id=3D"27244f983c3e">Add Note to Reservation</p></td>
+<td data-local-id=3D"a667c8bb-b648-40c0-8c62-bd38b1872d50" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4fdc92b5697"><em>End of branch</em></p></td>
+<td data-local-id=3D"643eb868-9276-41a2-a722-5a7cf863f820" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e6e011ab14b">Adds a note to all reservations where the upgr=
+ade failed, so hotel staff can see which guests were not upgraded and why.<=
+/p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"55633464-0572-4f79-b984-684375bd5ebe">
+<h2 local-id=3D"49f8ca691630" id=3D"Upgraderoomforloyaltymembers(flow)-Comp=
+onentDetails">Component Details</h2>
+<p local-id=3D"591b064455f3">Below is a detailed breakdown of each componen=
+t in the flow, including which fields are pre-configured and which can be c=
+ustomized.</p>
+<h3 local-id=3D"6f14de06335b" id=3D"Upgraderoomforloyaltymembers(flow)-1.Cr=
+onScheduler">1. Cron Scheduler</h3>
+<p local-id=3D"512d92d2fcee">The Cron Scheduler is a time-based trigger tha=
+t starts the flow at regular intervals using standard cron syntax.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"4c16a26c-da6d-4722-a4cc-3cf=
+2f1c5b51d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"8595a739-4990-4292-9c47-8e1ece26f442">
+<th data-local-id=3D"a9de5156-4ec7-468a-a771-33088193bd7d" class=3D"conflue=
+nceTh">
+<p local-id=3D"d57b1c3ac8ac">Field</p></th>
+<th data-local-id=3D"8c6df0ea-a8f0-4b71-8f78-909d666db420" class=3D"conflue=
+nceTh">
+<p local-id=3D"20cd61c39f78">Default Value</p></th>
+<th data-local-id=3D"c50e41d6-0beb-4420-8b39-ba2511b03855" class=3D"conflue=
+nceTh">
+<p local-id=3D"bdc705ef93df">Status</p></th>
+<th data-local-id=3D"b54a85ec-9456-48e2-97d0-5f733bba347f" class=3D"conflue=
+nceTh">
+<p local-id=3D"d25e0e7be48e">Description</p></th>
+</tr>
+<tr data-local-id=3D"70e50992-dc9d-4ad0-9167-296a72e708bc">
+<td data-local-id=3D"03bb54e9-ef17-4df4-adac-aee4eaafaffb" class=3D"conflue=
+nceTd">
+<p local-id=3D"d698a3749c86"><strong>Trigger immediately</strong></p></td>
+<td data-local-id=3D"ba0bc0c3-f5a2-4861-9346-ab0fd926555c" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb23ae35dd0a"><code>False</code></p></td>
+<td data-local-id=3D"092ae22e-7b15-40bc-9f15-3d64fe5b3536" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b54d72e6fe9"><strong><span data-colorid=3D"hamctof2bn">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"eb15de49-ef2e-43f7-9f4d-879779ab297c" class=3D"conflue=
+nceTd">
+<p local-id=3D"431e12cbe1aa">When set to true, the flow triggers once immed=
+iately when started, in addition to the scheduled runs. Default is false =
+=E2=80=94 the flow waits until the next scheduled time.</p></td>
+</tr>
+<tr data-local-id=3D"b3a17667-7e1c-44a3-8f5e-668b5fa65eaa">
+<td data-local-id=3D"245ea47d-9c5d-42ae-993d-9e3b1fe74d13" class=3D"conflue=
+nceTd">
+<p local-id=3D"a74421541258"><strong>Minute</strong></p></td>
+<td data-local-id=3D"e0fbfe97-0be9-4f53-9968-a7b8b32c75f7" class=3D"conflue=
+nceTd">
+<p local-id=3D"b5fdecd5bc56"><code>*</code></p></td>
+<td data-local-id=3D"f121f840-f75c-4763-b63e-148d3bb68a33" class=3D"conflue=
+nceTd">
+<p local-id=3D"b63b053d2e9e"><strong><span data-colorid=3D"hydnljan2l">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"a35c5c74-8f4a-4214-8f32-fda10df99eac" class=3D"conflue=
+nceTd">
+<p local-id=3D"190ebcc35eb8">The minute of the hour to run. <code>*</code> =
+means every minute (combined with the Hour setting, it runs at 12:00). Allo=
+wed values: <code>*</code>, <code>-</code>, <code>/</code>, <code>0=E2=80=
+=9359</code>.</p></td>
+</tr>
+<tr data-local-id=3D"a0d63493-9ad7-4a83-9661-59478f2f0b9d">
+<td data-local-id=3D"c3db6783-f313-4a27-abbc-aba07951a1ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"bfd878be8466"><strong>Hour</strong></p></td>
+<td data-local-id=3D"4a5e6ae4-1a6c-460a-9a06-3e3b0029c0b3" class=3D"conflue=
+nceTd">
+<p local-id=3D"abb0e1a6c242"><code>12</code></p></td>
+<td data-local-id=3D"f6f87909-2a34-4e13-b0cb-aeb53783c6c2" class=3D"conflue=
+nceTd">
+<p local-id=3D"dbd06e86c41f"><strong><span data-colorid=3D"ky3w98l1kx">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"2684dc35-0564-47d2-9790-38d505e57f3f" class=3D"conflue=
+nceTd">
+<p local-id=3D"4381bc5a08fc">The hour of the day to run. Set to <code>12</c=
+ode> (noon). Allowed values: <code>*</code>, <code>-</code>, <code>/</code>=
+, <code>0=E2=80=9323</code>.</p></td>
+</tr>
+<tr data-local-id=3D"cf3e3fea-cb92-48c7-843b-ab8bf3950394">
+<td data-local-id=3D"ddaa73cd-6234-4954-91eb-97843017ce50" class=3D"conflue=
+nceTd">
+<p local-id=3D"5f55209a457c"><strong>Day of the Month</strong></p></td>
+<td data-local-id=3D"f749294f-e824-4dc4-90d3-5a3f07bcf25c" class=3D"conflue=
+nceTd">
+<p local-id=3D"76f6254ebeb1"><code>*</code></p></td>
+<td data-local-id=3D"3deb8c7b-99e3-4130-9ec8-d5cdac99f9a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa33abf5df6b"><strong><span data-colorid=3D"wel0ge6gt3">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"e268e7a6-bdb2-4632-a194-22625c35f9cf" class=3D"conflue=
+nceTd">
+<p local-id=3D"637f53e95787">Which day(s) of the month to run. <code>*</cod=
+e> means every day. Allowed values: <code>*</code>, <code>-</code>, <code>/=
+</code>, <code>1=E2=80=9331</code>.</p></td>
+</tr>
+<tr data-local-id=3D"dd9bd7b0-6b05-47c7-9eb0-9f6ceb5be807">
+<td data-local-id=3D"26413a4e-fa94-411b-b816-895f5c2f24db" class=3D"conflue=
+nceTd">
+<p local-id=3D"599128e46000"><strong>Day of the Week</strong></p></td>
+<td data-local-id=3D"9ac442e4-4373-45a6-80d9-fb4f1466a587" class=3D"conflue=
+nceTd">
+<p local-id=3D"863760263e7b"><code>*</code></p></td>
+<td data-local-id=3D"5ec511f0-e38b-479d-818d-3f9c3f282684" class=3D"conflue=
+nceTd">
+<p local-id=3D"ceb236b24ee4"><strong><span data-colorid=3D"nqsd0ql3o5">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"35bd77d8-a11f-4ea7-903d-64bde56afa8c" class=3D"conflue=
+nceTd">
+<p local-id=3D"1010b6b99852">Which day(s) of the week to run. <code>*</code=
+> means every day. Allowed values: <code>*</code>, <code>-</code>, <code>/<=
+/code>, <code>0=E2=80=936</code>, <code>SUN=E2=80=93SAT</code>.</p></td>
+</tr>
+<tr data-local-id=3D"e2fc47c1-24ba-48a7-ba61-dfe5f4da420e">
+<td data-local-id=3D"104b6920-d319-4fce-8d41-eff40f3f76c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"1f4014d65565"><strong>Timezone</strong></p></td>
+<td data-local-id=3D"ce781596-7d89-46c1-a658-481f0d583fa8" class=3D"conflue=
+nceTd">
+<p local-id=3D"f13c1d628f47"><em>Empty</em></p></td>
+<td data-local-id=3D"8740db6d-3741-485e-9f5b-36fcb37aeaba" class=3D"conflue=
+nceTd">
+<p local-id=3D"18e86f7f8b01"><strong><span data-colorid=3D"qnwsk62aee">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"71622dcb-6141-40af-9a28-a6fef26c1106" class=3D"conflue=
+nceTd">
+<p local-id=3D"d30132ccee53">The timezone for the schedule. When left empty=
+, the schedule uses your local time. To use a specific timezone, enter a ti=
+mezone identifier (e.g., <code>Europe/Prague</code>). By default it uses GM=
+T.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"13889deafe37"><strong>Default schedule:</strong> The flow is=
+ pre-configured to run every day at 12:00 (noon). You can adjust the schedu=
+le by changing the cron fields. For example, to run at 8:00 AM, change the =
+Hour to <code>8</code>. To run only on weekdays, set Day of the Week to <co=
+de>1-5</code> (Monday through Friday). If you want the schedule to run in y=
+our local time, leave the Timezone field empty. To run in a specific timezo=
+ne, enter the timezone identifier (e.g., <code>Europe/Prague</code>).</p>
+<hr local-id=3D"537fabd1-cef1-4759-ba56-9dad76383798">
+<h3 local-id=3D"9bd6da6d1ff4" id=3D"Upgraderoomforloyaltymembers(flow)-2.Ch=
+eckOccupancy">2. Check Occupancy</h3>
+<p local-id=3D"8586f0cacdb1">Calculates the current occupancy percentage fo=
+r your property and determines whether there is enough capacity to proceed =
+with upgrades. If occupancy is at or above the threshold, the flow stops an=
+d no upgrades are attempted.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"14a367c5-6415-46e9-a551-3df=
+99a6b6fac" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ab73bb2d-a010-413e-b471-dd000c50ad49">
+<th data-local-id=3D"0f289392-ca61-4d03-937d-e561a32f9b43" class=3D"conflue=
+nceTh">
+<p local-id=3D"268f83709015">Field</p></th>
+<th data-local-id=3D"b27ac2ed-1ebb-4583-a722-cced9fba59c9" class=3D"conflue=
+nceTh">
+<p local-id=3D"7c3e77f2863c">Default Value</p></th>
+<th data-local-id=3D"44ef39dd-fcf5-4a08-afae-5ad870f67280" class=3D"conflue=
+nceTh">
+<p local-id=3D"e4c2eceaefb8">Status</p></th>
+<th data-local-id=3D"77ac7b9e-8f33-446b-84f8-0ea7950e1b0f" class=3D"conflue=
+nceTh">
+<p local-id=3D"6f9e30bc5ac3">Description</p></th>
+</tr>
+<tr data-local-id=3D"c66741b7-2081-499e-880e-4d70dc25c6dc">
+<td data-local-id=3D"7e3645dc-ad52-4a6b-ab6e-41acce3989bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"38699d003225"><strong>Date</strong></p></td>
+<td data-local-id=3D"41aec07f-7360-4a07-98ec-a6f03dad3b40" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d198ff4d1c7">Today's date</p></td>
+<td data-local-id=3D"cd9b5c01-bc57-46be-b7db-c3101d3e0018" class=3D"conflue=
+nceTd">
+<p local-id=3D"1ea7bebf64c2"><strong><span data-colorid=3D"enwah0dd2r">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"152d0b33-491d-4ba0-9177-ad7fa82344f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"111fb2ecbcda">The date to check occupancy for. Pre-filled to=
+ use the current date.</p></td>
+</tr>
+<tr data-local-id=3D"0c3b2701-eb6e-40b3-bb9e-10011d19198c">
+<td data-local-id=3D"15de4bc2-b332-4fb3-a01b-bb9229b5ecb8" class=3D"conflue=
+nceTd">
+<p local-id=3D"5df3afc8b728"><strong>Occupancy Percentage Threshold</strong=
+></p></td>
+<td data-local-id=3D"aedd4897-9ccd-48cf-9e67-81420d047ecf" class=3D"conflue=
+nceTd">
+<p local-id=3D"a5c1435d0f9b"><code>100</code></p></td>
+<td data-local-id=3D"c86b3ae6-0394-4538-943a-11b5e6cec818" class=3D"conflue=
+nceTd">
+<p local-id=3D"7a30972ee337"><strong><span data-colorid=3D"r9by0fyhgp">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"ffebec7c-71ee-4d9d-988d-404edf6df541" class=3D"conflue=
+nceTd">
+<p local-id=3D"953c468721b6">The occupancy percentage above which upgrades =
+should not be attempted. Set to <code>100</code> by default, meaning upgrad=
+es are only blocked when the property is completely full. You can lower thi=
+s to be more conservative =E2=80=94 for example, setting it to <code>90</co=
+de> would stop upgrades when 90% or more of rooms are occupied.</p></td>
+</tr>
+<tr data-local-id=3D"e5924160-a17b-4275-b772-2f5471f13a4b">
+<td data-local-id=3D"677cc1db-f897-47f1-a849-6f5a456530e6" class=3D"conflue=
+nceTd">
+<p local-id=3D"da6c39cd3713"><strong>Bookable Services</strong></p></td>
+<td data-local-id=3D"a8232c13-d088-4e64-8623-abd5b1e0f7a2" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c594cb32e5a"><em>None selected</em></p></td>
+<td data-local-id=3D"b40d9fd5-7c5a-4606-a0dd-264fe2fd2dd4" class=3D"conflue=
+nceTd">
+<p local-id=3D"80168489a79a"><strong>Optional</strong></p></td>
+<td data-local-id=3D"a7a36c4e-2ef4-4f55-817e-fc497532b4f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"dc3cbeb413d8">Filter the occupancy calculation to specific b=
+ookable services. If none are selected, all bookable services at the proper=
+ty are included. Select specific services if you want the occupancy check t=
+o consider only certain types of accommodations.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"47ae93877875"><strong>How it connects:</strong> If occupancy=
+ is <em>below</em> the threshold, the flow continues to <strong>Get Eligibl=
+e Arrivals</strong>. If occupancy is <em>at or above</em> the threshold, th=
+e flow stops =E2=80=94 no further components are executed.</p>
+<hr local-id=3D"12dd077c-1715-4297-b890-260a2ff3edfc">
+<h3 local-id=3D"dc989789b3f7" id=3D"Upgraderoomforloyaltymembers(flow)-3.Ge=
+tEligibleArrivals">3. Get Eligible Arrivals</h3>
+<p local-id=3D"370ad91a23d4">Retrieves confirmed reservations arriving on t=
+he specified date. You can optionally filter guests by loyalty program memb=
+ership, behavioral signals (stay frequency, revenue, recency), or rate code=
+s to narrow down which reservations are eligible for an upgrade.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c5e69e71-ef64-4665-bf4e-532=
+4337d6655" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b5c97c59-f694-4fb5-8b71-a92b3f11cdec">
+<th data-local-id=3D"e1fd0f7c-73f1-41a2-afb5-a94667f38ad9" class=3D"conflue=
+nceTh">
+<p local-id=3D"4f3c4e7c27d5">Field</p></th>
+<th data-local-id=3D"47227024-301e-4471-966d-4da1e7e15b5d" class=3D"conflue=
+nceTh">
+<p local-id=3D"8bddf9b75c09">Default Value</p></th>
+<th data-local-id=3D"3494f69d-9a7e-46ff-a072-59777191daec" class=3D"conflue=
+nceTh">
+<p local-id=3D"b3e75ab07af2">Status</p></th>
+<th data-local-id=3D"916a1efe-09db-4d20-891e-00368427a3d5" class=3D"conflue=
+nceTh">
+<p local-id=3D"a5f194200b03">Description</p></th>
+</tr>
+<tr data-local-id=3D"06d9e2a6-4761-4d77-88ce-1bfe4e38842e">
+<td data-local-id=3D"e69a4f2a-9921-4318-8c23-ea0dfa905f45" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d3593895bb2"><strong>Arrival Date</strong></p></td>
+<td data-local-id=3D"61cade28-4b86-4014-b0f7-5ac99315a1b2" class=3D"conflue=
+nceTd">
+<p local-id=3D"07c5f7d5ec50">Today's date</p></td>
+<td data-local-id=3D"ce752c29-e53b-4a36-883c-284b41f0a998" class=3D"conflue=
+nceTd">
+<p local-id=3D"31715ea16f3f"><strong><span data-colorid=3D"o0n9uoiuxy">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"9ed99c88-b8af-4dce-8930-566bf5988218" class=3D"conflue=
+nceTd">
+<p local-id=3D"f56b23523dc7">The date to search for arriving reservations. =
+Pre-filled to use the current date so the flow always checks today's arriva=
+ls. This can be adjusted if you need to look ahead to a future date.</p></t=
+d>
+</tr>
+<tr data-local-id=3D"31378dbb-52cd-4c84-9124-52e175e85e71">
+<td data-local-id=3D"cb4d095e-69dc-4720-ac18-752b1231e313" class=3D"conflue=
+nceTd">
+<p local-id=3D"23fa24c1cc8b"><strong>Loyalty Programs</strong></p></td>
+<td data-local-id=3D"5365eee8-2709-40c8-9e4c-6c81f37a4e24" class=3D"conflue=
+nceTd">
+<p local-id=3D"9f909bf8474b"><em>None selected</em></p></td>
+<td data-local-id=3D"c4cfb71c-f727-4942-829f-1cfb7daf4c8f" class=3D"conflue=
+nceTd">
+<p local-id=3D"d3c9770886e0"><strong>Optional</strong></p></td>
+<td data-local-id=3D"f3525653-678c-462c-a184-520e6f47e683" class=3D"conflue=
+nceTd">
+<p local-id=3D"be6417e5c46c">Filter arrivals to guests enrolled in specific=
+ loyalty programs. If no programs are selected, loyalty membership is not u=
+sed as a filter criterion.</p></td>
+</tr>
+<tr data-local-id=3D"b8961819-f16c-4875-9e3f-6b45cde0727a">
+<td data-local-id=3D"fa1c6c27-5629-48ab-b758-dc98c17301aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"c547db18fd54"><strong>Loyalty Tiers</strong></p></td>
+<td data-local-id=3D"6d2d8478-c505-4ce3-9501-becd98af1dc8" class=3D"conflue=
+nceTd">
+<p local-id=3D"1528ffa1a3f8"><em>None selected</em></p></td>
+<td data-local-id=3D"3ae8c03b-e8f9-4299-901a-4f541fbfaeb7" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c9951e40adb"><strong>Optional</strong></p></td>
+<td data-local-id=3D"354c71a3-1f97-4a2b-89e4-96fc6c431f28" class=3D"conflue=
+nceTd">
+<p local-id=3D"35f191c81c19">Further narrow the loyalty filter to specific =
+tiers within the selected programs (e.g., Gold, Platinum). Only visible aft=
+er a loyalty program is selected.</p></td>
+</tr>
+<tr data-local-id=3D"aeaa7bef-d3ff-4eca-9088-f2126a322c83">
+<td data-local-id=3D"49ae7d2e-2715-4423-ac73-1bb85a724c50" class=3D"conflue=
+nceTd">
+<p local-id=3D"e64c83ab4643"><strong>Stay Count Threshold</strong></p></td>
+<td data-local-id=3D"d588e43c-5445-4382-aa9b-2bb37cea2315" class=3D"conflue=
+nceTd">
+<p local-id=3D"271e06a5ae17"><em>Not set</em></p></td>
+<td data-local-id=3D"7c0f0076-f68c-4d51-b87d-e33f46011afe" class=3D"conflue=
+nceTd">
+<p local-id=3D"195443409922"><strong>Optional</strong></p></td>
+<td data-local-id=3D"65efc175-dcb9-4fcb-b597-004a7d98e7b4" class=3D"conflue=
+nceTd">
+<p local-id=3D"1f911c532662">Minimum number of past stays a guest must have=
+ to qualify. This is a behavioral signal =E2=80=94 guests who do not meet t=
+he loyalty criteria can still qualify if they meet all configured behaviora=
+l thresholds.</p></td>
+</tr>
+<tr data-local-id=3D"d92bb459-8104-464d-92b2-386711b89df6">
+<td data-local-id=3D"20b0d0f0-0ee7-427c-8d6c-fcd37a8c2dab" class=3D"conflue=
+nceTd">
+<p local-id=3D"f87dd6e48bb9"><strong>Revenue Threshold</strong></p></td>
+<td data-local-id=3D"e9a844d0-bd6e-4ebc-9480-fb34eabf40e8" class=3D"conflue=
+nceTd">
+<p local-id=3D"c6268c457437"><em>Not set</em></p></td>
+<td data-local-id=3D"2412356b-2d86-4317-abac-7566c64c19fe" class=3D"conflue=
+nceTd">
+<p local-id=3D"c5922282fe58"><strong>Optional</strong></p></td>
+<td data-local-id=3D"52719c69-1f0f-4eac-b9f4-58c8ffa3bbd4" class=3D"conflue=
+nceTd">
+<p local-id=3D"7484c3f79e7c">Minimum total revenue (in the property's defau=
+lt currency) a guest must have generated to qualify.</p></td>
+</tr>
+<tr data-local-id=3D"d299d707-e12e-4a6f-b4c2-173ef030e3cf">
+<td data-local-id=3D"0b525a90-e498-4a09-aee3-e001642d6127" class=3D"conflue=
+nceTd">
+<p local-id=3D"bb6fce7f267c"><strong>Recency Threshold</strong></p></td>
+<td data-local-id=3D"4524ba9a-5791-4db4-bcc1-456c3a36ac57" class=3D"conflue=
+nceTd">
+<p local-id=3D"02dee98b67f5"><em>Not set</em></p></td>
+<td data-local-id=3D"9d06a4d7-a872-40ef-bdbe-47d31a084b2a" class=3D"conflue=
+nceTd">
+<p local-id=3D"c86591116dab"><strong>Optional</strong></p></td>
+<td data-local-id=3D"18630c39-711e-4c9b-9b40-54c434958bf3" class=3D"conflue=
+nceTd">
+<p local-id=3D"915531bd0289">Maximum number of days since the guest's most =
+recent stay. Guests whose last stay was more recent than this threshold qua=
+lify.</p></td>
+</tr>
+<tr data-local-id=3D"a2a536d2-65c1-48e2-91f3-6788a719bc08">
+<td data-local-id=3D"c3cd548d-e5b9-4913-a520-2459a7bdabf0" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4068ce9b9d5"><strong>Rates</strong></p></td>
+<td data-local-id=3D"b07a7de0-0bab-49bf-8154-71eee86ba0e8" class=3D"conflue=
+nceTd">
+<p local-id=3D"f8a8237a17d9"><em>None selected</em></p></td>
+<td data-local-id=3D"674d96bb-d5e5-48bd-bbcb-4a2315c780ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"6267af5266a4"><strong>Optional</strong></p></td>
+<td data-local-id=3D"6c5ce273-26d6-401e-9225-1e64725801c5" class=3D"conflue=
+nceTd">
+<p local-id=3D"e5661ea4714a">Filter reservations by the rate they were book=
+ed under. Only reservations matching the selected rates are included.</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"cd08a033ff4a"><strong>Filtering logic:</strong> Guests are f=
+irst evaluated against loyalty criteria (hard signals). If a guest is not p=
+art of a selected loyalty program or tier, they are then evaluated against =
+the behavioral thresholds (soft signals). A guest must meet <em>all</em> co=
+nfigured behavioral thresholds to qualify. If no filters are configured, al=
+l confirmed reservations with assigned rooms arriving on the specified date=
+ are included.</p>
+<hr local-id=3D"0543571b-b556-43ad-81b0-5bc1a4bc5bae">
+<h3 local-id=3D"13d16b2fe2a7" id=3D"Upgraderoomforloyaltymembers(flow)-4.Up=
+gradeAssignedRoomCategory">4. Upgrade Assigned Room Category</h3>
+<p local-id=3D"e42e657bc0de">The core component of this flow. It takes the =
+list of eligible reservation IDs and attempts to upgrade each guest's assig=
+ned room category based on the upgrade paths you define. It checks real-tim=
+e availability and respects buffer limits to ensure the property retains en=
+ough rooms in each category.</p>
+<p local-id=3D"d945d33bdb2f"><strong>Required configuration:</strong> You m=
+ust configure the <strong>Upgrade Paths</strong> before the flow can run. T=
+his is the only mandatory setup step for the entire flow.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f8acdde1-978e-4f4c-9eb6-3ec=
+6bbe54116" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4c640371-0c9d-4b00-a63d-7deefbad9227">
+<th data-local-id=3D"1ee30c33-c87f-4631-8a73-416e5c5aab5c" class=3D"conflue=
+nceTh">
+<p local-id=3D"c1f3e7dce47f">Field</p></th>
+<th data-local-id=3D"27103aa1-1711-4797-892c-444b6db7615d" class=3D"conflue=
+nceTh">
+<p local-id=3D"54a9d33e711a">Default Value</p></th>
+<th data-local-id=3D"15b69836-c760-47b3-bfc6-134ac956aead" class=3D"conflue=
+nceTh">
+<p local-id=3D"983afae06c0c">Status</p></th>
+<th data-local-id=3D"b1406490-7721-4859-8837-1f49f4955ebb" class=3D"conflue=
+nceTh">
+<p local-id=3D"3227e6b46fae">Description</p></th>
+</tr>
+<tr data-local-id=3D"2f8bf7b1-9cc8-4b60-b873-fbdbc2ae4cab">
+<td data-local-id=3D"476fd8e3-cb08-40e4-be47-6c91f00d23a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"04e8c84f1636"><strong>Reservation IDs</strong></p></td>
+<td data-local-id=3D"c82269b0-a105-49a8-93b7-e457cfc6fc84" class=3D"conflue=
+nceTd">
+<p local-id=3D"afc51fedf06b"><em>From previous step</em></p></td>
+<td data-local-id=3D"11a517f6-390f-4251-85e9-b966aa301bd3" class=3D"conflue=
+nceTd">
+<p local-id=3D"5882a6a3de11"><strong><span data-colorid=3D"q4zeo3kobi">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"af5f0146-953d-4964-bbdd-4401b937601d" class=3D"conflue=
+nceTd">
+<p local-id=3D"e83a831ded0b">Automatically populated from the Get Eligible =
+Arrivals output. Contains the list of reservation IDs to process for upgrad=
+es.</p></td>
+</tr>
+<tr data-local-id=3D"bdb6ad5d-4512-4d2b-985b-a6a6d54a731b">
+<td data-local-id=3D"3258a682-3b65-4c28-a4fe-fade5956684f" class=3D"conflue=
+nceTd">
+<p local-id=3D"4d477120ec39"><strong>Upgrade Paths</strong></p></td>
+<td data-local-id=3D"77114f21-1df8-459c-a203-3293be831b3c" class=3D"conflue=
+nceTd">
+<p local-id=3D"2a5fc23940aa"><em>Not configured</em></p></td>
+<td data-local-id=3D"62f6ceda-344e-41c2-980d-22cea448461c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6df7e386a40e"><strong>Required</strong></p></td>
+<td data-local-id=3D"b7aa540f-d8eb-4846-8cab-9dd4a15376fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"244a26fdb02b">Defines how room categories should be upgraded=
+. Each row maps a source room category to a target room category (e.g., Sta=
+ndard =E2=86=92 Deluxe). You can define multiple paths for cascading upgrad=
+es (e.g., Standard =E2=86=92 Deluxe =E2=86=92 Suite). Each source category =
+can only appear once. This must be configured before running the flow.</p><=
+/td>
+</tr>
+<tr data-local-id=3D"ac84c715-0fff-4e26-82db-d6d9b22edef5">
+<td data-local-id=3D"667d141d-8b72-4f82-81c8-9500a361e01c" class=3D"conflue=
+nceTd">
+<p local-id=3D"91d97104d652"><strong>Availability Buffer</strong></p></td>
+<td data-local-id=3D"c2b10160-54c5-4e62-adbe-6c4333fc59ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d499d7d8b04"><code>0</code></p></td>
+<td data-local-id=3D"ab590ffa-04fd-4265-8b63-fdc1a0762516" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd75f21a3128"><strong><span data-colorid=3D"ld3eixs6u6">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"533f1bae-b4a9-480d-803b-f2e60e76cb16" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa58bc625375">The minimum number of rooms to keep available =
+in the target category. Upgrades are only performed when enough rooms remai=
+n above this buffer. Set to <code>0</code> by default, meaning all availabl=
+e rooms can be used for upgrades. Increase this to reserve rooms for direct=
+ bookings.</p></td>
+</tr>
+<tr data-local-id=3D"5b1678d3-fe24-41a7-936c-ada84f70a2ae">
+<td data-local-id=3D"01d12bf5-d71f-4ab5-975b-a0f5eb0d9718" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b07878910ad"><strong>Max Rooms to Upgrade</strong></p></td>
+<td data-local-id=3D"b106cb46-1205-4aab-aed7-9cefce717d23" class=3D"conflue=
+nceTd">
+<p local-id=3D"5cce4dfe5657"><em>Not set</em></p></td>
+<td data-local-id=3D"461dbbc4-9a9a-4fad-98ab-85d0ffa7a423" class=3D"conflue=
+nceTd">
+<p local-id=3D"0b26ee0946c8"><strong>Optional</strong></p></td>
+<td data-local-id=3D"8ccadda4-d3fd-4f7f-9fad-70de96ae65eb" class=3D"conflue=
+nceTd">
+<p local-id=3D"b379fedb246c">Maximum number of rooms to upgrade per run. On=
+ce this limit is reached, remaining reservations are marked as failed with =
+a <code>CAP_REACHED</code> reason. Leave empty for no limit.</p></td>
+</tr>
+<tr data-local-id=3D"100340a0-6a9c-44db-9bf9-1b031db23251">
+<td data-local-id=3D"e193449d-8389-416b-a871-ad4e7a187bee" class=3D"conflue=
+nceTd">
+<p local-id=3D"590bbb24ea37"><strong>Per-Category Availability Overrides</s=
+trong></p></td>
+<td data-local-id=3D"86d8b952-c278-4b78-a7bc-594dbd19b54f" class=3D"conflue=
+nceTd">
+<p local-id=3D"43ebe53f39c8"><em>Not set</em></p></td>
+<td data-local-id=3D"d616f3e9-dd30-4fb7-a001-e0da14d0e250" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d7fe03c46cd"><strong>Optional</strong></p></td>
+<td data-local-id=3D"888c4dd1-90ad-4fb2-828e-b000a5699b2c" class=3D"conflue=
+nceTd">
+<p local-id=3D"d9056ad2ac5b">Found in the Advanced section. Override the gl=
+obal availability buffer for specific room categories. Useful if some categ=
+ories need a larger reserve than others.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"6297f0ca9c81"><strong>Output ports:</strong></p>
+<ul local-id=3D"e481744e-d363-43ba-92ef-f6a200cd3cb5">
+<li local-id=3D"c628052a-166d-464e-80b7-19e499327c34">
+<p local-id=3D"3bca70be7970"><strong>Upgraded:</strong> Fires when at least=
+ one reservation was successfully upgraded. Passes the list of upgraded res=
+ervation IDs to the <strong>Each</strong> iterator.</p></li>
+<li local-id=3D"44af644c-4484-43bd-899b-073b6c88be9d">
+<p local-id=3D"ab78f065beae"><strong>Failed:</strong> Fires when at least o=
+ne reservation could not be upgraded. Passes the list of failed reservation=
+ IDs and failure reasons to <strong>Add Note to Reservation</strong>.</p></=
+li>
+<li local-id=3D"78b7f612-42dd-429b-bf8c-1c381ee6de0d">
+<p local-id=3D"27814d6727e2"><strong>Cooldown:</strong> Fires when the comp=
+onent's cooldown period is active, preventing duplicate upgrade attempts.</=
+p></li>
+</ul>
+<hr local-id=3D"e88c5d14-4afe-4d23-a8e0-416ebbfa097f">
+<h3 local-id=3D"dcadff386db7" id=3D"Upgraderoomforloyaltymembers(flow)-5.Ea=
+ch(Iterator)">5. Each (Iterator)</h3>
+<p local-id=3D"94883b529c7c">The Each component receives the list of succes=
+sfully upgraded reservation IDs and iterates over them one by one. For each=
+ reservation, it triggers the <strong>Send SMS</strong> component so that e=
+ach guest receives an individual notification.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"182e3db3-4551-42bd-8dae-722=
+5e5648a16" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"9cdad6b3-fba7-4e88-9fa0-549f2173fd6b">
+<th data-local-id=3D"a74d9394-1c51-43ec-829f-17158807a0be" class=3D"conflue=
+nceTh">
+<p local-id=3D"2292d0cf7894">Field</p></th>
+<th data-local-id=3D"fc4382e9-983c-49a3-847c-940647b91edf" class=3D"conflue=
+nceTh">
+<p local-id=3D"51b77c6a174f">Default Value</p></th>
+<th data-local-id=3D"684e3e47-3850-4d59-86dd-c580471f5f37" class=3D"conflue=
+nceTh">
+<p local-id=3D"cbc96f663ec3">Status</p></th>
+<th data-local-id=3D"633d315b-23a1-469a-b1d3-67e74f9efb63" class=3D"conflue=
+nceTh">
+<p local-id=3D"5f4f07e1ca01">Description</p></th>
+</tr>
+<tr data-local-id=3D"6594f847-daee-4b8c-9f87-e0aa98748a16">
+<td data-local-id=3D"39309afb-e0f6-4919-a338-2cc29e3a944d" class=3D"conflue=
+nceTd">
+<p local-id=3D"5622699f54ae"><strong>Field</strong></p></td>
+<td data-local-id=3D"7547fd8c-e21e-42ce-a6fb-399d6dcb3231" class=3D"conflue=
+nceTd">
+<p local-id=3D"35ba3ff680fe">Upgraded Reservation IDs</p></td>
+<td data-local-id=3D"e68a25bc-df64-4a11-87b8-7f515b82f23a" class=3D"conflue=
+nceTd">
+<p local-id=3D"25f0246bc9cc"><strong><span data-colorid=3D"lzcnyzdb00">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"c214641f-054c-4c16-a285-191784de061d" class=3D"conflue=
+nceTd">
+<p local-id=3D"752c123176cc">The list to iterate over. Pre-configured to us=
+e the Upgraded Reservation IDs array from the Upgrade Assigned Room Categor=
+y component.</p></td>
+</tr>
+<tr data-local-id=3D"ae189b7e-b03e-43f7-8a16-1b427d17ad27">
+<td data-local-id=3D"c6c7d4d2-9c53-41ff-8a2b-d2b1386f8c20" class=3D"conflue=
+nceTd">
+<p local-id=3D"51f894c34d87"><strong>Delay</strong></p></td>
+<td data-local-id=3D"dfe4729c-bf44-4c09-8d8e-63c52893b496" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5c05979df60"><em>Not set</em></p></td>
+<td data-local-id=3D"690ec3ee-efcc-4f41-9988-3572db696dd6" class=3D"conflue=
+nceTd">
+<p local-id=3D"e8f3c1133f47"><strong>Optional</strong></p></td>
+<td data-local-id=3D"da7dadb6-6003-4443-b57f-bdb1db639ba8" class=3D"conflue=
+nceTd">
+<p local-id=3D"4fa91097e113">Delay between processing each item, in millise=
+conds. Can be used to add a pause between sending SMS messages if needed.</=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"1813e2ab-9d4e-407a-a4eb-bc964844f99b">
+<h3 local-id=3D"0ede9c733cbc" id=3D"Upgraderoomforloyaltymembers(flow)-6.Se=
+ndSMS">6. Send SMS</h3>
+<p local-id=3D"059b3ee4e974">Sends an SMS message to the guest for each suc=
+cessfully upgraded reservation. The guest is notified about their room upgr=
+ade.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"6d74879d-b62f-4690-90ec-af9=
+e548a0650" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"36e543c1-be67-4781-a1ef-a66699d9af2a">
+<th data-local-id=3D"0093abf1-de4f-42d6-acd6-4fc3633757c3" class=3D"conflue=
+nceTh">
+<p local-id=3D"81ebe22705d4">Field</p></th>
+<th data-local-id=3D"55d2a564-0d35-4b8b-8d11-60644b82f749" class=3D"conflue=
+nceTh">
+<p local-id=3D"72d0c4976afb">Default Value</p></th>
+<th data-local-id=3D"c54471a6-a87a-41f3-821a-819a7d03f11e" class=3D"conflue=
+nceTh">
+<p local-id=3D"de6cc278c319">Status</p></th>
+<th data-local-id=3D"e034d3a0-5deb-41ed-8a8f-02db69fd4fe3" class=3D"conflue=
+nceTh">
+<p local-id=3D"255492386bce">Description</p></th>
+</tr>
+<tr data-local-id=3D"0c11e27c-41ed-45f8-a03c-de9fd0626d93">
+<td data-local-id=3D"c1dc9c8a-f9e2-47ef-a2cc-0d76b98742fe" class=3D"conflue=
+nceTd">
+<p local-id=3D"4abef6cf3b50"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"1df47d5a-adbf-4bfd-8e2e-4e998cee4dfc" class=3D"conflue=
+nceTd">
+<p local-id=3D"54a136347950"><em>From previous step</em></p></td>
+<td data-local-id=3D"dea90f2f-e470-4066-9ed5-80d0cb0aa207" class=3D"conflue=
+nceTd">
+<p local-id=3D"02fe278b871d"><strong><span data-colorid=3D"fumasiiseq">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"c98f01f8-c12e-4335-bfa6-ac58cc0208cc" class=3D"conflue=
+nceTd">
+<p local-id=3D"398e84540f66">Automatically populated from the upstream work=
+flow data. Identifies which guest should receive the SMS.</p></td>
+</tr>
+<tr data-local-id=3D"dbc8d613-54c0-4a64-839a-e9849e6dd445">
+<td data-local-id=3D"547a3c3a-4298-45b3-95bc-f4fd19c19907" class=3D"conflue=
+nceTd">
+<p local-id=3D"3fe5687cdb03"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"e53bfa00-8720-4b12-8da4-4027decacdf8" class=3D"conflue=
+nceTd">
+<p local-id=3D"bac39a4b924a"><em>From previous step</em></p></td>
+<td data-local-id=3D"e7e07f0a-6354-4249-b2af-219df13b7f1d" class=3D"conflue=
+nceTd">
+<p local-id=3D"53aa1589c350"><strong><span data-colorid=3D"iz0it71q6g">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"4a9242f4-812f-4237-ac6f-4ca0a7c33550" class=3D"conflue=
+nceTd">
+<p local-id=3D"1690087fe63d">Automatically populated from the Each iterator=
+. Links the SMS to the specific reservation.</p></td>
+</tr>
+<tr data-local-id=3D"a912498d-b601-41a2-98bd-a0b9bfff7f6d">
+<td data-local-id=3D"21decb74-5ce8-4e64-83ff-6c9f0362d4b8" class=3D"conflue=
+nceTd">
+<p local-id=3D"cca9fe9aa3f3"><strong>Message body</strong></p></td>
+<td data-local-id=3D"56d370cc-f2e9-4800-969f-cf859d287bf0" class=3D"conflue=
+nceTd">
+<p local-id=3D"c19a41f9692f"><em>Pre-filled template</em></p></td>
+<td data-local-id=3D"2dd46ce5-8e11-4ff1-ac53-8ad26af550e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"56f5a62397cf"><strong><span data-colorid=3D"shp11a7k38">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"4c319b76-7ba6-4635-9aa2-fbdb785039f7" class=3D"conflue=
+nceTd">
+<p local-id=3D"3041146cf856">The text content of the SMS. A default message=
+ is included that informs the guest about their room upgrade. You can custo=
+mize this message to match your property's tone and branding.</p></td>
+</tr>
+<tr data-local-id=3D"22ddf3ab-6dfc-4be9-bf91-d855e047f39a">
+<td data-local-id=3D"8eec770e-ad51-4ba4-94b7-00e99265b8ce" class=3D"conflue=
+nceTd">
+<p local-id=3D"a448d9057d29"><strong>Sender</strong></p></td>
+<td data-local-id=3D"a073f5d2-a1ad-4597-86bc-3f0c932b2cdd" class=3D"conflue=
+nceTd">
+<p local-id=3D"8fa8e33fddc7">Hotel</p></td>
+<td data-local-id=3D"297cb1bf-eecc-497e-b88e-6a243abf273f" class=3D"conflue=
+nceTd">
+<p local-id=3D"e8a3760c6890"><strong><span data-colorid=3D"lfb7b88grq">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"e1514953-59a0-4228-a99b-545e1012608f" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff0bdf6e39b0">Who the message is sent on behalf of. Set to <=
+strong>Hotel</strong> by default. Can be changed to <strong>Guest</strong> =
+if needed.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"23da1315f580"><strong>Note:</strong> The SMS is sent to the =
+phone number associated with the guest's profile. Ensure that guest profile=
+s have valid phone numbers for SMS delivery to succeed.</p>
+<hr local-id=3D"59c818c0-880a-4ffc-8dae-96b2ada0456b">
+<h3 local-id=3D"182388c50158" id=3D"Upgraderoomforloyaltymembers(flow)-7.Ad=
+dNotetoReservation">7. Add Note to Reservation</h3>
+<p local-id=3D"432f1986a39e">For reservations where the upgrade failed, thi=
+s component adds a note to each reservation. This ensures hotel staff can s=
+ee which reservations were eligible for an upgrade but could not be process=
+ed, along with the reason for the failure.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"98f57567-385a-499e-bc4f-a63=
+12f912699" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"18b6834e-5aa0-43a8-90a9-3431d8c0ed8b">
+<th data-local-id=3D"077664a3-d23b-445b-9699-2b912c931a6f" class=3D"conflue=
+nceTh">
+<p local-id=3D"a510cc4d4449">Field</p></th>
+<th data-local-id=3D"fa546a5c-961b-4a1d-80d9-05b9551d2a1c" class=3D"conflue=
+nceTh">
+<p local-id=3D"f52c0c5067ec">Default Value</p></th>
+<th data-local-id=3D"19224510-8874-4370-8776-3b1b0f504403" class=3D"conflue=
+nceTh">
+<p local-id=3D"9dc41a05be2f">Status</p></th>
+<th data-local-id=3D"2e27fe4c-b9dc-4fce-b9e1-1e45deabdb82" class=3D"conflue=
+nceTh">
+<p local-id=3D"ffa7694c954f">Description</p></th>
+</tr>
+<tr data-local-id=3D"1f0b44fe-4dd2-413e-879f-8e93995e5289">
+<td data-local-id=3D"64399180-ca79-4eb3-81e8-30ef9e867976" class=3D"conflue=
+nceTd">
+<p local-id=3D"d99d0d04986c"><strong>Reservation IDs</strong></p></td>
+<td data-local-id=3D"c2c11c48-8de1-4004-a346-3bfb7e77af5c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6318ae2d60fa"><em>From previous step</em></p></td>
+<td data-local-id=3D"5c6984bc-3bcb-48c0-bb2a-133188fb5ce1" class=3D"conflue=
+nceTd">
+<p local-id=3D"90974589a8bb"><strong><span data-colorid=3D"v5tgcdvlri">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"f1cb7a6a-11c5-4320-b188-3eddb9a5b328" class=3D"conflue=
+nceTd">
+<p local-id=3D"9248d7cece92">Automatically populated with the list of reser=
+vation IDs that failed to upgrade from the Upgrade Assigned Room Category c=
+omponent.</p></td>
+</tr>
+<tr data-local-id=3D"eee11382-fdb6-48ae-a910-d69d75a2c5b8">
+<td data-local-id=3D"47d02542-8a2f-49f6-a2a3-eb1b4cf1cb03" class=3D"conflue=
+nceTd">
+<p local-id=3D"b5aa08278768"><strong>Note Text</strong></p></td>
+<td data-local-id=3D"c47fe5ad-e846-4e44-a4e2-b3af63036dc0" class=3D"conflue=
+nceTd">
+<p local-id=3D"d9c4227373ab"><em>Pre-filled template</em></p></td>
+<td data-local-id=3D"456b92e0-9fd6-4836-b906-263a4c1c387f" class=3D"conflue=
+nceTd">
+<p local-id=3D"764c2224e2e9"><strong><span data-colorid=3D"yx736bth0v">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"b6f73770-3a62-4ce1-86ec-a6153b023830" class=3D"conflue=
+nceTd">
+<p local-id=3D"14af248428f8">The text of the note added to each reservation=
+. A default message is included that describes the failed upgrade attempt. =
+You can customize this to include additional instructions or context for yo=
+ur team. Maximum 1,000 characters.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"e8988406-85b6-4786-8461-d15db8681583">
+<h2 local-id=3D"fed102b13e78" id=3D"Upgraderoomforloyaltymembers(flow)-Setu=
+pChecklist">Setup Checklist</h2>
+<p local-id=3D"4ec2a2b22dcb">Use the following checklist to set up the flow=
+ before running it for the first time:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"08457d04-d7f5-419a-ae3a-383=
+d7c130c54" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"0aed6dd6-0ab6-4a46-992c-28d01ca4aa9d">
+<th data-local-id=3D"f0cd4f52-0393-44a0-8a11-132a2b09076e" class=3D"conflue=
+nceTh">
+<p local-id=3D"d1280abbeb75">#</p></th>
+<th data-local-id=3D"9588ec92-5da0-4db9-9a1e-91d417e01f0b" class=3D"conflue=
+nceTh">
+<p local-id=3D"2a63e0997f29">Status</p></th>
+<th data-local-id=3D"f51bac17-0955-415d-9263-c8fd65d60c99" class=3D"conflue=
+nceTh">
+<p local-id=3D"971db10cfa16">Step</p></th>
+<th data-local-id=3D"ec7109df-196d-4de7-ae60-e218cfad657a" class=3D"conflue=
+nceTh">
+<p local-id=3D"d1ee9d7e526f">Details</p></th>
+</tr>
+<tr data-local-id=3D"b30ffad9-0e83-4817-a01f-4cc47c090e80">
+<td data-local-id=3D"dd725e08-da1d-4d66-978a-d3c5ff0e26a3" class=3D"conflue=
+nceTd">
+<p local-id=3D"8aa822d56761">1</p></td>
+<td data-local-id=3D"2fa4c847-65a0-40de-bfbf-36fc5a17c715" class=3D"conflue=
+nceTd">
+<p local-id=3D"51e6ad0b23a5"><strong>Required</strong></p></td>
+<td data-local-id=3D"faf5594d-75a1-4653-b84a-c0d0c736b59b" class=3D"conflue=
+nceTd">
+<p local-id=3D"402325567738"><strong>Configure Upgrade Paths</strong></p></=
+td>
+<td data-local-id=3D"4b44feb9-3118-40a6-8d1a-e09d34ce7ac6" class=3D"conflue=
+nceTd">
+<p local-id=3D"64e20b12fa2b">Open the <strong>Upgrade Assigned Room Categor=
+y</strong> component and define your upgrade paths. Map each source room ca=
+tegory to its target category (e.g., Standard =E2=86=92 Deluxe). You can ad=
+d multiple rows for cascading upgrades.</p></td>
+</tr>
+<tr data-local-id=3D"0f6563a3-ea9b-4159-a610-8e554acde1bc">
+<td data-local-id=3D"19335ddf-f090-4331-825d-3d0cceee5ff0" class=3D"conflue=
+nceTd">
+<p local-id=3D"d5d46b3f07ae">2</p></td>
+<td data-local-id=3D"3ec1c566-4ce4-4bff-a887-320da303796a" class=3D"conflue=
+nceTd">
+<p local-id=3D"bb8e94c8bc04"><strong>Optional</strong></p></td>
+<td data-local-id=3D"42543f09-e81b-467c-9599-0c54eddf94e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d1cc4648fbb">Adjust the schedule</p></td>
+<td data-local-id=3D"6b40f5c5-834f-4bb8-b6a0-2c25aead228b" class=3D"conflue=
+nceTd">
+<p local-id=3D"19c5e8ccd0b6">The flow runs daily at 12:00 (noon) by default=
+. Modify the <strong>Cron Scheduler</strong> if you prefer a different time=
+ or frequency.</p></td>
+</tr>
+<tr data-local-id=3D"6ff6d445-2271-4785-9c35-9ee598b336b5">
+<td data-local-id=3D"540fa6ac-8a3c-49b3-b032-f4b388bf0afa" class=3D"conflue=
+nceTd">
+<p local-id=3D"62ce1cade00c">3</p></td>
+<td data-local-id=3D"497964a1-bfad-4a7e-9a86-626e6165deb4" class=3D"conflue=
+nceTd">
+<p local-id=3D"24ecbdb0db9e"><strong>Optional</strong></p></td>
+<td data-local-id=3D"751b9049-6f03-423f-86c7-bbc7e42476f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"4db6710b0a5a">Set occupancy threshold</p></td>
+<td data-local-id=3D"1960f96b-8829-4409-9da9-ee889969f6f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"7162be023b52">The default is 100% (only stops when fully occ=
+upied). Lower this in <strong>Check Occupancy</strong> if you want to be mo=
+re conservative.</p></td>
+</tr>
+<tr data-local-id=3D"9ae7192c-a6e7-497b-857c-1aa29b078337">
+<td data-local-id=3D"9fb150af-dce8-444f-8d61-a18ccbcfa128" class=3D"conflue=
+nceTd">
+<p local-id=3D"1be6b875be3a">4</p></td>
+<td data-local-id=3D"05e42c46-c4e6-4f7e-b144-5e4efec07e12" class=3D"conflue=
+nceTd">
+<p local-id=3D"70d5deaa475c"><strong>Optional</strong></p></td>
+<td data-local-id=3D"c620f1ef-c89a-4cd0-9a83-73483d583e2b" class=3D"conflue=
+nceTd">
+<p local-id=3D"3dc01ebd32e9">Configure loyalty &amp; behavioral filters</p>=
+</td>
+<td data-local-id=3D"8c7243d2-1e42-4b39-a58e-2284eef05f53" class=3D"conflue=
+nceTd">
+<p local-id=3D"e41e98fe2e2f">By default, all arriving guests are eligible. =
+Add filters in <strong>Get Eligible Arrivals</strong> to target specific lo=
+yalty programs, tiers, or behavioral segments.</p></td>
+</tr>
+<tr data-local-id=3D"a9fae80e-b460-46f6-91fa-fe04ce1a386a">
+<td data-local-id=3D"8ececb0b-050a-4f28-8224-02d701ff9e62" class=3D"conflue=
+nceTd">
+<p local-id=3D"7bcfaedf595c">5</p></td>
+<td data-local-id=3D"0e135688-dec8-45c5-bf6d-dc45c3ec2119" class=3D"conflue=
+nceTd">
+<p local-id=3D"613c371bb340"><strong>Optional</strong></p></td>
+<td data-local-id=3D"34f735d4-09e1-4e2f-aa8d-53ae755d0596" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c48bebeb5fa">Set availability buffer</p></td>
+<td data-local-id=3D"8f47e4bb-3a13-44f1-bac3-bb8a107caa8d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ae06455a19ed">The default buffer is <code>0</code> (no rooms=
+ reserved). Increase this in <strong>Upgrade Assigned Room Category</strong=
+> to retain rooms for direct bookings.</p></td>
+</tr>
+<tr data-local-id=3D"66db8543-1a94-48f9-84c2-f9fa0d679a9e">
+<td data-local-id=3D"c0005443-adf2-4bda-871e-001fb73daa23" class=3D"conflue=
+nceTd">
+<p local-id=3D"e7cc9df2869d">6</p></td>
+<td data-local-id=3D"e3575b1d-2a30-4ef9-97c6-c8ece72e1665" class=3D"conflue=
+nceTd">
+<p local-id=3D"0475ad5ab5d9"><strong>Optional</strong></p></td>
+<td data-local-id=3D"72cc92b5-ebc7-454f-83fa-c6d2366bd818" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8d640283d2f">Customize SMS message</p></td>
+<td data-local-id=3D"04d8e2e8-ab0e-48dd-b195-5952ce3cf771" class=3D"conflue=
+nceTd">
+<p local-id=3D"44d42b870818">Edit the message body in <strong>Send SMS</str=
+ong> to match your property's tone and branding.</p></td>
+</tr>
+<tr data-local-id=3D"8b52d9a3-f736-472d-a269-2e6c23ac76f5">
+<td data-local-id=3D"1927c9e8-452e-4622-afb2-3fc6b0833796" class=3D"conflue=
+nceTd">
+<p local-id=3D"6dd296935004">7</p></td>
+<td data-local-id=3D"573ac85b-5972-4ed2-9e15-8698c8b2be46" class=3D"conflue=
+nceTd">
+<p local-id=3D"063581836920"><strong>Optional</strong></p></td>
+<td data-local-id=3D"c802e119-7cf8-4faa-b06b-a158a5e02de0" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4ecb3a8f32b">Customize reservation note</p></td>
+<td data-local-id=3D"d9b1ee40-d39f-4622-a863-91eb0902997c" class=3D"conflue=
+nceTd">
+<p local-id=3D"84aaa7e38589">Edit the note text in <strong>Add Note to Rese=
+rvation</strong> to include additional context for your staff.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"f80617aa-e2ca-4794-ad3b-dedc0b418752">
+<h2 local-id=3D"b942cda89a91" id=3D"Upgraderoomforloyaltymembers(flow)-Exam=
+pleUseCases">Example Use Cases</h2>
+<ul local-id=3D"c4a56799-0643-4360-bad8-7b272ecb3007">
+<li local-id=3D"18b29f67-2509-4ccb-93da-f66f4cb4ef0e">
+<p local-id=3D"4aa8ed9318b8"><strong>Loyalty-based upgrades:</strong> Confi=
+gure the Get Eligible Arrivals component to filter by your loyalty program =
+and Gold/Platinum tiers. Only your most loyal guests receive automatic upgr=
+ades.</p></li>
+<li local-id=3D"d8d0be7e-35df-4334-880e-50c4858fb72f">
+<p local-id=3D"125c1e40b626"><strong>High-value guest recognition:</strong>=
+ Use the behavioral signal filters (revenue threshold, stay count) to autom=
+atically upgrade frequent or high-spending guests, even if they are not enr=
+olled in a loyalty program.</p></li>
+<li local-id=3D"5acf03cc-9f0c-4199-9ec9-3487c932e85c">
+<p local-id=3D"ae23716d652e"><strong>Conservative upgrade policy:</strong> =
+Set the occupancy threshold to 80% and the availability buffer to 2 to ensu=
+re upgrades only happen when the property has plenty of capacity and at lea=
+st 2 rooms remain available in each target category.</p></li>
+<li local-id=3D"2496b2b0-399b-414d-b118-c8a814e2606d">
+<p local-id=3D"e5dd5c1cc0c2"><strong>Weekday-only upgrades:</strong> Modify=
+ the Cron Scheduler to run only Monday through Friday by setting Day of the=
+ Week to <code>1-5</code>, avoiding upgrades during peak weekend periods.</=
+p></li>
+</ul>
+<hr local-id=3D"a6e2a09a-d312-4329-bec8-b475b472908a">
+<h2 local-id=3D"5738864d5bcc" id=3D"Upgraderoomforloyaltymembers(flow)-Trou=
+bleshooting">Troubleshooting</h2>
+<h4 local-id=3D"9a9b9d7912b8" id=3D"Upgraderoomforloyaltymembers(flow)-Thef=
+lowrunsbutnoupgradeshappen">The flow runs but no upgrades happen</h4>
+<ul local-id=3D"f94e23ba-e970-4f1f-ae86-b0cee3dc1145">
+<li local-id=3D"a6837c99-6cdd-45e5-a022-14d5de1bf1af">
+<p local-id=3D"ae13211954bf">Check that the <strong>Upgrade Paths</strong> =
+are configured correctly and match existing room categories in your propert=
+y.</p></li>
+<li local-id=3D"610a5d00-5849-42d3-9ccb-a77b3714f173">
+<p local-id=3D"27072b3752de">Verify that there are arrivals for the current=
+ date with assigned rooms in the source categories of your upgrade paths.</=
+p></li>
+<li local-id=3D"007cfca0-fe0f-428c-baaa-c58eb86b41ab">
+<p local-id=3D"8de3b50c1aeb">Check the <strong>Check Occupancy</strong> com=
+ponent =E2=80=94 if occupancy is above the threshold, the flow stops before=
+ reaching the upgrade step.</p></li>
+<li local-id=3D"8b3afa17-33b5-4730-bfbb-eb3c08c9d7f4">
+<p local-id=3D"47ac68cafbe0">If you configured loyalty or behavioral filter=
+s, ensure that arriving guests meet the criteria.</p></li>
+</ul>
+<h4 local-id=3D"86078b3da21a" id=3D"Upgraderoomforloyaltymembers(flow)-Some=
+reservationsfailtoupgrade">Some reservations fail to upgrade</h4>
+<p local-id=3D"f1c715cf1895">Reservations may fail for the following reason=
+s:</p>
+<ul local-id=3D"d9eafe48-327c-47f7-94e0-a8af2a61795a">
+<li local-id=3D"3bd27b6e-4bb1-4731-8540-2b4f27008495">
+<p local-id=3D"ebb29614f1aa"><strong>NO_AVAILABILITY:</strong> There are no=
+ available rooms in the target category (above the buffer threshold).</p></=
+li>
+<li local-id=3D"7eed792d-e493-462e-8cab-9799e072717a">
+<p local-id=3D"f7cb652ccdfb"><strong>CAP_REACHED:</strong> The maximum numb=
+er of upgrades per run has been reached.</p></li>
+<li local-id=3D"d79129e9-ab90-41d8-8af4-060def0fd559">
+<p local-id=3D"727bb1819b89"><strong>NO_CATEGORY_FOUND:</strong> The reserv=
+ation's current room category does not have a defined upgrade path.</p></li=
+>
+</ul>
+<p local-id=3D"c71a155d57ea">Failed reservations will have a note added aut=
+omatically so your team can follow up manually if needed.</p>
+<h4 local-id=3D"a100657189c5" id=3D"Upgraderoomforloyaltymembers(flow)-SMSm=
+essagesarenotdelivered">SMS messages are not delivered</h4>
+<ul local-id=3D"c19b10f7-232a-40e4-b622-ebad75861af4">
+<li local-id=3D"6d2f595d-0f36-4268-b9a8-5854d55e43c5">
+<p local-id=3D"6841b0cb4a94">Ensure that the guest profiles have valid phon=
+e numbers configured.</p></li>
+<li local-id=3D"c26a6332-a8a0-41b2-9391-37ea2739e068">
+<p local-id=3D"f8cd3c8366bc">Check that SMS messaging is enabled for your p=
+roperty.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_40_1123211427.1777536486386
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/42d879c27274fb956a4d44729830dac0df79d06568edb367e5975d338bda0848
+
+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
+v4s//osnceLYnDd5o9fhHd/xnei6jszkXysNv/lnlTd99QBgtTqk1p5aO14UmfArf5y8zstORHDV
+fw4AKlddddVVV/2XSsPJHTOMyd8+WUgQ2iZtwNzPwDiKvjMvyDjBqR2zswW1mN/5SzPrIGIT29jm
+X0uCSwdwYttEQDb+Q9VaedrTnsZHfMRHkGlOnzrONK34tm/7dp70pCfzOZ/zOUjCNv8aXYGNufnt
+PzeLGaBNwNjmXyJgNcD2IqkVMrnqPwcAWq/X5qqrrrrqqv9SEqwGuHQA4nkJWI/wO38VvNErJWme
+LwlOHoMS0BLO74LNv1spcOoY/yn6vueTP/mT+du//VtOnjzJG7zBG/D4xz+eu+66i6c97Wl88Rd/
+Ma/+6q/OMAz8a9lwfhfS/KuF4PQJrvrPBUDlqquuuuqq/3I2zHvYOMXzJcFqDSe24bpTkOYFagk2
+hODaU/yHyeQ/nCQODw950pOexKlTp3i913s9Xvd1X5fHPOYx/Mqv/Ap33303f/u3f8urv/qr828h
+wTWn+DfL5Kr/XABUrrrqqquu+m9hQzPPlwQtIQ0tIc2LJJP/8UopdF1Ha43bb7+d3d1dbr/9dnZ3
+d8lMFosF/x6ZXPU/FwCVq6666qqrrvovYpv5fM5rvuZr8iM/8iPUWvmlX/ol7r77bu6++25aa7z6
+q786mclV/ycBULnqqquuuuqq/0LTNPFe7/VePOUpT+HP/uzPOHf2HqYpWa0HPuIjPoJHPOIRDMPA
+Vf8nAaD1em2uuuqqq676H0WC1Rp+/c+Ct3j1JM3/KRHBNE38wR/8Lj/2c3/PQ2/e5K3e/DV55CMf
+zTiOXPV/FgCVq6666qqrrvovlpmUUni913tDjvo35KUeAbdclwzDyFX/pwFQueqqq6666qr/BrbB
+A9MYDINpk7nq/zwAKlddddVVV1111VX/NQCoXHXVVVddddVVV/3XAKBy1VVXXXXVVVdd9V8DgMpV
+V1111VVXXXXVfw0AKlddddVVV1111VX/NQCoXHXVVVddddV/J3GFuOr/PgCCq6666qqr/ucxlAKt
+AQLxf5SgJSxmYHPV/30AVK666qqrrvofx8C8h76Dv3yCeKlHmlr4PyUTnnKbuLgnTh9PnFz1fx8A
+Wq/X5qqrrrrqqv9xJFgP8Bt/FizXMO/5P2VKsOHVXtJce9K05Kr/+wDQer02V1111VVX/Y8kQS2w
+HmA98n9KV2Hegw0tuer/BwC0Xq/NVVddddVV/+NJ/J9ic9X/PwBUrrrqqquu+l/B5qqr/rcDoHLV
+VVddddVVV131XwOAylVXXXXVVVddddV/DQAqV1111VVXXXXVVf81AKhcddVVV1111VVX/dcAoHLV
+VVddddVVV131XwOAylVXXXXVVVddddV/DQAqV1111VVXXXXVVf81AKhcddVVV1111VVX/dcAoHLV
+VVddddVVV131XwOAylVXXXXVVVddddV/DQAqV1111VVXXXXVVf81AKhcddVVV1111VVX/dcAoHLV
+VVddddVVV131XwOAylVXXXXVVVddddV/DQAqV1111VVXXXXVVf81AKhcddVVV1111VVX/dcAoHLV
+VVddddVVV131XwOAylVXXXXVVVddddV/DQAqV1111VVXXXXVVf81AKhcddVVV1111VVX/dcAoHLV
+VVddddVVV131XwOAfwSjEB5ZCTRrWwAAAABJRU5ErkJggg==
+------=_Part_40_1123211427.1777536486386--

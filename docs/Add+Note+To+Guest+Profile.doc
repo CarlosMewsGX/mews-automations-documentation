@@ -1,0 +1,675 @@
+Date: Thu, 30 Apr 2026 08:09:09 +0000 (UTC)
+Message-ID: <1721635679.11.1777536549837@a0659d706899>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_588212939.1777536549836"
+
+------=_Part_10_588212939.1777536549836
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Add Note To Guest Profile</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Add Note To Guest Profile</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"857377105737"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"ada5aa3bee9f"><strong>Category:</strong> Guests &amp; Compan=
+ies</p>
+<h2 local-id=3D"bf79fffb0cbd" id=3D"AddNoteToGuestProfile-Overview">Overvie=
+w</h2>
+<p local-id=3D"c2c3e944af8e">The <strong>Add Note To Guest Profile</strong>=
+ action adds a text note to a guest's profile in Mews. Each note includes a=
+ classification that categorizes it (e.g., Housekeeping, Front Office, Comp=
+laints), making it easy for your team to find and filter relevant informati=
+on later. This is useful for automating guest communication records as part=
+ of a workflow =E2=80=94 for example, automatically logging a special reque=
+st when a reservation is created, or recording a complaint reported via an =
+external system.</p>
+<p local-id=3D"fd4a6ab0b559">When the note is successfully added, the compo=
+nent outputs the note details (note ID, guest ID, content, classification, =
+and active status) on the <strong>out</strong> port, which can be used by s=
+ubsequent steps in your workflow.</p>
+<hr local-id=3D"6bc98fa4-8e11-495d-b505-f1b3d74cf395">
+<h2 local-id=3D"1dff7d5e1272" id=3D"AddNoteToGuestProfile-InputFields">Inpu=
+t Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"8486a452-1966-42e0-b435-81c=
+b1ba10123" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2371a0d8-68e0-43bc-9c0d-258062830e82">
+<th data-local-id=3D"3ff3ecbe-33f8-46c5-b5b6-a50adb43b781" class=3D"conflue=
+nceTh">
+<p local-id=3D"0d8f87db9737">Field</p></th>
+<th data-local-id=3D"89721fe9-5586-41a8-acf8-ff0f51fbd1c8" class=3D"conflue=
+nceTh">
+<p local-id=3D"d32821060125">Required</p></th>
+<th data-local-id=3D"d086bca1-2e39-48d0-ba87-e9742ae212fe" class=3D"conflue=
+nceTh">
+<p local-id=3D"d57c937c24a2">Type</p></th>
+<th data-local-id=3D"eb5d866c-92cd-4fcc-bde8-dccf6a298562" class=3D"conflue=
+nceTh">
+<p local-id=3D"4d1c280701b0">Description</p></th>
+</tr>
+<tr data-local-id=3D"dc0a5b21-cfca-477e-9edd-f7bb96af940a">
+<td data-local-id=3D"0fa1992b-f4cb-4bed-8b32-0b4802b18fb9" class=3D"conflue=
+nceTd">
+<p local-id=3D"769e5759aa99"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"5fea88e6-41ff-44f1-9694-fd0780a66a6b" class=3D"conflue=
+nceTd">
+<p local-id=3D"81dfdd044c81"><strong>Required</strong></p></td>
+<td data-local-id=3D"10ebc0b5-5ef5-43e4-b9f6-97cd77972cf0" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb59f973522a">Text (GUID)</p></td>
+<td data-local-id=3D"281d406d-9683-4c05-8837-f69a16cff0ed" class=3D"conflue=
+nceTd">
+<p local-id=3D"73fae0a143dd">The unique identifier of the guest whose profi=
+le the note will be added to. Typically populated dynamically from a previo=
+us step in the workflow (e.g., a trigger that provides a guest ID).</p></td=
+>
+</tr>
+<tr data-local-id=3D"d115520e-4f12-4b9a-8b39-941ca367ec07">
+<td data-local-id=3D"b227365a-bf2a-41f9-b398-1945d76fd535" class=3D"conflue=
+nceTd">
+<p local-id=3D"d45d0dcfd30b"><strong>Note</strong></p></td>
+<td data-local-id=3D"8814af02-0399-4cb8-a539-b2a216286ea8" class=3D"conflue=
+nceTd">
+<p local-id=3D"ca8f3d4ee24e"><strong>Required</strong></p></td>
+<td data-local-id=3D"ab2c63f7-88ca-4b9a-b7b4-b8a4823768ba" class=3D"conflue=
+nceTd">
+<p local-id=3D"97d1ae02b1b8">Text (multiline)</p></td>
+<td data-local-id=3D"eceb468f-379e-4d07-911d-2fc1f1d6f520" class=3D"conflue=
+nceTd">
+<p local-id=3D"e89121b56d9c">The content of the note to add to the guest's =
+profile. It cannot be empty or whitespace-only. Maximum <strong>1000 charac=
+ters</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"f318b80a-0ef7-49e6-8cc4-5e853c8f3448">
+<td data-local-id=3D"d25b32c0-f174-4611-81b9-654ee953083f" class=3D"conflue=
+nceTd">
+<p local-id=3D"0769dd7d3e5e"><strong>Classification</strong></p></td>
+<td data-local-id=3D"9ffc0be0-eee6-4e44-adcd-9419f7dee92c" class=3D"conflue=
+nceTd">
+<p local-id=3D"e120d9600387"><strong>Required</strong></p></td>
+<td data-local-id=3D"cc11f6f7-810c-4c62-bc39-785aa73508ec" class=3D"conflue=
+nceTd">
+<p local-id=3D"392bdb68d5b1">Dropdown (select)</p></td>
+<td data-local-id=3D"0fe6938a-a774-439f-bdcd-6260d4c0b41b" class=3D"conflue=
+nceTd">
+<p local-id=3D"29da0b8d8794">The category of the note. Defaults to <strong>=
+General</strong>. Available options:</p>
+<ul local-id=3D"8f9e8474-e95a-420c-87d0-208d7f3f44bc">
+<li local-id=3D"34bdd973-ede5-405b-9307-e22c63acd5ea">
+<p local-id=3D"0998a843352e"><strong>General</strong> (default)</p></li>
+<li local-id=3D"a44fd16d-e662-4373-931f-3c39718f60c4">
+<p local-id=3D"9ed1f47555eb"><strong>Food &amp; Beverage</strong></p></li>
+<li local-id=3D"981f83ac-2b97-4b05-b0b9-77f9408b707d">
+<p local-id=3D"73ff4d287bbf"><strong>Front Office</strong></p></li>
+<li local-id=3D"9208920c-19bb-4ee3-aa4c-9d0607c127e5">
+<p local-id=3D"53e7b0f7f9f2"><strong>Reservations</strong></p></li>
+<li local-id=3D"353b3ee9-a355-4fb1-8608-50c9d325f88f">
+<p local-id=3D"dab096a6f977"><strong>Housekeeping</strong></p></li>
+<li local-id=3D"9f9643f3-949c-4f08-8caa-e4edcf8465ce">
+<p local-id=3D"076da2935611"><strong>Maintenance</strong></p></li>
+<li local-id=3D"964d4a08-8ab2-4c50-84e6-8a1129eedbc9">
+<p local-id=3D"49e5349885a6"><strong>Previous Stay</strong></p></li>
+<li local-id=3D"0e9b883d-122c-415b-8e5b-ef8ef587b3b9">
+<p local-id=3D"776f20569ff2"><strong>Family Relations</strong></p></li>
+<li local-id=3D"a01fa6ef-9fcb-44eb-805b-67ad60d8c500">
+<p local-id=3D"67fa1dcf2f95"><strong>Gifts</strong></p></li>
+<li local-id=3D"1522c1e4-b3c8-4dc0-b1e2-e90e382d7ae2">
+<p local-id=3D"1c0781176466"><strong>Accounting</strong></p></li>
+<li local-id=3D"68da5307-00d1-44b6-882a-e5892c011cde">
+<p local-id=3D"87ccce4e34eb"><strong>Complaints</strong></p></li>
+<li local-id=3D"76732032-a4aa-4379-b93a-a6e595741daa">
+<p local-id=3D"299d217652e8"><strong>Other</strong></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"44cc4c91-42f2-4abe-8be9-b8966bc5175f">
+<h2 local-id=3D"751ec7b2f756" id=3D"AddNoteToGuestProfile-OutputFields">Out=
+put Fields</h2>
+<p local-id=3D"8fb55e40d378">When the note is successfully added, the follo=
+wing values are available on the <strong>out</strong> output port for use i=
+n subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fe7d0097-f88b-4884-809e-cab=
+e6bb5a87e" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"cdd24314-093e-40e5-985c-56c03fb15520">
+<th data-local-id=3D"0094ca70-ce9d-4f11-bc54-0b5ed9f34094" class=3D"conflue=
+nceTh">
+<p local-id=3D"b369f05cd471">Field</p></th>
+<th data-local-id=3D"3863f81a-cfcf-4681-97f9-3b14d60649c3" class=3D"conflue=
+nceTh">
+<p local-id=3D"50623958a217">Type</p></th>
+<th data-local-id=3D"b4849141-47ce-4356-ba52-59b51abd1794" class=3D"conflue=
+nceTh">
+<p local-id=3D"a2f6468cc15a">Description</p></th>
+</tr>
+<tr data-local-id=3D"9106382a-69e9-456f-bad2-b824ae9a839d">
+<td data-local-id=3D"d5c56925-a513-4d74-8f9b-7c786bb328df" class=3D"conflue=
+nceTd">
+<p local-id=3D"1c9700b937ee"><strong>Note ID</strong></p></td>
+<td data-local-id=3D"1335afe9-e97a-49b3-864f-cb67efe4f076" class=3D"conflue=
+nceTd">
+<p local-id=3D"af8caa5a6924">Text (GUID)</p></td>
+<td data-local-id=3D"d26267fe-fe42-49a1-9226-318a8902de94" class=3D"conflue=
+nceTd">
+<p local-id=3D"81bd6ac7e07d">The unique identifier of the newly created not=
+e.</p></td>
+</tr>
+<tr data-local-id=3D"207c5cc9-cea2-403a-a7b2-f1771bbcbc97">
+<td data-local-id=3D"8aa958f5-bc2b-43f2-abc9-c609a5c7b18a" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c42bf3c5b8e"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"af8427a2-0dc8-4d1d-8a6b-79089ab7f68c" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb3001968809">Text (GUID)</p></td>
+<td data-local-id=3D"859e9308-62f0-4c2f-9f46-701b9f012f56" class=3D"conflue=
+nceTd">
+<p local-id=3D"960251bc0657">The unique identifier of the guest the note wa=
+s added to.</p></td>
+</tr>
+<tr data-local-id=3D"df3a9bfa-f37f-4cf7-93db-a175ffd90950">
+<td data-local-id=3D"067fd89f-a108-4a05-b737-602e69be023d" class=3D"conflue=
+nceTd">
+<p local-id=3D"56210f41ffb0"><strong>Content</strong></p></td>
+<td data-local-id=3D"f9755696-f10d-4594-ac46-5079dc39c9b3" class=3D"conflue=
+nceTd">
+<p local-id=3D"1ac1dc09ce00">Text</p></td>
+<td data-local-id=3D"7484024f-11be-4baa-b261-3252d748b374" class=3D"conflue=
+nceTd">
+<p local-id=3D"b2ed2c9a292e">The content of the note as stored in Mews.</p>=
+</td>
+</tr>
+<tr data-local-id=3D"46384f20-c56c-461d-873d-e9477755c5ab">
+<td data-local-id=3D"b5dea2b4-ec3a-49a0-aa16-f8534f0983a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d97b7214c3b"><strong>Classification</strong></p></td>
+<td data-local-id=3D"77a3079c-0a58-4fec-a4b5-d99a6474d5b3" class=3D"conflue=
+nceTd">
+<p local-id=3D"a14fbc812e26">Text</p></td>
+<td data-local-id=3D"d1f5cde2-2c17-4263-8ca5-e90a4bbad2b4" class=3D"conflue=
+nceTd">
+<p local-id=3D"8e078a0929b1">The classification category assigned to the no=
+te.</p></td>
+</tr>
+<tr data-local-id=3D"7b89d585-84aa-4e36-a095-23f32d97f54c">
+<td data-local-id=3D"7507b4c0-11b1-40c2-a347-8b5593a163b3" class=3D"conflue=
+nceTd">
+<p local-id=3D"3088bde4307b"><strong>Is Active</strong></p></td>
+<td data-local-id=3D"7d9a1625-bfec-479b-a450-a5f3606789f8" class=3D"conflue=
+nceTd">
+<p local-id=3D"e8ade9014c24">Boolean</p></td>
+<td data-local-id=3D"a6b8cfd8-f69b-4d11-b371-19c90ebbcfef" class=3D"conflue=
+nceTd">
+<p local-id=3D"275f33cfa27b">Whether the note is currently active on the gu=
+est's profile.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"1b39d565-7431-4d9a-806b-191c850734a6">
+<h2 local-id=3D"f8a745f6aa13" id=3D"AddNoteToGuestProfile-CooldownSettings"=
+>Cooldown Settings</h2>
+<p local-id=3D"2680e36de2e4">The cooldown feature prevents the action from =
+running repeatedly for the same entity within a defined time window. This i=
+s useful when a workflow may be triggered multiple times in quick successio=
+n (e.g., multiple profile updates for the same guest) and you want to avoid=
+ adding duplicate notes.</p>
+<p local-id=3D"cdec24b4b8b0">Cooldown settings are located in the <strong>C=
+ooldown</strong> section of the component settings, which is collapsed by d=
+efault.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c40d55ad-a5bb-4aae-82d6-b5e=
+f181c05ad" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"be3634b5-3b50-4af8-8d2e-9ade2ea54ecf">
+<th data-local-id=3D"fa183f66-ed9c-4f3b-93cd-15415c1cfd17" class=3D"conflue=
+nceTh">
+<p local-id=3D"aec9ff7665a0">Setting</p></th>
+<th data-local-id=3D"4206bfa7-2acb-4a16-9497-a7d8a8717d2d" class=3D"conflue=
+nceTh">
+<p local-id=3D"7e7f80872011">Required</p></th>
+<th data-local-id=3D"2bc88b30-5df3-4387-a8ad-a64765bdaa3b" class=3D"conflue=
+nceTh">
+<p local-id=3D"aa909d82c58c">Description</p></th>
+</tr>
+<tr data-local-id=3D"d239a068-fe01-42e4-b1db-1a75abf55425">
+<td data-local-id=3D"722625d0-1b6f-4758-95b0-12330c3d0ae0" class=3D"conflue=
+nceTd">
+<p local-id=3D"fceaf4f859ab"><strong>Cooldown period</strong></p></td>
+<td data-local-id=3D"ee4d43df-3628-4d7d-a557-17273b0b26ff" class=3D"conflue=
+nceTd">
+<p local-id=3D"ad66a5e2ab6d"><strong>Optional</strong></p></td>
+<td data-local-id=3D"3345ede7-6858-47af-a626-0112591b3c13" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0dacde0dd05">The number of time units during which the acti=
+on will not run again. Set to <code>0</code> (default) to disable the coold=
+own.</p></td>
+</tr>
+<tr data-local-id=3D"dcbe080c-25d7-482e-9607-78c062faa614">
+<td data-local-id=3D"8671765a-c2e0-4ea3-8f2f-a82687985370" class=3D"conflue=
+nceTd">
+<p local-id=3D"69444bf3dbbf"><strong>Unit</strong></p></td>
+<td data-local-id=3D"028edd36-b18b-412a-adeb-9396c32be10a" class=3D"conflue=
+nceTd">
+<p local-id=3D"f7460d32b04e"><strong>Optional</strong></p></td>
+<td data-local-id=3D"c2a28a30-6cdf-48a3-b6a8-c36636003db6" class=3D"conflue=
+nceTd">
+<p local-id=3D"e1444708a52f">The time unit for the cooldown period. Options=
+: <strong>Minutes</strong>, <strong>Hours</strong>, <strong>Days</strong> (=
+default), <strong>Weeks</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"642c2352-08c6-431f-9dce-dc2a4602573d">
+<td data-local-id=3D"0fce5c01-ff1c-4a9a-82c0-dde2b058ff9c" class=3D"conflue=
+nceTd">
+<p local-id=3D"55aacc77cdca"><strong>Track by</strong></p></td>
+<td data-local-id=3D"c37b0fe4-c97a-4cea-965f-92c7fd8371e2" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e39db2b33a5"><strong>Optional</strong></p></td>
+<td data-local-id=3D"40664d82-ea07-4e32-92df-999e334e65c2" class=3D"conflue=
+nceTd">
+<p local-id=3D"583c3a35a964">Determines the scope of the cooldown. Only vis=
+ible when the cooldown period is greater than 0.</p>
+<ul local-id=3D"1b5facc4-cbbd-44de-a10c-7b243ac0a840">
+<li local-id=3D"a6056fc3-6d31-474f-80cf-a5ca604ca8fb">
+<p local-id=3D"7d70bf0834fe"><strong>None</strong> (default) =E2=80=94 A si=
+ngle global cooldown window for this component instance.</p></li>
+<li local-id=3D"b2648df1-1876-4e69-98ec-2f667f19a2c6">
+<p local-id=3D"c03793a20730"><strong>Guest</strong> =E2=80=94 Each guest ge=
+ts their own independent cooldown window based on the provided Guest ID.</p=
+></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"a508f6aed883" id=3D"AddNoteToGuestProfile-CooldownOutput">C=
+ooldown Output</h3>
+<p local-id=3D"394de258d0c3">When the cooldown is active (i.e., the action =
+is skipped because it already ran within the cooldown window), the componen=
+t outputs the following on the <strong>cooldown</strong> port instead of th=
+e <strong>out</strong> port:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"bc146541-887c-4604-9f1e-24a=
+7c8b939f0" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"38f3b746-a05a-4f07-b00a-660d2ca53385">
+<th data-local-id=3D"40117e2a-dfef-4d23-a75a-0001016002ca" class=3D"conflue=
+nceTh">
+<p local-id=3D"f954af7d1084">Field</p></th>
+<th data-local-id=3D"d26f939e-6ded-4c4f-a3ef-56512df235b0" class=3D"conflue=
+nceTh">
+<p local-id=3D"92d223a3582c">Type</p></th>
+<th data-local-id=3D"1881de81-bee7-4cf9-9a8a-f52563ee1297" class=3D"conflue=
+nceTh">
+<p local-id=3D"f777e970c8d1">Description</p></th>
+</tr>
+<tr data-local-id=3D"9c87ce94-4c98-4c3f-b39f-0760089f5f4d">
+<td data-local-id=3D"4d829d00-5eb0-4a62-84c2-e5e18a23535a" class=3D"conflue=
+nceTd">
+<p local-id=3D"431e161adc35"><strong>Expires at</strong></p></td>
+<td data-local-id=3D"c3ab4907-ca80-4dc9-b821-b2b40059db44" class=3D"conflue=
+nceTd">
+<p local-id=3D"5e747ee8155b">Date &amp; Time</p></td>
+<td data-local-id=3D"a4bfbcf2-4d1b-44bb-a3c5-b28791b6d741" class=3D"conflue=
+nceTd">
+<p local-id=3D"6fd4f59292ba">The date and time (UTC) when the cooldown wind=
+ow expires and the action can run again.</p></td>
+</tr>
+<tr data-local-id=3D"53b0343d-6f83-4374-b6c8-d9bb91d92490">
+<td data-local-id=3D"82397ab1-6111-4d5f-979f-408edc7381d8" class=3D"conflue=
+nceTd">
+<p local-id=3D"7fc9d0f8c85d"><strong>Remaining (minutes)</strong></p></td>
+<td data-local-id=3D"4f147c60-492f-42bb-87ef-1ca2d973250b" class=3D"conflue=
+nceTd">
+<p local-id=3D"4a4379f03a24">Number</p></td>
+<td data-local-id=3D"19636df2-5428-43a0-938c-736bbbce375f" class=3D"conflue=
+nceTd">
+<p local-id=3D"f107886fce2e">The number of minutes remaining until the cool=
+down expires.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c71fe8c8e2f0"><strong>Tip:</strong> You can connect the <str=
+ong>cooldown</strong> port to other components to handle the cooldown scena=
+rio =E2=80=94 for example, to log that the action was skipped or to notify =
+an operator.</p>
+<hr local-id=3D"1b63ca68-138d-4b1b-ab33-49eca52b47f7">
+<h2 local-id=3D"7908e189a972" id=3D"AddNoteToGuestProfile-HowItWorks">How I=
+t Works</h2>
+<ol start=3D"1" local-id=3D"95eadea7-43ca-4629-a649-eb9d8e11e428">
+<li local-id=3D"32b86914-5c55-4534-b167-1ec13fb6cd24">
+<p local-id=3D"8f9b13b896d5">The component receives input values from the p=
+revious step in the workflow (or from manually configured values).</p></li>
+<li local-id=3D"62ebcb62-b957-467b-8c8c-17e88fc6e007">
+<p local-id=3D"07cf4d50e9aa">If a cooldown is configured and the cooldown w=
+indow is still active for the tracked entity, the action is <strong>skipped=
+</strong> and the cooldown information is sent to the <strong>cooldown</str=
+ong> output port.</p></li>
+<li local-id=3D"bf9acb94-9ec3-4553-8f1b-4d34146399d1">
+<p local-id=3D"8476f88aa47b">If no cooldown applies, the component validate=
+s the input: the note content must not be empty and must not exceed 1000 ch=
+aracters, and the classification must be one of the supported values.</p></=
+li>
+<li local-id=3D"d08158d9-3c64-4059-82d9-e1492e6c0d49">
+<p local-id=3D"9d926d704307">The component sends a request to the Mews API =
+to add the note to the guest's profile with the provided content and classi=
+fication.</p></li>
+<li local-id=3D"7c1af98b-938e-48dc-b4f2-cc0b34ca628b">
+<p local-id=3D"03a2fa5c1fc2">If the note is added successfully, the note de=
+tails are sent to the <strong>out</strong> output port.</p></li>
+<li local-id=3D"83a95dc5-9472-4f3c-8ea8-d7a7bd918dd6">
+<p local-id=3D"5f724a1f7364">If the creation fails (e.g., due to an invalid=
+ guest ID or a temporary service issue), the component returns an error.</p=
+></li>
+</ol>
+<hr local-id=3D"b8a864c8-4289-4bd8-9713-a3d5a40dadb1">
+<h2 local-id=3D"8eed288ae1ba" id=3D"AddNoteToGuestProfile-ExampleUseCases">=
+Example Use Cases</h2>
+<ul local-id=3D"abc626c7-5764-44c1-84a8-ed0068928a94">
+<li local-id=3D"ea8f6b0d-9001-4bca-9d04-cb9424a84479">
+<p local-id=3D"71846d536d50"><strong>Log special requests</strong> =E2=80=
+=94 When a reservation is created, automatically add a note to the guest's =
+profile with any special requests from the booking, classified as "Reservat=
+ions".</p></li>
+<li local-id=3D"058a2566-352d-42d8-8f85-0fcd3d76d624">
+<p local-id=3D"c7682b44b6ea"><strong>Record guest complaints</strong> =E2=
+=80=94 When a complaint is received through an external system (e.g., a sur=
+vey tool), add a "Complaints" note to the guest's profile with the details.=
+</p></li>
+<li local-id=3D"5f4bf4f6-daa3-47e4-8328-bfd383161041">
+<p local-id=3D"cc3b65b67900"><strong>Track dietary preferences</strong> =E2=
+=80=94 When a guest submits a pre-arrival form, add a "Food &amp; Beverage"=
+ note to their profile with their dietary requirements so the restaurant te=
+am is informed.</p></li>
+<li local-id=3D"0afa8687-eac5-4b18-9ec5-123a3ccbb563">
+<p local-id=3D"bbb4b426434a"><strong>Housekeeping instructions</strong> =E2=
+=80=94 When a guest requests extra amenities, add a "Housekeeping" note to =
+their profile so the team knows what to prepare for future stays.</p></li>
+</ul>
+<hr local-id=3D"71fb3ee0-8ed8-45bf-b9f6-b0291cbbfae6">
+<h2 local-id=3D"1fac051068aa" id=3D"AddNoteToGuestProfile-ErrorHandling">Er=
+ror Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ea3ac8ce-6892-468d-8474-ede=
+d15705614" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"1d499de5-616c-4531-a53d-33d5c42383ae">
+<th data-local-id=3D"d5408d9f-a22d-4745-86b5-a5db315275cb" class=3D"conflue=
+nceTh">
+<p local-id=3D"889540246ea8">Error</p></th>
+<th data-local-id=3D"e5b35ff3-d0f7-4b22-814b-5c8ece964a93" class=3D"conflue=
+nceTh">
+<p local-id=3D"26b23aba8bd9">Cause</p></th>
+</tr>
+<tr data-local-id=3D"001a3460-7f31-4d4f-899e-a918fffd80ea">
+<td data-local-id=3D"ee8db3f5-b9b8-4a2b-bd6c-e05d53710c2d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d61d966dbf7b"><code>Content must not be empty.</code></p></t=
+d>
+<td data-local-id=3D"fffa6d72-6a58-4dc2-8bc9-61a990e8b185" class=3D"conflue=
+nceTd">
+<p local-id=3D"e8e6281a76e3">The Note field was left empty or contains only=
+ whitespace.</p></td>
+</tr>
+<tr data-local-id=3D"62305e6a-97f5-4bd0-90de-cd8abb0f31bc">
+<td data-local-id=3D"4335891f-6e94-4854-90de-ebde49e96995" class=3D"conflue=
+nceTd">
+<p local-id=3D"fdf6e701d2c2"><code>Content must not exceed 1000 characters.=
+</code></p></td>
+<td data-local-id=3D"1af9be79-50de-4747-a800-1a2c0e09183d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab2b7c6d7070">The note content is longer than the 1000-chara=
+cter limit.</p></td>
+</tr>
+<tr data-local-id=3D"1029326e-cf00-4ded-b116-17ac5b2ad149">
+<td data-local-id=3D"b54481a4-5979-46c2-a89c-9fcf497f93c0" class=3D"conflue=
+nceTd">
+<p local-id=3D"287f30d98436"><code>Unknown classification '{value}'.</code>=
+</p></td>
+<td data-local-id=3D"748c9665-69fd-42a2-9e27-31ed9b261528" class=3D"conflue=
+nceTd">
+<p local-id=3D"178cdddaa890">The provided classification is not one of the =
+supported values.</p></td>
+</tr>
+<tr data-local-id=3D"b3469066-991d-4ca5-9f22-67b9ae2841c7">
+<td data-local-id=3D"471b5845-3ce5-4d00-87b0-d4dcc8ad169b" class=3D"conflue=
+nceTd">
+<p local-id=3D"af579029012a"><code>An error occurred while processing your =
+request.</code></p></td>
+<td data-local-id=3D"e5d766c6-6c2f-438f-972f-df98d9b08001" class=3D"conflue=
+nceTd">
+<p local-id=3D"65cd851b1aad">The request to add the note in Mews failed. Th=
+is may indicate an invalid guest ID or a temporary service issue.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_10_588212939.1777536549836--

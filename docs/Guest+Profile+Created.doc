@@ -1,0 +1,566 @@
+Date: Thu, 30 Apr 2026 08:09:26 +0000 (UTC)
+Message-ID: <730378219.39.1777536566360@cfad915c8726>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_38_1976275492.1777536566360"
+
+------=_Part_38_1976275492.1777536566360
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Guest Profile Created</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Guest Profile Created</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"94888502a029"><strong>Component type:</strong> Trigg=
+er</p>
+<p local-id=3D"0682ab9449ca"><strong>Category:</strong> Guests and Companie=
+s</p>
+<h2 local-id=3D"09eaa981570f" id=3D"GuestProfileCreated-Overview">Overview<=
+/h2>
+<p local-id=3D"55a5f8623022">The <strong>Guest Profile Created</strong> tri=
+gger fires automatically whenever a new guest profile is created in your pr=
+operty. It serves as the starting point of a workflow, providing key inform=
+ation about the newly created guest such as their name, contact details, na=
+tionality, preferred language, and loyalty membership.</p>
+<p local-id=3D"d5f784a9e07b">This trigger has no input fields to configure =
+=E2=80=94 simply add it to your workflow and it will start listening for ne=
+w guest profiles. When a guest profile is created, the component outputs th=
+e guest details on the <strong>out</strong> port, which can then be used by=
+ subsequent steps in your workflow.</p>
+<hr local-id=3D"3e6c9d3a-8d1d-42c2-b527-c48145fe0e2b">
+<h2 local-id=3D"39dd8c3a5541" id=3D"GuestProfileCreated-InputFields">Input =
+Fields</h2>
+<p local-id=3D"a3f554007ff0">This component is a trigger and does not have =
+any input fields. It activates automatically when a new guest profile is cr=
+eated in your property.</p>
+<hr local-id=3D"b087bb82-559f-4b2b-ab3c-29a94e97be0a">
+<h2 local-id=3D"394827376fe5" id=3D"GuestProfileCreated-OutputFields">Outpu=
+t Fields</h2>
+<p local-id=3D"417c14308cf1">When a new guest profile is created, the follo=
+wing values are available on the <strong>out</strong> output port for use i=
+n subsequent workflow steps:</p>
+<h3 local-id=3D"23de38ac809a" id=3D"GuestProfileCreated-GuestDetails">Guest=
+ Details</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"eb5a27ac-5fc4-4c37-8fff-2cf=
+ded113ff0" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b0ac75ed-e0c4-4d08-9bcd-455ba979c20c">
+<th data-local-id=3D"5d92fa49-32d3-49ee-b2f2-d698c570e740" class=3D"conflue=
+nceTh">
+<p local-id=3D"cfdb4aa7de16">Field</p></th>
+<th data-local-id=3D"dc30cfa7-0593-4f8e-8510-f032fe6e4e91" class=3D"conflue=
+nceTh">
+<p local-id=3D"882c2d44797b">Type</p></th>
+<th data-local-id=3D"07e5574a-70c8-4506-bb3c-e31b58e611c6" class=3D"conflue=
+nceTh">
+<p local-id=3D"457661e35dc0">Description</p></th>
+</tr>
+<tr data-local-id=3D"cb7b5a49-930a-48b8-956b-3188fbca68d9">
+<td data-local-id=3D"0aed3cc6-8b8b-4873-a7fd-e6f8ddc84074" class=3D"conflue=
+nceTd">
+<p local-id=3D"b7ea51508d45"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"4dce6626-12b4-4758-9a75-b914d9a4c9ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"58777114747d">Text (GUID)</p></td>
+<td data-local-id=3D"03353987-a2d4-4d61-ba99-c9bcd35a5ce1" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4359d0f1c6a">The unique identifier of the newly created gue=
+st profile. This ID can be used in subsequent workflow steps to reference t=
+he guest (e.g., adding a note to the guest profile).</p></td>
+</tr>
+<tr data-local-id=3D"b0fe6bf2-9a69-4aa1-bce9-bd454f468baa">
+<td data-local-id=3D"c750637b-16ba-42ea-8db4-c0661214cb64" class=3D"conflue=
+nceTd">
+<p local-id=3D"d63713c81fac"><strong>First Name</strong></p></td>
+<td data-local-id=3D"8727df77-8508-46d8-b8c3-7c6ce422e014" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4645aef2116">Text</p></td>
+<td data-local-id=3D"19aacba0-a550-467f-a64e-9935b0a36199" class=3D"conflue=
+nceTd">
+<p local-id=3D"5a13034de91e">The first name of the guest. May be empty if n=
+ot provided at the time the profile was created.</p></td>
+</tr>
+<tr data-local-id=3D"809e3114-e889-4dec-b731-ac81bfe59f63">
+<td data-local-id=3D"5691c573-5ea0-4c90-807c-0c974c883938" class=3D"conflue=
+nceTd">
+<p local-id=3D"78cb4c658d9c"><strong>Last Name</strong></p></td>
+<td data-local-id=3D"ffaadc58-7a65-4f23-ac70-ae02dd3e4bc8" class=3D"conflue=
+nceTd">
+<p local-id=3D"6b284f8404c6">Text</p></td>
+<td data-local-id=3D"d774b341-28bd-487d-a121-153ebb5bf021" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2e864f8a097">The last name of the guest. May be empty if no=
+t provided at the time the profile was created.</p></td>
+</tr>
+<tr data-local-id=3D"c9bd95e9-6969-4181-8322-68f73f87f980">
+<td data-local-id=3D"3811445d-4148-4a0c-b4a0-47fc80f55f4a" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b5064998b11"><strong>Email</strong></p></td>
+<td data-local-id=3D"f14991e0-f902-4feb-8a61-6c7683324793" class=3D"conflue=
+nceTd">
+<p local-id=3D"3a03863b6aa1">Text</p></td>
+<td data-local-id=3D"b6c52b82-e6dc-4c6a-964f-e39001d54e7f" class=3D"conflue=
+nceTd">
+<p local-id=3D"bb618399bcd9">The email address of the guest. May be empty i=
+f not provided.</p></td>
+</tr>
+<tr data-local-id=3D"262301ef-63c2-4b3c-93c5-467338c11bba">
+<td data-local-id=3D"a2fb0856-0464-4af0-9e4c-34f500d47056" class=3D"conflue=
+nceTd">
+<p local-id=3D"8889f6aca83d"><strong>Telephone</strong></p></td>
+<td data-local-id=3D"a5ad6bf8-248f-444a-9b8b-61d7a721d638" class=3D"conflue=
+nceTd">
+<p local-id=3D"42c08f46b804">Text</p></td>
+<td data-local-id=3D"1edfda6d-5b9e-4154-a53d-0632ffcd61db" class=3D"conflue=
+nceTd">
+<p local-id=3D"347dbda6e687">The telephone number of the guest. May be empt=
+y if not provided.</p></td>
+</tr>
+<tr data-local-id=3D"88c50acf-790b-4136-ba47-f619f85bad00">
+<td data-local-id=3D"8a5dd246-9f31-4f04-8930-0c1ba977a0ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"181b3b3c6f14"><strong>Nationality Code</strong></p></td>
+<td data-local-id=3D"042135c1-abdc-4806-bd22-0ec795ca1087" class=3D"conflue=
+nceTd">
+<p local-id=3D"3092184cc09b">Text</p></td>
+<td data-local-id=3D"264b37bc-8927-41cf-aaac-8b041bb2afa6" class=3D"conflue=
+nceTd">
+<p local-id=3D"a10e5361e48b">The ISO 3166-1 alpha-2 country code representi=
+ng the guest's nationality (e.g., <code>US</code>, <code>GB</code>, <code>D=
+E</code>). May be empty if not provided.</p></td>
+</tr>
+<tr data-local-id=3D"868fac11-b0d5-495a-a32b-c8dc3b576b3d">
+<td data-local-id=3D"f0ccf860-ac40-4308-9ce6-0586e252c664" class=3D"conflue=
+nceTd">
+<p local-id=3D"49da3172a9af"><strong>Preferred Language Code</strong></p></=
+td>
+<td data-local-id=3D"906606dd-c16f-400e-ab73-0eb8f436b209" class=3D"conflue=
+nceTd">
+<p local-id=3D"d97e53021dff">Text</p></td>
+<td data-local-id=3D"808a357a-2c0c-4761-8a76-6c3a03b9610c" class=3D"conflue=
+nceTd">
+<p local-id=3D"f14465296ed7">The language code representing the guest's pre=
+ferred language (e.g., <code>en-US</code>, <code>de-DE</code>). May be empt=
+y if not set.</p></td>
+</tr>
+<tr data-local-id=3D"f2f6c39c-2835-4399-8488-48488b334a39">
+<td data-local-id=3D"275a6af3-2af2-4632-a368-f16a8a65c33e" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab674ca73861"><strong>Loyalty Code</strong></p></td>
+<td data-local-id=3D"98548e95-59ce-4c5d-8b42-24f6f63f2a40" class=3D"conflue=
+nceTd">
+<p local-id=3D"086fc2a33a4a">Text</p></td>
+<td data-local-id=3D"120c16a3-50fa-4995-b987-9ac57c9e97c1" class=3D"conflue=
+nceTd">
+<p local-id=3D"f47967b964ae">The loyalty program membership code of the gue=
+st. May be empty if the guest is not enrolled in a loyalty program.</p></td=
+>
+</tr>
+<tr data-local-id=3D"c3dc3231-4a7d-499f-b205-cb62f90bd028">
+<td data-local-id=3D"6d7be44e-3e31-4c04-a6fb-a2f2996fcca8" class=3D"conflue=
+nceTd">
+<p local-id=3D"5372b5da70b5"><strong>External Identifier</strong></p></td>
+<td data-local-id=3D"b3351e0e-1924-403f-8a50-d4354fdcebde" class=3D"conflue=
+nceTd">
+<p local-id=3D"2e3c037ad91b">Text</p></td>
+<td data-local-id=3D"c4d5ff23-7239-48c7-b0ee-19fcb04d837a" class=3D"conflue=
+nceTd">
+<p local-id=3D"4108ec7e68b9">An external identifier for the guest, typicall=
+y used for integration with third-party systems (e.g., a CRM or PMS). May b=
+e empty if not set.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"b294ced23e3a" id=3D"GuestProfileCreated-Date&amp;TimeFields=
+">Date &amp; Time Fields</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"06f46b0e-29a1-4033-bfe2-43b=
+576c4bf55" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"eaf22b05-7cba-4033-80d9-19980277baf1">
+<th data-local-id=3D"7e979422-e417-496b-9932-11a53e36d233" class=3D"conflue=
+nceTh">
+<p local-id=3D"d89e16c9d5c5">Field</p></th>
+<th data-local-id=3D"5bb14f80-d645-4e92-8d62-c9476d12b58e" class=3D"conflue=
+nceTh">
+<p local-id=3D"9ec8c903b72a">Type</p></th>
+<th data-local-id=3D"ebea0843-922e-4d0c-ab1a-97534780160f" class=3D"conflue=
+nceTh">
+<p local-id=3D"09bf4cf68757">Description</p></th>
+</tr>
+<tr data-local-id=3D"72f3fccc-bd79-4226-a3fe-d449a2f2e6fa">
+<td data-local-id=3D"b2e39ac9-cdaf-4294-86a9-6ada842bfbff" class=3D"conflue=
+nceTd">
+<p local-id=3D"b377d51a675d"><strong>Created (UTC)</strong></p></td>
+<td data-local-id=3D"bf01889d-e3a7-47de-858d-2e5aa4575ece" class=3D"conflue=
+nceTd">
+<p local-id=3D"f9d6d208cf9b">Date &amp; Time</p></td>
+<td data-local-id=3D"ed0d0c02-6a7f-4a98-b9f6-738ae1a1ac48" class=3D"conflue=
+nceTd">
+<p local-id=3D"2b864ea06eb2">The date and time when the guest profile was c=
+reated in the system, in UTC (ISO 8601 format).</p></td>
+</tr>
+<tr data-local-id=3D"ffedd20f-6dd1-49dd-9d10-559a12f25326">
+<td data-local-id=3D"33c1194e-34bf-45f6-81b2-386acc2fc91a" class=3D"conflue=
+nceTd">
+<p local-id=3D"9bcf9b57d412"><strong>Updated (UTC)</strong></p></td>
+<td data-local-id=3D"212d1317-cbf0-46e4-840a-9603c7976af6" class=3D"conflue=
+nceTd">
+<p local-id=3D"a234afb3d68d">Date &amp; Time</p></td>
+<td data-local-id=3D"67be5c43-f544-42d3-834a-5cf0b3237e87" class=3D"conflue=
+nceTd">
+<p local-id=3D"0c63f3853c83">The date and time when the guest profile was l=
+ast updated, in UTC (ISO 8601 format). For a newly created profile, this wi=
+ll typically match the Created timestamp.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"8119d1d30f0e"><strong>Note:</strong> All date and time value=
+s are provided in UTC using ISO 8601 format (e.g., <code>2026-04-28T14:00:0=
+0Z</code>). If your property operates in a different time zone, you may nee=
+d to convert these values in subsequent workflow steps.</p>
+<hr local-id=3D"ef6c2480-c738-4656-be91-993afcea109b">
+<h2 local-id=3D"d6252b15e61b" id=3D"GuestProfileCreated-HowItWorks">How It =
+Works</h2>
+<ol start=3D"1" local-id=3D"75ff4679-d87e-4dd5-b933-610fd1a8ce40">
+<li local-id=3D"2ea502f1-9dfb-467d-af62-e3070f24f4d3">
+<p local-id=3D"2fac4bc809eb">When the workflow is activated, the <strong>Gu=
+est Profile Created</strong> trigger registers itself to listen for new gue=
+st profile events in your property.</p></li>
+<li local-id=3D"6309d0b7-7d32-46be-8f63-b6e84df7a61d">
+<p local-id=3D"1933cd28cfa5">Whenever a new guest profile is created in Mew=
+s =E2=80=94 whether through the Mews Commander, a booking engine, a channel=
+ manager, or any other source =E2=80=94 the system sends an event notificat=
+ion to the trigger.</p></li>
+<li local-id=3D"abfda29c-76b6-45a5-8666-06e9e5e1ef6d">
+<p local-id=3D"2a9bdde111aa">The trigger receives and validates the event t=
+o ensure it is authentic and has not already been processed (duplicate even=
+ts are automatically suppressed).</p></li>
+<li local-id=3D"b5d8e959-e900-4309-8c04-9fb238e804d0">
+<p local-id=3D"0159ff29c1d7">The guest profile details are retrieved and se=
+nt to the <strong>out</strong> output port, making them available to the ne=
+xt steps in your workflow.</p></li>
+<li local-id=3D"a8cf2223-4d3b-4be6-81f9-84f7166051c2">
+<p local-id=3D"329649516a88">When the workflow is deactivated, the trigger =
+automatically stops listening for events.</p></li>
+</ol>
+<p local-id=3D"58b854a8ae97"><strong>Note:</strong> The trigger includes bu=
+ilt-in duplicate event suppression. If the same guest creation event is rec=
+eived more than once (e.g., due to a retry), it will only be processed once=
+, preventing duplicate workflow executions.</p>
+<hr local-id=3D"fc8cbd3d-ea97-4263-8c0e-a86b448ff6c0">
+<h2 local-id=3D"a9bcc54022d2" id=3D"GuestProfileCreated-ExampleUseCases">Ex=
+ample Use Cases</h2>
+<ul local-id=3D"a4b63f3f-7c18-4c9b-abed-e25e0daffa3c">
+<li local-id=3D"034e041b-725d-4dd4-936e-70815ae627c0">
+<p local-id=3D"bf74ebb09c7f"><strong>Welcome communication</strong> =E2=80=
+=94 When a new guest profile is created, use the guest's email and name to =
+send a personalized welcome message or pre-arrival information.</p></li>
+<li local-id=3D"9dad285d-ec3e-47cb-a02a-022dd51151e6">
+<p local-id=3D"23d4e39432f9"><strong>CRM synchronization</strong> =E2=80=94=
+ Automatically push new guest profile data to an external CRM system using =
+the guest details and <strong>External Identifier</strong> field.</p></li>
+<li local-id=3D"f4925018-b04d-446a-9a9e-dd54714cf639">
+<p local-id=3D"d6f1de94c098"><strong>Loyalty program enrollment</strong> =
+=E2=80=94 Check whether the <strong>Loyalty Code</strong> is empty and, if =
+so, trigger a workflow to send a loyalty program enrollment invitation to t=
+he guest.</p></li>
+<li local-id=3D"4b96d944-87e7-48e1-9e1e-94e4944ca63e">
+<p local-id=3D"34d79f9af55e"><strong>Guest segmentation</strong> =E2=80=94 =
+Use the <strong>Nationality Code</strong> or <strong>Preferred Language Cod=
+e</strong> to route the guest into language-specific or region-specific com=
+munication workflows.</p></li>
+<li local-id=3D"68257a3e-bb88-4f72-afc1-22c9aa6b32da">
+<p local-id=3D"ee6c2d5d2c71"><strong>Data completeness check</strong> =E2=
+=80=94 Verify that essential fields (e.g., email, telephone) are filled in.=
+ If not, create a task for the front desk team to collect the missing infor=
+mation.</p></li>
+</ul>
+<hr local-id=3D"19c42567-4d85-4e18-b5ef-240257cbcdfe">
+<h2 local-id=3D"0d788e321b0e" id=3D"GuestProfileCreated-ImportantNotes">Imp=
+ortant Notes</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0c90a3d1-6bd0-48cc-8be7-7cd=
+133e849fd" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ceed0c43-4467-49a9-b763-d95940f424b1">
+<th data-local-id=3D"ee4aa3ac-309d-451f-9c38-26c1e08d2468" class=3D"conflue=
+nceTh">
+<p local-id=3D"e6c227eeb42c">Topic</p></th>
+<th data-local-id=3D"caf44a03-57df-4022-9e07-729417352187" class=3D"conflue=
+nceTh">
+<p local-id=3D"004a50a23f03">Details</p></th>
+</tr>
+<tr data-local-id=3D"bd0a42f9-2054-4fec-85c0-97ee85f94429">
+<td data-local-id=3D"507217bc-c2a4-4618-8c04-6ef9fd20d92a" class=3D"conflue=
+nceTd">
+<p local-id=3D"2349cf32ed3a"><strong>One event per guest profile</strong></=
+p></td>
+<td data-local-id=3D"75bb03c8-4ee8-44d7-b8d6-3b04e9ed13d3" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c05611621cb">This trigger fires once when a guest profile i=
+s first created. Subsequent changes to the profile (e.g., updating the emai=
+l address or adding a loyalty code) will not fire this trigger. Use dedicat=
+ed triggers for profile update events if needed.</p></td>
+</tr>
+<tr data-local-id=3D"dad829f0-d72a-4272-b70f-41b9bc2392e1">
+<td data-local-id=3D"1e5e43ca-55c8-4386-98af-4c30721531de" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d17467de1f1"><strong>Guest fields may be empty</strong></p>=
+</td>
+<td data-local-id=3D"c29cc5a4-39e2-4506-a998-6dbe33c07376" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa651696253b">Most guest fields (email, telephone, nationali=
+ty, language, loyalty code, external identifier) are optional and depend on=
+ the information available at the time the profile is created. Consider add=
+ing conditional logic in your workflow to handle missing values.</p></td>
+</tr>
+<tr data-local-id=3D"8fad5802-42e6-4ae7-bb1f-72087cdedb7e">
+<td data-local-id=3D"68f9d0f9-557b-4210-993c-f0605c92ff27" class=3D"conflue=
+nceTd">
+<p local-id=3D"1bf575331cfc"><strong>All times are in UTC</strong></p></td>
+<td data-local-id=3D"7139057a-8f1b-4ef4-a26c-1f68cc3132c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"4e97e3710792">All date and time fields use UTC. If your work=
+flow needs local time, add a conversion step after the trigger.</p></td>
+</tr>
+<tr data-local-id=3D"50c789b0-78ca-4729-a391-75b2f547e4d4">
+<td data-local-id=3D"1a00b4ac-4abb-4e4d-a7b1-53566853dc78" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1c08463c8fb"><strong>Guest ID is always present</strong></p=
+></td>
+<td data-local-id=3D"de71b922-2167-429a-9e64-ddc01bea3ceb" class=3D"conflue=
+nceTd">
+<p local-id=3D"a3492dbd76fd">The <strong>Guest ID</strong> field is always =
+populated and can be reliably used as a unique reference to the guest profi=
+le in subsequent workflow steps.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_38_1976275492.1777536566360--

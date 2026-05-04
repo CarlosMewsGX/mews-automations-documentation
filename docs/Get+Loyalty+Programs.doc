@@ -1,0 +1,381 @@
+Date: Thu, 30 Apr 2026 08:09:00 +0000 (UTC)
+Message-ID: <1627548635.1.1777536540018@9f6da3cee97a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1527407559.1777536540005"
+
+------=_Part_0_1527407559.1777536540005
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Loyalty Programs</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Loyalty Programs</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"0a25a911df24"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"e88d842d1ef2"><strong>Category:</strong> Property Configurat=
+ion</p>
+<h2 local-id=3D"aee31de85c9d" id=3D"GetLoyaltyPrograms-Overview">Overview</=
+h2>
+<p local-id=3D"d16fa1bf0a70">The <strong>Get Loyalty Programs</strong> acti=
+on retrieves a list of all loyalty programs configured at your property. It=
+ requires no input parameters =E2=80=94 when triggered, it automatically fe=
+tches every active loyalty program associated with the property and returns=
+ them as a list of name=E2=80=93value pairs.</p>
+<p local-id=3D"995f501acf6c">This component is commonly used as a data sour=
+ce to populate dropdown selectors in other components, or to feed loyalty p=
+rogram information into subsequent steps of a workflow. For example, you co=
+uld use it to let a user select a loyalty program when building a guest enr=
+ollment flow, or to iterate over all programs and perform an action for eac=
+h one.</p>
+<hr local-id=3D"c6ade85d-91cd-464b-b3c8-e876ae98b9ca">
+<h2 local-id=3D"a2ffdb46cafe" id=3D"GetLoyaltyPrograms-InputFields">Input F=
+ields</h2>
+<p local-id=3D"8bbf897e90d8">This component has <strong>no input fields</st=
+rong>. It does not require any configuration or parameters to run. When it =
+receives a signal on its input port, it automatically retrieves all loyalty=
+ programs for the authenticated property.</p>
+<hr local-id=3D"f1159b21-8bf1-494b-b2e5-6a4aa11f09e7">
+<h2 local-id=3D"5debd9658b34" id=3D"GetLoyaltyPrograms-OutputFields">Output=
+ Fields</h2>
+<p local-id=3D"64dd7192eebf">When the loyalty programs are successfully ret=
+rieved, the following values are available on the <strong>out</strong> outp=
+ut port for use in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"443f382f-a7fc-4a7f-aaa0-734=
+522c84c9d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"d6e26f19-1bae-4d6d-89fe-b8226c37f4a0">
+<th data-local-id=3D"0927ac86-50d9-41ac-acff-a1aff43497e3" class=3D"conflue=
+nceTh">
+<p local-id=3D"2c50860b7711">Field</p></th>
+<th data-local-id=3D"526941b6-7d0e-4dd6-893d-f530fc094953" class=3D"conflue=
+nceTh">
+<p local-id=3D"442e3aad7615">Type</p></th>
+<th data-local-id=3D"d2d5d1bd-fb60-494a-ba72-ee0ff86010f6" class=3D"conflue=
+nceTh">
+<p local-id=3D"b42fc397e741">Description</p></th>
+</tr>
+<tr data-local-id=3D"e04e3eda-4b48-40cf-8e65-8c06811763c8">
+<td data-local-id=3D"a7c2b75a-9ee9-400d-8e75-4b4203055b7c" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d403a4e4d9a"><strong>Items</strong></p></td>
+<td data-local-id=3D"c3572911-dbae-4466-a01a-ee24e8b16a5b" class=3D"conflue=
+nceTd">
+<p local-id=3D"2607a7e5505b">Array of objects</p></td>
+<td data-local-id=3D"926f5731-794e-4a0f-8c66-7796daa40986" class=3D"conflue=
+nceTd">
+<p local-id=3D"a2de246c187d">A list of loyalty programs. Each item in the a=
+rray contains:</p>
+<ul local-id=3D"1b53f86d-6453-4ddd-8f53-ecd5937d9081">
+<li local-id=3D"9bdd448d-27c0-44aa-9162-28b5cd926364">
+<p local-id=3D"4ac88fa456d7"><strong>Value</strong> (Text) =E2=80=94 The un=
+ique identifier (GUID) of the loyalty program. Use this value when passing =
+a loyalty program reference to other components.</p></li>
+<li local-id=3D"1f8f0526-4184-463c-b731-2184b2c2443d">
+<p local-id=3D"8e6f21c2d53a"><strong>Label</strong> (Text) =E2=80=94 The di=
+splay name of the loyalty program as configured in Mews. If a program has n=
+o name set, the label defaults to <code>Unknown</code>.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"4e9666c774c9"><strong>Note:</strong> If no loyalty programs =
+are configured at the property, the component returns an empty list. When u=
+sed as a dropdown data source in other components, an empty list displays a=
+s <strong>"No results"</strong>.</p>
+<hr local-id=3D"859f4030-7977-4f8d-b035-ce5ffdb1feed">
+<h2 local-id=3D"29144c38a235" id=3D"GetLoyaltyPrograms-HowItWorks">How It W=
+orks</h2>
+<ol start=3D"1" local-id=3D"e3ca501f-ffd2-4d81-929e-cca9d5bbf45d">
+<li local-id=3D"bdc9acc6-dff1-4723-b4d2-b2bd9312c517">
+<p local-id=3D"aba3fc2a6f92">The component receives a signal from the previ=
+ous step in the workflow (or is triggered manually).</p></li>
+<li local-id=3D"d980a6af-78cc-47cd-bd09-b5f4df624698">
+<p local-id=3D"571a267499f2">It sends a request to the Mews backend to retr=
+ieve all active loyalty programs associated with the authenticated property=
+.</p></li>
+<li local-id=3D"df33b2b9-b160-4bbd-bc4a-bcafd60843b2">
+<p local-id=3D"26ea313a8556">The backend identifies the property's chain an=
+d returns every active loyalty program that belongs to that chain.</p></li>
+<li local-id=3D"ca8db2c3-06d9-4039-b194-d9eeee7c2fdc">
+<p local-id=3D"2194ce01c008">The list of programs is returned on the <stron=
+g>out</strong> output port as an array of name=E2=80=93value pairs, where e=
+ach entry contains the program's unique identifier and display name.</p></l=
+i>
+<li local-id=3D"93b6af02-23fc-41dc-9116-7073807fd8f7">
+<p local-id=3D"281bf6f2c97b">If the request fails (e.g., due to a connectiv=
+ity issue), the component returns an error.</p></li>
+</ol>
+<hr local-id=3D"a4a13b7d-c3f6-4967-906a-1760cb321530">
+<h2 local-id=3D"af9cc052bf30" id=3D"GetLoyaltyPrograms-ExampleUseCases">Exa=
+mple Use Cases</h2>
+<ul local-id=3D"5e9f7708-89c4-44ab-962a-d332cccd5209">
+<li local-id=3D"bff67616-c540-4500-8801-7631532603b1">
+<p local-id=3D"36b0642cd9b4"><strong>Populate a loyalty program selector</s=
+trong> =E2=80=94 Use this component as a dynamic data source to populate a =
+dropdown field in another component, allowing users to select a specific lo=
+yalty program when configuring a workflow.</p></li>
+<li local-id=3D"0c962fd9-1f27-4d58-88df-09e947a3e854">
+<p local-id=3D"a61cdc85e137"><strong>Guest enrollment workflow</strong> =E2=
+=80=94 Retrieve the list of available loyalty programs and, based on guest =
+profile data, automatically enroll the guest in a matching program.</p></li=
+>
+<li local-id=3D"3bc1e74b-6632-4d7d-a894-6326c24d1253">
+<p local-id=3D"7ba6dd1b0537"><strong>Loyalty program audit</strong> =E2=80=
+=94 Periodically fetch all loyalty programs and compare against an expected=
+ list to verify that all programs are correctly configured at the property.=
+</p></li>
+</ul>
+<hr local-id=3D"de380fee-47ab-4579-80d0-b3aab4896c74">
+<h2 local-id=3D"5574e85f78b2" id=3D"GetLoyaltyPrograms-ErrorHandling">Error=
+ Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"1f36f855-4459-4930-b0e1-e73=
+7b2145d88" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2d42413f-6ae7-4fae-b24f-40e3bea7b3ef">
+<th data-local-id=3D"6003baf0-16f0-4b1e-9f59-68d9a8f64d40" class=3D"conflue=
+nceTh">
+<p local-id=3D"1a2461687e53">Error</p></th>
+<th data-local-id=3D"14e1f6a0-94fc-4771-bfeb-8543c08b6836" class=3D"conflue=
+nceTh">
+<p local-id=3D"8a598df9350f">Cause</p></th>
+</tr>
+<tr data-local-id=3D"c2d43d08-1a3f-4da7-b403-e47cb1231c82">
+<td data-local-id=3D"03743697-78f0-41ed-ab2b-5692a9f7c7bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"cafdd08ae3d9"><code>Request failed</code></p></td>
+<td data-local-id=3D"f63e9995-954d-4c0e-9ee4-9726dc5bd7b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"5492ebfeaf87">The request to retrieve loyalty programs from =
+Mews failed. This may indicate a temporary service issue or an authenticati=
+on problem.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_1527407559.1777536540005--

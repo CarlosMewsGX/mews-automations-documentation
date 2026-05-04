@@ -1,0 +1,412 @@
+Date: Thu, 30 Apr 2026 08:08:29 +0000 (UTC)
+Message-ID: <811188547.37.1777536509560@cfad915c8726>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_36_1630809987.1777536509560"
+
+------=_Part_36_1630809987.1777536509560
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Products</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Products</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"e2c52f5a95c9"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"24db3f85fd1b"><strong>Category:</strong> Billing and Product=
+s</p>
+<h2 local-id=3D"f3ace29e36e8" id=3D"GetProducts-Overview">Overview</h2>
+<p local-id=3D"359ebf27da07">The <strong>Get Products</strong> action retri=
+eves all orderable products configured at your property. Products are items=
+ or services that staff can add to a guest's bill =E2=80=94 for example, mi=
+nibar items, extra pillows, or breakfast packages.</p>
+<p local-id=3D"d21b97f57783">This component requires no input fields. It au=
+tomatically uses your property's context to fetch the relevant products and=
+ returns them as a list of items, each with a unique identifier and a displ=
+ay name. When products belong to multiple services (e.g., "Accommodation" a=
+nd "Spa"), the service name is appended to the product label for clarity.</=
+p>
+<p local-id=3D"32823ec5d1b6">The output is typically used to populate dropd=
+own menus or to look up product identifiers in subsequent workflow steps =
+=E2=80=94 for example, to post a specific product charge to a guest's bill.=
+</p>
+<hr local-id=3D"7a969ca5-28f1-4db5-8df0-9a10fbabbb70">
+<h2 local-id=3D"9bb9f994aea1" id=3D"GetProducts-InputFields">Input Fields</=
+h2>
+<p local-id=3D"6b1ce33fe291">This component has <strong>no input fields</st=
+rong>. It automatically retrieves all orderable products for the property a=
+ssociated with the authenticated connection.</p>
+<p local-id=3D"03b40f98716f"><strong>Note:</strong> The component uses the =
+property context from your Mews automation connection. Make sure the connec=
+tion is configured for the correct property before using this component.</p=
+>
+<hr local-id=3D"13d5c7e9-78c6-4443-ae89-4e1235b9614f">
+<h2 local-id=3D"11192170a950" id=3D"GetProducts-OutputFields">Output Fields=
+</h2>
+<p local-id=3D"5c89aa0bfc04">When the products are successfully retrieved, =
+the following data is available on the <strong>out</strong> output port as =
+an array called <strong>Items</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"65=
+85f286-7f0c-412c-a58d-56c092abe697" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"89bf8555-4371-407c-af92-3632776aee5f">
+<th data-local-id=3D"7b26ddfd-c339-4d92-b925-a080da56f00e" class=3D"conflue=
+nceTh">
+<p local-id=3D"433d0b2a8ea7">Field</p></th>
+<th data-local-id=3D"a801275e-1f05-4402-9364-dc6c4c15b62d" class=3D"conflue=
+nceTh">
+<p local-id=3D"0021b2a27c67">Type</p></th>
+<th data-local-id=3D"5ab91cdf-a49c-4193-8586-d23b069d49a7" class=3D"conflue=
+nceTh">
+<p local-id=3D"07dd3b8d9efe">Description</p></th>
+</tr>
+<tr data-local-id=3D"cb61295e-370d-4d76-884a-6cddeac33781">
+<td data-local-id=3D"bfbad346-a6b0-42e6-8284-0c89fd10ea29" class=3D"conflue=
+nceTd">
+<p local-id=3D"0a60cb088ee5"><strong>Value</strong></p></td>
+<td data-local-id=3D"b83f6490-ede7-4ba4-9483-88c9f7961c1c" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce41b3d916ab">Text (GUID)</p></td>
+<td data-local-id=3D"1d51a90f-f6ea-4f9b-b067-6f9a4cfc2016" class=3D"conflue=
+nceTd">
+<p local-id=3D"726371230816">The unique identifier of the product. Use this=
+ value when referencing the product in other components (e.g., when posting=
+ a product charge to a bill).</p></td>
+</tr>
+<tr data-local-id=3D"5cfdba35-e2c4-41fa-8d0b-c6a6450582a4">
+<td data-local-id=3D"d99abf69-e717-4ae8-a3a1-d5e839f334f2" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8b7faab3a51"><strong>Label</strong></p></td>
+<td data-local-id=3D"ba5a24cb-1234-4b77-a33c-97acb7b337bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"370d390cff2e">Text</p></td>
+<td data-local-id=3D"71879b61-5766-41f9-831b-94f99c52c627" class=3D"conflue=
+nceTd">
+<p local-id=3D"edd8a29fa4b4">The display name of the product, localized to =
+the property's default language. If products belong to more than one servic=
+e, the service name is included in parentheses =E2=80=94 for example, <code=
+>Breakfast (Restaurant)</code>. If all products belong to the same service,=
+ only the product name is shown.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"1f5adb34b4eb" id=3D"GetProducts-OutputFormat">Output Format=
+</h3>
+<p local-id=3D"92c65c67ffd2">The output is an array of items. Each item con=
+tains a <strong>Value</strong> and a <strong>Label</strong>. This format is=
+ designed to be used directly with dropdown selectors and list-based compon=
+ents in your workflows.</p>
+<p local-id=3D"1330ba95fee3"><strong>Tip:</strong> You can connect the outp=
+ut of this component to the input of other components that accept a product=
+ selection =E2=80=94 for example, to let a workflow dynamically choose whic=
+h product to post to a guest's bill.</p>
+<hr local-id=3D"74e1edf4-4da6-4bb9-ba6f-da83978361c3">
+<h2 local-id=3D"92c817d1dff4" id=3D"GetProducts-WhichProductsAreIncluded">W=
+hich Products Are Included</h2>
+<p local-id=3D"6c5d0dfacd4e">Not all products configured in your property a=
+re returned. The component only retrieves products that meet <strong>all</s=
+trong> of the following criteria:</p>
+<ul local-id=3D"36ee5e4a-fad4-454a-8f9b-c79d9a38f7e5">
+<li local-id=3D"0b3b2ff7-030d-4abe-b68a-fb7d901c713c">
+<p local-id=3D"da2f7ae9c4af">The product belongs to an <strong>active servi=
+ce</strong> at the property.</p></li>
+<li local-id=3D"70d37dc9-b954-4084-acc2-8a774af0b5e3">
+<p local-id=3D"0df1987651f2">The product is <strong>not a default product</=
+strong> (default products are automatically included in service orders and =
+cannot be posted separately).</p></li>
+<li local-id=3D"ceb11ec8-4696-4010-9738-314a0507afd7">
+<p local-id=3D"86f69d72e786">The product is marked as <strong>orderable by =
+employees</strong> (the "Offer to Employee" option is enabled in the produc=
+t settings).</p></li>
+<li local-id=3D"94fe8db0-1791-4831-8ec4-e3bc7ff05a04">
+<p local-id=3D"b58ba0a2f9b5">The product has <strong>not been deleted</stro=
+ng>.</p></li>
+</ul>
+<p local-id=3D"dcba01c04e29"><strong>Important:</strong> If you do not see =
+an expected product in the output, verify that the product is set to "Offer=
+ to Employee" in Mews Operations and that it belongs to an active service.<=
+/p>
+<hr local-id=3D"c1fd9c25-8a27-4911-8799-2c7be383f3ba">
+<h2 local-id=3D"1dd55e9eead8" id=3D"GetProducts-Localization">Localization<=
+/h2>
+<p local-id=3D"e9f9d73b8140">Product and service names are returned in the =
+property's default language. If a product name is not available in the defa=
+ult language, the component falls back to English. If an English translatio=
+n is also unavailable, the first available translation is used.</p>
+<hr local-id=3D"eaeccf88-a82c-4bdc-bdb1-073feff27e53">
+<h2 local-id=3D"b26beaef92b5" id=3D"GetProducts-HowItWorks">How It Works</h=
+2>
+<ol start=3D"1" local-id=3D"ce88f730-0fb6-4fd6-94ef-f2230fefeb7b">
+<li local-id=3D"d20ce313-e404-4f88-8dba-eb6c4c65d039">
+<p local-id=3D"31c07a980578">The component is triggered by the previous ste=
+p in the workflow (or manually).</p></li>
+<li local-id=3D"c2533fd0-f17c-468d-9469-75aa6d20350c">
+<p local-id=3D"3885004fb05a">A request is sent to retrieve all orderable pr=
+oducts for the property associated with your connection.</p></li>
+<li local-id=3D"39dbc346-01be-4cbe-9008-e5e4eea02eec">
+<p local-id=3D"01e56be8fa43">The system fetches active services at the prop=
+erty and joins them with their non-default, employee-orderable products.</p=
+></li>
+<li local-id=3D"d92db218-5692-4210-ac92-499f46084c6d">
+<p local-id=3D"abc6e02b3ffa">Product and service names are localized to the=
+ property's default language.</p></li>
+<li local-id=3D"21455457-fd49-4a6c-b4f1-731120b540df">
+<p local-id=3D"6156a85bc226">If products belong to more than one service, t=
+he service name is appended to each product label in parentheses for disamb=
+iguation.</p></li>
+<li local-id=3D"3c5fab46-91ea-4737-9cb6-623f6a65c409">
+<p local-id=3D"1f588532618b">The list of products (each with a unique ident=
+ifier and display name) is sent to the <strong>out</strong> output port.</p=
+></li>
+</ol>
+<hr local-id=3D"05ec5c53-e4fa-4d83-85f5-148c668d6a50">
+<h2 local-id=3D"e1e140c42d6d" id=3D"GetProducts-ExampleUseCases">Example Us=
+e Cases</h2>
+<ul local-id=3D"43f845b9-adec-4ccd-afbf-5eb4d2f5594f">
+<li local-id=3D"1dd0cfec-909d-44b3-9fb6-a0cbfceec182">
+<p local-id=3D"1a03d466d640"><strong>Dynamic product selection</strong> =E2=
+=80=94 Use <strong>Get Products</strong> at the start of a workflow to popu=
+late a product dropdown, allowing operators to select which product to post=
+ to a guest's bill.</p></li>
+<li local-id=3D"72e8781a-1412-4217-87a5-e1143bee8470">
+<p local-id=3D"4387729a6def"><strong>Automated upsell charging</strong> =E2=
+=80=94 After a guest accepts an upsell offer (e.g., breakfast package), use=
+ this component to look up the correct product identifier and then post the=
+ charge automatically.</p></li>
+<li local-id=3D"08f11101-05c4-482b-b5ff-ae7cbcc2820c">
+<p local-id=3D"469d9e237755"><strong>Product availability check</strong> =
+=E2=80=94 Retrieve the current list of orderable products and compare it ag=
+ainst expected items to verify that all required products are configured at=
+ the property.</p></li>
+</ul>
+<hr local-id=3D"4d52091e-008d-47a6-aa35-570e93057a14">
+<h2 local-id=3D"8d3645a766e7" id=3D"GetProducts-Caching">Caching</h2>
+<p local-id=3D"b9ff3866100b">The results of this component are <strong>cach=
+ed</strong> per property to improve performance. If you have recently added=
+ or modified products in Mews Operations, there may be a short delay before=
+ the changes appear in the output.</p>
+    </div>
+</body>
+</html>
+------=_Part_36_1630809987.1777536509560--

@@ -1,0 +1,631 @@
+Date: Thu, 30 Apr 2026 08:08:42 +0000 (UTC)
+Message-ID: <749662415.87.1777536522585@51d86a774241>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86_400581099.1777536522585"
+
+------=_Part_86_400581099.1777536522585
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Add Product To Reservation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Add Product To Reservation</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"9b98ff3ee92b"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"b6d6a04ae575"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"b69af2d80ac2" id=3D"AddProductToReservation-Overview">Overv=
+iew</h2>
+<p local-id=3D"e249d9a655f1">The <strong>Add Product To Reservation</strong=
+> action adds a selected product to an existing reservation in Mews. This i=
+s useful for automating product charges as part of a workflow =E2=80=94 for=
+ example, automatically adding a breakfast package to all reservations that=
+ meet certain criteria, or adding a late checkout fee when a guest requests=
+ a late departure.</p>
+<p local-id=3D"9a9639ea104b">You can specify how many units of the product =
+to add and optionally define a custom date range for the product consumptio=
+n. If no dates are provided, the product is applied for the full duration o=
+f the reservation (from check-in to checkout).</p>
+<p local-id=3D"a5da0ec29b4f">When the product is successfully added, the co=
+mponent outputs the IDs of the created order items on the <strong>out</stro=
+ng> port, which can be used by subsequent steps in your workflow.</p>
+<p local-id=3D"75ec88144722"><strong>Tip:</strong> Use the <strong>Filter C=
+ompatible Products</strong> action before this component to find products t=
+hat are available for a specific reservation.</p>
+<hr local-id=3D"13456746-f466-4aef-bd49-8f59dd9b16b7">
+<h2 local-id=3D"b708d895af81" id=3D"AddProductToReservation-InputFields">In=
+put Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"4b2b2b0b-9136-45fa-9c70-3f4=
+43a0c6444" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"946dcefe-b6a4-43fd-b688-0b7209e52dd5">
+<th data-local-id=3D"faaca314-b517-4166-a611-3bf9c5c3f0f8" class=3D"conflue=
+nceTh">
+<p local-id=3D"5c0739305f70">Field</p></th>
+<th data-local-id=3D"3233dc19-100f-485f-b12e-c8ea0a6b97f3" class=3D"conflue=
+nceTh">
+<p local-id=3D"4908adcdf0ec">Required</p></th>
+<th data-local-id=3D"df6beda6-dec1-4758-90bd-c68a7922cce2" class=3D"conflue=
+nceTh">
+<p local-id=3D"916abde6a2ae">Type</p></th>
+<th data-local-id=3D"b70fd603-af23-4553-a611-e0c5707a73ec" class=3D"conflue=
+nceTh">
+<p local-id=3D"0949c7909220">Description</p></th>
+</tr>
+<tr data-local-id=3D"29781617-83c0-4bb9-a5b7-a5199f3ca987">
+<td data-local-id=3D"cea9cb5f-3e88-4ec7-a3d9-083b8326cf30" class=3D"conflue=
+nceTd">
+<p local-id=3D"45038df4a73d"><strong>Product ID</strong></p></td>
+<td data-local-id=3D"afb347b8-d9a9-436b-9d16-d9b9ab2d4ce0" class=3D"conflue=
+nceTd">
+<p local-id=3D"5c8d4550ec70"><strong>Required</strong></p></td>
+<td data-local-id=3D"315cf8ab-3599-4d9d-8bd2-46e28f67c655" class=3D"conflue=
+nceTd">
+<p local-id=3D"08e08d8aeac6">Text (GUID)</p></td>
+<td data-local-id=3D"85bf1a22-308f-4145-8154-bb5d0d6391e1" class=3D"conflue=
+nceTd">
+<p local-id=3D"5badeea55619">The unique identifier of the product to add. U=
+se the <strong>Filter Compatible Products</strong> action to find products =
+available for this reservation.</p></td>
+</tr>
+<tr data-local-id=3D"27cc2729-60d8-48c7-a9f0-a00750d0aa81">
+<td data-local-id=3D"76869d2b-39bd-4df4-8a55-400c407682c1" class=3D"conflue=
+nceTd">
+<p local-id=3D"bd2d9cf06211"><strong>Count</strong></p></td>
+<td data-local-id=3D"5553ecde-f4c5-4d3b-aeb7-0897c62dfb43" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc3067e3d337"><strong>Optional</strong></p></td>
+<td data-local-id=3D"7c073721-6b66-4a88-b7f9-312ed18c7f29" class=3D"conflue=
+nceTd">
+<p local-id=3D"9dddb5671920">Number</p></td>
+<td data-local-id=3D"f2a8e3a8-f176-4a6b-8c1d-41226135ed51" class=3D"conflue=
+nceTd">
+<p local-id=3D"1e8a8e8b9a2a">How many units of the product to add. Defaults=
+ to <code>1</code> if not specified. For products charged per night, each u=
+nit is added once per night of the stay.</p></td>
+</tr>
+<tr data-local-id=3D"1a62f520-df5c-43e9-91f8-6fdf77b03fce">
+<td data-local-id=3D"153f6606-dc8b-4bfc-9d9e-4cb52574abe1" class=3D"conflue=
+nceTd">
+<p local-id=3D"423669733404"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"02840237-7006-494e-8128-cabac1df0465" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b6cfcd3263c"><strong>Required</strong></p></td>
+<td data-local-id=3D"1273d19a-9959-4a46-bd19-64360b55acae" class=3D"conflue=
+nceTd">
+<p local-id=3D"868f3475b034">Text (GUID)</p></td>
+<td data-local-id=3D"aaa0ce92-33d0-48b5-81ac-d729282be23e" class=3D"conflue=
+nceTd">
+<p local-id=3D"6a2664f831f2">The unique identifier of the reservation to ad=
+d the product to. Typically populated dynamically from a previous step in t=
+he workflow (e.g., a trigger that provides a reservation ID).</p></td>
+</tr>
+<tr data-local-id=3D"34285370-1ced-4fa0-a5ef-b24dc6aeb0b6">
+<td data-local-id=3D"41c64b0e-9a67-497b-8946-edb1441f8814" class=3D"conflue=
+nceTd">
+<p local-id=3D"457053a5deab"><strong>Start (UTC)</strong></p></td>
+<td data-local-id=3D"e9f934f7-b6a4-4501-8971-010abf3de2cc" class=3D"conflue=
+nceTd">
+<p local-id=3D"e9047c8c4bec"><strong>Optional</strong></p></td>
+<td data-local-id=3D"20914348-e13d-4f1b-bf57-af222c72a4bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"966f4b331df4">Date &amp; Time</p></td>
+<td data-local-id=3D"f82fe3dc-bb87-4337-8632-e382de50d0de" class=3D"conflue=
+nceTd">
+<p local-id=3D"277fa74d058f">When the product consumption starts. Accepted =
+format: <code>YYYY-MM-DD HH:mm</code>. If not provided, defaults to the <st=
+rong>check-in date</strong> of the reservation. For once-off or per-person =
+products, set this to the same value as the end date.</p></td>
+</tr>
+<tr data-local-id=3D"0c59cab7-32ce-4571-bcc8-2f017a1f191f">
+<td data-local-id=3D"ba0b18f1-932c-43e3-8247-91c542d993f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"60c8000408a0"><strong>End (UTC)</strong></p></td>
+<td data-local-id=3D"a47c9dfa-6709-46a1-b4d9-1426e8c22f38" class=3D"conflue=
+nceTd">
+<p local-id=3D"390b698dbe9c"><strong>Optional</strong></p></td>
+<td data-local-id=3D"d9f7e008-f97a-415e-a6b8-1c1b23c5a1d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c2e0af2eaaa">Date &amp; Time</p></td>
+<td data-local-id=3D"4b981c46-6244-429f-a130-d25bcce8c0fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"9f251a7c5c4d">When the product consumption ends. Accepted fo=
+rmat: <code>YYYY-MM-DD HH:mm</code>. If not provided, defaults to the <stro=
+ng>checkout date</strong> of the reservation. For once-off or per-person pr=
+oducts, set this to the same value as the start date.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"93ffd6e13040"><strong>Note:</strong> When both <strong>Start=
+ (UTC)</strong> and <strong>End (UTC)</strong> are left empty, the product =
+is applied for the entire duration of the reservation. This is the most com=
+mon configuration for per-night products such as breakfast or parking.</p>
+<hr local-id=3D"8e903628-9da9-499e-bcbe-d8f104a8b2ef">
+<h2 local-id=3D"51f920e8ace5" id=3D"AddProductToReservation-OutputFields">O=
+utput Fields</h2>
+<p local-id=3D"3a848f5f02a9">When the product is successfully added, the fo=
+llowing values are available on the <strong>out</strong> output port for us=
+e in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"96978a65-7e24-488b-8992-a89=
+b51f7861e" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ff954ac2-e45e-4e8a-9500-5d08004a448e">
+<th data-local-id=3D"90890326-0493-4aa0-bd82-a56faeb56c56" class=3D"conflue=
+nceTh">
+<p local-id=3D"6ed1eae74c92">Field</p></th>
+<th data-local-id=3D"d433a862-9751-40e3-ab96-f64b02592324" class=3D"conflue=
+nceTh">
+<p local-id=3D"3e248175103c">Type</p></th>
+<th data-local-id=3D"898f4342-3578-41ed-8847-fb6ba4a99909" class=3D"conflue=
+nceTh">
+<p local-id=3D"17cb6b5d746b">Description</p></th>
+</tr>
+<tr data-local-id=3D"9116b5a7-fb2f-41aa-aecd-f189cbd16f07">
+<td data-local-id=3D"51173490-a1c5-4198-8d54-0c5a8bbc6763" class=3D"conflue=
+nceTd">
+<p local-id=3D"3bdbe2498ff2"><strong>Item IDs</strong></p></td>
+<td data-local-id=3D"717a3ce8-0275-4583-b550-ca62c437656e" class=3D"conflue=
+nceTd">
+<p local-id=3D"8c84d5e41615">Array of Text (GUIDs)</p></td>
+<td data-local-id=3D"674f0cd1-3ca7-4383-8781-6be02ad65a64" class=3D"conflue=
+nceTd">
+<p local-id=3D"befb11a7a241">The unique identifiers of the order items crea=
+ted by adding the product. For per-night products, one item is created per =
+night, so this array may contain multiple IDs.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"c1f24584-5635-4740-aa7a-2842cbe5fa65">
+<h2 local-id=3D"a8e0961b507d" id=3D"AddProductToReservation-CooldownSetting=
+s">Cooldown Settings</h2>
+<p local-id=3D"e21636d06503">The cooldown feature prevents the action from =
+running repeatedly for the same entity within a defined time window. This i=
+s useful when a workflow may be triggered multiple times in quick successio=
+n (e.g., multiple reservation updates) and you want to avoid adding duplica=
+te products.</p>
+<p local-id=3D"8ca6e47fb919">Cooldown settings are located in the <strong>C=
+ooldown</strong> section of the component settings, which is collapsed by d=
+efault.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"422aa46d-bbdd-4a99-9df7-3ab=
+0b87ece1d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"d5707b0e-8327-4649-b9cd-98fc565ab74f">
+<th data-local-id=3D"584c4fbf-4553-42d3-a202-88e4176e0ee3" class=3D"conflue=
+nceTh">
+<p local-id=3D"44d8cd4fd778">Setting</p></th>
+<th data-local-id=3D"0319f9b5-6e29-4ac9-8799-5cbf9d239bea" class=3D"conflue=
+nceTh">
+<p local-id=3D"eb27028a6059">Required</p></th>
+<th data-local-id=3D"d4cc7444-c2a6-41a1-a97b-34b354ed3932" class=3D"conflue=
+nceTh">
+<p local-id=3D"c45a7de1ab56">Description</p></th>
+</tr>
+<tr data-local-id=3D"cc081627-dc0b-4ff6-ba51-95aeb985860b">
+<td data-local-id=3D"77cccc26-bbb6-414e-9b32-bea0fac2e52e" class=3D"conflue=
+nceTd">
+<p local-id=3D"1474de55d6a9"><strong>Cooldown period</strong></p></td>
+<td data-local-id=3D"9ae82fd1-65fc-4fa0-94d2-8a5ea0d810e5" class=3D"conflue=
+nceTd">
+<p local-id=3D"69255cea84e9"><strong>Optional</strong></p></td>
+<td data-local-id=3D"87629e16-5d8e-43b2-bb3a-1f7daaac1993" class=3D"conflue=
+nceTd">
+<p local-id=3D"67e52640bad8">The number of time units during which the acti=
+on will not run again. Set to <code>0</code> (default) to disable the coold=
+own.</p></td>
+</tr>
+<tr data-local-id=3D"f596bc4b-3ccd-42ba-a299-0c25f6fb8b45">
+<td data-local-id=3D"9e3ea1ff-624b-45e3-9700-cd4078717604" class=3D"conflue=
+nceTd">
+<p local-id=3D"bdaffd6cc137"><strong>Unit</strong></p></td>
+<td data-local-id=3D"48dbcb47-e2e9-4a2d-9d4c-215515944c4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"a61f4f7a2e2d"><strong>Optional</strong></p></td>
+<td data-local-id=3D"09a9c724-e199-4ebb-8c6e-7929b1709d9e" class=3D"conflue=
+nceTd">
+<p local-id=3D"7f3e9f774599">The time unit for the cooldown period. Options=
+: <strong>Minutes</strong>, <strong>Hours</strong>, <strong>Days</strong> (=
+default), <strong>Weeks</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"82af5033-d1d0-42ee-9727-0417806f4a01">
+<td data-local-id=3D"2959dc2d-ae7e-4c62-ad65-3a3401557f09" class=3D"conflue=
+nceTd">
+<p local-id=3D"f51ef04beffc"><strong>Track by</strong></p></td>
+<td data-local-id=3D"9ca5c894-253d-4d93-89c5-34ef16b99f02" class=3D"conflue=
+nceTd">
+<p local-id=3D"32f6b99f1148"><strong>Optional</strong></p></td>
+<td data-local-id=3D"315b6bcd-84b0-41c5-a448-f882a57a19fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"59df4c8d8fd5">Determines the scope of the cooldown. Only vis=
+ible when the cooldown period is greater than 0.</p>
+<ul local-id=3D"42df7516-68d8-4769-8baf-d165f7902a4e">
+<li local-id=3D"75bff159-d6b2-4f48-a392-fb79b25b4d9f">
+<p local-id=3D"8f6e28de48a0"><strong>None</strong> (default) =E2=80=94 A si=
+ngle global cooldown window for this component instance.</p></li>
+<li local-id=3D"4fad383b-c236-4411-96b0-fd9ce9bf81c3">
+<p local-id=3D"6f31ff0d083a"><strong>Reservation</strong> =E2=80=94 Each re=
+servation gets its own independent cooldown window based on the provided Re=
+servation ID.</p></li>
+<li local-id=3D"bbe6e5f7-555d-4599-abb5-0ea54445ad5a">
+<p local-id=3D"be491dda08d6"><strong>Guest</strong> =E2=80=94 Each guest ge=
+ts their own independent cooldown window. The guest is automatically resolv=
+ed from the provided Reservation ID.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"fb81dcb64e08" id=3D"AddProductToReservation-CooldownOutput"=
+>Cooldown Output</h3>
+<p local-id=3D"4274b771bfbb">When the cooldown is active (i.e., the action =
+is skipped because it already ran within the cooldown window), the componen=
+t outputs the following on the <strong>cooldown</strong> port instead of th=
+e <strong>out</strong> port:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0c8ae44d-f7b0-46c8-aabc-0c7=
+c90194dd4" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"90d9dffc-2e95-4a2d-8285-2ba5e9f7cd36">
+<th data-local-id=3D"0530df94-c4a1-4614-8b26-96c3d2468464" class=3D"conflue=
+nceTh">
+<p local-id=3D"a39366651c45">Field</p></th>
+<th data-local-id=3D"058f049c-c0f0-4d8b-9e25-7a9ccde1404d" class=3D"conflue=
+nceTh">
+<p local-id=3D"49eda2a32e09">Type</p></th>
+<th data-local-id=3D"25d9fc7b-4e31-4430-9c12-d9ec2b06cfa6" class=3D"conflue=
+nceTh">
+<p local-id=3D"5f4e0ed682e2">Description</p></th>
+</tr>
+<tr data-local-id=3D"6d52b7e1-a558-4bf4-89d4-9ea28c044068">
+<td data-local-id=3D"75646f29-9c50-4b64-82ac-fc24d0649483" class=3D"conflue=
+nceTd">
+<p local-id=3D"d7912fc3c0dc"><strong>Expires at</strong></p></td>
+<td data-local-id=3D"c923e5de-d60d-4e88-b4f7-1904d83cf8e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"72317a03ced7">Date &amp; Time</p></td>
+<td data-local-id=3D"4f877f40-af9b-4a02-83e1-65058ffabf05" class=3D"conflue=
+nceTd">
+<p local-id=3D"fa680e72039b">The date and time (UTC) when the cooldown wind=
+ow expires and the action can run again.</p></td>
+</tr>
+<tr data-local-id=3D"c127df5b-e2d9-4bd8-b88f-44276bf381e2">
+<td data-local-id=3D"3e7f9b54-01ba-49b3-b33f-4ffede5b334e" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf6b90dc54ab"><strong>Remaining (minutes)</strong></p></td>
+<td data-local-id=3D"c067a726-9d8f-4518-ad82-b3676614771b" class=3D"conflue=
+nceTd">
+<p local-id=3D"c50ac8a455ff">Number</p></td>
+<td data-local-id=3D"7f8586e8-1e02-4535-b4c2-69fd655c77a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf60fce89494">The number of minutes remaining until the cool=
+down expires.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"086b1c8a6452"><strong>Tip:</strong> You can connect the <str=
+ong>cooldown</strong> port to other components to handle the cooldown scena=
+rio =E2=80=94 for example, to log that the action was skipped or to notify =
+an operator.</p>
+<hr local-id=3D"b5c75533-2bfb-40f3-bbd2-b1ea54b7b0ae">
+<h2 local-id=3D"c47a68aa729c" id=3D"AddProductToReservation-HowItWorks">How=
+ It Works</h2>
+<ol start=3D"1" local-id=3D"5589ada8-7881-4d57-a4cb-bc22cc61be0f">
+<li local-id=3D"3a4d63bb-0035-42ea-b708-bddbfd2b64ab">
+<p local-id=3D"910ccc84dff4">The component receives input values from the p=
+revious step in the workflow (or from manually configured values).</p></li>
+<li local-id=3D"b2a597c6-9bf0-44e2-915c-35b84863dfa7">
+<p local-id=3D"c0ca45019431">If a cooldown is configured and the cooldown w=
+indow is still active for the tracked entity, the action is <strong>skipped=
+</strong> and the cooldown information is sent to the <strong>cooldown</str=
+ong> output port.</p></li>
+<li local-id=3D"19d8d3e4-ecf4-4dd2-817a-c51798d6ecae">
+<p local-id=3D"287b85a62378">The component validates that the reservation e=
+xists and belongs to the current property.</p></li>
+<li local-id=3D"358d2f47-610d-4060-bbba-41946550ff49">
+<p local-id=3D"d970a1a1749b">If <strong>Start (UTC)</strong> or <strong>End=
+ (UTC)</strong> are not provided, the component automatically uses the rese=
+rvation's check-in and checkout dates respectively.</p></li>
+<li local-id=3D"8230f874-f1f4-4d61-ac41-30345306ec30">
+<p local-id=3D"c3dee568ffb2">The component sends a request to the Mews API =
+to add the specified product to the reservation with the given count and da=
+te range.</p></li>
+<li local-id=3D"cf022c99-6ea1-4076-9fdd-de47ad68ecab">
+<p local-id=3D"f1417a55cbf7">If the product is added successfully, the IDs =
+of the created order items are sent to the <strong>out</strong> output port=
+.</p></li>
+<li local-id=3D"e910a5b3-9045-4b9b-8518-4ab643597ce8">
+<p local-id=3D"8ffa67ae36ef">If the operation fails (e.g., due to an invali=
+d reservation or product ID), the component returns an error.</p></li>
+</ol>
+<hr local-id=3D"1b4e5072-41a5-4d8e-a63a-e2cb95ce27e3">
+<h2 local-id=3D"5262e16f5277" id=3D"AddProductToReservation-ExampleUseCases=
+">Example Use Cases</h2>
+<ul local-id=3D"4f6671d3-ae85-4f85-999f-8bccb350e294">
+<li local-id=3D"6044cdd0-6529-4408-a51b-6b7c94471f08">
+<p local-id=3D"a966c2dc6e64"><strong>Automatic breakfast package</strong> =
+=E2=80=94 When a reservation is confirmed for a specific rate, automaticall=
+y add a breakfast product for the full duration of the stay.</p></li>
+<li local-id=3D"6685a834-671a-4b8f-ab1d-8658183445da">
+<p local-id=3D"1a8bbd22decd"><strong>Late checkout fee</strong> =E2=80=94 W=
+hen a guest requests a late checkout, add a late checkout product to the re=
+servation. Use the start and end date fields set to the same date (the chec=
+kout day) since this is a once-off charge.</p></li>
+<li local-id=3D"f695da41-45e0-40c5-8573-f6caa3aee081">
+<p local-id=3D"ce0da4570a02"><strong>Welcome amenity</strong> =E2=80=94 Whe=
+n a VIP guest is arriving, automatically add a welcome amenity product to t=
+he reservation for the first night only by setting the start and end dates =
+to the arrival date.</p></li>
+<li local-id=3D"4c68dbc1-f424-475b-bbb0-7193a8edb4b7">
+<p local-id=3D"429be746e5b7"><strong>Parking charge</strong> =E2=80=94 When=
+ a guest confirms they need parking, add a per-night parking product for th=
+e entire reservation duration (leave start and end dates empty to use the f=
+ull stay).</p></li>
+</ul>
+<hr local-id=3D"65a6a8b7-7707-4962-a1b7-47daaedf9fb0">
+<h2 local-id=3D"aff67373fc06" id=3D"AddProductToReservation-ErrorHandling">=
+Error Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"59a40370-9c9c-47a1-907a-b04=
+781216a92" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"12cde0a2-ce2b-4051-9c87-c94b7ef48f58">
+<th data-local-id=3D"0748f6e2-8ae3-40e9-8fce-909fe5b06bb6" class=3D"conflue=
+nceTh">
+<p local-id=3D"dda045bf4d29">Error</p></th>
+<th data-local-id=3D"5a05b1b1-5259-43fe-909d-dca67d716e65" class=3D"conflue=
+nceTh">
+<p local-id=3D"f26c16041ce0">Cause</p></th>
+</tr>
+<tr data-local-id=3D"1d5a3bbe-7d25-4cdc-a6ca-03c35d6383b4">
+<td data-local-id=3D"baffd87d-f50f-48e2-88f4-6badd5e5232d" class=3D"conflue=
+nceTd">
+<p local-id=3D"eafe117dfea8"><code>Reservation '{id}' was not found</code><=
+/p></td>
+<td data-local-id=3D"63ebfa51-f35f-48d4-b85c-ee98106eac5d" class=3D"conflue=
+nceTd">
+<p local-id=3D"61eaee943eba">The provided Reservation ID does not match any=
+ active reservation in the current property. Verify the reservation exists =
+and has not been canceled.</p></td>
+</tr>
+<tr data-local-id=3D"fac22bb7-455e-40cf-9e96-dd11a81a0bb4">
+<td data-local-id=3D"823be7ba-3868-4e65-bde3-21a17eaf6798" class=3D"conflue=
+nceTd">
+<p local-id=3D"12b39dced74d"><code>An error occurred while processing your =
+request.</code></p></td>
+<td data-local-id=3D"7382825c-b044-4047-b6a6-be45b1ba5b34" class=3D"conflue=
+nceTd">
+<p local-id=3D"60340562f40c">The request to add the product to the reservat=
+ion failed. This may indicate an invalid Product ID, an incompatible produc=
+t for the reservation, or a temporary service issue.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86_400581099.1777536522585--

@@ -1,0 +1,658 @@
+Date: Thu, 30 Apr 2026 08:08:16 +0000 (UTC)
+Message-ID: <978948505.19.1777536496533@55c13ed0e060>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_1662089637.1777536496533"
+
+------=_Part_18_1662089637.1777536496533
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Add Task</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Add Task</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"1ebaa429f9e7"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"651b4fb53f5b"><strong>Category:</strong> Property Configurat=
+ion</p>
+<h2 local-id=3D"01ff10fa1250" id=3D"AddTask-Overview">Overview</h2>
+<p local-id=3D"71a680c54e5a">The <strong>Add Task</strong> action creates a=
+ new task in Mews Operations with a specified name and deadline. Tasks can =
+optionally include a description, be linked to a reservation, and be assign=
+ed to a department. This is useful for automating task creation as part of =
+a workflow =E2=80=94 for example, automatically creating a room inspection =
+task when a guest checks out, or scheduling a maintenance task before an ar=
+rival.</p>
+<p local-id=3D"2f6f3c5bd373">When the task is successfully created, the com=
+ponent outputs the task details (name, description, deadline, service order=
+ ID, and department ID) on the <strong>out</strong> port, which can be used=
+ by subsequent steps in your workflow.</p>
+<hr local-id=3D"91aaf949-3bcd-41a4-b7b4-2f8b6a22af3f">
+<h2 local-id=3D"d0d0e076843f" id=3D"AddTask-InputFields">Input Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"34c0ac66-b025-44b7-a141-a80=
+d3889afe6" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"827c94f1-e6de-46f2-92b9-0c5ad38395cf">
+<th data-local-id=3D"ad8591a7-7e62-41f3-906b-27b3fa9a402b" class=3D"conflue=
+nceTh">
+<p local-id=3D"29191fb5b4c8">Field</p></th>
+<th data-local-id=3D"ce44ef7b-e505-44ea-a797-81899411e680" class=3D"conflue=
+nceTh">
+<p local-id=3D"d0b4ca0c4f26">Required</p></th>
+<th data-local-id=3D"660cac6e-8da1-45b1-8d2a-e03b1092ed80" class=3D"conflue=
+nceTh">
+<p local-id=3D"0f0b3bb5dccc">Type</p></th>
+<th data-local-id=3D"a22c5d75-ff65-4fe9-9610-a8b54d5277d5" class=3D"conflue=
+nceTh">
+<p local-id=3D"39bb20dd848a">Description</p></th>
+</tr>
+<tr data-local-id=3D"9b4fce3f-cd50-47a8-93a8-260349a1be3d">
+<td data-local-id=3D"889b7c1f-dbd1-40cb-a018-9f64c9e01e2b" class=3D"conflue=
+nceTd">
+<p local-id=3D"95386c8c2b19"><strong>Task Name</strong></p></td>
+<td data-local-id=3D"5b721033-7f14-42e9-ae18-970e8ffe988a" class=3D"conflue=
+nceTd">
+<p local-id=3D"17156281ed58"><strong>Required</strong></p></td>
+<td data-local-id=3D"7acbda8c-563a-4fd6-a8e3-be744ac1c2d9" class=3D"conflue=
+nceTd">
+<p local-id=3D"361df32aba1d">Text</p></td>
+<td data-local-id=3D"3112a4b0-b00f-4f3e-a4e4-11452cdeda89" class=3D"conflue=
+nceTd">
+<p local-id=3D"532a5d8ace2f">The name or title of the task. This is the pri=
+mary label displayed in Mews Operations. It cannot be empty or whitespace-o=
+nly.</p></td>
+</tr>
+<tr data-local-id=3D"6353b545-3853-40c8-9e62-add1145c7975">
+<td data-local-id=3D"d2b279a8-8fbb-45ce-86a5-c19be26d7601" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa744f790b2f"><strong>Deadline (UTC)</strong></p></td>
+<td data-local-id=3D"8826175c-5b1d-4275-a0a6-ead422004f8f" class=3D"conflue=
+nceTd">
+<p local-id=3D"99ca24c84297"><strong>Required</strong></p></td>
+<td data-local-id=3D"12130371-5848-42df-96bf-a48e9dc9d057" class=3D"conflue=
+nceTd">
+<p local-id=3D"4765e8564b62">Date &amp; Time</p></td>
+<td data-local-id=3D"c052cd71-2ec9-43c9-9b70-d88c7c071f18" class=3D"conflue=
+nceTd">
+<p local-id=3D"9252ac64ef13">The date and time by which the task should be =
+completed, specified in <strong>UTC</strong>. Accepted formats: <code>YYYY-=
+MM-DD HH:mm</code> or <code>YYYY-MM-DD HH:mm:ss</code>. The value is automa=
+tically converted to a full ISO 8601 timestamp (e.g., <code>2026-04-28T14:0=
+0:00.000Z</code>).</p></td>
+</tr>
+<tr data-local-id=3D"8956067b-52e9-43c2-9d0d-6a39f6b61d9a">
+<td data-local-id=3D"20e7c9e9-624a-4121-9ea4-d6278b6b2658" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2ac3a78b738"><strong>Description</strong></p></td>
+<td data-local-id=3D"23e084b8-5ab4-4b11-98d3-7f8d84811f73" class=3D"conflue=
+nceTd">
+<p local-id=3D"2a6fe68906c3"><strong>Optional</strong></p></td>
+<td data-local-id=3D"eff2cd53-3e68-401f-bd46-b5cc17de027d" class=3D"conflue=
+nceTd">
+<p local-id=3D"53dff2c926fb">Text</p></td>
+<td data-local-id=3D"e1484199-20c4-49bb-8a57-b0569d1ede37" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f8916807812">Additional details or instructions displayed o=
+n the task. If left empty, the task is created without a description. Leadi=
+ng and trailing whitespace is automatically trimmed.</p></td>
+</tr>
+<tr data-local-id=3D"bcc98fd7-31e9-4d1f-9d4c-c265b955e2ed">
+<td data-local-id=3D"a45f8c69-3d17-4e57-beb0-ef7cd8848395" class=3D"conflue=
+nceTd">
+<p local-id=3D"f1356f376867"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"7ddb8c54-6e59-41b2-8087-0269c263d4df" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b868fdf114e"><strong>Optional</strong></p></td>
+<td data-local-id=3D"edecc945-e6f1-47ee-a48a-a3cd798288e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"a6165980ffa5">Text (GUID)</p></td>
+<td data-local-id=3D"1b7e07d5-c169-4805-a31a-88a175da080c" class=3D"conflue=
+nceTd">
+<p local-id=3D"39b473dfd9d1">The unique identifier of a reservation to link=
+ the task to. When provided, the task appears associated with that reservat=
+ion in Mews Operations. This field is found under the <strong>Advanced</str=
+ong> section. Typically populated dynamically from a previous step in the w=
+orkflow (e.g., a trigger that provides a reservation ID).</p></td>
+</tr>
+<tr data-local-id=3D"050c2349-1659-4ba0-8d13-fab1965245c9">
+<td data-local-id=3D"73322184-3f5b-4bc3-b2a8-461f3d330d08" class=3D"conflue=
+nceTd">
+<p local-id=3D"3229a253ea08"><strong>Department</strong></p></td>
+<td data-local-id=3D"499351ad-ab07-4077-810f-67c11a7b1cd3" class=3D"conflue=
+nceTd">
+<p local-id=3D"4ff66566f131"><strong>Optional</strong></p></td>
+<td data-local-id=3D"6461be71-abfe-479b-82f0-86ce8e842fff" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba92654d506a">Dropdown (select)</p></td>
+<td data-local-id=3D"25ba8183-5a02-4c81-beed-475c15db09fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"5873ab6e837d">The department to assign the task to. The drop=
+down is populated dynamically with the departments configured in your prope=
+rty. If not selected, the task is created without a department assignment. =
+This field is found under the <strong>Advanced</strong> section.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e1cb17463055"><strong>Note:</strong> The <strong>Reservation=
+ ID</strong> and <strong>Department</strong> fields are located in the <str=
+ong>Advanced</strong> section of the component settings, which is collapsed=
+ by default.</p>
+<hr local-id=3D"97d3ced6-84a7-495f-a486-5fb596213a0f">
+<h2 local-id=3D"9d47aaf0796d" id=3D"AddTask-OutputFields">Output Fields</h2=
+>
+<p local-id=3D"aeb71634c2ec">When the task is successfully created, the fol=
+lowing values are available on the <strong>out</strong> output port for use=
+ in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"5562c7af-9321-4131-a99f-6b6=
+506ca7c2b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"75eb3323-63c5-4dd0-94a5-9182b3ddc143">
+<th data-local-id=3D"0628272a-197a-41c1-b43b-41f32141fa87" class=3D"conflue=
+nceTh">
+<p local-id=3D"3816d70a9304">Field</p></th>
+<th data-local-id=3D"b3cba8f7-76da-48ce-ac8b-3cb44434a557" class=3D"conflue=
+nceTh">
+<p local-id=3D"28ec3cc39b9c">Type</p></th>
+<th data-local-id=3D"925ac450-85df-4e8e-aac3-5161d2d8bc6c" class=3D"conflue=
+nceTh">
+<p local-id=3D"9f4f36f29973">Description</p></th>
+</tr>
+<tr data-local-id=3D"9a121d0a-4cf2-4a4d-8ccc-df5c2f5fabf7">
+<td data-local-id=3D"59858be2-a902-4e45-9fe4-303b783de898" class=3D"conflue=
+nceTd">
+<p local-id=3D"40a37f96ec5e"><strong>Name</strong></p></td>
+<td data-local-id=3D"d1d133c7-83f3-4a54-bc0e-2cebfe71172e" class=3D"conflue=
+nceTd">
+<p local-id=3D"b0ec90bf474a">Text</p></td>
+<td data-local-id=3D"cfa95ce2-3e26-4b65-a740-c062cf747029" class=3D"conflue=
+nceTd">
+<p local-id=3D"108a33f29975">The name of the created task.</p></td>
+</tr>
+<tr data-local-id=3D"cc9a81ab-8b3f-419f-8788-985fd2a7833f">
+<td data-local-id=3D"6c27ea2b-49f7-44a8-a227-f503d0b71a41" class=3D"conflue=
+nceTd">
+<p local-id=3D"093e16e0345d"><strong>Description</strong></p></td>
+<td data-local-id=3D"e540bf6e-4bed-49c9-9faa-49d022f07d6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"a26b0863052f">Text</p></td>
+<td data-local-id=3D"32d68d08-587e-4d2c-984c-c2e0a28d4a69" class=3D"conflue=
+nceTd">
+<p local-id=3D"517113cecfb3">The description of the created task. Returns a=
+n empty string if no description was provided.</p></td>
+</tr>
+<tr data-local-id=3D"3035b68a-78b6-4b9f-a69a-7da2555af060">
+<td data-local-id=3D"cb12c4b5-038f-47b5-9238-f18304b85a7b" class=3D"conflue=
+nceTd">
+<p local-id=3D"325009aa237a"><strong>Deadline</strong></p></td>
+<td data-local-id=3D"011821cb-1fa8-4945-ac2a-b750c701c8d6" class=3D"conflue=
+nceTd">
+<p local-id=3D"c2857a793496">Date &amp; Time</p></td>
+<td data-local-id=3D"5aa23f8e-f7b3-4dc8-bcf0-90b6f17a460a" class=3D"conflue=
+nceTd">
+<p local-id=3D"4ed7500bd3a8">The deadline of the created task in UTC (ISO 8=
+601 format).</p></td>
+</tr>
+<tr data-local-id=3D"4b55fa80-42d0-4f28-8b87-ba9dd691528b">
+<td data-local-id=3D"b45a9983-7511-4dbe-82eb-43cce68571ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"590602a9e0f4"><strong>Service Order ID</strong></p></td>
+<td data-local-id=3D"75598853-8391-470f-8125-809973856da1" class=3D"conflue=
+nceTd">
+<p local-id=3D"b34fb41dcabb">Text (GUID)</p></td>
+<td data-local-id=3D"6c88784c-3342-4b7d-85f3-75163af8fe05" class=3D"conflue=
+nceTd">
+<p local-id=3D"10a6d4ce73db">The unique identifier of the reservation (serv=
+ice order) linked to the task, if one was provided.</p></td>
+</tr>
+<tr data-local-id=3D"52af0ecf-f83c-477a-a61b-0b9d338c8939">
+<td data-local-id=3D"6cabad83-4554-4bce-bdfe-47bf5be365c3" class=3D"conflue=
+nceTd">
+<p local-id=3D"38c837aed085"><strong>Department ID</strong></p></td>
+<td data-local-id=3D"b6dcf4b1-43d9-4685-a3a0-8a2f2eb74de5" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ad3a180f031">Text (GUID)</p></td>
+<td data-local-id=3D"f2d49d9c-ba18-4d72-9094-d6e334654a9a" class=3D"conflue=
+nceTd">
+<p local-id=3D"40f582fc8f79">The unique identifier of the department assign=
+ed to the task, if one was selected.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"d2d922ef-962e-41fc-b2d2-7cde1a9c651b">
+<h2 local-id=3D"3b9f55d2bc3a" id=3D"AddTask-CooldownSettings">Cooldown Sett=
+ings</h2>
+<p local-id=3D"c11a8929a634">The cooldown feature prevents the action from =
+running repeatedly for the same entity within a defined time window. This i=
+s useful when a workflow may be triggered multiple times in quick successio=
+n (e.g., multiple profile updates for the same guest) and you want to avoid=
+ creating duplicate tasks.</p>
+<p local-id=3D"8503e1ace097">Cooldown settings are located in the <strong>C=
+ooldown</strong> section of the component settings, which is collapsed by d=
+efault.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ee8e22bd-38b1-4d66-8968-99a=
+f2a22626c" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"080f0be5-c603-48ea-9560-c651f49d6b13">
+<th data-local-id=3D"e280fe33-867a-497f-8a09-5eb11014cd06" class=3D"conflue=
+nceTh">
+<p local-id=3D"feb78d98e6e6">Setting</p></th>
+<th data-local-id=3D"cc5b5645-f74b-4aac-bffb-328e4a20768e" class=3D"conflue=
+nceTh">
+<p local-id=3D"431c3061e5d0">Required</p></th>
+<th data-local-id=3D"46ad3d47-2098-46f0-9f28-0f09d3d2d75d" class=3D"conflue=
+nceTh">
+<p local-id=3D"4e10881d95e4">Description</p></th>
+</tr>
+<tr data-local-id=3D"7bc34101-c3d0-45a7-b8d5-27c81fd182f7">
+<td data-local-id=3D"682ca1de-54ce-406a-af97-6e2e0b764c44" class=3D"conflue=
+nceTd">
+<p local-id=3D"ffd912244216"><strong>Cooldown period</strong></p></td>
+<td data-local-id=3D"3b5f0423-ad1d-41a0-b907-9cbc06c42059" class=3D"conflue=
+nceTd">
+<p local-id=3D"3221837172e1"><strong>Optional</strong></p></td>
+<td data-local-id=3D"51753bbc-113e-4493-95db-c7dfbe5608f9" class=3D"conflue=
+nceTd">
+<p local-id=3D"65a5ad5926db">The number of time units during which the acti=
+on will not run again. Set to <code>0</code> (default) to disable the coold=
+own.</p></td>
+</tr>
+<tr data-local-id=3D"26e33a0b-e289-4b68-ad1d-72046eb40fff">
+<td data-local-id=3D"29a148a3-da1b-4946-a3c9-a1d3fcb65074" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba2cfe9a6b3a"><strong>Unit</strong></p></td>
+<td data-local-id=3D"adcf0889-ad4f-4dda-a895-ca53ab21fa39" class=3D"conflue=
+nceTd">
+<p local-id=3D"26dfcbc79eff"><strong>Optional</strong></p></td>
+<td data-local-id=3D"ddae7aa9-62db-4245-a8af-0b03e96c13a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"9f53689506dc">The time unit for the cooldown period. Options=
+: <strong>Minutes</strong>, <strong>Hours</strong>, <strong>Days</strong> (=
+default), <strong>Weeks</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"9f929656-e3bf-4fb0-8f08-89d87d915ede">
+<td data-local-id=3D"63facbae-f48b-44c5-8b5a-873b2e877918" class=3D"conflue=
+nceTd">
+<p local-id=3D"47ff60a9a6eb"><strong>Track by</strong></p></td>
+<td data-local-id=3D"8496f748-9b4d-4016-bcfb-2b2e557ce59c" class=3D"conflue=
+nceTd">
+<p local-id=3D"e279a350bd35"><strong>Optional</strong></p></td>
+<td data-local-id=3D"42f61f46-c0c0-4000-b095-df12262cb2e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"99946e286ccf">Determines the scope of the cooldown. Only vis=
+ible when the cooldown period is greater than 0.</p>
+<ul local-id=3D"d719927b-48d6-4121-b67f-ed737f0f01e0">
+<li local-id=3D"06adae2e-5b8e-44d4-bcd2-773540a49f80">
+<p local-id=3D"d065560bca2a"><strong>None</strong> (default) =E2=80=94 A si=
+ngle global cooldown window for this component instance.</p></li>
+<li local-id=3D"78c6776a-8eb0-4022-92c9-162ad2acb216">
+<p local-id=3D"b4ec471a490c"><strong>Reservation</strong> =E2=80=94 Each re=
+servation gets its own independent cooldown window based on the provided Re=
+servation ID.</p></li>
+<li local-id=3D"59ba9e5b-7b9a-41d4-9813-f4e0b97a6bea">
+<p local-id=3D"9d63a923023b"><strong>Guest</strong> =E2=80=94 Each guest ge=
+ts their own independent cooldown window. The guest is resolved from the pr=
+ovided Reservation ID.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"593173f8e469" id=3D"AddTask-CooldownOutput">Cooldown Output=
+</h3>
+<p local-id=3D"80d9bf431bf9">When the cooldown is active (i.e., the action =
+is skipped because it already ran within the cooldown window), the componen=
+t outputs the following on the <strong>cooldown</strong> port instead of th=
+e <strong>out</strong> port:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ca5a5742-86f6-4daf-ba8e-479=
+0694cc432" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"79891085-0fc2-4ca0-b257-e0a7b6573506">
+<th data-local-id=3D"4db25a85-58a4-4fbe-9a0d-caba765a4231" class=3D"conflue=
+nceTh">
+<p local-id=3D"8ff1584bef4b">Field</p></th>
+<th data-local-id=3D"8400f25e-a2fb-4841-89b9-ffcf817dae80" class=3D"conflue=
+nceTh">
+<p local-id=3D"3c3f9ae15828">Type</p></th>
+<th data-local-id=3D"035c0d22-4c29-4225-aaa6-890b3c569f62" class=3D"conflue=
+nceTh">
+<p local-id=3D"861b1d522258">Description</p></th>
+</tr>
+<tr data-local-id=3D"78a3d7d2-51dc-46db-8b7d-28878af6bdd4">
+<td data-local-id=3D"4110a3eb-132a-410f-a91e-c88bece29f9b" class=3D"conflue=
+nceTd">
+<p local-id=3D"58ae566d8507"><strong>Expires at</strong></p></td>
+<td data-local-id=3D"90f624e8-6543-46f1-8e8c-c0d22cc16b03" class=3D"conflue=
+nceTd">
+<p local-id=3D"0bfd6d860ee1">Date &amp; Time</p></td>
+<td data-local-id=3D"963a19fe-3d9b-406c-af54-3e66b2e2cf5c" class=3D"conflue=
+nceTd">
+<p local-id=3D"741b6d796333">The date and time (UTC) when the cooldown wind=
+ow expires and the action can run again.</p></td>
+</tr>
+<tr data-local-id=3D"cd06bca7-319c-4ad7-9b23-b574b857359f">
+<td data-local-id=3D"6f6a6cec-61dd-4a6e-a7a2-703681544c07" class=3D"conflue=
+nceTd">
+<p local-id=3D"090baba2c5e5"><strong>Remaining (minutes)</strong></p></td>
+<td data-local-id=3D"f84ac606-9dcb-42c5-8768-941be7b16eb0" class=3D"conflue=
+nceTd">
+<p local-id=3D"245644cc036b">Number</p></td>
+<td data-local-id=3D"70a62a9b-ce7c-4fff-b6b5-9149912b550b" class=3D"conflue=
+nceTd">
+<p local-id=3D"c1ebc51445d3">The number of minutes remaining until the cool=
+down expires.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"29ad9610258a"><strong>Tip:</strong> You can connect the <str=
+ong>cooldown</strong> port to other components to handle the cooldown scena=
+rio =E2=80=94 for example, to log that the action was skipped or to notify =
+an operator.</p>
+<hr local-id=3D"b7362442-6da3-4257-8b29-d27c09b42425">
+<h2 local-id=3D"02c2e646ca4d" id=3D"AddTask-HowItWorks">How It Works</h2>
+<ol start=3D"1" local-id=3D"af128cce-babb-446f-8d64-d608b4008428">
+<li local-id=3D"45b80f8c-3246-42b6-b3d1-b259c9037a17">
+<p local-id=3D"140f6a3774f2">The component receives input values from the p=
+revious step in the workflow (or from manually configured values).</p></li>
+<li local-id=3D"6fde39ee-2f65-4215-846a-5157ba011cec">
+<p local-id=3D"7208f9eed2c2">If a cooldown is configured and the cooldown w=
+indow is still active for the tracked entity, the action is <strong>skipped=
+</strong> and the cooldown information is sent to the <strong>cooldown</str=
+ong> output port.</p></li>
+<li local-id=3D"0a5f91d7-5cca-4391-affc-562ab0f67e0b">
+<p local-id=3D"189a3814e962">If no cooldown applies, the component sends a =
+request to the Mews Connector API to create the task with the provided name=
+, deadline, and optional description, reservation, and department.</p></li>
+<li local-id=3D"fb1f64e2-c40f-4e05-89be-7b39ed163df9">
+<p local-id=3D"1a280f0ec118">If the task is created successfully, the task =
+details are sent to the <strong>out</strong> output port.</p></li>
+<li local-id=3D"e24e3f2a-b163-4651-ae5f-7779ccde4a30">
+<p local-id=3D"15159f3a2088">If the creation fails (e.g., due to an invalid=
+ request), the component returns an error.</p></li>
+</ol>
+<hr local-id=3D"3f119d64-f1f9-4bab-a454-d768be1810c0">
+<h2 local-id=3D"9098f42fdaec" id=3D"AddTask-ExampleUseCases">Example Use Ca=
+ses</h2>
+<ul local-id=3D"2e2f76f6-2de6-43fb-8df8-208f3804d8c0">
+<li local-id=3D"7246fd73-b8b3-4d31-b5bb-05b43caba7ad">
+<p local-id=3D"473a5bd6b647"><strong>Checkout cleaning task</strong> =E2=80=
+=94 When a guest checks out, automatically create a "Room Cleaning" task wi=
+th a deadline of 2 hours after checkout, assigned to the Housekeeping depar=
+tment.</p></li>
+<li local-id=3D"6a72d7eb-ae56-4f01-abab-484d53486099">
+<p local-id=3D"19c81d2f7793"><strong>Pre-arrival preparation</strong> =E2=
+=80=94 When a reservation is confirmed, create a "Prepare VIP Amenities" ta=
+sk linked to the reservation with a deadline set to the day before arrival.=
+</p></li>
+<li local-id=3D"8834ce04-9f60-42c3-aa3e-62b4ddf31319">
+<p local-id=3D"03a3a10ac98e"><strong>Maintenance follow-up</strong> =E2=80=
+=94 After a guest reports an issue, create a task for the Maintenance depar=
+tment with the issue description and a deadline.</p></li>
+</ul>
+<hr local-id=3D"6206fbdf-8a5b-43db-a591-c9f5e9340cd7">
+<h2 local-id=3D"73e890eb620c" id=3D"AddTask-ErrorHandling">Error Handling</=
+h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"54956be8-6ff5-493d-9bed-13e=
+9f040f6f5" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"70b1b89e-bfd2-4830-b3ab-1787351b332a">
+<th data-local-id=3D"dd3bc551-c606-4818-9cb8-44de23193a60" class=3D"conflue=
+nceTh">
+<p local-id=3D"1f48209fb5cb">Error</p></th>
+<th data-local-id=3D"87199547-5139-4f08-9357-4c9b7033d9dc" class=3D"conflue=
+nceTh">
+<p local-id=3D"fe992bdb1397">Cause</p></th>
+</tr>
+<tr data-local-id=3D"7c99367a-f45a-4d6a-970a-9236bb999d99">
+<td data-local-id=3D"18b75ddc-532c-48c7-99a0-28bf234143ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"f21b9577b683"><code>Name is required.</code></p></td>
+<td data-local-id=3D"6a7bc889-9ea4-4a64-9285-56365a1c37de" class=3D"conflue=
+nceTd">
+<p local-id=3D"28aec0b426fc">The Task Name field was left empty or contains=
+ only whitespace.</p></td>
+</tr>
+<tr data-local-id=3D"f1c617ef-aeed-490b-99ea-63a0ca473fd2">
+<td data-local-id=3D"f981f50b-e262-4243-b1e1-a40157d5b554" class=3D"conflue=
+nceTd">
+<p local-id=3D"71033cfdce32"><code>Task creation failed with status code {c=
+ode}.</code></p></td>
+<td data-local-id=3D"15483e12-6c65-41f4-a559-1b29442b6590" class=3D"conflue=
+nceTd">
+<p local-id=3D"8cf927742acb">The request to create the task in Mews failed.=
+ This may indicate an invalid reservation ID, department ID, or a temporary=
+ service issue.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_18_1662089637.1777536496533--

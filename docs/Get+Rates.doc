@@ -1,0 +1,386 @@
+Date: Thu, 30 Apr 2026 08:09:36 +0000 (UTC)
+Message-ID: <228238458.53.1777536576101@bbd306284faf>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_52_993611008.1777536576101"
+
+------=_Part_52_993611008.1777536576101
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Rates</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Rates</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"c21ac52f236a"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"5cf9f86cc9a2"><strong>Category:</strong> Spaces, Rates &amp;=
+ Occupancy</p>
+<h2 local-id=3D"c2a3a8c23ee4" id=3D"GetRates-Overview">Overview</h2>
+<p local-id=3D"105f43db9cc4">The <strong>Get Rates</strong> action retrieve=
+s all enabled rates configured in your property. This includes both public =
+and private rates across all bookable services. The component returns a lis=
+t of rate names and their unique identifiers, which can be used in subseque=
+nt workflow steps =E2=80=94 for example, to filter reservations by rate, to=
+ compare rates in a conditional branch, or to pass a specific rate ID into =
+another action.</p>
+<p local-id=3D"9c7524190e17">This component has no input fields. When trigg=
+ered, it automatically fetches all available rates for the property associa=
+ted with your connection and outputs them as a list on the <strong>out</str=
+ong> port.</p>
+<p local-id=3D"d69a3339dad4"><strong>Note:</strong> Only <strong>enabled</s=
+trong> rates are returned. Disabled rates and voucher rates are excluded fr=
+om the results.</p>
+<hr local-id=3D"4081a094-734a-436c-aae3-7839887b9038">
+<h2 local-id=3D"4447576e8b59" id=3D"GetRates-InputFields">Input Fields</h2>
+<p local-id=3D"4975c3b54cbc">This component has <strong>no input fields</st=
+rong>. It automatically retrieves all enabled rates for the property linked=
+ to the authenticated connection. Simply connect it to a preceding step in =
+your workflow to trigger it.</p>
+<hr local-id=3D"7b61b3ba-dfb8-497c-be44-3f9123ee4976">
+<h2 local-id=3D"1f60ba78e60f" id=3D"GetRates-OutputFields">Output Fields</h=
+2>
+<p local-id=3D"41674d29678a">When the rates are successfully retrieved, the=
+ following values are available on the <strong>out</strong> output port. Th=
+e output is a list (array), where each item represents one rate:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"2eae2325-28f6-4616-a6a3-edf=
+a3557b6f9" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"5a8868de-01f1-49af-90a3-403235d4a074">
+<th data-local-id=3D"da9b6eea-8032-4674-8ddd-147ef42060ad" class=3D"conflue=
+nceTh">
+<p local-id=3D"da0bec048c63">Field</p></th>
+<th data-local-id=3D"3aa233f2-406c-4630-97f0-6ac1cd0fab1a" class=3D"conflue=
+nceTh">
+<p local-id=3D"36ad0d71292d">Type</p></th>
+<th data-local-id=3D"46cfb045-8795-495e-ba99-ba0d564e3562" class=3D"conflue=
+nceTh">
+<p local-id=3D"5b0db79e94d1">Description</p></th>
+</tr>
+<tr data-local-id=3D"cb8c9215-ac8c-44f3-bf07-a7d0b24b1adc">
+<td data-local-id=3D"bffa9b14-a000-4bf6-acfd-5897d2f5b1ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"391a67414147"><strong>Value</strong></p></td>
+<td data-local-id=3D"a77df88b-29da-4f73-9848-7d8220bfcbc8" class=3D"conflue=
+nceTd">
+<p local-id=3D"c571f8a6b313">Text (GUID)</p></td>
+<td data-local-id=3D"587c4194-d234-41f6-ba00-25022be1c87f" class=3D"conflue=
+nceTd">
+<p local-id=3D"a7e09c55c090">The unique identifier of the rate. Use this ID=
+ when passing a rate into other components (e.g., filtering reservations by=
+ rate).</p></td>
+</tr>
+<tr data-local-id=3D"1b94e9c1-bfe0-4b49-bc9f-f4817274b9fd">
+<td data-local-id=3D"8ae94f1f-b2cd-4779-8e18-16ae3c4202b6" class=3D"conflue=
+nceTd">
+<p local-id=3D"eecb11f42bb2"><strong>Label</strong></p></td>
+<td data-local-id=3D"38e9a722-7d35-493a-a834-2946571ee6ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff0969f109e1">Text</p></td>
+<td data-local-id=3D"78678459-082a-4412-8c36-5e8fe2ef21cf" class=3D"conflue=
+nceTd">
+<p local-id=3D"a779f8277bd0">The display name of the rate in the property's=
+ default language. If the property has multiple bookable services, the serv=
+ice name is appended in parentheses to distinguish rates across services =
+=E2=80=94 for example, <code>Best Available Rate (Accommodation)</code>.</p=
+></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"bb02a664eed2"><strong>Tip:</strong> The output list is order=
+ed by the rate ordering configured in your property settings, so the rates =
+appear in the same order as they do in Mews Operations.</p>
+<hr local-id=3D"b6dcf373-e578-4226-8309-a71f09ba0d85">
+<h2 local-id=3D"60b6e8150f41" id=3D"GetRates-HowItWorks">How It Works</h2>
+<ol start=3D"1" local-id=3D"967a7f20-d0ee-43fa-abba-9060c046275e">
+<li local-id=3D"7ff00610-3894-43f2-9d5d-07e901b7161c">
+<p local-id=3D"1c24b956fff2">The component receives a trigger from the prev=
+ious step in the workflow.</p></li>
+<li local-id=3D"ad3c91d8-c1a8-4b70-bf7d-0d66a2a93007">
+<p local-id=3D"cb2d77798c2a">A request is sent to retrieve all enabled rate=
+s (public and private) across all bookable services configured in the prope=
+rty.</p></li>
+<li local-id=3D"adef87b9-9723-41a0-9e40-7a91785c7f1d">
+<p local-id=3D"e07423adce61">Voucher rates and disabled rates are automatic=
+ally excluded from the results.</p></li>
+<li local-id=3D"61880324-958c-4991-b465-df273626fc9e">
+<p local-id=3D"2804fd4648af">Each rate is returned with its display name. I=
+f the property has more than one bookable service, the service name is appe=
+nded to each rate name to help distinguish them (e.g., <code>Standard Rate =
+(Accommodation)</code> vs. <code>Standard Rate (Spa)</code>).</p></li>
+<li local-id=3D"ccde32b7-d3e0-430d-8daa-e20bf86daeb0">
+<p local-id=3D"098c687fc646">The list of rates is sorted by the ordering de=
+fined in the property configuration and sent to the <strong>out</strong> ou=
+tput port.</p></li>
+</ol>
+<hr local-id=3D"1f46fa93-876e-4c39-aad5-1f56dceea5e4">
+<h2 local-id=3D"9e4a479f0e1b" id=3D"GetRates-ExampleUseCases">Example Use C=
+ases</h2>
+<ul local-id=3D"3b117755-2c31-482f-97e7-98c7664b278b">
+<li local-id=3D"7aac551c-6fee-4423-aec9-781a69f513fb">
+<p local-id=3D"f3fa328cfeff"><strong>Rate-based routing</strong> =E2=80=94 =
+Retrieve all rates and use them in a conditional branch to apply different =
+logic depending on which rate a reservation was booked with (e.g., send a w=
+elcome email only for "Best Available Rate" bookings).</p></li>
+<li local-id=3D"c1523744-af7a-4f4c-8b64-78df5cad6867">
+<p local-id=3D"ac40db4b287a"><strong>Populating a dropdown</strong> =E2=80=
+=94 Use the output as a dynamic data source to populate rate selection drop=
+downs in other components within your workflow.</p></li>
+<li local-id=3D"0b3bd575-86fd-4ac9-8816-86079e5efb36">
+<p local-id=3D"c8a741da047d"><strong>Rate auditing</strong> =E2=80=94 Perio=
+dically fetch all enabled rates to verify that the expected rates are activ=
+e and correctly configured in the property.</p></li>
+</ul>
+<hr local-id=3D"26451795-c395-418f-a13d-94fb33105fae">
+<h2 local-id=3D"33e83dfc5a49" id=3D"GetRates-ErrorHandling">Error Handling<=
+/h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"e436d2e3-68f6-400a-9ad9-68e=
+5eaa309c9" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2008e258-59c9-46b8-a143-9d5751ecb90e">
+<th data-local-id=3D"0f91e512-97fd-413e-a3b9-ff9a5af84576" class=3D"conflue=
+nceTh">
+<p local-id=3D"af1c93783420">Error</p></th>
+<th data-local-id=3D"840247c7-a12d-46dc-aa02-d3fe0e05be67" class=3D"conflue=
+nceTh">
+<p local-id=3D"4b5d3a42e018">Cause</p></th>
+</tr>
+<tr data-local-id=3D"31007094-67a1-4569-8871-f05deda66620">
+<td data-local-id=3D"4f799831-9289-4566-9464-165b9da21183" class=3D"conflue=
+nceTd">
+<p local-id=3D"609953ff7a8f"><code>Request failed with status code {code}.<=
+/code></p></td>
+<td data-local-id=3D"3447c807-6fb4-4e76-b1b3-f658e09027e2" class=3D"conflue=
+nceTd">
+<p local-id=3D"4c5e400a4324">The request to retrieve rates failed. This may=
+ indicate an authentication issue with the connection or a temporary servic=
+e disruption.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_52_993611008.1777536576101--

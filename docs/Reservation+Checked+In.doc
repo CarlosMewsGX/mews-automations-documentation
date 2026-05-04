@@ -1,0 +1,788 @@
+Date: Thu, 30 Apr 2026 08:09:22 +0000 (UTC)
+Message-ID: <455526579.45.1777536562417@7f6238d0c617>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_44_416834253.1777536562417"
+
+------=_Part_44_416834253.1777536562417
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Reservation Checked In</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Reservation Checked In</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"f86d2887dbac"><strong>Component type:</strong> Trigg=
+er</p>
+<p local-id=3D"bee0fdaac4b5"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"8c0bb0831990" id=3D"ReservationCheckedIn-Overview">Overview=
+</h2>
+<p local-id=3D"adee7178a3f2">The <strong>Reservation Checked In</strong> tr=
+igger fires automatically whenever a guest is checked in to a reservation a=
+t your property. It serves as the starting point of a workflow, providing d=
+etailed information about the reservation and the associated guest at the m=
+oment of check-in.</p>
+<p local-id=3D"78d14203d91d">This trigger has no input fields to configure =
+=E2=80=94 simply add it to your workflow and it will start listening for ch=
+eck-in events. When a guest is checked in, the component outputs all releva=
+nt reservation and guest details on the <strong>out</strong> port, which ca=
+n then be used by subsequent steps in your workflow.</p>
+<hr local-id=3D"d7f678f1-2e17-43ac-be06-4cc9b6c4abde">
+<h2 local-id=3D"da70ec9a4596" id=3D"ReservationCheckedIn-InputFields">Input=
+ Fields</h2>
+<p local-id=3D"c7352c81f821">This component is a trigger and does not have =
+any input fields. It activates automatically when a reservation is checked =
+in at your property.</p>
+<hr local-id=3D"c1f20d5d-2ed7-4588-8929-ef0ee6df4104">
+<h2 local-id=3D"e28500ac297a" id=3D"ReservationCheckedIn-OutputFields">Outp=
+ut Fields</h2>
+<p local-id=3D"91a1b360ef26">When a reservation is checked in, the followin=
+g values are available on the <strong>out</strong> output port for use in s=
+ubsequent workflow steps:</p>
+<h3 local-id=3D"931c360833a0" id=3D"ReservationCheckedIn-ReservationDetails=
+">Reservation Details</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a18153da-f61a-426c-ae65-cd3=
+efd3bb646" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a8b31bcd-14ba-4d9e-bc98-dc0adfa77854">
+<th data-local-id=3D"f369672e-332c-404e-a054-5ff519db0703" class=3D"conflue=
+nceTh">
+<p local-id=3D"437b1de0fa68">Field</p></th>
+<th data-local-id=3D"cb14d7dc-dcf5-414a-b498-abd1d992767b" class=3D"conflue=
+nceTh">
+<p local-id=3D"f535bfee2a86">Type</p></th>
+<th data-local-id=3D"f21c2382-43d2-4b80-b131-36e3ed476bf8" class=3D"conflue=
+nceTh">
+<p local-id=3D"3b2c01563610">Description</p></th>
+</tr>
+<tr data-local-id=3D"d14e5891-da3e-43fc-bd29-b772682be54c">
+<td data-local-id=3D"f2f9486c-1db0-46a1-bdde-e2792de168aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d08ffabf935"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"62c64eed-f1b6-4521-920f-616fc51ceb70" class=3D"conflue=
+nceTd">
+<p local-id=3D"869054392177">Text (GUID)</p></td>
+<td data-local-id=3D"30bba829-53e6-4c35-be22-cd5fbd494521" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ee6058a1a8c">The unique identifier of the checked-in reserv=
+ation.</p></td>
+</tr>
+<tr data-local-id=3D"efcaa518-881e-4813-bf0d-0b853041ed6a">
+<td data-local-id=3D"bff7b657-2791-464c-a4d3-37c9a2e2d5ce" class=3D"conflue=
+nceTd">
+<p local-id=3D"16295e86ac00"><strong>Confirmation Number</strong></p></td>
+<td data-local-id=3D"47a474ca-284b-4b10-a32a-8f3e2e0afe6d" class=3D"conflue=
+nceTd">
+<p local-id=3D"409a046cbbdb">Text</p></td>
+<td data-local-id=3D"a579216c-d9fc-4d35-83ce-945d74ad0a4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"52af4a89272e">The human-readable confirmation number assigne=
+d to the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"d7fb4ca6-44e2-42aa-a6d9-9aafd4423a46">
+<td data-local-id=3D"32cf3cef-c6cd-4fef-b624-796421582170" class=3D"conflue=
+nceTd">
+<p local-id=3D"27e444f1e7b0"><strong>State</strong></p></td>
+<td data-local-id=3D"7b228b42-2e19-4820-864d-964c7bcf8eb6" class=3D"conflue=
+nceTd">
+<p local-id=3D"4970e88f0c87">Text</p></td>
+<td data-local-id=3D"f1c1cce6-2529-4a9b-b47f-57d2985a2dcb" class=3D"conflue=
+nceTd">
+<p local-id=3D"c7be583a9583">The current state of the reservation (e.g., <c=
+ode>Started</code>).</p></td>
+</tr>
+<tr data-local-id=3D"8a08d20e-f875-4881-ad5e-9d106b879441">
+<td data-local-id=3D"def05d2d-451f-4e08-8c84-ce93ca89194e" class=3D"conflue=
+nceTd">
+<p local-id=3D"050aa490fcd6"><strong>Origin</strong></p></td>
+<td data-local-id=3D"dcf3f0fc-ba93-4e2c-a4b3-ea9598d605f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"738dca531ee5">Text</p></td>
+<td data-local-id=3D"09e90a7b-bdb7-4584-bbc5-ba378a1d9558" class=3D"conflue=
+nceTd">
+<p local-id=3D"67408f9fd999">The source channel through which the reservati=
+on was created (e.g., <code>Distributor</code>, <code>ChannelManager</code>=
+, <code>Commander</code>).</p></td>
+</tr>
+<tr data-local-id=3D"8349c2d6-954d-4739-9df0-8b9924133832">
+<td data-local-id=3D"4d809fb6-20cb-4401-be21-03a4b75ddbf0" class=3D"conflue=
+nceTd">
+<p local-id=3D"f09c1b6e1e73"><strong>Origin Details</strong></p></td>
+<td data-local-id=3D"c240ca9e-792c-4e9f-b731-4fab9c30cb03" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab3e0e4147af">Text</p></td>
+<td data-local-id=3D"a522e60e-634c-40db-a470-3850894f4944" class=3D"conflue=
+nceTd">
+<p local-id=3D"c08fdcdb2130">Additional details about the reservation origi=
+n, such as the name of the specific channel or booking source. May be empty=
+ if no additional details are available.</p></td>
+</tr>
+<tr data-local-id=3D"82c1b025-ea77-4bcc-b7fe-d17a88ddcefc">
+<td data-local-id=3D"81bdaf0b-fc05-461b-80ce-67f835d93f1a" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d0237faaa17"><strong>Assigned Space ID</strong></p></td>
+<td data-local-id=3D"77e1d82e-3644-4648-bfda-5dedd5e51ff7" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb423439e800">Text (GUID)</p></td>
+<td data-local-id=3D"5d6bd8a3-f5ce-483b-abfa-d8686eefbe1e" class=3D"conflue=
+nceTd">
+<p local-id=3D"58a96dcb4926">The unique identifier of the space (room) assi=
+gned to the reservation. At the time of check-in, a space is typically assi=
+gned.</p></td>
+</tr>
+<tr data-local-id=3D"d356e300-757a-47e7-a236-8bce71b5af63">
+<td data-local-id=3D"2ca15124-77c7-43bc-9b39-d8f314c1aecb" class=3D"conflue=
+nceTd">
+<p local-id=3D"3c5fff4846c0"><strong>Rate ID</strong></p></td>
+<td data-local-id=3D"51ea74fa-6089-4928-a11f-1318a21823c1" class=3D"conflue=
+nceTd">
+<p local-id=3D"4dfaf780bcd3">Text (GUID)</p></td>
+<td data-local-id=3D"b6b2408b-a4a4-4d3d-9d7f-b249c1fa328d" class=3D"conflue=
+nceTd">
+<p local-id=3D"864bc76fe3be">The unique identifier of the rate applied to t=
+he reservation. May be empty if no rate is assigned.</p></td>
+</tr>
+<tr data-local-id=3D"6351ef3c-9ef4-4184-bafc-d6bf9671b5e2">
+<td data-local-id=3D"042eeaf3-d58e-44ca-a1ae-6dc829093103" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d057335aab3"><strong>Service ID</strong></p></td>
+<td data-local-id=3D"10c3ec99-35ea-4624-bbc5-d3f6c82581c0" class=3D"conflue=
+nceTd">
+<p local-id=3D"86a9d0ba15ce">Text (GUID)</p></td>
+<td data-local-id=3D"92fbf249-edac-4f9e-896e-048dafc9c276" class=3D"conflue=
+nceTd">
+<p local-id=3D"13d57eba7162">The unique identifier of the bookable service =
+(e.g., accommodation) that the reservation belongs to.</p></td>
+</tr>
+<tr data-local-id=3D"cdba66c2-1da5-4937-9a33-7852bbc0ea42">
+<td data-local-id=3D"6553248e-fd80-4e79-9e37-916a080871bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"225bcef16e87"><strong>Business Segment ID</strong></p></td>
+<td data-local-id=3D"14e652ef-1452-41db-a632-a5011f205c05" class=3D"conflue=
+nceTd">
+<p local-id=3D"07528f1d6b44">Text (GUID)</p></td>
+<td data-local-id=3D"3b74743a-7fed-4d5d-9135-1bbde2d2fb40" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f494a4aea46">The unique identifier of the business segment =
+associated with the reservation. May be empty if no segment is assigned.</p=
+></td>
+</tr>
+<tr data-local-id=3D"36905d5c-29c1-4153-9f9a-9adc8bcad510">
+<td data-local-id=3D"c6be3ea9-3e82-474c-9e6f-c15a337763e8" class=3D"conflue=
+nceTd">
+<p local-id=3D"5117e19187d4"><strong>Booker ID</strong></p></td>
+<td data-local-id=3D"d127bdd1-1c5b-4c64-a5d0-1fea1c293fac" class=3D"conflue=
+nceTd">
+<p local-id=3D"98b358f6786a">Text (GUID)</p></td>
+<td data-local-id=3D"c8682932-eb1a-4d06-916c-f71aa1c52bd8" class=3D"conflue=
+nceTd">
+<p local-id=3D"36a02130b643">The unique identifier of the customer who made=
+ the booking. This may differ from the guest staying in the room. May be em=
+pty if the booker information is not available.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"861ef0cd2b57" id=3D"ReservationCheckedIn-GuestDetails">Gues=
+t Details</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"e616de24-da5f-41dd-87d1-e3a=
+57aa078e4" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"5e3070a4-3619-4920-bb80-7e23c64ccf43">
+<th data-local-id=3D"c56d46c3-10f5-48d8-abfd-d90af0f17a2e" class=3D"conflue=
+nceTh">
+<p local-id=3D"b0e006b19bf1">Field</p></th>
+<th data-local-id=3D"beeea1b7-5c44-484b-995d-f09b5a4c2c22" class=3D"conflue=
+nceTh">
+<p local-id=3D"3c940a5c9d3f">Type</p></th>
+<th data-local-id=3D"e4c7ad6a-fe26-4938-9210-35939ead4c42" class=3D"conflue=
+nceTh">
+<p local-id=3D"e333ceed602e">Description</p></th>
+</tr>
+<tr data-local-id=3D"5f527bf5-ed13-4efd-a0a4-a8b3a3f75a25">
+<td data-local-id=3D"04226481-b58c-4678-ac9e-8f0d38d09c4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"262d6cfa6ce7"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"fa46b1c8-acb2-47a0-bdd3-1082769c7bd1" class=3D"conflue=
+nceTd">
+<p local-id=3D"f6d7cc9409d0">Text (GUID)</p></td>
+<td data-local-id=3D"19fc0e26-4e6b-422b-bc6b-fb376c0a6cce" class=3D"conflue=
+nceTd">
+<p local-id=3D"c0df8db019e9">The unique identifier of the guest associated =
+with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"0d279483-97a3-4067-9f22-f5cb0eea37db">
+<td data-local-id=3D"4913cab5-650b-4512-bada-7e430ca48ca1" class=3D"conflue=
+nceTd">
+<p local-id=3D"42ba42185037"><strong>Guest First Name</strong></p></td>
+<td data-local-id=3D"71d99c6a-2c7a-47f7-bbc5-57f73d1692d3" class=3D"conflue=
+nceTd">
+<p local-id=3D"bdabcb90be8f">Text</p></td>
+<td data-local-id=3D"df1f4d6b-697d-4d1f-8505-7f24582c6753" class=3D"conflue=
+nceTd">
+<p local-id=3D"243a876ed5f2">The first name of the guest. May be empty if n=
+ot provided.</p></td>
+</tr>
+<tr data-local-id=3D"8f9986b2-9cbf-4aed-8779-960f4667ed1c">
+<td data-local-id=3D"0f1d6af5-cbff-41b5-bcab-a06df3ea3b14" class=3D"conflue=
+nceTd">
+<p local-id=3D"4d5120ff3442"><strong>Guest Last Name</strong></p></td>
+<td data-local-id=3D"45f19954-654f-4a4d-a69e-bcbac9239298" class=3D"conflue=
+nceTd">
+<p local-id=3D"adc2afbcbd9e">Text</p></td>
+<td data-local-id=3D"7effac28-845b-4ca0-a420-911ce03cfe1e" class=3D"conflue=
+nceTd">
+<p local-id=3D"4c3d4ec348bc">The last name of the guest. May be empty if no=
+t provided.</p></td>
+</tr>
+<tr data-local-id=3D"e788de18-edf5-49b6-a5ee-a919597f3c68">
+<td data-local-id=3D"122a8982-b5c4-48a5-abd5-5d6568ae2e4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"e0c2619ae41d"><strong>Guest Email</strong></p></td>
+<td data-local-id=3D"11fb11f9-7f06-4d3a-a2cf-38f64542284e" class=3D"conflue=
+nceTd">
+<p local-id=3D"615622fa5d05">Text</p></td>
+<td data-local-id=3D"bbac8ed9-cb61-4bbb-9985-a7a8c2b8fd27" class=3D"conflue=
+nceTd">
+<p local-id=3D"b7435e528593">The email address of the guest. May be empty i=
+f not provided.</p></td>
+</tr>
+<tr data-local-id=3D"198dbc49-d4ef-467d-9587-9ffa456c682f">
+<td data-local-id=3D"0ec29121-950d-4263-af16-17c2ca5abf8b" class=3D"conflue=
+nceTd">
+<p local-id=3D"940b6cf0d8da"><strong>Guest Telephone</strong></p></td>
+<td data-local-id=3D"56ac4472-412a-4951-b7b1-400414ee0fdf" class=3D"conflue=
+nceTd">
+<p local-id=3D"c0e03548b639">Text</p></td>
+<td data-local-id=3D"a47670fb-2c96-4198-b856-eb9ad0a905ca" class=3D"conflue=
+nceTd">
+<p local-id=3D"b7e9d57a2170">The telephone number of the guest. May be empt=
+y if not provided.</p></td>
+</tr>
+<tr data-local-id=3D"d8d6bc7c-fb48-4e4d-b566-3ae3224c29b6">
+<td data-local-id=3D"5abace1a-414c-4a66-8258-ea4bfd379c40" class=3D"conflue=
+nceTd">
+<p local-id=3D"da6eb96c7067"><strong>Guest Nationality Code</strong></p></t=
+d>
+<td data-local-id=3D"7e8a8eee-adcf-45a4-90c6-0363f8ae790a" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff0c2696831a">Text</p></td>
+<td data-local-id=3D"f60ff57b-0927-4ae3-848d-255b62eaed93" class=3D"conflue=
+nceTd">
+<p local-id=3D"463f1e8c3cd5">The ISO 3166-1 alpha-2 country code representi=
+ng the guest's nationality (e.g., <code>US</code>, <code>GB</code>, <code>D=
+E</code>). May be empty if not provided.</p></td>
+</tr>
+<tr data-local-id=3D"6403793f-506d-49eb-a56f-17dbe8f1db23">
+<td data-local-id=3D"68e76f4e-06e5-4259-b709-8b0a6d2f5a3b" class=3D"conflue=
+nceTd">
+<p local-id=3D"9c24ebe1884a"><strong>Guest Preferred Language Code</strong>=
+</p></td>
+<td data-local-id=3D"392f74ae-b590-400a-9285-868f85d38454" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0afd7cca521">Text</p></td>
+<td data-local-id=3D"e375226f-b879-4f7d-90c6-2af49c85b6da" class=3D"conflue=
+nceTd">
+<p local-id=3D"7acc4eac5219">The language code representing the guest's pre=
+ferred language (e.g., <code>en-US</code>, <code>de-DE</code>). May be empt=
+y if not set.</p></td>
+</tr>
+<tr data-local-id=3D"ab540700-9412-496b-9daa-5d4388ecbbbd">
+<td data-local-id=3D"4f860c01-4209-4267-b803-a93339e708f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"f63afd1da507"><strong>Guest Loyalty Code</strong></p></td>
+<td data-local-id=3D"ed50ba74-7773-488b-ad67-baae8ed757c1" class=3D"conflue=
+nceTd">
+<p local-id=3D"71f2e76d0d70">Text</p></td>
+<td data-local-id=3D"54918c73-a16b-46da-a35b-c8bb28f69de7" class=3D"conflue=
+nceTd">
+<p local-id=3D"61ba041c80e9">The loyalty program membership code of the gue=
+st. May be empty if the guest is not enrolled in a loyalty program.</p></td=
+>
+</tr>
+<tr data-local-id=3D"0064a6e5-b56e-485d-8342-8a9030c0794c">
+<td data-local-id=3D"646169f8-f1cb-442e-b876-3fac24c6cbc1" class=3D"conflue=
+nceTd">
+<p local-id=3D"ee367ce883ce"><strong>Guest External Identifier</strong></p>=
+</td>
+<td data-local-id=3D"12aea684-4f67-4e13-987a-788004c0a95d" class=3D"conflue=
+nceTd">
+<p local-id=3D"2af2ea6165ce">Text</p></td>
+<td data-local-id=3D"ac380ed1-365b-4ae0-9adc-b6aab83ad359" class=3D"conflue=
+nceTd">
+<p local-id=3D"640f2a3918e7">An external identifier for the guest, typicall=
+y used for integration with third-party systems (e.g., a CRM or PMS). May b=
+e empty if not set.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"a591f0235bda" id=3D"ReservationCheckedIn-Date&amp;TimeField=
+s">Date &amp; Time Fields</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"57f6a2ed-1cc2-4949-b7d0-e13=
+3d0c89b78" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"e9b026e1-b723-46dd-9409-090b8372e101">
+<th data-local-id=3D"00d04c30-b328-4bb3-88fa-ddd5b3f7cd43" class=3D"conflue=
+nceTh">
+<p local-id=3D"d506f68daea8">Field</p></th>
+<th data-local-id=3D"ac0c87fb-53db-4793-9568-cb57935feb21" class=3D"conflue=
+nceTh">
+<p local-id=3D"61808ab1cb77">Type</p></th>
+<th data-local-id=3D"092dbe42-c84b-4885-9ad3-f3815ce5666d" class=3D"conflue=
+nceTh">
+<p local-id=3D"9b0bdb00b42f">Description</p></th>
+</tr>
+<tr data-local-id=3D"4b6edd6e-8023-4592-b95f-5b4d673d26db">
+<td data-local-id=3D"4732582f-f221-4354-b09e-08cd24cef673" class=3D"conflue=
+nceTd">
+<p local-id=3D"18136b19f38d"><strong>Arrival (UTC)</strong></p></td>
+<td data-local-id=3D"09d9e12b-8128-4561-9897-dc53f4caf6df" class=3D"conflue=
+nceTd">
+<p local-id=3D"ade0c1f4c543">Date &amp; Time</p></td>
+<td data-local-id=3D"cc6d956c-42e8-4735-bca9-a3f0148ea651" class=3D"conflue=
+nceTd">
+<p local-id=3D"3735ca25d583">The expected arrival date and time in UTC (ISO=
+ 8601 format).</p></td>
+</tr>
+<tr data-local-id=3D"98cd363d-cf42-4225-a7a9-1fd799f31a7c">
+<td data-local-id=3D"85d01540-e565-4605-a294-5f70f68f4d37" class=3D"conflue=
+nceTd">
+<p local-id=3D"f727599ee11c"><strong>Departure (UTC)</strong></p></td>
+<td data-local-id=3D"f1451f08-0e75-4712-a8d8-a17f2d2b0484" class=3D"conflue=
+nceTd">
+<p local-id=3D"88f3e1fbee71">Date &amp; Time</p></td>
+<td data-local-id=3D"6ad8bf96-7985-45c3-8322-e99c7509ad5a" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0bc197f9885">The expected departure date and time in UTC (I=
+SO 8601 format).</p></td>
+</tr>
+<tr data-local-id=3D"cc17ce54-26bf-445e-a783-9467fd40032b">
+<td data-local-id=3D"2a091968-b04c-4e86-a9eb-07b8602bb90e" class=3D"conflue=
+nceTd">
+<p local-id=3D"05616b6cc8eb"><strong>Confirmed (UTC)</strong></p></td>
+<td data-local-id=3D"4c727c97-66ed-4b48-8d73-3673dd38831f" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb843a5235c3">Date &amp; Time</p></td>
+<td data-local-id=3D"7b19d2e1-21d2-4ff7-9505-b590fb6f8128" class=3D"conflue=
+nceTd">
+<p local-id=3D"78048829dac3">The date and time when the reservation was con=
+firmed, in UTC. May be empty for optional reservations that were not confir=
+med before check-in.</p></td>
+</tr>
+<tr data-local-id=3D"4d0105ae-1a66-4ed9-9b5e-67f7cbe5c553">
+<td data-local-id=3D"b6c0e960-5ad2-4fd3-8362-569c8c8c52f4" class=3D"conflue=
+nceTd">
+<p local-id=3D"8a4d8ced25e1"><strong>Canceled (UTC)</strong></p></td>
+<td data-local-id=3D"bd228f1a-107f-46f9-9562-930ed137c31b" class=3D"conflue=
+nceTd">
+<p local-id=3D"1ac13340cdbc">Date &amp; Time</p></td>
+<td data-local-id=3D"56bc81c4-d4d4-4f95-9ac9-dc278d070ceb" class=3D"conflue=
+nceTd">
+<p local-id=3D"4268c1e4532f">The date and time when the reservation was can=
+celed, in UTC. Empty for active reservations (which is the expected case at=
+ check-in).</p></td>
+</tr>
+<tr data-local-id=3D"0d400cca-805b-41cf-9c5e-ff86750bed03">
+<td data-local-id=3D"5f27779c-e104-4a42-a03f-910c8af26068" class=3D"conflue=
+nceTd">
+<p local-id=3D"da8be498d58a"><strong>Started (UTC)</strong></p></td>
+<td data-local-id=3D"2f64ec22-19d7-45ed-bd62-a8becb5b872a" class=3D"conflue=
+nceTd">
+<p local-id=3D"3fd040ca5940">Date &amp; Time</p></td>
+<td data-local-id=3D"0c4a87a6-5d1e-41ac-8a6b-b338f5288602" class=3D"conflue=
+nceTd">
+<p local-id=3D"155c5a2b0787">The date and time when the guest was checked i=
+n, in UTC. This field is always populated when this trigger fires, as the c=
+heck-in event is what causes the trigger to activate.</p></td>
+</tr>
+<tr data-local-id=3D"7c34e010-dd84-40ea-b1eb-d30b0e0cde7c">
+<td data-local-id=3D"3b56bfb0-4f11-4668-a405-b7c09deae0be" class=3D"conflue=
+nceTd">
+<p local-id=3D"b1c8f0e8063a"><strong>Ended (UTC)</strong></p></td>
+<td data-local-id=3D"d1b44c25-300a-4c30-9f83-30ab5c2bca99" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d2a5b7435d4">Date &amp; Time</p></td>
+<td data-local-id=3D"c8ca1622-16b5-42b9-a4ee-3c65dbf64345" class=3D"conflue=
+nceTd">
+<p local-id=3D"71f6147b62bd">The date and time when the reservation ended (=
+guest checked out), in UTC. Empty at the time of check-in.</p></td>
+</tr>
+<tr data-local-id=3D"b5c9d72f-0146-49b4-aaf7-2c87aad33f37">
+<td data-local-id=3D"d3466948-9f47-4db4-8e85-cedbffac866c" class=3D"conflue=
+nceTd">
+<p local-id=3D"ef6ea5e36850"><strong>Created (UTC)</strong></p></td>
+<td data-local-id=3D"2b984186-e5a5-4185-b34a-8be14e09d734" class=3D"conflue=
+nceTd">
+<p local-id=3D"779e163e22da">Date &amp; Time</p></td>
+<td data-local-id=3D"248c7af8-3b6e-440b-877a-ac62831e526b" class=3D"conflue=
+nceTd">
+<p local-id=3D"b78c556018b6">The date and time when the reservation record =
+was created in the system, in UTC.</p></td>
+</tr>
+<tr data-local-id=3D"53eb314b-3d74-4a3c-a913-612f671dc3be">
+<td data-local-id=3D"e2312f77-f970-49bf-a982-9d1371645aad" class=3D"conflue=
+nceTd">
+<p local-id=3D"841238f1bdc9"><strong>Updated (UTC)</strong></p></td>
+<td data-local-id=3D"2d1b7311-6439-4167-b060-86fe2e91c764" class=3D"conflue=
+nceTd">
+<p local-id=3D"82ae21cba972">Date &amp; Time</p></td>
+<td data-local-id=3D"ecfb5d9b-c57f-4681-a87e-539a71c77b21" class=3D"conflue=
+nceTd">
+<p local-id=3D"6fddde43926c">The date and time when the reservation was las=
+t updated, in UTC.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"5e80bc2887f3"><strong>Note:</strong> All date and time value=
+s are provided in UTC using ISO 8601 format (e.g., <code>2026-04-28T14:00:0=
+0Z</code>). If your property operates in a different time zone, you may nee=
+d to convert these values in subsequent workflow steps.</p>
+<hr local-id=3D"56b9d1e6-1006-448a-9572-c1fd19bd6943">
+<h2 local-id=3D"9115839575a9" id=3D"ReservationCheckedIn-HowItWorks">How It=
+ Works</h2>
+<ol start=3D"1" local-id=3D"c26bf093-901a-42b4-8e8e-2345513c1d0c">
+<li local-id=3D"769fc903-9aed-4ee2-a75c-1d870b7e408e">
+<p local-id=3D"3cd52815a127">When the workflow is activated, the <strong>Re=
+servation Checked In</strong> trigger registers itself to listen for check-=
+in events in your property.</p></li>
+<li local-id=3D"a3c9f3d7-f743-483e-8468-2a2eb1e3cb6a">
+<p local-id=3D"ab4fedfafc57">Whenever a reservation is checked in at your p=
+roperty =E2=80=94 whether through the Mews Commander or any other integrate=
+d system =E2=80=94 the system detects the change and sends an event notific=
+ation to the trigger.</p></li>
+<li local-id=3D"d8c9825d-1328-4905-8b94-5464c4d62971">
+<p local-id=3D"d92d7a29e045">The trigger receives and validates the event t=
+o ensure it is authentic and has not already been processed (duplicate even=
+ts are automatically suppressed).</p></li>
+<li local-id=3D"9a261e07-888b-483f-a10a-ea61d5c902c1">
+<p local-id=3D"51e0ab8fd1e6">The reservation and guest details are extracte=
+d and sent to the <strong>out</strong> output port, making them available t=
+o the next steps in your workflow.</p></li>
+<li local-id=3D"eaf7b720-0428-44b9-bf27-a3fbfac2dff5">
+<p local-id=3D"c53c2205a57b">When the workflow is deactivated, the trigger =
+automatically stops listening for events.</p></li>
+</ol>
+<p local-id=3D"8eaa6b4bf2a8"><strong>Note:</strong> The trigger includes bu=
+ilt-in duplicate event suppression. If the same check-in event is received =
+more than once (e.g., due to a retry), it will only be processed once, prev=
+enting duplicate workflow executions.</p>
+<hr local-id=3D"ce9cf5b6-b468-43f9-a39a-17669de1ff10">
+<h2 local-id=3D"34e54076f738" id=3D"ReservationCheckedIn-ExampleUseCases">E=
+xample Use Cases</h2>
+<ul local-id=3D"a23da617-d85f-4e8d-90b4-fc0dcedd21a8">
+<li local-id=3D"fb496b67-75a4-438c-a029-096a46983c63">
+<p local-id=3D"c9235917ac49"><strong>Welcome message</strong> =E2=80=94 Whe=
+n a guest checks in, automatically send a personalized welcome message via =
+email or SMS with check-in details and useful property information.</p></li=
+>
+<li local-id=3D"b03c4479-1fbf-4ffd-806d-6df89eace337">
+<p local-id=3D"3f500a229a12"><strong>Room service notification</strong> =E2=
+=80=94 Notify housekeeping or front desk staff when a guest has checked in =
+so they can deliver welcome amenities or finalize room preparations.</p></l=
+i>
+<li local-id=3D"558d7352-065d-4d5e-87e6-cf76b544213f">
+<p local-id=3D"fc8879bb0e5f"><strong>VIP handling</strong> =E2=80=94 Check =
+the <strong>Guest Loyalty Code</strong> or <strong>Business Segment ID</str=
+ong> to identify VIP guests at check-in and trigger special workflows, such=
+ as sending a complimentary drink voucher or notifying the general manager.=
+</p></li>
+<li local-id=3D"68b2cf11-0cae-4ba4-b10d-ef8b106f0314">
+<p local-id=3D"353bcae9d2c5"><strong>Upsell opportunities</strong> =E2=80=
+=94 Use the <strong>Departure (UTC)</strong> field to calculate the length =
+of stay and offer relevant upsell packages (e.g., spa treatments for longer=
+ stays).</p></li>
+<li local-id=3D"a4363d3c-925d-47db-ad27-77906dc472b7">
+<p local-id=3D"7bca69ed6da4"><strong>External system synchronization</stron=
+g> =E2=80=94 Push check-in data to third-party systems (e.g., a CRM, loyalt=
+y platform, or guest experience app) so they reflect the guest's current st=
+atus in real time.</p></li>
+</ul>
+<hr local-id=3D"c29a403b-ad54-4282-a27f-650a73dbf49b">
+<h2 local-id=3D"9d40458af7bc" id=3D"ReservationCheckedIn-ImportantNotes">Im=
+portant Notes</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"98ca2ffe-e639-43b5-9f44-590=
+49b3ef264" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"34631d46-c8d8-4f07-8c88-fb8179a4d1a1">
+<th data-local-id=3D"e814c904-167b-4d38-ab84-e3cfbe7faead" class=3D"conflue=
+nceTh">
+<p local-id=3D"c57e4fafdeff">Topic</p></th>
+<th data-local-id=3D"ce094e4b-6081-490f-a0fe-c312f6b473ed" class=3D"conflue=
+nceTh">
+<p local-id=3D"155f9b44c1ba">Details</p></th>
+</tr>
+<tr data-local-id=3D"cccab9c0-b4e9-4b40-9473-7ce7c433054f">
+<td data-local-id=3D"1c19e170-9f8e-4f5e-82b7-b2f41fd4c158" class=3D"conflue=
+nceTd">
+<p local-id=3D"172aa62b178f"><strong>One event per check-in</strong></p></t=
+d>
+<td data-local-id=3D"163d03be-2846-4f24-b709-be7d20f1eedf" class=3D"conflue=
+nceTd">
+<p local-id=3D"78c7f4a30d5d">This trigger fires once when a reservation is =
+checked in. Subsequent changes to the reservation (e.g., room moves, date e=
+xtensions) will not fire this trigger again. Use dedicated triggers for tho=
+se events if needed.</p></td>
+</tr>
+<tr data-local-id=3D"42b529b4-8f31-4744-9db4-8b152996bf0d">
+<td data-local-id=3D"7f2a72ce-d3a5-43d8-8b27-a6835daba1f7" class=3D"conflue=
+nceTd">
+<p local-id=3D"984d26099dd1"><strong>Started (UTC) is always populated</str=
+ong></p></td>
+<td data-local-id=3D"3eefd4b5-a946-4130-a267-35afcff03a48" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e3f5b9d7e20">Because this trigger fires specifically on the=
+ check-in event, the <strong>Started (UTC)</strong> field will always conta=
+in a value representing the exact moment the guest was checked in.</p></td>
+</tr>
+<tr data-local-id=3D"71a04afc-af40-4674-b44d-0f0e34a5b6f1">
+<td data-local-id=3D"0b3dc659-16c0-45c3-93c7-5c42523da0de" class=3D"conflue=
+nceTd">
+<p local-id=3D"6b7c70ebec9b"><strong>Guest fields may be empty</strong></p>=
+</td>
+<td data-local-id=3D"0abe0ceb-cbe9-41b4-952f-ee64b2965273" class=3D"conflue=
+nceTd">
+<p local-id=3D"86007d2f6072">Some guest fields (email, telephone, nationali=
+ty, etc.) depend on the information available at the time of check-in. If a=
+ field has not been filled in, it will be empty. Consider adding conditiona=
+l logic in your workflow to handle missing values.</p></td>
+</tr>
+<tr data-local-id=3D"993379b4-7fac-4f05-aca1-5ca9145b56db">
+<td data-local-id=3D"c4eb549a-df4f-4e79-8485-44f007e6c934" class=3D"conflue=
+nceTd">
+<p local-id=3D"92fe6639166f"><strong>All times are in UTC</strong></p></td>
+<td data-local-id=3D"b7a82917-4ab0-4607-be27-75ce73f3bf4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"b934f4766ea1">All date and time fields use UTC. If your work=
+flow needs local time, add a conversion step after the trigger.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_44_416834253.1777536562417--

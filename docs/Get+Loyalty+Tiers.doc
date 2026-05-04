@@ -1,0 +1,422 @@
+Date: Thu, 30 Apr 2026 08:09:05 +0000 (UTC)
+Message-ID: <358444947.87.1777536545098@9c1841cb6851>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86_883118560.1777536545098"
+
+------=_Part_86_883118560.1777536545098
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Loyalty Tiers</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Loyalty Tiers</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"e073be9fdb6a"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"f7d48ae7633d"><strong>Category:</strong> Property Configurat=
+ion</p>
+<h2 local-id=3D"83ac074d57a9" id=3D"GetLoyaltyTiers-Overview">Overview</h2>
+<p local-id=3D"87765fd77efd">The <strong>Get Loyalty Tiers</strong> action =
+retrieves a list of all loyalty tiers configured at your property, optional=
+ly filtered by one or more loyalty programs. Loyalty tiers represent the di=
+fferent levels within a loyalty program (e.g., Silver, Gold, Platinum) and =
+are used to classify guests based on their membership status.</p>
+<p local-id=3D"800713e02266">This component is commonly used as a data sour=
+ce to populate dropdown selectors in other components, or to feed loyalty t=
+ier information into subsequent steps of a workflow. For example, you could=
+ use it to let a user select a specific loyalty tier when building a guest =
+segmentation flow, or to retrieve the available tiers for a particular loya=
+lty program to apply tier-based actions.</p>
+<hr local-id=3D"7289c9f0-efd4-4bef-bdf7-3e3255093f85">
+<h2 local-id=3D"3fced987341c" id=3D"GetLoyaltyTiers-InputFields">Input Fiel=
+ds</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"6f421e10-e58c-4399-9ec5-56c=
+5cc5d2e2b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"3d6bb276-1c67-4ac7-9b75-da0f2ecd5107">
+<th data-local-id=3D"e3370161-0842-4adb-bfba-8a5b46a640ea" class=3D"conflue=
+nceTh">
+<p local-id=3D"cdf80a488a3c">Field</p></th>
+<th data-local-id=3D"9dee1918-bfdf-41f6-b050-98a9c7c606f7" class=3D"conflue=
+nceTh">
+<p local-id=3D"0214896db32e">Required</p></th>
+<th data-local-id=3D"d9b097b1-9bbf-487c-9b52-46cce78cae0d" class=3D"conflue=
+nceTh">
+<p local-id=3D"0a6754dacb5b">Type</p></th>
+<th data-local-id=3D"d84dfa95-ddce-48e8-b18a-55ac5e2013ae" class=3D"conflue=
+nceTh">
+<p local-id=3D"cb4d55dbf8a4">Description</p></th>
+</tr>
+<tr data-local-id=3D"9a313661-a70e-418f-b9c1-928e96a17542">
+<td data-local-id=3D"aed2ed97-c222-42b9-8288-b943c075a345" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f245e65c9ea"><strong>Loyalty Programs</strong></p></td>
+<td data-local-id=3D"dce1b03e-80aa-49a6-a270-f7339bdeab76" class=3D"conflue=
+nceTd">
+<p local-id=3D"145918ee9278"><strong>Optional</strong></p></td>
+<td data-local-id=3D"cb0b02c4-61c6-424c-8807-dd616b199013" class=3D"conflue=
+nceTd">
+<p local-id=3D"6a5bca44c979">Multi-select dropdown</p></td>
+<td data-local-id=3D"6ed1f0fd-cd1f-430d-ba9f-1454d6f74209" class=3D"conflue=
+nceTd">
+<p local-id=3D"b8ba0e3527b4">Select one or more loyalty programs to filter =
+the returned tiers. The dropdown is populated dynamically with all active l=
+oyalty programs configured at your property (via the <strong>Get Loyalty Pr=
+ograms</strong> component). If no programs are selected, the component retu=
+rns tiers across all loyalty programs at the property.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"766fc79f705d"><strong>Note:</strong> If programs are selecte=
+d but the selection results in an empty array being sent, the component ret=
+urns an empty list without making a backend request.</p>
+<hr local-id=3D"664e599e-6346-41f3-a279-1a19e932ac36">
+<h2 local-id=3D"9785eb9288d3" id=3D"GetLoyaltyTiers-OutputFields">Output Fi=
+elds</h2>
+<p local-id=3D"5337659a23ee">When the loyalty tiers are successfully retrie=
+ved, the following values are available on the <strong>out</strong> output =
+port for use in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0cb210b8-af97-4714-ad2b-ac6=
+344bdf17a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2a38a055-bfe5-4691-9e0d-9eb34417d10e">
+<th data-local-id=3D"40a1a453-76d2-422f-8057-dde87562f081" class=3D"conflue=
+nceTh">
+<p local-id=3D"784fa2d45127">Field</p></th>
+<th data-local-id=3D"c50f6170-3e60-4775-ae11-575718a53a72" class=3D"conflue=
+nceTh">
+<p local-id=3D"94cedc4da3a2">Type</p></th>
+<th data-local-id=3D"99cc278b-81e4-4ee4-83db-4ed342d5a039" class=3D"conflue=
+nceTh">
+<p local-id=3D"d1f468c27e84">Description</p></th>
+</tr>
+<tr data-local-id=3D"94c190d4-e693-4daa-b406-df46728f105a">
+<td data-local-id=3D"5b845ffa-4e56-4628-abe1-89c57965fc53" class=3D"conflue=
+nceTd">
+<p local-id=3D"72a1931de14e"><strong>Items</strong></p></td>
+<td data-local-id=3D"e9a8c284-4f01-4726-9119-970c3ce51db8" class=3D"conflue=
+nceTd">
+<p local-id=3D"5c395150dfd7">Array of objects</p></td>
+<td data-local-id=3D"c245094f-57d5-4c56-bd60-972481d816ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"463cd54028a7">A list of loyalty tiers. Each item in the arra=
+y contains:</p>
+<ul local-id=3D"5128f0b8-4da5-4ee6-86ff-64b7a4471c6c">
+<li local-id=3D"bf1f826e-25ef-4d70-923a-e9e72d3d2966">
+<p local-id=3D"f2e4032918ab"><strong>Value</strong> (Text) =E2=80=94 The un=
+ique identifier (GUID) of the loyalty tier. Use this value when passing a l=
+oyalty tier reference to other components.</p></li>
+<li local-id=3D"c080ffcc-1c4b-4ff4-a8b7-fd046b82c96f">
+<p local-id=3D"9ac08e16c550"><strong>Label</strong> (Text) =E2=80=94 The di=
+splay name of the loyalty tier as configured in Mews. If a tier has no name=
+ set, the label defaults to <code>Unknown</code>.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"cc6f77ff9012"><strong>Note:</strong> If no loyalty tiers mat=
+ch the selected programs, or if no tiers are configured at the property, th=
+e component returns an empty list. When used as a dropdown data source in o=
+ther components, an empty list displays as <strong>"No results"</strong>.</=
+p>
+<hr local-id=3D"b0ebf792-c66c-4313-866d-8973552a2e75">
+<h2 local-id=3D"9a120f77c218" id=3D"GetLoyaltyTiers-HowItWorks">How It Work=
+s</h2>
+<ol start=3D"1" local-id=3D"1fadfead-b1ea-4d3a-9a64-2aa129378a04">
+<li local-id=3D"3c5e16f8-4771-4ece-a34b-e9b2c1bb25a0">
+<p local-id=3D"792a44dcbe7d">The component receives input from the previous=
+ step in the workflow (or is triggered manually).</p></li>
+<li local-id=3D"d344bda2-3e84-4dca-91d7-b9539b2cc2d7">
+<p local-id=3D"79104f3d9964">If one or more loyalty programs are selected, =
+the component sends a request to the Mews backend to retrieve all active lo=
+yalty tiers that belong to those programs.</p></li>
+<li local-id=3D"4cb65bba-0035-43c2-ad4c-cc6063b32c8b">
+<p local-id=3D"e4dcac460e8b">If no loyalty programs are selected, the compo=
+nent retrieves all active loyalty tiers across every loyalty program associ=
+ated with the property.</p></li>
+<li local-id=3D"8f3df46d-0875-4c07-a444-5db5108860a4">
+<p local-id=3D"9ffcc30a8bbf">The backend identifies the property's chain, j=
+oins loyalty tiers with their parent loyalty programs, and filters to only =
+include tiers that belong to the authenticated property's chain.</p></li>
+<li local-id=3D"74ccf1c8-1ae3-4e81-90b0-52dc1d682459">
+<p local-id=3D"32acee9c0f26">The list of tiers is returned on the <strong>o=
+ut</strong> output port as an array of name=E2=80=93value pairs, where each=
+ entry contains the tier's unique identifier and display name.</p></li>
+<li local-id=3D"ad0454fa-0259-4d40-b819-b6840e20172b">
+<p local-id=3D"d442b061f96f">If the request fails (e.g., due to a connectiv=
+ity issue), the component returns an error.</p></li>
+</ol>
+<hr local-id=3D"b52941f6-04d0-401c-88f7-d71d6826b29d">
+<h2 local-id=3D"725d9880dfe5" id=3D"GetLoyaltyTiers-ExampleUseCases">Exampl=
+e Use Cases</h2>
+<ul local-id=3D"b199a370-0e4b-4ae0-83c1-c44003cb3e77">
+<li local-id=3D"74e1a63a-3451-4eb1-adc8-4f87d6d6d982">
+<p local-id=3D"a296600c8f53"><strong>Tier-based guest segmentation</strong>=
+ =E2=80=94 Retrieve loyalty tiers for a specific program and use them in a =
+condition to apply different actions based on the guest's tier level (e.g.,=
+ offer a room upgrade to Gold and Platinum members).</p></li>
+<li local-id=3D"52172d79-b8f6-4a08-9cf9-7a284161304c">
+<p local-id=3D"b335f6ae0f63"><strong>Populate a tier selector</strong> =E2=
+=80=94 Use this component as a dynamic data source to populate a dropdown f=
+ield in another component, allowing users to select a specific loyalty tier=
+ when configuring a workflow.</p></li>
+<li local-id=3D"725bc96f-e861-427c-99d8-1e526786e1f5">
+<p local-id=3D"cfe4dfdd52e0"><strong>Loyalty program reporting</strong> =E2=
+=80=94 Fetch all tiers across all programs to build a summary of the loyalt=
+y structure configured at the property.</p></li>
+</ul>
+<hr local-id=3D"ce56e0b5-0538-40fd-b749-c8333c007e2e">
+<h2 local-id=3D"434449c709c6" id=3D"GetLoyaltyTiers-ErrorHandling">Error Ha=
+ndling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"9fc94daf-3090-4185-b528-f79=
+f54481cf5" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a217fa1e-c35b-41c6-b200-ce1d8687b8eb">
+<th data-local-id=3D"ad84c06b-0879-4915-8f15-310f1c5ec729" class=3D"conflue=
+nceTh">
+<p local-id=3D"fab14f84a643">Error</p></th>
+<th data-local-id=3D"30e1f23d-bb69-4c9f-b3f5-7e98247bd2ef" class=3D"conflue=
+nceTh">
+<p local-id=3D"91a009b7649e">Cause</p></th>
+</tr>
+<tr data-local-id=3D"a850c864-6f72-4115-8a04-5b50c28111bb">
+<td data-local-id=3D"18dbf814-bf5c-4e53-9da8-0f75f905eb73" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa75965fafa1"><code>Request failed</code></p></td>
+<td data-local-id=3D"1d296688-01c8-414c-93cd-c8df3b4cf745" class=3D"conflue=
+nceTd">
+<p local-id=3D"d6047d33425c">The request to retrieve loyalty tiers from Mew=
+s failed. This may indicate a temporary service issue or an authentication =
+problem.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86_883118560.1777536545098--

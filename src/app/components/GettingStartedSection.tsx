@@ -1,3 +1,17 @@
+function Screenshot({ file, alt }: { file: string; alt: string }) {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  return (
+    <div className="my-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+      <img
+        src={`${base}/screenshots/${file}`}
+        alt={alt}
+        className="w-full"
+        onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
+      />
+    </div>
+  );
+}
+
 export function GettingStartedSection() {
   return (
     <>
@@ -93,6 +107,7 @@ export function GettingStartedSection() {
           The Automations page is your central hub for managing all workflows. Here you can see every
           automation at a glance.
         </p>
+        <Screenshot file="automations-dashboard.png" alt="Automations Dashboard" />
         <h3 className="text-xl font-semibold mb-4">What you see on the dashboard</h3>
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-sm">
@@ -140,6 +155,7 @@ export function GettingStartedSection() {
           Click the <span className="font-semibold">+ Create</span> button in the top-right corner of the
           Automations dashboard. A dialog will appear with several options:
         </p>
+        <Screenshot file="create-automation.png" alt="Create an automation dialog" />
         <div className="space-y-6">
           <div className="bg-white border border-gray-200 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-3">Option A: Start from a template</h3>
@@ -177,6 +193,7 @@ export function GettingStartedSection() {
       <section id="flow-designer">
         <h2 className="text-3xl font-bold mb-6">6. The Flow Designer (Canvas)</h2>
         <p className="text-gray-700 mb-6">The flow designer is where you visually build your automation. It consists of three main areas:</p>
+        <Screenshot file="flow-designer.png" alt="Flow Designer Canvas" />
         <div className="overflow-x-auto">
           <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-sm">
             <thead className="bg-gray-100">
@@ -219,6 +236,7 @@ export function GettingStartedSection() {
           <li>Browse the categories or use the <span className="font-semibold">search bar</span> to find a specific component.</li>
           <li><span className="font-semibold">Drag</span> the component from the palette and <span className="font-semibold">drop</span> it onto the canvas.</li>
         </ol>
+        <Screenshot file="component-palette.png" alt="Component palette" />
         <p className="text-gray-700 mb-3">Components are organized into categories:</p>
         <ul className="list-disc list-inside space-y-2 ml-4 text-gray-700">
           <li><span className="font-semibold">Mews &gt; Triggers</span> — Event-based starting points (Guest Profile Created, Reservation Created, Reservation Checked In).</li>
@@ -243,6 +261,7 @@ export function GettingStartedSection() {
           <li><span className="font-semibold">Click and drag</span> from the output port to the <span className="font-semibold">input port</span> (left side) of the target component.</li>
           <li>Release the mouse button. A <span className="font-semibold">wire</span> (line) will appear connecting the two components.</li>
         </ol>
+        <Screenshot file="connecting-components.png" alt="Connecting components" />
         <h3 className="text-xl font-semibold mb-4">How connections work:</h3>
         <ul className="list-disc list-inside space-y-2 ml-4 text-gray-700">
           <li>Data flows from <span className="font-semibold">left to right</span> along the wires. The output of one component becomes available as input to the next.</li>
@@ -260,6 +279,7 @@ export function GettingStartedSection() {
         <p className="text-gray-700 mb-6">
           Click on any component on the canvas to open the <span className="font-semibold">Inspector panel</span> on the right side. The Inspector shows all the configuration fields for that component.
         </p>
+        <Screenshot file="inspector.png" alt="Inspector panel" />
         <h3 className="text-xl font-semibold mb-4">Field types you will encounter</h3>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-sm">
@@ -315,6 +335,7 @@ export function GettingStartedSection() {
           <li>You will see a list of all upstream (previous) components and their available output fields.</li>
           <li>Click on the output field you want to use. It will be inserted into the input field as a variable tag (a colored pill showing the source component and field name).</li>
         </ol>
+        <Screenshot file="variables.png" alt="Variable picker" />
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
           <h4 className="font-semibold mb-2">Example</h4>
           <p className="text-gray-700">
@@ -361,6 +382,7 @@ export function GettingStartedSection() {
             <span className="font-semibold">Tip:</span> You can chain multiple modifiers. For example, to get tomorrow's date formatted nicely: start with a date variable → apply Add Time (+1 day) → apply Format Date (DD/MM/YYYY).
           </p>
         </div>
+        <Screenshot file="modifiers.png" alt="Modify variable panel" />
       </section>
 
       <section id="mews-components">
@@ -420,12 +442,14 @@ export function GettingStartedSection() {
                 <span className="font-semibold">Important:</span> Always set the Timezone field to match your property's timezone (e.g. Europe/Prague). If left empty, the schedule will use GMT.
               </p>
             </div>
+            <Screenshot file="cron-scheduler.png" alt="Cron Scheduler inspector" />
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-3">Each (Loop) — utility</h3>
             <p className="text-gray-700">
               The Each component loops over a list and processes each item individually. It takes a list as input and outputs one item at a time to the connected downstream component(s). This is essential when a previous component returns multiple items.
             </p>
+            <Screenshot file="each-loop.png" alt="Each (Loop) component inspector" />
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-3">Condition (If/Else) — utility</h3>
@@ -481,6 +505,7 @@ export function GettingStartedSection() {
         <p className="text-gray-700 mb-4">
           The <span className="font-semibold">Action log</span> tab on the Automations dashboard provides a chronological record of every action executed by your automations. It is your primary tool for monitoring and debugging.
         </p>
+        <Screenshot file="action-log.png" alt="Action Log" />
         <h3 className="text-xl font-semibold mb-3">Use the Action log to:</h3>
         <ul className="list-disc list-inside space-y-2 ml-4 text-gray-700">
           <li><span className="font-semibold">Verify execution:</span> Confirm that your automation ran when expected.</li>

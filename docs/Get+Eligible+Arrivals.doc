@@ -1,0 +1,733 @@
+Date: Thu, 30 Apr 2026 08:08:38 +0000 (UTC)
+Message-ID: <62673866.11.1777536518153@77e2189f99f3>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_104073818.1777536518152"
+
+------=_Part_10_104073818.1777536518152
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Eligible Arrivals</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Eligible Arrivals</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"8f172ede16c8"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"5957b763e370"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"f1fdceb19891" id=3D"GetEligibleArrivals-Overview">Overview<=
+/h2>
+<p local-id=3D"8f4a75ff85cc">The <strong>Get Eligible Arrivals</strong> act=
+ion retrieves a list of confirmed reservations arriving on a specified date=
+ and determines whether each guest qualifies for special treatment. Qualifi=
+cation can be based on <strong>loyalty membership</strong> (hard signals) o=
+r <strong>behavioral metrics</strong> such as stay frequency, total revenue=
+, and recency of last visit (soft signals). This makes it ideal for automat=
+ing guest recognition workflows =E2=80=94 for example, identifying VIP gues=
+ts arriving today so they can receive a room upgrade, a welcome amenity, or=
+ a personalized greeting.</p>
+<p local-id=3D"aa68d96764de">The component returns two output options: a de=
+tailed list of reservations (including guest information, room category, ar=
+rival and departure dates, and how the guest qualified) or a simple list of=
+ reservation IDs that can be passed to downstream components for further pr=
+ocessing.</p>
+<hr local-id=3D"7f94b6cf-34f3-40a0-b0d4-29f856218de1">
+<h2 local-id=3D"4a6008db5675" id=3D"GetEligibleArrivals-InputFields">Input =
+Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fc0462d4-544b-479e-8970-46e=
+a1c385471" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"019bdd7a-65f9-44d8-b150-87e589371f3e">
+<th data-local-id=3D"a17d190c-d948-483c-8625-fc1acd8e58ca" class=3D"conflue=
+nceTh">
+<p local-id=3D"47bf4c75b675">Field</p></th>
+<th data-local-id=3D"c0c3c699-c62e-444b-bb2b-0e35dd475749" class=3D"conflue=
+nceTh">
+<p local-id=3D"8c0acffa06ac">Required</p></th>
+<th data-local-id=3D"1f519b03-c1fa-41a1-bce9-d8101944941b" class=3D"conflue=
+nceTh">
+<p local-id=3D"bafc3857bfbd">Type</p></th>
+<th data-local-id=3D"281910da-a238-4c39-a7ca-f74fb33ff56a" class=3D"conflue=
+nceTh">
+<p local-id=3D"07755d27076a">Description</p></th>
+</tr>
+<tr data-local-id=3D"3c89b2f4-c2ef-4965-960e-c63aeba7a238">
+<td data-local-id=3D"e7a42923-5fee-4652-bc8c-e8db745fa563" class=3D"conflue=
+nceTd">
+<p local-id=3D"d1d30f2bacda"><strong>Arrival Date</strong></p></td>
+<td data-local-id=3D"5eccd3bb-25ac-42f0-b324-a04e2f88da9f" class=3D"conflue=
+nceTd">
+<p local-id=3D"52ab7cd5f0c5"><strong>Required</strong></p></td>
+<td data-local-id=3D"e909b894-7594-4fef-a085-4fa33f1874c3" class=3D"conflue=
+nceTd">
+<p local-id=3D"eb79a4faccec">Date</p></td>
+<td data-local-id=3D"88711cce-2506-443f-b2f8-85d61d2d674a" class=3D"conflue=
+nceTd">
+<p local-id=3D"bb0e734710f6">The date to search for arriving reservations. =
+Only confirmed reservations with an arrival date matching this value will b=
+e returned. Format: <code>YYYY-MM-DD</code>.</p></td>
+</tr>
+<tr data-local-id=3D"10af5149-69a8-4bda-9541-ebf135c9b311">
+<td data-local-id=3D"b9781ba4-9396-4a81-af44-2c76549b6bfe" class=3D"conflue=
+nceTd">
+<p local-id=3D"f6a1ad65d223"><strong>Loyalty Programs</strong></p></td>
+<td data-local-id=3D"7e7c7ec4-de44-4684-ab09-6b8076605456" class=3D"conflue=
+nceTd">
+<p local-id=3D"43e71bddffa8"><strong>Optional</strong></p></td>
+<td data-local-id=3D"ebc2e7e6-80c1-4c8f-b6b1-eb13613e4f16" class=3D"conflue=
+nceTd">
+<p local-id=3D"e9a6cdeb80b8">Multi-select</p></td>
+<td data-local-id=3D"c66d5ccc-74e2-4609-9122-f3c2c002d64a" class=3D"conflue=
+nceTd">
+<p local-id=3D"e18375bbb615">One or more loyalty programs to filter by. Whe=
+n selected, only guests who are members of the specified loyalty programs w=
+ill qualify via hard signals. The dropdown is populated dynamically with th=
+e loyalty programs configured in your property. This field is located in th=
+e <strong>Loyalty</strong> section.</p></td>
+</tr>
+<tr data-local-id=3D"2f9ad608-1869-4303-8362-12a97ac04248">
+<td data-local-id=3D"09638915-49c1-4446-acaa-6ad545b51ae0" class=3D"conflue=
+nceTd">
+<p local-id=3D"446d4e1a706b"><strong>Loyalty Tiers</strong></p></td>
+<td data-local-id=3D"4c28b73d-764a-4ff5-afe4-06d1a2de22aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"933827afdd60"><strong>Optional</strong></p></td>
+<td data-local-id=3D"7a21682a-5c79-405f-8dd2-9f652a19dd90" class=3D"conflue=
+nceTd">
+<p local-id=3D"eb41c007d750">Multi-select</p></td>
+<td data-local-id=3D"5c9900a4-6620-4cc0-b8ba-a76982caf43b" class=3D"conflue=
+nceTd">
+<p local-id=3D"dbb25eec5c90">One or more loyalty tiers to further narrow th=
+e loyalty filter. Only visible after at least one loyalty program is select=
+ed. The dropdown is populated dynamically with the tiers belonging to the s=
+elected programs. This field is located in the <strong>Loyalty</strong> sec=
+tion.</p></td>
+</tr>
+<tr data-local-id=3D"728311e8-23bd-475b-bbeb-bf8cdde0c211">
+<td data-local-id=3D"61e28797-7dcb-4306-af74-980db70ee12b" class=3D"conflue=
+nceTd">
+<p local-id=3D"92c82e0898ba"><strong>Stay Count Threshold</strong></p></td>
+<td data-local-id=3D"4af34338-62fa-4a37-a8a0-6eeaf3768360" class=3D"conflue=
+nceTd">
+<p local-id=3D"84fd61d13d8d"><strong>Optional</strong></p></td>
+<td data-local-id=3D"5e0f42d3-285f-42ed-88b1-4ecbc903b180" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf50388048d6">Number</p></td>
+<td data-local-id=3D"d7fdb66b-573e-4c54-9a0d-3a8e88b8e2f6" class=3D"conflue=
+nceTd">
+<p local-id=3D"4ecb50e6cd9a">The minimum number of past stays a guest must =
+have to qualify via soft signals. For example, setting this to <code>5</cod=
+e> means only guests who have stayed at least 5 times will be included thro=
+ugh behavioral qualification. This field is located in the <strong>Behavior=
+al signals</strong> section.</p></td>
+</tr>
+<tr data-local-id=3D"dacd1b88-b256-4fbf-aece-8f82e5b53e36">
+<td data-local-id=3D"c19ecaf9-10f4-44f5-b9ca-9b8c233b44e5" class=3D"conflue=
+nceTd">
+<p local-id=3D"5eb9d07be947"><strong>Revenue Threshold</strong></p></td>
+<td data-local-id=3D"291d7cf5-1b6f-4de8-ba70-cb92026c7f7d" class=3D"conflue=
+nceTd">
+<p local-id=3D"20816a095336"><strong>Optional</strong></p></td>
+<td data-local-id=3D"5e7a6a01-1155-4591-adca-38922816de42" class=3D"conflue=
+nceTd">
+<p local-id=3D"12694e657642">Number</p></td>
+<td data-local-id=3D"ec63665d-000e-490b-850a-a3087bc846f5" class=3D"conflue=
+nceTd">
+<p local-id=3D"763a105e52dd">The minimum total revenue (in the property's d=
+efault currency) a guest must have generated to qualify via soft signals. R=
+evenue is calculated from total payments associated with the guest's past r=
+eservations. This field is located in the <strong>Behavioral signals</stron=
+g> section.</p></td>
+</tr>
+<tr data-local-id=3D"919458fc-6fa6-4c5a-90b5-398aabc467a3">
+<td data-local-id=3D"00753487-b183-4838-af0f-74177badc09d" class=3D"conflue=
+nceTd">
+<p local-id=3D"032d905a56d6"><strong>Recency Threshold</strong></p></td>
+<td data-local-id=3D"129a5a51-c321-4994-a5e4-48fb642c0d36" class=3D"conflue=
+nceTd">
+<p local-id=3D"218c6936152c"><strong>Optional</strong></p></td>
+<td data-local-id=3D"49bef84e-c590-4b14-930a-38b5bb6475f0" class=3D"conflue=
+nceTd">
+<p local-id=3D"eb2b6519b556">Number</p></td>
+<td data-local-id=3D"e6fd3ccd-1cfa-412b-935d-c309b18edc61" class=3D"conflue=
+nceTd">
+<p local-id=3D"9cfb9b750833">The maximum number of days since the guest's m=
+ost recent stay to qualify via soft signals. For example, setting this to <=
+code>365</code> means only guests who stayed within the last year will be i=
+ncluded. This field is located in the <strong>Behavioral signals</strong> s=
+ection.</p></td>
+</tr>
+<tr data-local-id=3D"12695fb7-11cc-4df7-b99f-d85e2a05a467">
+<td data-local-id=3D"9543f0b6-e78f-4b9c-a9b6-db52cff40f84" class=3D"conflue=
+nceTd">
+<p local-id=3D"cebd3982bf5e"><strong>Rates</strong></p></td>
+<td data-local-id=3D"18ccb6d2-64bd-4643-9692-5c5fbfe85849" class=3D"conflue=
+nceTd">
+<p local-id=3D"40dbfe492494"><strong>Optional</strong></p></td>
+<td data-local-id=3D"565f0456-a59b-419b-8279-17d614bb12c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"c0376f373246">Multi-select</p></td>
+<td data-local-id=3D"fd3f7717-c6e1-4444-9e7b-8e3befcf77d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4ae24d4d32a">One or more rates to filter reservations by. W=
+hen selected, only reservations booked under the specified rates will be in=
+cluded. The dropdown is populated dynamically with the rates configured in =
+your property. This field is located in the <strong>Rates</strong> section.=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"a5c9379618b3"><strong>Note:</strong> The <strong>Loyalty</st=
+rong>, <strong>Behavioral signals</strong>, and <strong>Rates</strong> sect=
+ions are collapsed by default. Expand them to access the optional filtering=
+ fields.</p>
+<hr local-id=3D"439786a5-4780-4b4b-84de-314063364331">
+<h2 local-id=3D"b62353d5dd01" id=3D"GetEligibleArrivals-OutputFields">Outpu=
+t Fields</h2>
+<p local-id=3D"9a4a89d44265">The component provides two output options on t=
+he <strong>out</strong> port. You can choose which format to use in your wo=
+rkflow:</p>
+<h3 local-id=3D"e83d4b130e5a" id=3D"GetEligibleArrivals-Option1:Reservation=
+s">Option 1: Reservations</h3>
+<p local-id=3D"b15a230b5665">Returns detailed reservation objects with gues=
+t, room, and qualification information:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"318d91a9-b1b5-46ec-a693-49c=
+dde66bbac" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"aece17ac-6809-40b7-b0c6-b5206bacad2c">
+<th data-local-id=3D"fea101c5-3681-4fbb-b40c-afd87dc2d8b1" class=3D"conflue=
+nceTh">
+<p local-id=3D"65f986a2d94e">Field</p></th>
+<th data-local-id=3D"bd115ac2-613c-495c-ac85-fc3f1cd5b27a" class=3D"conflue=
+nceTh">
+<p local-id=3D"9f3af2bfe66e">Type</p></th>
+<th data-local-id=3D"c038183f-43c8-437e-8150-6e9b06deca80" class=3D"conflue=
+nceTh">
+<p local-id=3D"9b3bc0d1b5d9">Description</p></th>
+</tr>
+<tr data-local-id=3D"5dbc605e-50a9-4cd6-8e65-aa85621e6e9b">
+<td data-local-id=3D"3c6224f6-80ac-48b5-8458-4f2204b48970" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd1f49e83136"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"2e121d3d-65aa-407e-8595-a6e7bb3a4f9e" class=3D"conflue=
+nceTd">
+<p local-id=3D"12b91eefcabf">Text (GUID)</p></td>
+<td data-local-id=3D"80660e11-74be-44d4-bc73-29fe64514af8" class=3D"conflue=
+nceTd">
+<p local-id=3D"17a4533b7b25">The unique identifier of the reservation.</p><=
+/td>
+</tr>
+<tr data-local-id=3D"f8d08486-59ca-4ac1-a540-1ee713a1b7e4">
+<td data-local-id=3D"e92f3f36-2822-448c-acf9-a51e5eeefba4" class=3D"conflue=
+nceTd">
+<p local-id=3D"5295296ed666"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"dc7cebce-0e4a-4622-b14c-7e94ae2a7a19" class=3D"conflue=
+nceTd">
+<p local-id=3D"7434064f7505">Text (GUID)</p></td>
+<td data-local-id=3D"cdc18dad-da62-445d-b6e4-1365ca3fe4bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"6074f3457544">The unique identifier of the guest associated =
+with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"27ffc236-bba9-4be5-bd97-6c7e1ba5b729">
+<td data-local-id=3D"499f54cb-c3e5-4ffa-9d8c-6748464ee027" class=3D"conflue=
+nceTd">
+<p local-id=3D"b0edd171debd"><strong>Guest First Name</strong></p></td>
+<td data-local-id=3D"65b4f50a-e4a1-465d-b391-3ea9b0731c07" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff4933217df8">Text</p></td>
+<td data-local-id=3D"e522ce70-0328-4e08-86e6-a25c81139b3d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ccb3647742db">The first name of the guest.</p></td>
+</tr>
+<tr data-local-id=3D"278ef726-5d54-4e16-89e6-cef948d3b281">
+<td data-local-id=3D"0ed54a93-5f78-40ca-9437-701c4c21c429" class=3D"conflue=
+nceTd">
+<p local-id=3D"822e3f8860d2"><strong>Guest Last Name</strong></p></td>
+<td data-local-id=3D"f4a66da0-8d30-44b6-af67-7003054123ed" class=3D"conflue=
+nceTd">
+<p local-id=3D"5fa8c10c4145">Text</p></td>
+<td data-local-id=3D"fcd6a728-d456-43e2-87cb-71385177602c" class=3D"conflue=
+nceTd">
+<p local-id=3D"c0f39a1917a8">The last name of the guest.</p></td>
+</tr>
+<tr data-local-id=3D"5c4168cf-3738-48eb-a88f-f627e5b93b9f">
+<td data-local-id=3D"abc6dc8b-fbba-44c0-906e-8ad1518aba70" class=3D"conflue=
+nceTd">
+<p local-id=3D"da95a42015f2"><strong>Guest Email</strong></p></td>
+<td data-local-id=3D"b9ece3fb-8a88-4f7a-a784-b7fcd55b565a" class=3D"conflue=
+nceTd">
+<p local-id=3D"ec41fb467d19">Text</p></td>
+<td data-local-id=3D"81eae4b8-a96d-4f92-be43-fd1d0456a5bc" class=3D"conflue=
+nceTd">
+<p local-id=3D"2caf946b0e99">The email address of the guest.</p></td>
+</tr>
+<tr data-local-id=3D"a15f9ffb-9bbc-45aa-88c4-cf0ca5ebd16f">
+<td data-local-id=3D"1e570ac1-67a9-4d8c-a96c-a2f7deac2fb1" class=3D"conflue=
+nceTd">
+<p local-id=3D"453496588251"><strong>Current Category ID</strong></p></td>
+<td data-local-id=3D"91613890-106d-41d9-a5e2-6a4472f96ecd" class=3D"conflue=
+nceTd">
+<p local-id=3D"e1c1cd0b7db2">Text (GUID)</p></td>
+<td data-local-id=3D"b26ec7e1-b85a-44b5-a268-ff4e04b8b4a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"c4b7511870b2">The unique identifier of the room category cur=
+rently assigned to the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"39a7f53d-5e14-416f-b047-45a981878cd2">
+<td data-local-id=3D"85d1427b-85b4-4d50-a3a4-1d29fb559ed3" class=3D"conflue=
+nceTd">
+<p local-id=3D"575a5434ab41"><strong>Current Category Name</strong></p></td=
+>
+<td data-local-id=3D"2b45049d-bba6-4fdc-8b8f-b38e2afc0f1d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ae50b51c87b5">Text</p></td>
+<td data-local-id=3D"c2498b1e-7058-40b2-b9ea-3301e589c5fd" class=3D"conflue=
+nceTd">
+<p local-id=3D"f7087f73de7c">The localized name of the room category curren=
+tly assigned to the reservation. Displays "Unknown" if the category name is=
+ not available.</p></td>
+</tr>
+<tr data-local-id=3D"7c1ac5c1-c5e9-4aa8-9b4e-4162e5c4a8ae">
+<td data-local-id=3D"4e3742bc-0786-4a53-b087-3a4f36b25235" class=3D"conflue=
+nceTd">
+<p local-id=3D"53e6324e87dc"><strong>Arrival Date</strong></p></td>
+<td data-local-id=3D"30d9acf8-fdea-46d5-8332-7d100136f8f7" class=3D"conflue=
+nceTd">
+<p local-id=3D"3c452ed139c9">Date &amp; Time</p></td>
+<td data-local-id=3D"40462e5c-cc72-43d6-92ff-3ca9cf3f4486" class=3D"conflue=
+nceTd">
+<p local-id=3D"f2e30e53daec">The scheduled arrival date and time in UTC (IS=
+O 8601 format).</p></td>
+</tr>
+<tr data-local-id=3D"71b7e41c-d5e3-433d-bb00-d12744e1f19e">
+<td data-local-id=3D"9ccfb9fe-f604-45f9-a564-622d47c580bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"70e14322ea88"><strong>Departure Date</strong></p></td>
+<td data-local-id=3D"e050691c-9f87-4cba-9487-13d88b4364a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"02360388f9f2">Date &amp; Time</p></td>
+<td data-local-id=3D"a6f808d4-3562-421d-8e6e-b6c70cf214cb" class=3D"conflue=
+nceTd">
+<p local-id=3D"dd6e3a365bd2">The scheduled departure date and time in UTC (=
+ISO 8601 format).</p></td>
+</tr>
+<tr data-local-id=3D"3123e5f8-0238-4243-ad5b-0afcf4f791c9">
+<td data-local-id=3D"4f2cff9c-8668-433d-b219-808281063ca0" class=3D"conflue=
+nceTd">
+<p local-id=3D"ee917bf9bfc1"><strong>Qualified Via</strong></p></td>
+<td data-local-id=3D"f92fdc2e-c351-45d3-938a-249722d6d582" class=3D"conflue=
+nceTd">
+<p local-id=3D"2cd50a5d5dd4">Text</p></td>
+<td data-local-id=3D"67580428-0311-47a1-b5f6-90f2ba883028" class=3D"conflue=
+nceTd">
+<p local-id=3D"81f93fd020ed">How the guest qualified for inclusion. Values:=
+ <code>hard</code> (qualified through loyalty membership) or <code>none</co=
+de> (no loyalty match =E2=80=94 qualified through soft signals or no loyalt=
+y filtering was applied).</p></td>
+</tr>
+<tr data-local-id=3D"95c5d526-be57-4ab2-9c35-584640194879">
+<td data-local-id=3D"5f20dc47-6d88-44b7-a643-10ebe72ade9b" class=3D"conflue=
+nceTd">
+<p local-id=3D"b1f9622103d2"><strong>Loyalty Tier Name</strong></p></td>
+<td data-local-id=3D"55fbe5fb-5976-43f8-9bc5-69a28bb5ed92" class=3D"conflue=
+nceTd">
+<p local-id=3D"b389c8018e4d">Text</p></td>
+<td data-local-id=3D"9e32b841-46f2-4f97-bbd4-622ad470ce23" class=3D"conflue=
+nceTd">
+<p local-id=3D"431bf27dd6fd">The name of the guest's loyalty tier, if appli=
+cable. Empty when the guest does not have a matching loyalty membership.</p=
+></td>
+</tr>
+<tr data-local-id=3D"e31fefbc-4906-4bd6-99fb-ac992ee88c44">
+<td data-local-id=3D"561ad8da-de57-47dd-bfff-278089148761" class=3D"conflue=
+nceTd">
+<p local-id=3D"0bc039db050c"><strong>Loyalty Program Name</strong></p></td>
+<td data-local-id=3D"1a441a03-44eb-495a-a1b2-fd2480c7d42d" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb14ad260150">Text</p></td>
+<td data-local-id=3D"d3f30770-44e9-442e-9169-9d156c068731" class=3D"conflue=
+nceTd">
+<p local-id=3D"9205e99864f1">The name of the guest's loyalty program, if ap=
+plicable. Empty when the guest does not have a matching loyalty membership.=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"4c230bd1a681" id=3D"GetEligibleArrivals-Option2:Reservation=
+IDs">Option 2: Reservation IDs</h3>
+<p local-id=3D"c92a467988fa">Returns a simple array of reservation ID strin=
+gs. This is useful when you only need the IDs to pass to another component =
+(e.g., a Room Upgrade action) without the additional guest and room details=
+.</p>
+<hr local-id=3D"88ef3998-50a0-435c-b8b7-9157a595a5a7">
+<h2 local-id=3D"9e98c74204ef" id=3D"GetEligibleArrivals-HowItWorks">How It =
+Works</h2>
+<ol start=3D"1" local-id=3D"ecc42217-ccd4-43ae-82d7-83879c21d5b2">
+<li local-id=3D"f89039f5-a4ac-4a5b-a20b-0e1da4bef686">
+<p local-id=3D"bc0a106662e0">The component receives the <strong>Arrival Dat=
+e</strong> and any optional filters from the previous step or from manually=
+ configured values.</p></li>
+<li local-id=3D"edc5e637-3240-40ac-a1fa-ccf419f3d523">
+<p local-id=3D"f5d8e87efcf4">It fetches all <strong>confirmed reservations<=
+/strong> arriving on the specified date that have an assigned room. Reserva=
+tions without a room assignment are excluded.</p></li>
+<li local-id=3D"ee3934f5-2cfd-4452-820c-3388c5675875">
+<p local-id=3D"1b2fc3812e7a">If <strong>Loyalty Programs</strong> or <stron=
+g>Loyalty Tiers</strong> are specified, reservations are filtered to only i=
+nclude guests with an active membership in those programs or tiers. These g=
+uests are marked as qualified via <strong>hard signals</strong>.</p></li>
+<li local-id=3D"e75071a3-4746-4fd4-8a06-979c3451b992">
+<p local-id=3D"37a4ea48f0f6">If any <strong>Behavioral signal thresholds</s=
+trong> (Stay Count, Revenue, or Recency) are configured, guests who did <em=
+>not</em> qualify through loyalty are evaluated against these thresholds. A=
+ guest must meet <strong>all</strong> specified thresholds to qualify via <=
+strong>soft signals</strong>.</p></li>
+<li local-id=3D"3d7573a7-8891-49d5-b22c-36c22b272519">
+<p local-id=3D"a8490bfac913">If <strong>Rates</strong> are specified, only =
+reservations booked under those rates are included.</p></li>
+<li local-id=3D"460d5b9e-4e67-48f5-b532-3673ce78bd60">
+<p local-id=3D"d2443b81d34c">Results are sorted by <strong>loyalty tier ran=
+k</strong> (highest tier first), then by reservation creation date, then by=
+ guest account creation date.</p></li>
+<li local-id=3D"a6fef429-7d69-4ddb-b550-e3801dc00f44">
+<p local-id=3D"95571c01c41b">The final list is returned with full reservati=
+on details on the <strong>Reservations</strong> output or as a list of IDs =
+on the <strong>Reservation IDs</strong> output.</p></li>
+</ol>
+<hr local-id=3D"6430eb12-55d1-42bf-8ebb-272d6e6cc70b">
+<h2 local-id=3D"f08980149679" id=3D"GetEligibleArrivals-HardSignalsvs.SoftS=
+ignals">Hard Signals vs. Soft Signals</h2>
+<p local-id=3D"0359388582a9">The component uses a two-tier qualification sy=
+stem to identify eligible guests:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ffaeb15f-c1c3-4b73-8680-f46=
+2f119d2a0" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"014ea6d0-da94-4474-ae7b-3e4c6e78e785">
+<th data-local-id=3D"7026959e-02f5-4b98-a6df-cfae51a3e4ba" class=3D"conflue=
+nceTh">
+<p local-id=3D"7cb549651110">Signal Type</p></th>
+<th data-local-id=3D"53360ea0-11aa-48bd-8512-0debaf4c624f" class=3D"conflue=
+nceTh">
+<p local-id=3D"b9b586cbd8d0">Based On</p></th>
+<th data-local-id=3D"51e80f72-ad46-43ba-af33-53a44733991a" class=3D"conflue=
+nceTh">
+<p local-id=3D"a8cbb149456e">How It Works</p></th>
+</tr>
+<tr data-local-id=3D"5db87aa5-1519-4bc0-a791-f065ee09e3f6">
+<td data-local-id=3D"16c4d3ac-85c9-4e5d-a152-ef7c4e445840" class=3D"conflue=
+nceTd">
+<p local-id=3D"5686cc2fd704"><strong>Hard signals</strong></p></td>
+<td data-local-id=3D"b5c97e65-ec11-47cc-b7d1-a1571fdfead6" class=3D"conflue=
+nceTd">
+<p local-id=3D"0f41dd215203">Loyalty membership</p></td>
+<td data-local-id=3D"45a5663f-2fc3-4d9d-877e-0ff9d5c847c6" class=3D"conflue=
+nceTd">
+<p local-id=3D"84f6d80104cd">Guests who are members of the selected loyalty=
+ programs and/or tiers automatically qualify. They are evaluated first and =
+marked with <code>qualifiedVia =3D "hard"</code>.</p></td>
+</tr>
+<tr data-local-id=3D"d0140942-53d0-451c-b8f5-d68a1895234b">
+<td data-local-id=3D"ef382c09-ca14-495e-9b07-74a4b894a1a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"5f329c941a96"><strong>Soft signals</strong></p></td>
+<td data-local-id=3D"8c94fa63-74a8-410d-88bc-abc91de1c108" class=3D"conflue=
+nceTd">
+<p local-id=3D"4580b27cdcd7">Behavioral metrics</p></td>
+<td data-local-id=3D"81ac609a-d07d-4fa5-bf97-b5ec0f67acf8" class=3D"conflue=
+nceTd">
+<p local-id=3D"170a9129cd93">Guests who did <em>not</em> qualify through lo=
+yalty are evaluated based on their stay history, total revenue, and recency=
+. They must meet <strong>all</strong> configured thresholds to qualify. Sof=
+t signal evaluation only runs when at least one threshold is set.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"6a65b4905c39"><strong>Note:</strong> If no loyalty programs,=
+ tiers, or behavioral thresholds are configured, <strong>all</strong> confi=
+rmed reservations with a room assignment arriving on the specified date are=
+ returned. The qualification field will show <code>none</code> for all gues=
+ts.</p>
+<p local-id=3D"637f2cd3b6e0"><strong>Important:</strong> Soft signal thresh=
+olds work with an AND logic =E2=80=94 if you set both a Stay Count Threshol=
+d of <code>5</code> and a Revenue Threshold of <code>1000</code>, a guest m=
+ust have at least 5 stays <strong>and</strong> at least 1000 in total reven=
+ue to qualify. If any single threshold is not met, the guest is excluded.</=
+p>
+<hr local-id=3D"6d24d64c-6806-4331-855e-dca635350256">
+<h2 local-id=3D"223e6cf256cf" id=3D"GetEligibleArrivals-ExampleUseCases">Ex=
+ample Use Cases</h2>
+<ul local-id=3D"ea3b53aa-356d-4ccd-b117-6ac170cbaf16">
+<li local-id=3D"9987e168-01de-4174-86ab-a30f38728482">
+<p local-id=3D"a153c0545f5e"><strong>VIP room upgrade workflow</strong> =E2=
+=80=94 Retrieve today's arrivals filtered by a "Gold" or "Platinum" loyalty=
+ tier, then pass the reservation IDs to a Room Upgrade component to automat=
+ically offer upgrades to top-tier guests.</p></li>
+<li local-id=3D"8b89b267-eac6-42cd-b3df-e632b97664c8">
+<p local-id=3D"293e4204f1e4"><strong>Loyalty guest welcome amenity</strong>=
+ =E2=80=94 Fetch arriving guests who belong to any loyalty program, then cr=
+eate a task for the front desk to prepare a personalized welcome package fo=
+r each loyalty guest.</p></li>
+<li local-id=3D"3e17234d-59be-4696-ad1f-bb0424cb2049">
+<p local-id=3D"f7a869af37e6"><strong>High-value guest recognition</strong> =
+=E2=80=94 Use behavioral thresholds (e.g., at least 10 stays and 5,000 in t=
+otal revenue) to identify frequent high-spending guests who may not be in a=
+ formal loyalty program, and send a notification to the front office manage=
+r.</p></li>
+<li local-id=3D"a8af413d-d866-4b1b-b847-600b1d3038df">
+<p local-id=3D"f2aba4d511bc"><strong>Rate-specific arrival list</strong> =
+=E2=80=94 Filter arrivals by a specific promotional rate to generate a dail=
+y list of guests who booked through a special offer, enabling targeted foll=
+ow-up or upselling.</p></li>
+<li local-id=3D"85eeaeb1-2b97-4bfa-90b4-96487674346f">
+<p local-id=3D"833d68a1657b"><strong>Combined loyalty and behavioral filter=
+ing</strong> =E2=80=94 Select a loyalty program to capture formal members, =
+and also set a recency threshold of 180 days to additionally include recent=
+ repeat guests, ensuring no high-value arrival is overlooked.</p></li>
+</ul>
+<hr local-id=3D"6e8ba053-d574-41b7-b4d5-5d3ba763cac5">
+<h2 local-id=3D"fad5418fec73" id=3D"GetEligibleArrivals-Sorting">Sorting</h=
+2>
+<p local-id=3D"62617f2ac720">The returned reservations are sorted in the fo=
+llowing order:</p>
+<ol start=3D"1" local-id=3D"0c3e238e-a5ad-4160-8da4-f9b073c6ebe3">
+<li local-id=3D"1fb06825-b022-4f79-9de9-d29d22991142">
+<p local-id=3D"79ef65c69aa9"><strong>Loyalty tier rank</strong> (descending=
+) =E2=80=94 Guests in higher-ranked loyalty tiers appear first.</p></li>
+<li local-id=3D"a67c115a-f516-4e8e-bf92-2bf929a833a6">
+<p local-id=3D"575219ab00ee"><strong>Reservation creation date</strong> (de=
+scending) =E2=80=94 Among guests with the same tier rank (or no tier), more=
+ recently created reservations appear first.</p></li>
+<li local-id=3D"fad19af5-3832-42b4-bb3d-c2cda2ae0af6">
+<p local-id=3D"a17aeb21e466"><strong>Guest account creation date</strong> (=
+descending) =E2=80=94 If reservations share the same creation date, newer g=
+uest accounts appear first.</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_10_104073818.1777536518152--

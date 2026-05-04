@@ -1,0 +1,1915 @@
+Date: Thu, 30 Apr 2026 08:08:12 +0000 (UTC)
+Message-ID: <1110472825.9.1777536492166@6340469aa641>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_257112767.1777536492161"
+
+------=_Part_8_257112767.1777536492161
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Welcome gift for VIP guests (flow)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Welcome gift for VIP guests (flow)</h1>
+    <div class=3D"Section1">
+        <span class=3D"confluence-embedded-file-wrapper image-center-wrappe=
+r confluence-embedded-manual-size">
+<style>[data-colorid=3Du83lrp0qem]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Du83lrp0qem]{color:#99ffdd}[data-colorid=3Drbxs2tw4sm]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Drbxs2tw4sm]{colo=
+r:#99ffdd}[data-colorid=3Dyurdw3z8ea]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dyurdw3z8ea]{color:#99ffdd}[data-colorid=3Dcoc8s0y3=
+xd]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dcoc8s0y3xd]=
+{color:#99ffdd}[data-colorid=3Dwsnd58mzbg]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dwsnd58mzbg]{color:#99ffdd}[data-colorid=3Dla0ty=
+dzkat]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dla0tydzk=
+at]{color:#99ffdd}[data-colorid=3Dcyjy6nn8bd]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dcyjy6nn8bd]{color:#99ffdd}[data-colorid=3Dyd=
+d06xwajq]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dydd06=
+xwajq]{color:#99ffdd}[data-colorid=3Dgwy1tqddqy]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dgwy1tqddqy]{color:#99ffdd}[data-colorid=
+=3Dgwx1e1psyo]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+gwx1e1psyo]{color:#99ffdd}[data-colorid=3Dyxjepp2ky5]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dyxjepp2ky5]{color:#99ffdd}[data-colo=
+rid=3Dt69tmwfzez]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dt69tmwfzez]{color:#99ffdd}[data-colorid=3Dtf013umofd]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dtf013umofd]{color:#99ffdd}[data-c=
+olorid=3Ddzmtznkt75]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Ddzmtznkt75]{color:#99ffdd}[data-colorid=3Dnnnux7o44e]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dnnnux7o44e]{color:#99ffdd}[dat=
+a-colorid=3Dc3m396az4f]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dc3m396az4f]{color:#99ffdd}</style><img class=3D"confluence-embedde=
+d-image image-center" alt=3D"image-20260429-115725.png" width=3D"468" loadi=
+ng=3D"lazy" src=3D"ad9844c5856ffe2020da2b3abd15c711776037d7c445c33210b88520=
+5dce898b" data-image-src=3D"https://mews.atlassian.net/wiki/download/attach=
+ments/1924400276/image-20260429-115725.png?version=3D1&amp;modificationDate=
+=3D1777463846865&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"432" dat=
+a-width=3D"1907" data-unresolved-comment-count=3D"0" data-linked-resource-i=
+d=3D"1932132962" data-linked-resource-version=3D"1" data-linked-resource-ty=
+pe=3D"attachment" data-linked-resource-default-alias=3D"image-20260429-1157=
+25.png" data-base-url=3D"https://mews.atlassian.net/wiki" data-linked-resou=
+rce-content-type=3D"image/png" data-linked-resource-container-id=3D"1924400=
+276" data-linked-resource-container-version=3D"5" data-media-id=3D"fc8fac8e=
+-aceb-464a-88a1-8250d658bc4e" data-media-type=3D"file" height=3D"105"></spa=
+n>
+<h2 local-id=3D"13fd6fb258ba" id=3D"WelcomegiftforVIPguests(flow)-Overview"=
+>Overview</h2>
+<p local-id=3D"0187bee37a8d">The <strong>Welcome Gift for VIP Guests</stron=
+g> flow automates the process of preparing a special amenity gift for guest=
+s arriving today. It runs on a schedule (daily at noon by default), identif=
+ies today's eligible arrivals, checks which products from your selected lis=
+t are compatible with each reservation's service, creates a task in Mews Op=
+erations for your team to manually add those products, and sends an SMS to =
+the guest letting them know a gift is waiting for them.</p>
+<p local-id=3D"dc2e283c9d9b">This flow is designed to be nearly ready to us=
+e out of the box. Most fields come pre-configured with sensible defaults. <=
+strong>Only one setting is mandatory before the flow can run:</strong> you =
+must select the <strong>Products</strong> you want to offer as gifts in the=
+ Get Compatible Products component.</p>
+<hr local-id=3D"8718d977-0613-4a71-bb0e-a04c4624ee7b">
+<h2 local-id=3D"e2324d0e7ad3" id=3D"WelcomegiftforVIPguests(flow)-BeforeYou=
+Start">Before You Start</h2>
+<p local-id=3D"7d9a92b3edf1"><strong>Required setup:</strong> Before starti=
+ng the flow, you must select at least one product in the <strong>Products</=
+strong> dropdown of the <strong>Get Compatible Products</strong> component.=
+ These are the products you want to offer as welcome gifts. Without selecti=
+ng any products, the component will return empty results and the flow will =
+stop =E2=80=94 no tasks will be created and no SMS messages will be sent.</=
+p>
+<p local-id=3D"7d6522901711">All other settings in the flow come pre-filled=
+ with default values and are ready to use. You can customize any of them to=
+ match your property's needs =E2=80=94 see the component-by-component break=
+down below for details on what can be adjusted.</p>
+<hr local-id=3D"94cbb595-e0f3-4f6c-95e2-2f5b1e8488f8">
+<h2 local-id=3D"28d042bab69a" id=3D"WelcomegiftforVIPguests(flow)-HowtheFlo=
+wWorks">How the Flow Works</h2>
+<p local-id=3D"d9b7a648a117">The flow consists of six components connected =
+in sequence:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"6fb69aa7-24c7-461c-a0e7-6dc=
+91061a73b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4ec98352-1548-442c-bc73-a0711a71e177">
+<th data-local-id=3D"03eada8f-081e-474c-93f3-e53b0e103f31" class=3D"conflue=
+nceTh">
+<p local-id=3D"a305d2f1d207">Step</p></th>
+<th data-local-id=3D"bfa9870c-178a-448f-b450-9800adcdb81d" class=3D"conflue=
+nceTh">
+<p local-id=3D"bd383d923563">Component</p></th>
+<th data-local-id=3D"21753247-5e01-4856-b566-1b3147b07447" class=3D"conflue=
+nceTh">
+<p local-id=3D"b84ad2df6496">Connects to</p></th>
+<th data-local-id=3D"e2cb0da2-b37c-4bb0-8911-92297edb52c1" class=3D"conflue=
+nceTh">
+<p local-id=3D"6ec0a015db11">Description</p></th>
+</tr>
+<tr data-local-id=3D"a721ca05-f3e1-48bc-aac4-b2bcaa8747a7">
+<td data-local-id=3D"abba4202-354a-4ec3-ba77-63980ce580f2" class=3D"conflue=
+nceTd">
+<p local-id=3D"82a0afafb139">1</p></td>
+<td data-local-id=3D"e7a2b2e1-df64-42ed-8520-7ae3302dd59b" class=3D"conflue=
+nceTd">
+<p local-id=3D"8917626476d6">Cron Scheduler</p></td>
+<td data-local-id=3D"c3195e92-8a62-40a8-8ef4-74bde8bebba3" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0d1aed041d3">=E2=86=92 Step 2</p></td>
+<td data-local-id=3D"70808b07-9738-4c7e-a2b7-335c0536d8fa" class=3D"conflue=
+nceTd">
+<p local-id=3D"32e26c184a5e">Triggers the flow on a recurring schedule (dai=
+ly at noon by default).</p></td>
+</tr>
+<tr data-local-id=3D"e54af8c5-ea4e-4821-972d-33facea9745d">
+<td data-local-id=3D"11522ba1-85b0-4563-b937-8a30422e042b" class=3D"conflue=
+nceTd">
+<p local-id=3D"97570e977679">2</p></td>
+<td data-local-id=3D"dea34f17-e491-4554-9321-91f21333fb3e" class=3D"conflue=
+nceTd">
+<p local-id=3D"82bcba72396e">Get Eligible Arrivals</p></td>
+<td data-local-id=3D"e1c14ad3-d3fe-4dcf-a4a7-f506c1047faa" class=3D"conflue=
+nceTd">
+<p local-id=3D"62573d553499">=E2=86=92 Step 3</p></td>
+<td data-local-id=3D"0f991013-923f-444d-9cce-bf146f7f2918" class=3D"conflue=
+nceTd">
+<p local-id=3D"65eea874fae3">Retrieves confirmed reservations arriving on t=
+he target date. Returns a list of Reservation IDs.</p></td>
+</tr>
+<tr data-local-id=3D"bcb43378-60b7-412a-a8ed-cb02eac6a38a">
+<td data-local-id=3D"6764fc41-693e-4324-9bf1-7c9199f8eaba" class=3D"conflue=
+nceTd">
+<p local-id=3D"55b15e3fe930">3</p></td>
+<td data-local-id=3D"b163e407-b37d-4493-b6d2-90959c148c84" class=3D"conflue=
+nceTd">
+<p local-id=3D"727a08403536">Each (Iterator)</p></td>
+<td data-local-id=3D"58510b10-0f88-46eb-b483-c9baafa2d01b" class=3D"conflue=
+nceTd">
+<p local-id=3D"9a56758fa1d0">=E2=86=92 Step 4</p></td>
+<td data-local-id=3D"f1d17be9-0e87-4e67-8544-84fbe8889514" class=3D"conflue=
+nceTd">
+<p local-id=3D"e6142ecd6b5d">Iterates over the list of Reservation IDs and =
+triggers the next step for each reservation individually.</p></td>
+</tr>
+<tr data-local-id=3D"82836f49-3ae8-4abb-bceb-2ce0a014f552">
+<td data-local-id=3D"d2d6a207-c6e0-4307-84f1-e9b5b48a104e" class=3D"conflue=
+nceTd">
+<p local-id=3D"911d0322c431">4</p></td>
+<td data-local-id=3D"86ba34ef-0483-4d6c-b66f-334b099cad97" class=3D"conflue=
+nceTd">
+<p local-id=3D"dd2023e12fe6">Get Compatible Products</p></td>
+<td data-local-id=3D"5b778d20-d030-401e-b915-af2fba7ad16e" class=3D"conflue=
+nceTd">
+<p local-id=3D"87405755414d"><em>Compatible</em> =E2=86=92 Step 5 &amp; Ste=
+p 6</p></td>
+<td data-local-id=3D"a025c03b-688c-470f-8b59-0bcc6c025be5" class=3D"conflue=
+nceTd">
+<p local-id=3D"b3e8a7b36701">Checks which of the user-selected products are=
+ compatible with the reservation's service. If compatible products are foun=
+d, the flow continues. If none are found, the flow stops for that reservati=
+on.</p></td>
+</tr>
+<tr data-local-id=3D"7871cd97-1833-49d8-8b88-6299d78c5b4f">
+<td data-local-id=3D"e1f89f18-c65f-4d80-b14d-9451cc3d1b4e" class=3D"conflue=
+nceTd">
+<p local-id=3D"8cd512583be4">5</p></td>
+<td data-local-id=3D"e85d46c3-a480-49a5-9f0c-d05d4012a7f1" class=3D"conflue=
+nceTd">
+<p local-id=3D"92cda00c57e6">Add Task</p></td>
+<td data-local-id=3D"83ad5cd3-2d05-4f6c-bb2f-a50d5464cc76" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8eb7aa98d86"><em>End of branch</em></p></td>
+<td data-local-id=3D"6489f423-b4e7-4f0a-bd30-821fc22f5380" class=3D"conflue=
+nceTd">
+<p local-id=3D"6d60450f3a23">Creates a task in Mews Operations for your tea=
+m to manually add the eligible products to the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"88cc5ba9-5b60-471c-a91e-02f105888775">
+<td data-local-id=3D"66176ddd-df06-4561-b7c1-1e19a8d80fa4" class=3D"conflue=
+nceTd">
+<p local-id=3D"489eaa08ee9e">6</p></td>
+<td data-local-id=3D"90a7070e-bfcf-4438-aa26-691443691dbd" class=3D"conflue=
+nceTd">
+<p local-id=3D"3aa764802aa0">Send SMS</p></td>
+<td data-local-id=3D"e0aec393-1835-4b3d-b74c-4b8495de7377" class=3D"conflue=
+nceTd">
+<p local-id=3D"35aaec8ee5a2"><em>End of branch</em></p></td>
+<td data-local-id=3D"36fcf013-6bcf-4a63-b06d-e5a2303b9206" class=3D"conflue=
+nceTd">
+<p local-id=3D"f75317acc782">Sends an SMS to the guest informing them that =
+a special amenity gift is waiting in their room.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e5f60e5c6d5e"><strong>Key behavior:</strong> The flow proces=
+ses each reservation independently. For each reservation, it checks whether=
+ any of the selected products are compatible with the reservation's service=
+. If no compatible products are found (either because no products were sele=
+cted or because none match the reservation's service), neither the task nor=
+ the SMS is triggered for that reservation. This means the flow gracefully =
+handles mixed services =E2=80=94 only reservations with matching products r=
+eceive the gift workflow.</p>
+<hr local-id=3D"7ca034cb-0fff-48cc-900a-c7a027e9c16a">
+<h2 local-id=3D"800c26c41bbd" id=3D"WelcomegiftforVIPguests(flow)-Component=
+Details">Component Details</h2>
+<p local-id=3D"72f3c967608c">Below is a detailed breakdown of each componen=
+t in the flow, including which fields are pre-configured and which can be c=
+ustomized.</p>
+<h3 local-id=3D"604df0f3a875" id=3D"WelcomegiftforVIPguests(flow)-1.CronSch=
+eduler">1. Cron Scheduler</h3>
+<p local-id=3D"e9cf3df0529c">The Cron Scheduler is a time-based trigger tha=
+t starts the flow at regular intervals using standard cron syntax.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fcdef187-49fc-4bc2-a0b6-3fa=
+36c57baa6" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4d14b51a-0b78-417e-8273-204a5c89504f">
+<th data-local-id=3D"2a1fab37-2136-4347-abc6-9608231ceb5b" class=3D"conflue=
+nceTh">
+<p local-id=3D"1ac013e3a0fe">Field</p></th>
+<th data-local-id=3D"358aed55-19d5-4dde-922c-13313948e6fc" class=3D"conflue=
+nceTh">
+<p local-id=3D"b1e370ce1234">Default Value</p></th>
+<th data-local-id=3D"b38b8353-7e07-486a-bbd5-fb5709d23eb8" class=3D"conflue=
+nceTh">
+<p local-id=3D"3756dd6b2438">Status</p></th>
+<th data-local-id=3D"65307a19-92cb-4908-b6b8-0cd605f9ff1c" class=3D"conflue=
+nceTh">
+<p local-id=3D"2c04e6f79d56">Description</p></th>
+</tr>
+<tr data-local-id=3D"b84925af-aeeb-486d-8724-8d935bf89e25">
+<td data-local-id=3D"e778624c-e20c-4615-bfd3-dadf786c1f3b" class=3D"conflue=
+nceTd">
+<p local-id=3D"2988c99d4d82"><strong>Trigger immediately</strong></p></td>
+<td data-local-id=3D"64891eb2-0a55-402c-bd4d-2adbc4abd1e6" class=3D"conflue=
+nceTd">
+<p local-id=3D"16aef9f2cda5"><code>False</code></p></td>
+<td data-local-id=3D"ee883004-ba7b-4b82-8693-1e517656174d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ccff42fc1c11"><strong><span data-colorid=3D"t69tmwfzez">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"576cadad-14d7-498c-8c62-9c62232563a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"36f615611e47">When set to true, the flow triggers once immed=
+iately when started, in addition to the scheduled runs. Default is false =
+=E2=80=94 the flow waits until the next scheduled time.</p></td>
+</tr>
+<tr data-local-id=3D"7d48d2a4-5c2a-4d0a-a4a9-330be2c5a614">
+<td data-local-id=3D"c289cf0d-76e3-4d6f-9190-4d143480d366" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f405a247819"><strong>Minute</strong></p></td>
+<td data-local-id=3D"e00058c5-96cf-4b92-8dd4-04387f71d62f" class=3D"conflue=
+nceTd">
+<p local-id=3D"d1426a40ff80"><code>*</code></p></td>
+<td data-local-id=3D"7a4d66d9-cc48-450a-83dc-25f151ee35ac" class=3D"conflue=
+nceTd">
+<p local-id=3D"95d09723c56f"><strong><span data-colorid=3D"gwx1e1psyo">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"63d6a76c-61b6-4e43-8d21-e9ec4de54dbd" class=3D"conflue=
+nceTd">
+<p local-id=3D"65fa8a950e6e">The minute of the hour to run. <code>*</code> =
+means every minute (combined with the Hour setting, it runs at 12:00). Allo=
+wed values: <code>*</code>, <code>-</code>, <code>/</code>, <code>0=E2=80=
+=9359</code>.</p></td>
+</tr>
+<tr data-local-id=3D"cd74c99b-a3e5-4fc9-a945-01a29a7779dc">
+<td data-local-id=3D"175f38e4-3678-4936-a823-cc48cde12048" class=3D"conflue=
+nceTd">
+<p local-id=3D"858cad640971"><strong>Hour</strong></p></td>
+<td data-local-id=3D"144770ef-05d1-4f00-be2d-44ae73ed4eb3" class=3D"conflue=
+nceTd">
+<p local-id=3D"b3d18fd04e15"><code>12</code></p></td>
+<td data-local-id=3D"1bdd3d93-5774-45b0-986c-52418d025995" class=3D"conflue=
+nceTd">
+<p local-id=3D"6600988b0aaf"><strong><span data-colorid=3D"nnnux7o44e">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"18259f5e-64e7-4bb9-aed1-558ca962e786" class=3D"conflue=
+nceTd">
+<p local-id=3D"57a27ce9ff0b">The hour of the day to run. Set to <code>12</c=
+ode> (noon). Allowed values: <code>*</code>, <code>-</code>, <code>/</code>=
+, <code>0=E2=80=9323</code>.</p></td>
+</tr>
+<tr data-local-id=3D"563b6dbe-0605-4324-b769-7efb0040f08e">
+<td data-local-id=3D"5dde2812-75cc-4b48-88c6-f4e8969bd159" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb6716c31c59"><strong>Day of the Month</strong></p></td>
+<td data-local-id=3D"8ce7e6c2-c761-453b-8e28-cb8754a93dab" class=3D"conflue=
+nceTd">
+<p local-id=3D"69c2ee3afd0e"><code>*</code></p></td>
+<td data-local-id=3D"1a2df8d0-a098-44df-b714-86036347c625" class=3D"conflue=
+nceTd">
+<p local-id=3D"944c3104bfe7"><strong><span data-colorid=3D"u83lrp0qem">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"50be7120-9cd3-48b0-8a7a-d10631ec6801" class=3D"conflue=
+nceTd">
+<p local-id=3D"3fa3fa3448ff">Which day(s) of the month to run. <code>*</cod=
+e> means every day. Allowed values: <code>*</code>, <code>-</code>, <code>/=
+</code>, <code>1=E2=80=9331</code>.</p></td>
+</tr>
+<tr data-local-id=3D"8646b119-0a83-4ac0-83ed-52af8b407ab3">
+<td data-local-id=3D"f67f56a1-68ce-427e-832f-ef4c25d37819" class=3D"conflue=
+nceTd">
+<p local-id=3D"e93c7fc3c0c1"><strong>Day of the Week</strong></p></td>
+<td data-local-id=3D"811be242-cc25-4c26-ae31-148c20f1a0b2" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6e0de03601f"><code>*</code></p></td>
+<td data-local-id=3D"743c6054-fce8-431c-9ef6-95226ec3b2da" class=3D"conflue=
+nceTd">
+<p local-id=3D"e97bdea5612c"><strong><span data-colorid=3D"gwy1tqddqy">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"04e036dd-b3c9-4328-9df3-f47cf343b8e2" class=3D"conflue=
+nceTd">
+<p local-id=3D"7cf19a92ac20">Which day(s) of the week to run. <code>*</code=
+> means every day. Allowed values: <code>*</code>, <code>-</code>, <code>/<=
+/code>, <code>0=E2=80=936</code>, <code>SUN=E2=80=93SAT</code>.</p></td>
+</tr>
+<tr data-local-id=3D"b55d4003-d47a-41ce-b850-7eb118c7832b">
+<td data-local-id=3D"be0f8e58-3263-4e6e-b087-1aec91f75485" class=3D"conflue=
+nceTd">
+<p local-id=3D"d2b5615c9a99"><strong>Timezone</strong></p></td>
+<td data-local-id=3D"29a04b6a-f6b3-4783-a4ba-7986332c5e8a" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb87cc12a9af"><em>Empty</em></p></td>
+<td data-local-id=3D"ed10702f-1e46-43de-ae11-593c99f14dd6" class=3D"conflue=
+nceTd">
+<p local-id=3D"04972567f055"><strong><span data-colorid=3D"cyjy6nn8bd">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"06793da2-53b3-481c-ab71-34ae37fd8dc3" class=3D"conflue=
+nceTd">
+<p local-id=3D"d1df73f20dd0">The timezone for the schedule. When left empty=
+, the schedule uses your local time. To use a specific timezone, enter a ti=
+mezone identifier (e.g., <code>Europe/Prague</code>). By default it uses GM=
+T.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"ff21d1bb2e04"><strong>Default schedule:</strong> The flow is=
+ pre-configured to run every day at 12:00 (noon). You can adjust the schedu=
+le by changing the cron fields. For example, to run at 8:00 AM, change the =
+Hour to <code>8</code>. To run only on weekdays, set Day of the Week to <co=
+de>1-5</code> (Monday through Friday). If you want the schedule to run in y=
+our local time, leave the Timezone field empty. To run in a specific timezo=
+ne, enter the timezone identifier (e.g., <code>Europe/Prague</code>).</p>
+<hr local-id=3D"c6f84a1a-e3eb-4345-b999-4a323f1e696b">
+<h3 local-id=3D"d1ec5fca7e09" id=3D"WelcomegiftforVIPguests(flow)-2.GetElig=
+ibleArrivals">2. Get Eligible Arrivals</h3>
+<p local-id=3D"97e61b3d37f4">Retrieves confirmed reservations arriving on t=
+he specified date. You can optionally filter guests by loyalty program memb=
+ership, behavioral signals (stay frequency, revenue, recency), or rate code=
+s to narrow down which reservations are eligible for a welcome gift.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"096f6c4f-23e9-4d9a-afff-83e=
+72be0b893" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"6c728077-1190-42df-9bea-a8a91e110777">
+<th data-local-id=3D"b216534a-2f02-4001-9680-cb72484ba01b" class=3D"conflue=
+nceTh">
+<p local-id=3D"646539be6eeb">Field</p></th>
+<th data-local-id=3D"7a185b12-3546-4cde-a521-97abc001350d" class=3D"conflue=
+nceTh">
+<p local-id=3D"dd55d248e2c5">Default Value</p></th>
+<th data-local-id=3D"c45bfdba-adf3-4bd9-8b4a-6a0cb3f47230" class=3D"conflue=
+nceTh">
+<p local-id=3D"557e4e880974">Status</p></th>
+<th data-local-id=3D"06aecf3b-1d6b-4460-bc79-cc9344383018" class=3D"conflue=
+nceTh">
+<p local-id=3D"9d7a47a318c0">Description</p></th>
+</tr>
+<tr data-local-id=3D"241bb5f4-9ff4-43db-a60c-ce36b3a7b4b7">
+<td data-local-id=3D"527b44d1-1cd7-4e2c-b91d-d0003b869888" class=3D"conflue=
+nceTd">
+<p local-id=3D"b84b40664b2f"><strong>Arrival Date</strong></p></td>
+<td data-local-id=3D"4a88853e-a7aa-4a6e-93af-3f1b19eddfb1" class=3D"conflue=
+nceTd">
+<p local-id=3D"917ca69b4d6e">Today's date</p></td>
+<td data-local-id=3D"66a90be3-8d56-4931-b215-750ea79bb114" class=3D"conflue=
+nceTd">
+<p local-id=3D"053f2278eea9"><strong><span data-colorid=3D"c3m396az4f">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"155f0484-976f-4ef5-9d34-19603fd465d5" class=3D"conflue=
+nceTd">
+<p local-id=3D"08f7a3d66971">The date to search for arriving reservations. =
+Pre-filled to use the current date so the flow always checks today's arriva=
+ls. This can be adjusted if you need to look ahead to a future date.</p></t=
+d>
+</tr>
+<tr data-local-id=3D"7fab3450-cacf-4bc5-bf01-91d7aeec1174">
+<td data-local-id=3D"bc876600-9805-4efb-822a-e1b6c9c1f168" class=3D"conflue=
+nceTd">
+<p local-id=3D"fba2873780cf"><strong>Loyalty Programs</strong></p></td>
+<td data-local-id=3D"1afe668b-7475-4942-93b4-693384f10417" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c7851e01d4b"><em>None selected</em></p></td>
+<td data-local-id=3D"f76109a6-2c34-430b-9823-7826e77fe0d9" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d343e6e8122"><strong>Optional</strong></p></td>
+<td data-local-id=3D"d8d63497-7263-4860-b4c0-deb997f1f252" class=3D"conflue=
+nceTd">
+<p local-id=3D"b2ecf8b81601">Filter arrivals to guests enrolled in specific=
+ loyalty programs. If no programs are selected, loyalty membership is not u=
+sed as a filter criterion.</p></td>
+</tr>
+<tr data-local-id=3D"f73d7c35-3033-4677-b1ab-dcd90ab79b38">
+<td data-local-id=3D"7dc29141-c6a6-4b60-9ed5-cd4718765510" class=3D"conflue=
+nceTd">
+<p local-id=3D"6d2990b9be83"><strong>Loyalty Tiers</strong></p></td>
+<td data-local-id=3D"0372e2d2-e8ac-45ca-aad7-73c8acafa4f5" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf9a7bd43127"><em>None selected</em></p></td>
+<td data-local-id=3D"145af7bd-3dda-4680-9925-db923f15ca0c" class=3D"conflue=
+nceTd">
+<p local-id=3D"74f2f29fd581"><strong>Optional</strong></p></td>
+<td data-local-id=3D"89636abf-5919-420e-89d6-8cf71b35870b" class=3D"conflue=
+nceTd">
+<p local-id=3D"3418f8d44e10">Further narrow the loyalty filter to specific =
+tiers within the selected programs (e.g., Gold, Platinum). Only visible aft=
+er a loyalty program is selected.</p></td>
+</tr>
+<tr data-local-id=3D"c7d50c15-0901-418c-8050-ca2b9a807e59">
+<td data-local-id=3D"ebd14f75-92fb-4d99-ab03-99b20d593d00" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c5f90d1c6a9"><strong>Stay Count Threshold</strong></p></td>
+<td data-local-id=3D"7b660d43-396f-496b-bcf8-5ff320d874b2" class=3D"conflue=
+nceTd">
+<p local-id=3D"53f6a3711e05"><em>Not set</em></p></td>
+<td data-local-id=3D"454caba0-1df7-4c50-aef8-5273a46f350c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6968cb05b4f9"><strong>Optional</strong></p></td>
+<td data-local-id=3D"72346fd0-d6b9-4cb5-bc31-b31e9f824065" class=3D"conflue=
+nceTd">
+<p local-id=3D"f715e8770783">Minimum number of past stays a guest must have=
+ to qualify. This is a behavioral signal =E2=80=94 guests who do not meet t=
+he loyalty criteria can still qualify if they meet all configured behaviora=
+l thresholds.</p></td>
+</tr>
+<tr data-local-id=3D"378e6fd2-50c3-4580-b501-1e9e80b69dde">
+<td data-local-id=3D"086a6983-6d61-4d5d-807a-86ce1beb1d64" class=3D"conflue=
+nceTd">
+<p local-id=3D"238ef1f56d52"><strong>Revenue Threshold</strong></p></td>
+<td data-local-id=3D"c63a8712-15d6-48b1-a01a-6a61f3ad8b3e" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0e109e88de4"><em>Not set</em></p></td>
+<td data-local-id=3D"a27d4580-d60d-40e2-b74d-5a086a80d14a" class=3D"conflue=
+nceTd">
+<p local-id=3D"b3d4a92f0d76"><strong>Optional</strong></p></td>
+<td data-local-id=3D"8abf5dcc-b172-4d11-995c-b02f17da4c69" class=3D"conflue=
+nceTd">
+<p local-id=3D"813866448a96">Minimum total revenue (in the property's defau=
+lt currency) a guest must have generated to qualify.</p></td>
+</tr>
+<tr data-local-id=3D"ca1a4c68-42a6-4adf-a775-140fd1aaafa3">
+<td data-local-id=3D"f1a62eb9-824e-4ef3-8f84-59c1afc4b098" class=3D"conflue=
+nceTd">
+<p local-id=3D"90ab1930aa18"><strong>Recency Threshold</strong></p></td>
+<td data-local-id=3D"b3de6f80-c569-477e-beb7-0a1cf7fcf42f" class=3D"conflue=
+nceTd">
+<p local-id=3D"406f0c11c857"><em>Not set</em></p></td>
+<td data-local-id=3D"c919fc91-9369-4413-945a-a146e7ec9063" class=3D"conflue=
+nceTd">
+<p local-id=3D"9d52c15801e4"><strong>Optional</strong></p></td>
+<td data-local-id=3D"4c6dfbfe-be42-4eb4-8a1c-66aae54a648b" class=3D"conflue=
+nceTd">
+<p local-id=3D"a6311897e52a">Maximum number of days since the guest's most =
+recent stay. Guests whose last stay was more recent than this threshold qua=
+lify.</p></td>
+</tr>
+<tr data-local-id=3D"9c94bfe1-118c-4346-8ef0-d105d5ef59d0">
+<td data-local-id=3D"d7f42945-b845-43de-87c5-0c0b02acdf97" class=3D"conflue=
+nceTd">
+<p local-id=3D"93ce253e8c1f"><strong>Rates</strong></p></td>
+<td data-local-id=3D"4c5e1eb7-527e-44ad-a5c6-24f1919b9a23" class=3D"conflue=
+nceTd">
+<p local-id=3D"c68e38a64b0c"><em>None selected</em></p></td>
+<td data-local-id=3D"ea69993e-fd2b-4a77-a2b1-34f6b9ab0cd4" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f46307de9c1"><strong>Optional</strong></p></td>
+<td data-local-id=3D"42c1d559-8931-4c23-bc14-b706c076e0c6" class=3D"conflue=
+nceTd">
+<p local-id=3D"c05b9c026ac4">Filter reservations by the rate they were book=
+ed under. Only reservations matching the selected rates are included.</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"68944ae1c471"><strong>Default behavior:</strong> With no loy=
+alty, behavioral, or rate filters configured, <strong>all</strong> confirme=
+d reservations with an assigned room arriving on the specified date are inc=
+luded. You can add filters to target specific guest segments =E2=80=94 for =
+example, selecting a loyalty program to limit the welcome gift to loyalty m=
+embers only.</p>
+<hr local-id=3D"b23bd402-4193-4fa4-ba66-1486b784ce2e">
+<h3 local-id=3D"e7a830812978" id=3D"WelcomegiftforVIPguests(flow)-3.Each(It=
+erator)">3. Each (Iterator)</h3>
+<p local-id=3D"0b601b36fce8">The Each component receives the list of Reserv=
+ation IDs from the Get Eligible Arrivals output and iterates over them one =
+by one. For each reservation, it triggers the <strong>Get Compatible Produc=
+ts</strong> component so that product compatibility is checked individually=
+ per reservation.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ef59ddd2-4bea-42ab-9499-16c=
+68ec90ae8" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"5f31901e-b721-49c1-9a30-8651a6272dec">
+<th data-local-id=3D"b781c676-241f-4e94-a55c-3a1783c822dd" class=3D"conflue=
+nceTh">
+<p local-id=3D"63ad14cca42a">Field</p></th>
+<th data-local-id=3D"f3f5721f-5fa5-4924-8cab-cd62b8ae861b" class=3D"conflue=
+nceTh">
+<p local-id=3D"9a9df9456aea">Default Value</p></th>
+<th data-local-id=3D"6146c234-1545-42cd-b008-ee28b562a9e2" class=3D"conflue=
+nceTh">
+<p local-id=3D"c3fc0895d59c">Status</p></th>
+<th data-local-id=3D"d3b504cb-f0f2-45d2-bdad-c35530a8b2e4" class=3D"conflue=
+nceTh">
+<p local-id=3D"1d81deec1012">Description</p></th>
+</tr>
+<tr data-local-id=3D"96556f70-2d5a-46d1-90ea-77cb7c1147d1">
+<td data-local-id=3D"1ad7d427-4a77-4c9a-a83b-14394718ef23" class=3D"conflue=
+nceTd">
+<p local-id=3D"9cd6e2dc7fd0"><strong>Field</strong></p></td>
+<td data-local-id=3D"a1d7d3ee-e53d-457b-9c65-770ae07dab7f" class=3D"conflue=
+nceTd">
+<p local-id=3D"2e19f130db07">Reservation IDs</p></td>
+<td data-local-id=3D"6176f562-9561-49f3-baab-a0b3cf3407cd" class=3D"conflue=
+nceTd">
+<p local-id=3D"31ac0e7a83a4"><strong><span data-colorid=3D"tf013umofd">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"487a29da-685c-4a29-bcaf-af525bc706fa" class=3D"conflue=
+nceTd">
+<p local-id=3D"33acd5e540d1">The list to iterate over. Pre-configured to us=
+e the Reservation IDs array from the Get Eligible Arrivals component.</p></=
+td>
+</tr>
+<tr data-local-id=3D"94d9b615-8030-45a6-a69b-4957071d18f2">
+<td data-local-id=3D"1f880368-94bc-4125-af6e-10d0db3e4082" class=3D"conflue=
+nceTd">
+<p local-id=3D"883f58de289f"><strong>Delay</strong></p></td>
+<td data-local-id=3D"6b2f01d8-252c-4f78-b028-19e9e6953f2c" class=3D"conflue=
+nceTd">
+<p local-id=3D"d04f387f5aaf"><em>Not set</em></p></td>
+<td data-local-id=3D"7fdc0d45-f1d3-407a-b9d6-360c74b93c50" class=3D"conflue=
+nceTd">
+<p local-id=3D"44c10d225df5"><strong>Optional</strong></p></td>
+<td data-local-id=3D"236564e9-92c4-46eb-b1d5-c58e423ddd6d" class=3D"conflue=
+nceTd">
+<p local-id=3D"325863a18fb2">Delay between processing each item, in millise=
+conds. Can be used to add a pause between processing reservations if needed=
+.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"9ae95e06-4ab9-4be9-8641-ab414a02ac86">
+<h3 local-id=3D"e24e2199b108" id=3D"WelcomegiftforVIPguests(flow)-4.GetComp=
+atibleProducts">4. Get Compatible Products</h3>
+<p local-id=3D"ffeb8acfc29a">Checks which of the selected products are comp=
+atible with the current reservation's service. A product is compatible when=
+ it belongs to the same service as the reservation, is not a default produc=
+t, and is available for employee ordering. The component splits the product=
+s into two groups: compatible and incompatible.</p>
+<p local-id=3D"c18163b25698"><strong>Required configuration:</strong> You m=
+ust select at least one product in the <strong>Products</strong> dropdown b=
+efore the flow can run. This is the only mandatory setup step for the entir=
+e flow. If no products are selected, the component returns empty results an=
+d the downstream steps (Add Task and Send SMS) will not execute.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0893615a-aece-46fc-8464-304=
+955276fcc" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4b12b1d8-e4b2-4e8e-92b5-d082eaef9fb1">
+<th data-local-id=3D"89301558-e710-4643-9c88-e2247f62e05a" class=3D"conflue=
+nceTh">
+<p local-id=3D"ea25eb8dbde3">Field</p></th>
+<th data-local-id=3D"9a6107a5-222a-45d1-84a6-2911e3fdb677" class=3D"conflue=
+nceTh">
+<p local-id=3D"f9818dcdef8d">Default Value</p></th>
+<th data-local-id=3D"d2018dd8-1cd1-4dbb-bc14-5cdffa7e2bca" class=3D"conflue=
+nceTh">
+<p local-id=3D"bd445b9c8c40">Status</p></th>
+<th data-local-id=3D"5966c527-5136-48ab-bb7d-0d045d7114ec" class=3D"conflue=
+nceTh">
+<p local-id=3D"285e33d5fb56">Description</p></th>
+</tr>
+<tr data-local-id=3D"d960ef46-9948-4a69-aad1-b4f7d0c6e679">
+<td data-local-id=3D"a9da8286-75f1-4b53-8729-33d646d8fffc" class=3D"conflue=
+nceTd">
+<p local-id=3D"69939bbd651a"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"44c3e814-8b8d-4189-b52c-f79155ef71a5" class=3D"conflue=
+nceTd">
+<p local-id=3D"078f13bd2503"><em>From previous step</em></p></td>
+<td data-local-id=3D"ea41254f-9393-4284-b8dc-04c7b35f79d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"10cb45f2cbec"><strong><span data-colorid=3D"la0tydzkat">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"326fada1-8b3a-4286-963a-0528563c6c1c" class=3D"conflue=
+nceTd">
+<p local-id=3D"0b5dc2de9fde">Automatically populated from the Each iterator=
+. Contains the Reservation ID of the current reservation being processed.</=
+p></td>
+</tr>
+<tr data-local-id=3D"6db874a6-0bd0-470d-b893-c950475179f7">
+<td data-local-id=3D"7c5da8be-f256-40cc-afad-a65e44a7be4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"28515528ac0c"><strong>Products</strong></p></td>
+<td data-local-id=3D"7b3270b6-da29-45cc-930e-043bf4c23c7e" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e20804b21dd"><em>None selected</em></p></td>
+<td data-local-id=3D"8984335d-e72f-4ecc-90a9-ab568650e767" class=3D"conflue=
+nceTd">
+<p local-id=3D"df59417d7bfa"><strong>Required</strong></p></td>
+<td data-local-id=3D"926d0df2-572e-4c02-8447-8c090341659d" class=3D"conflue=
+nceTd">
+<p local-id=3D"890b8ae75349">The products to check for compatibility. Selec=
+t the products you want to offer as welcome gifts from the dropdown, which =
+is populated with all products configured in your property. If some of the =
+selected products do not belong to the same service as the reservation, the=
+y will be filtered out automatically =E2=80=94 only matching products will =
+proceed to the next steps.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"1fdf13bcf210"><strong>How it connects:</strong> If at least =
+one compatible product is found, the flow continues to both <strong>Add Tas=
+k</strong> and <strong>Send SMS</strong>. If no products are compatible wit=
+h the reservation (e.g., the selected products belong to a different servic=
+e), neither step is triggered for that reservation.</p>
+<hr local-id=3D"7a4ef506-c391-4f13-9c81-6418aa0a380b">
+<h3 local-id=3D"9c052643d1f8" id=3D"WelcomegiftforVIPguests(flow)-5.AddTask=
+">5. Add Task</h3>
+<p local-id=3D"c06ee78df916">Creates a task in Mews Operations so your team=
+ can see which products should be added to the reservation. The task appear=
+s in the Mews Operations task list, where a staff member can manually add t=
+he recommended products to the guest's reservation.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"7ed89c81-4c4d-4f21-8597-19d=
+324cdc98f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"6ff005d5-9d59-492b-8dad-1b45ecd75409">
+<th data-local-id=3D"9a75904d-022f-4f83-b74a-42b1b23e23ac" class=3D"conflue=
+nceTh">
+<p local-id=3D"c5493ab1d12b">Field</p></th>
+<th data-local-id=3D"8e549747-bebc-4443-ba2e-90ef12bf1593" class=3D"conflue=
+nceTh">
+<p local-id=3D"0ee4b8d948e9">Default Value</p></th>
+<th data-local-id=3D"c6117524-1de1-406b-a990-b965837d9bd4" class=3D"conflue=
+nceTh">
+<p local-id=3D"8dcb4fa139f8">Status</p></th>
+<th data-local-id=3D"2fa8c590-43fc-43b8-9f98-9742fe717086" class=3D"conflue=
+nceTh">
+<p local-id=3D"e959d8f994ce">Description</p></th>
+</tr>
+<tr data-local-id=3D"eb039005-f876-4cdf-b0b8-8237fbf76c4f">
+<td data-local-id=3D"bda77f0e-80b0-4b00-9224-686f7b972d79" class=3D"conflue=
+nceTd">
+<p local-id=3D"45a6699d8a5c"><strong>Task Name</strong></p></td>
+<td data-local-id=3D"63935f6b-b567-4e07-a0ff-7924f156ca86" class=3D"conflue=
+nceTd">
+<p local-id=3D"107fa8e606f8"><em>Pre-filled template</em></p></td>
+<td data-local-id=3D"52eab721-62d5-4860-9825-916c97f299a4" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f50b9d7af78"><strong><span data-colorid=3D"coc8s0y3xd">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"1af18584-a110-43ef-9429-6a90ef54ffd3" class=3D"conflue=
+nceTd">
+<p local-id=3D"c365a76d730f">The name of the task displayed in Mews Operati=
+ons. A default name is included. You can customize this to match your prope=
+rty's naming conventions.</p></td>
+</tr>
+<tr data-local-id=3D"8a726e2f-d712-48f8-82ae-82cf27240e8d">
+<td data-local-id=3D"55a8642f-9cf4-4557-b202-b895b7802339" class=3D"conflue=
+nceTd">
+<p local-id=3D"d61a84f1c915"><strong>Description</strong></p></td>
+<td data-local-id=3D"bf7030ab-03ef-4a8d-8f18-69017d848c59" class=3D"conflue=
+nceTd">
+<p local-id=3D"290303ca12b1"><em>Pre-filled template</em></p></td>
+<td data-local-id=3D"791370ab-4139-4fc6-9ffe-a7691d00966c" class=3D"conflue=
+nceTd">
+<p local-id=3D"fed5eb503fc1"><strong><span data-colorid=3D"ydd06xwajq">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"5c0d034e-a2f6-458f-9f51-d422ee4d131a" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c7bd2c33cef">The task description includes a sample text sa=
+ying "Add the following products to the Reservation:" followed by a comma-s=
+eparated list of the compatible product names. This gives your staff a clea=
+r list of which products to add. You can customize the description text as =
+needed.</p></td>
+</tr>
+<tr data-local-id=3D"8d056924-0124-4eb6-8558-e27b9bb379d3">
+<td data-local-id=3D"d520e710-ece3-463d-b3b3-2ee584d6d0d3" class=3D"conflue=
+nceTd">
+<p local-id=3D"2b4a978b57de"><strong>Deadline (UTC)</strong></p></td>
+<td data-local-id=3D"35c17556-ec80-470e-955c-2eb03328927c" class=3D"conflue=
+nceTd">
+<p local-id=3D"100abceff430">Execution time + 4 hours</p></td>
+<td data-local-id=3D"9cc5238b-0480-443f-890b-e04ffd1bdae0" class=3D"conflue=
+nceTd">
+<p local-id=3D"bdd8c23ea12f"><strong><span data-colorid=3D"yxjepp2ky5">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"6ded75bb-bcc7-44eb-bc25-20b2f7ee9941" class=3D"conflue=
+nceTd">
+<p local-id=3D"76364223b4f1">The deadline for the task. Set by default to 4=
+ hours after the flow execution time, giving your team a reasonable window =
+to prepare the gift before or shortly after the guest arrives. You can adju=
+st this to a shorter or longer window as needed.</p></td>
+</tr>
+<tr data-local-id=3D"ce1d4523-f008-449e-9ea4-178bc2cc9635">
+<td data-local-id=3D"68b8cfc1-b23c-46b7-94b5-b4eb54e9cd8f" class=3D"conflue=
+nceTd">
+<p local-id=3D"f0360b29aa88"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"d2fc85c3-a823-41a4-a825-050468f827e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"b1cf4017270d"><em>From previous step</em></p></td>
+<td data-local-id=3D"c550c535-5c05-44be-a61e-e31b85cc8ae1" class=3D"conflue=
+nceTd">
+<p local-id=3D"48d5f50278a0"><strong><span data-colorid=3D"dzmtznkt75">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"a1c39a58-8bd0-4883-8bfd-c53240850eaa" class=3D"conflue=
+nceTd">
+<p local-id=3D"d7467d400923">Automatically populated from the workflow. Lin=
+ks the task to the specific reservation so staff can easily find it in Mews=
+ Operations.</p></td>
+</tr>
+<tr data-local-id=3D"30d50c34-4a54-4887-b7ac-3aefd2f6c0da">
+<td data-local-id=3D"671fcd48-1013-453c-95ed-0e9cc89f5d76" class=3D"conflue=
+nceTd">
+<p local-id=3D"54cf7b9ada65"><strong>Department</strong></p></td>
+<td data-local-id=3D"381d4436-43db-4e8e-b9da-1840d64b732f" class=3D"conflue=
+nceTd">
+<p local-id=3D"44f076258d99"><em>Not set</em></p></td>
+<td data-local-id=3D"f7b44095-e367-4881-bb38-27b7e06aab17" class=3D"conflue=
+nceTd">
+<p local-id=3D"abc0531631f4"><strong>Optional</strong></p></td>
+<td data-local-id=3D"01c7132c-a671-48b0-87ed-389b6c274100" class=3D"conflue=
+nceTd">
+<p local-id=3D"f62aa149ff03">The department to assign the task to. You can =
+select a department (e.g., Front Desk, Housekeeping) to route the task to t=
+he appropriate team.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"5e111487-c0af-47dd-80f8-84643789056a">
+<h3 local-id=3D"6ad272d1aa44" id=3D"WelcomegiftforVIPguests(flow)-6.SendSMS=
+">6. Send SMS</h3>
+<p local-id=3D"f3512cdf5111">Sends an SMS message to the guest informing th=
+em about their welcome gift. The message is sent to the phone number associ=
+ated with the guest's profile.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"21c99e53-4b1a-458b-beab-141=
+aacda620b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"be5f6bb9-2bad-4226-8aa8-d8bc9cc67b80">
+<th data-local-id=3D"753b8811-df11-4467-92d3-6d31d0e18c73" class=3D"conflue=
+nceTh">
+<p local-id=3D"2eb77a611947">Field</p></th>
+<th data-local-id=3D"d41df6a4-9a3c-4253-9e43-fadc31d63975" class=3D"conflue=
+nceTh">
+<p local-id=3D"f9cce72bcc3c">Default Value</p></th>
+<th data-local-id=3D"3530dcd4-8a14-49f0-a377-625950e97459" class=3D"conflue=
+nceTh">
+<p local-id=3D"9f0b75f7e1a3">Status</p></th>
+<th data-local-id=3D"048dc672-3964-4d45-80bb-b9cf3a3d7593" class=3D"conflue=
+nceTh">
+<p local-id=3D"70d18270b41f">Description</p></th>
+</tr>
+<tr data-local-id=3D"84bc1845-ff36-4746-9f88-d9bcc521b059">
+<td data-local-id=3D"6356c6ee-70e3-40b4-8993-affa3f56c7dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d75e895da9a"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"82fd40f3-d27c-4d33-bb60-b0a4a311f450" class=3D"conflue=
+nceTd">
+<p local-id=3D"21d2df9b217b"><em>From previous step</em></p></td>
+<td data-local-id=3D"1bc4cf3a-9e41-420e-97e1-3fe4406bd545" class=3D"conflue=
+nceTd">
+<p local-id=3D"ae73d8008d9b"><strong><span data-colorid=3D"rbxs2tw4sm">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"bcb8eb2d-e790-471c-9298-96a82ce44837" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c365531d47c">Automatically populated from the workflow. Use=
+d to identify the guest and link the SMS to the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"8954adbb-c089-46fc-a4bb-4146715af113">
+<td data-local-id=3D"67577b05-5b85-41ce-9190-eab72cbe6102" class=3D"conflue=
+nceTd">
+<p local-id=3D"a832656247b7"><strong>Message body</strong></p></td>
+<td data-local-id=3D"ebcb8b2d-5095-445e-926c-4ee20a6424ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"6aac81fcd5c8"><em>"A special amenity gift is waiting for you=
+ in your room. Enjoy your stay!"</em></p></td>
+<td data-local-id=3D"37b3c2bc-e78d-49d3-bd96-43d54b8b99dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"f6972886d581"><strong><span data-colorid=3D"yurdw3z8ea">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"6908f725-ad76-43e0-8fd8-8552c64de8e9" class=3D"conflue=
+nceTd">
+<p local-id=3D"893ab2ca96f4">The text content of the SMS. A default message=
+ is included that informs the guest about their welcome gift. You can custo=
+mize this message to match your property's tone and branding.</p></td>
+</tr>
+<tr data-local-id=3D"15f02724-d4d4-4f13-9bf7-3502466750b1">
+<td data-local-id=3D"3d69108e-d553-4503-b00f-54e02e208cb8" class=3D"conflue=
+nceTd">
+<p local-id=3D"a6ebbe403f01"><strong>Sender</strong></p></td>
+<td data-local-id=3D"2759e1a6-9695-4bb9-a9a2-6527b5ec656b" class=3D"conflue=
+nceTd">
+<p local-id=3D"eae2b303171a">Hotel</p></td>
+<td data-local-id=3D"7e80d354-36ab-40cf-9069-c0bdc450f044" class=3D"conflue=
+nceTd">
+<p local-id=3D"0821e4645092"><strong><span data-colorid=3D"wsnd58mzbg">Pre-=
+filled</span></strong></p></td>
+<td data-local-id=3D"1218e6fe-8f06-45a9-977c-a27b6c1cf37b" class=3D"conflue=
+nceTd">
+<p local-id=3D"4632a7baafba">Who the message is sent on behalf of. Set to <=
+strong>Hotel</strong> by default.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"3edff1aabd87"><strong>Note:</strong> The SMS is sent to the =
+phone number associated with the guest's profile. Ensure that guest profile=
+s have valid phone numbers for SMS delivery to succeed.</p>
+<hr local-id=3D"3e9d1b0e-a42a-4561-9249-6eeb8a2b0e58">
+<h2 local-id=3D"fe2a811b0506" id=3D"WelcomegiftforVIPguests(flow)-SetupChec=
+klist">Setup Checklist</h2>
+<p local-id=3D"6884c898e50f">Use the following checklist to set up the flow=
+ before running it for the first time:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"299f6392-bde4-4f86-a777-e54=
+99bb12df4" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"909c505e-bbf9-4e82-9bbc-e2e315ba7019">
+<th data-local-id=3D"34c1daa8-2e8a-4513-b0f4-9716089ea136" class=3D"conflue=
+nceTh">
+<p local-id=3D"63c8f3601fc4">#</p></th>
+<th data-local-id=3D"3e0046bb-629b-4768-9969-61e5c08f8149" class=3D"conflue=
+nceTh">
+<p local-id=3D"1c82464c563f">Status</p></th>
+<th data-local-id=3D"92d8d561-00b7-45df-b027-be6eb8fd8d15" class=3D"conflue=
+nceTh">
+<p local-id=3D"6f4ef37bbdb4">Step</p></th>
+<th data-local-id=3D"c4c393e8-234b-4ea4-a584-bc7487bdcc0c" class=3D"conflue=
+nceTh">
+<p local-id=3D"c1a2752fef87">Details</p></th>
+</tr>
+<tr data-local-id=3D"bf1c264a-c94e-4cb8-b9d1-a2a3b647d843">
+<td data-local-id=3D"eecca95e-6627-4ad8-a344-3e8db86c8b84" class=3D"conflue=
+nceTd">
+<p local-id=3D"3fba455935f1">1</p></td>
+<td data-local-id=3D"64faf6d0-cc1f-45f8-8f4e-8023d062fbc3" class=3D"conflue=
+nceTd">
+<p local-id=3D"3bec0c8f969f"><strong>Required</strong></p></td>
+<td data-local-id=3D"08e762a4-ea00-4770-befb-dec46a63a8ea" class=3D"conflue=
+nceTd">
+<p local-id=3D"2622d488a3bc"><strong>Select Products</strong></p></td>
+<td data-local-id=3D"e191a130-8a68-4a8a-ac16-fa229a4af1d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"21868c82da2a">Open the <strong>Get Compatible Products</stro=
+ng> component and select the products you want to offer as welcome gifts fr=
+om the <strong>Products</strong> dropdown. Choose products that belong to t=
+he same service as your accommodation reservations for best results.</p></t=
+d>
+</tr>
+<tr data-local-id=3D"623d7565-bebb-4043-bdec-a9f755676a97">
+<td data-local-id=3D"773d9ca5-eec0-4750-be69-66ed9853683d" class=3D"conflue=
+nceTd">
+<p local-id=3D"87f2f7c7f06f">2</p></td>
+<td data-local-id=3D"cd7b61be-c212-4229-bcf9-74418b7bbb9a" class=3D"conflue=
+nceTd">
+<p local-id=3D"ee227e6428d4"><strong>Optional</strong></p></td>
+<td data-local-id=3D"7e09eeea-2315-4ab5-9b0e-8d640bfb80a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"1f33adfa92e3">Adjust the schedule</p></td>
+<td data-local-id=3D"bb271f91-0dd0-4457-b4a5-87cf30f35b5b" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce4bebfc2a33">The flow runs daily at 12:00 (noon) by default=
+. Modify the <strong>Cron Scheduler</strong> if you prefer a different time=
+ or frequency.</p></td>
+</tr>
+<tr data-local-id=3D"de6dd2b1-d4ac-4980-914e-2acca639134e">
+<td data-local-id=3D"1679538d-3229-4956-a36f-3058b2ac92b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ac300c68423">3</p></td>
+<td data-local-id=3D"85bd8a02-be9a-48bf-8976-4b6147d0add1" class=3D"conflue=
+nceTd">
+<p local-id=3D"3310db018c3a"><strong>Optional</strong></p></td>
+<td data-local-id=3D"6fac3a1d-9715-488a-b74d-303251676349" class=3D"conflue=
+nceTd">
+<p local-id=3D"579627d4470a">Configure guest filters</p></td>
+<td data-local-id=3D"d8c99f47-c479-4e07-9f4d-02965786e45a" class=3D"conflue=
+nceTd">
+<p local-id=3D"56300da420fc">By default, all arriving guests are eligible. =
+Add loyalty, behavioral, or rate filters in <strong>Get Eligible Arrivals</=
+strong> to target specific guest segments.</p></td>
+</tr>
+<tr data-local-id=3D"38931000-90da-4f8a-a381-217079630781">
+<td data-local-id=3D"a360896d-4ec3-43a3-bfd1-2a7fd296ddc2" class=3D"conflue=
+nceTd">
+<p local-id=3D"e8639a4abb57">4</p></td>
+<td data-local-id=3D"5d54fe3c-b65e-4d8d-86fd-e2f756161cb8" class=3D"conflue=
+nceTd">
+<p local-id=3D"7dcd4fe5453b"><strong>Optional</strong></p></td>
+<td data-local-id=3D"fd785186-35f4-4c4d-85fa-a0fdefb01cf0" class=3D"conflue=
+nceTd">
+<p local-id=3D"28aba985f945">Customize task details</p></td>
+<td data-local-id=3D"d3b059e5-7be6-492c-9607-e59842137c9e" class=3D"conflue=
+nceTd">
+<p local-id=3D"3210193b51ac">Edit the task name, description, or deadline i=
+n <strong>Add Task</strong> to match your property's workflow. The default =
+deadline is 4 hours after execution.</p></td>
+</tr>
+<tr data-local-id=3D"89773909-7866-4da6-a568-0184ad679cac">
+<td data-local-id=3D"9b2c9aba-e6db-4c3f-a51d-b1df271047ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"b82b78ef84bd">5</p></td>
+<td data-local-id=3D"fc804776-d849-4588-881e-d3790ca4a678" class=3D"conflue=
+nceTd">
+<p local-id=3D"871fed3254fa"><strong>Optional</strong></p></td>
+<td data-local-id=3D"89a7481d-59d9-435c-bc73-fab50f9e197d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f95b16f2d809">Customize SMS message</p></td>
+<td data-local-id=3D"98010499-96d3-464b-86e0-ac5c808bdb08" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d5db1c96047">Edit the message body in <strong>Send SMS</str=
+ong> to match your property's tone and branding.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"3bd4ae76-96c1-4079-9048-5749d254867f">
+<h2 local-id=3D"2daaca2eaa31" id=3D"WelcomegiftforVIPguests(flow)-ExampleUs=
+eCases">Example Use Cases</h2>
+<ul local-id=3D"e496b7e7-151f-45e7-b407-6f88beeb03e3">
+<li local-id=3D"d244d0e2-c7e4-4fe6-95d5-b98a3c97abcb">
+<p local-id=3D"a97c9910507f"><strong>VIP loyalty welcome package:</strong> =
+Configure the Get Eligible Arrivals component to filter by your loyalty pro=
+gram and Gold/Platinum tiers. Select premium amenity products (e.g., welcom=
+e champagne, chocolate box, fruit basket) in Get Compatible Products. Only =
+your top-tier loyalty guests arriving today receive the gift workflow.</p><=
+/li>
+<li local-id=3D"c2d0bdab-7f72-4041-b013-90c7c829b744">
+<p local-id=3D"bd0f36bf8c23"><strong>Returning guest recognition:</strong> =
+Use the behavioral signal filters (e.g., at least 3 stays in the last year)=
+ to identify returning guests and surprise them with a complimentary amenit=
+y, even if they are not enrolled in a loyalty program.</p></li>
+<li local-id=3D"c6609f5b-adad-4aa3-8658-5e30ba53fc96">
+<p local-id=3D"39bfafe7d291"><strong>Seasonal welcome gift:</strong> Update=
+ the selected products periodically to match the season (e.g., hot chocolat=
+e in winter, cold beverages in summer) and adjust the SMS message to reflec=
+t the seasonal offering.</p></li>
+<li local-id=3D"2792cf8e-19eb-4106-bdce-376a616beb5a">
+<p local-id=3D"2cb90783338a"><strong>Weekday-only gifting:</strong> Modify =
+the Cron Scheduler to run only Monday through Friday by setting Day of the =
+Week to <code>1-5</code>, reserving the welcome gift program for weekday ar=
+rivals.</p></li>
+</ul>
+<hr local-id=3D"0abf8987-4491-46cb-a5b5-ce80c7abc7b1">
+<h2 local-id=3D"a3468c5f648c" id=3D"WelcomegiftforVIPguests(flow)-Troublesh=
+ooting">Troubleshooting</h2>
+<h4 local-id=3D"e258975cf1ed" id=3D"WelcomegiftforVIPguests(flow)-Theflowru=
+nsbutnotasksorSMSmessagesarecreated">The flow runs but no tasks or SMS mess=
+ages are created</h4>
+<ul local-id=3D"b7854e48-bb03-4ffb-b65e-10951d0087a3">
+<li local-id=3D"06c47e26-d0be-4537-b7bb-ddf502bf6554">
+<p local-id=3D"b16a28704b7d">Check that you have selected at least one prod=
+uct in the <strong>Products</strong> dropdown of the <strong>Get Compatible=
+ Products</strong> component. Without products selected, the flow stops at =
+this step.</p></li>
+<li local-id=3D"d4e27b35-02a0-4d0f-a21f-c2defe829dc9">
+<p local-id=3D"56166f76016e">Verify that the selected products belong to th=
+e same service as the reservations (e.g., Accommodation). Products from a d=
+ifferent service (e.g., Spa) will be classified as incompatible.</p></li>
+<li local-id=3D"f79e99d8-07f1-45fe-8278-cfe32b734c70">
+<p local-id=3D"c29f053ddcd4">Ensure there are confirmed reservations with a=
+ssigned rooms arriving on the current date.</p></li>
+<li local-id=3D"45e9c01a-1c4c-4290-9dec-c8d0fc4f8f07">
+<p local-id=3D"0aa7d6af35db">If you configured loyalty or behavioral filter=
+s in Get Eligible Arrivals, ensure that arriving guests meet the criteria.<=
+/p></li>
+</ul>
+<h4 local-id=3D"6fc931e5bf51" id=3D"WelcomegiftforVIPguests(flow)-Tasksarec=
+reatedbutsomereservationsareskipped">Tasks are created but some reservation=
+s are skipped</h4>
+<p local-id=3D"38753ca25b8a">This is expected behavior. The Get Compatible =
+Products component checks each reservation individually. If a reservation's=
+ service does not match any of the selected products, that reservation is s=
+kipped. This can happen when your property has multiple services (e.g., Acc=
+ommodation and Apartments) and the selected products only belong to one of =
+them.</p>
+<h4 local-id=3D"281cae7548a8" id=3D"WelcomegiftforVIPguests(flow)-SMSmessag=
+esarenotdelivered">SMS messages are not delivered</h4>
+<ul local-id=3D"e36b03df-1fed-4a54-b8ad-402f73279dd2">
+<li local-id=3D"68d84606-541b-4f86-8814-b841ead7bda6">
+<p local-id=3D"d10c867017d0">Ensure that the guest profiles have valid phon=
+e numbers configured.</p></li>
+<li local-id=3D"9fce02b8-8220-4b84-9d85-c7b2e1300373">
+<p local-id=3D"c43b0579628d">Check that SMS messaging is enabled for your p=
+roperty.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_8_257112767.1777536492161
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ad9844c5856ffe2020da2b3abd15c711776037d7c445c33210b885205dce898b
+
+iVBORw0KGgoAAAANSUhEUgAABFAAAAD6CAYAAACGT7OnAACXBUlEQVR4Ae3AA6AkWZbG8f937o3I
+zKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1a+u12tz1VVXXXXVVVddddVVV111
+1VVXXXXVC0Llqquuuuqqq6666qqrrrrqqquuuuqqF4bKVVddddVVV1111VVXXXXVVVddddVVLwyV
+q6666qqrrrrqqquuuuqqq6666qqrXhgqV1111VVXXXXVVVddddVVV1111VVXvTBUrrrqqquuuuqq
+q6666qqrrrrqqquuemGoXHXVVVddddVVV1111VVXXXXVVVdd9cJQueqqq6666qqrrrrqqquuuuqq
+q6666oWhctVVV1111VVXXXXVVVddddVVV1111QtD5aqrrrrqqquuuuqqq6666qqrrrrqqheGylVX
+XXXVVVddddVVV1111VVXXXXVVS8Mlauuuuqqq6666qqrrrrqqquuuuqqq14YKlddddVVV1111VVX
+XXXVVVddddVVV70wVK666qqrrrrqqquuuuqqq6666qqrrnphqFx11VVXXXXVVVddddVVV1111VVX
+XfXCULnqqquuuuqqq6666qqrrrrqqquuuuqFoXLVVVddddVVV1111VVXXXXVVVddddULQ+Wqq666
+6qqrrrrqqquuuuqqq6666qoXhspVV1111VVXXXXVVVddddVVV1111VUvDJWrrrrqqquuuuqqq666
+6qqrrrrqqqteGCpXXXXVVVddddVVV1111VVXXXXVVVe9MFSuuuqqq6666qqrrrrqqquuuuqqq656
+YahcddVVV1111VVXXXXVVVddddVVV131wlC56qqrrrrqqquuuuqqq6666qqrrrrqhaFy1VVXXXXV
+VVddddVVV1111VVXXXXVC0Plqquuuuqqq6666qqrrrrqqquuuuqqF4bKVVddddVVV1111VVXXXXV
+VVddddVVLwyVq6666qqrrrrqqquuuuqqq6666qqrXhgqV1111VVXXXXVVVddddVVV1111VVXvTBU
+rrrqqquuuuqqq6666qqrrrrqqquuemGoXHXVVVddddVVV1111VVXXXXVVVdd9cJQueqqq6666qqr
+rrrqqquuuuqqq6666oWhctVVV1111VVXXXXVVVddddVVV1111QtD5aqrrrrqqquuuuqqq6666qqr
+rrrqqheGylVXXXXVVVddddVVV1111VVXXXXVVS8Mlauuuuqqq6666qqrrrrqqquuuuqqq14YKldd
+ddVVV1111VVXXXXVVVddddVVV70wVK666qqrrrrqqquuuuqqq6666qqrrnphqFx11VVXXXXVVVdd
+ddVVV1111VVXXfXCULnqqquuuuqqq6666qqrrrrqqquuuuqFoXLVVVddddVVV1111VVXXXXVVVdd
+ddULQ+Wqq6666qqrrrrqqquuuuqqq6666qoXhspVV1111VVXXXXVVVddddVVV1111VUvDJWrrrrq
+qquuuuqqq6666qqrrrrqqqteGCpXXXXVVVddddVVV1111VVXXXXVVVe9MFSuuuqqq6666qqrrrrq
+qquuuuqqq656YahcddVVV1111VVXXXXVVVddddVVV131wlC56qqrrrrqqquuuuqqq6666qqrrrrq
+haFy1VVXXXXVVVddddVVV1111VVXXXXVC0Plqquuuuqqq6666qqrrrrqqquuuuqqF4bKVVddddVV
+V1111VVXXXXVVVddddVVLwyVq6666qqrrrrqqquuuuqqq6666qqrXhgqV1111VVXXXXVVVddddVV
+V1111VVXvTBUrrrqqquuuuqqq6666qqrrrrqqquuemGoXHXVVVddddVVV1111VVXXXXVVVdd9cJQ
+ueqqq6666qqrrrrqqquuuuqqq6666oWhctVVV1111VVXXXXVVVddddVVV1111QtD5aqrrrrqqquu
+uuqqq6666qqrrrrqqheGylVX/Q8j8V/DYK666j+PxH8vg7nqqquuuuqqq6666qqr/gNQueqq/wFC
+UCtkwjBCmv9UJaCrEAHjBDZXXfUfQkCtXDZOMDX+W0jQVygVpgkyueqqq6666qqrrrrqqqv+7ahc
+ddV/s1LgcAm/8XvB454uLu6L9QjiP89iBqeOmUc/yLzuKyaLHlpy1VX/LhJI8Ed/K/7474Pzl8TB
+EZj/en2FEzvmQdebN3jF5MwJmBpXXXXVVVddddVVV1111b8NWq/X5qqr/puUgLvPi6/+ocKLPdS8
+xMOTY5tQK/+phhEuHcBv/llw7pL47A+YmM8gk6uu+jeRIA1f/yOFYRKv+TKN49uwMee/RWuwfwR/
+8fjgj/9efPr7Nm65zkyNq6666qqrrrrqqquuuupfD63Xa3PVVf9NSoEv+97CLdeZd32TxAk2mP98
+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
+3/l7+KrP+1wWmzfxbu//7rzXB78f3/FN38XjF5XXfa1X48ZHvxpv/3J/yFd+/fdw/Uu/Bo+94Rh6
+8ZdHj3pp3uCmA77lu76YX8od3uSd3pXrH/rivNThDVz173fy5El+93d/l9VqhSQAWmtM04RtTpw4
+wb9Wf+KxfMonvi8/+n3fyxf9gti55qF80ie8A7dsBu9197fy5Z/7uWxu38J7fMDL8cqv/Tr81a/+
+Eede75GcXgSzk7fw4GO/yTd8+ZdRSXJ+grd9+7fhFV7lFTm5c4aXfbkX59Gv+ha8yflv5pu+8QfY
+7+Z03QaPfblX5sTpHV7+lV+NJ//6t/Hn7TTv/0HvR/eMX2fv5C28+Tt9JF//Ld/LZ3+uefjLvRYv
+0QmY2G2neJd3f3NuvvEEAO/3we/In+8OvNjLvwqn59Adu4lXfrkZAq592MvwEhyD2YN4+7d+C/Zf
+/JWBLd79fd6KH/2l7+W+U9fyeq/+Msy2T/OKL7fFsRn86Pd9C0e5w7t8wPtxbeWq/yKlFN7v/d6P
+ZzzjGbzTO70TP/uzP8sbvMEb8Ou//uv8+I//OLZ5y7d8S178xV+c3/7t3+bt3/7tedCDHsQHfdAH
+UWvlX7I4/SBu3vh9vu7LvpRCkouTvMO7vyvv+eavwE995zdy3amH8zKPOsPLvcVbcde3fRNf+MV/
+wou91lvySg9+DC8fPQCPfplX4tjJOVf91/mO7/gOvv/7v583eqM34t3f/d256qqrrnp+Hve4x/GR
+H/mR/MZv/AbXXHMNN998My/2Yi9G13VcddW/x9Of/nS+53u+B4Bv/dZv5d3e7d04efIkV131PxBa
+r9fmP5AkVqsVwzBw6tQp/q1uu+02XuIlXoJHP/rR/MZv/AZbW1u8IH/2Z3/Ga77ma/Iar/Ea/OIv
+/iK1Vq76z3XhwgW6rmM+n2Obf4u+g1/8g+Dvnyo+8b0aw8C/y8WLFzl9+jSlFP619vb2eOVXfmVe
++ZVfme/8zu9kmiZ+6qd+irvuuotSCpnJG7zBG/CYxzyGB7r77rt5sRd7MT7iIz6Cz/mcz+G/031P
++n2+48f/hpd/qVP83l/eyrt+6Cfx6FPiqisuXboEwMbGBrb5jxSCwxV86jdUPuP9G6ePm0z+Q0ni
+0qVLbG5uslgs+Pe4cOECL/MyL8Prvd7r8Z3f+Z08Px/90R/Nj/7oj/Lnf/7n3HDDDVz1bOfOnWNj
+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
+z67hug244577uPHhj2SnNM5dvMjeuXP4+E08/Prj5LjPk59yG6MrNz3iUSz/6uf5rO/4e77kyz+Z
+l32Zl+Dozl/jr/7yabzMyz2UYyeOccs1Ozzl7/+a7mXeGrziaU98MmN3nIc97GYqV0xH93HH3pxP
++OxP4/o5/MzXfio/8kt/zQe/6cO587Z7ycVJbjrd8+QnPZ2yfYaH3nwtheTOp9/KanUPf/UXf89L
+vNXA/nDIxvETeLXP3lA4eWyD87c/lTt3Bx762Efy1N/6Eb7mlya+8is+hnbxGdx57yHXPfjhXLPd
+c9VV/9n+/u//nnvvvZe3equ34n7f//3fT9/3vOM7viMA586d4z3e4z343d/9Xb75m7+Zd3/3d8c2
+rTVqrfyLlnfyW3/0N/zdrX/NXz7jLXnVB21BW3H7M57B3tm7+cu/+3ve7p3h4MI93HP+Iv/wt3/D
+GC/JFXPe+F0+kNe642/4+K/6QT7k4z+TM4uBZzzp8RwM5vTND+P6YzNW+3fzlKefZefGh3FzOeKv
+/+ZvedO3hQvnn8p6cT3Xn9jgqv9c8/mcm2++mV/8xV/kNV/zNfmsz/osbrrpJq699lqOHTvG/Waz
+Gd/2bd/GxYsXue+++3jKU57CZ37mZ/KXf/mXPPjBD6brOl6gPMc3fvW38xof96W87oN7fujLP5vf
++KuX4i1e9nrO3/5U7twdechDH8b2hti9eImDvXPsDxs88uE3UwLueepT2dN5/vrP/5qHvwXP8lPf
+9jUcPfYD+OwPfTR//JNfw0/82l/xTtfdwy//wk/z0q/86rzOS13PXU/8bX76V/6ID35TeNzPfzd/
+cPGhfOFnfzi3/9lP8m0/+Qu85Ee9A8EVT/ijn+Wpw4N58+FJfOIXfRtv+ZFfyms+oudHv+HL+ZFf
+u573fZMX5/DsXTz9notce8NDOHNqwe7ueQ7On+ewbnH96QV3PP0ern/Iwzix2OFlXvIl0HDI+Yv7
+nDt3nq3jN3Hj9ceYloc87alPp5w4xanNHY4f3+Sy4T6++ut+mLf69K/k5W8Y+ZYv/XJ+/wmP5fUe
+e5K77ngK5/catzz8ERzrg3H/Ik99xu0sjt/Eg246yeH+Lof7lzi7u+LGBz2c41s3szj8UX7tT1+c
+t32VW/h/gMr/ApJ45Vd+ZV75lV+Zq676z/Lar/3a/O7v/i633norLwrbLBYLHv3oRzOfz7nqqquu
++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
+AJWrrrrqqquuuuqqq6666qqrrrrqqqteGCpXXXXVVVddddVVV1111VVXXXXVVVe9MFSuuuqqq666
+6qqrrrrqqquuuuqqq656YahcddVVV1111VVXXXXVVVddddVVV131wlC56qqrrrrqqquuuuqqq666
+6qqrrrrqhaFy1VVXXXXVVVddddVVV1111VVXXXXVC0Plqquuuuqqq6666qqrrrrqqquuuuqqF4bK
+VVddddVVV1111VVXXXXVVVddddVVLwyVq6666qqrrrrqqquuuuqqq6666qqrXhgqV1111VVXXXXV
+VVddddVVV1111VVXvTBUrrrqqquuuuqqq6666qqrrrrqqquuemGoXHXVVVddddVVV1111VVXXXXV
+VVdd9cJQueqqq6666qqrrrrqqquuuuqqq6666oWhctVVV1111VVXXXXVVVddddVVV1111QtD5aqr
+rrrqqquuuuqqq6666qqrrrrqqheGylVXXXXVVVddddVVV1111VVXXXXVVS8Mlauuuuqqq6666qqr
+rrrqqquuuuqqq14YKlddddVVV1111VVXXXXVVVddddVVV70wVK666qqrrrrqqquuuuqqq6666qqr
+rnphqFx11VVXXXXVVVddddVVV1111VVXXfXCULnqqquuuuqqq6666qqrrrrqqquuuuqFoXLVVVdd
+ddVVV1111VVXXXXVVVddddULQ+Wqq6666qqrrrrqqquuuuqqq6666qoXhspVV1111VVXXXXVVVdd
+ddVVV1111VUvDJWrrrrqqquuuuqqq6666qqrrrrqqqteGCpXXXXVVVddddVVV1111VVXXXXVVVe9
+MFSuuuqqq6666qqrrrrqqquuuuqqq656YahcddVVV1111VVXXXXVVVddddVVV131wlC56qqrrrrq
+qquuuuqqq6666qqrrrrqhaFy1VVXXXXVVVddddVVV1111VVXXXXVC0Plqquuuuqqq6666qqrrrrq
+qquuuuqqF4bKVVddddVVV1111VVXXXXVVVddddVVLwyVq6666qqrrrrqqquuuuqqq6666qqrXhgq
+V1111VVXXXXVVVddddVVV1111VVXvTBUrrrqqquuuuqqq6666qqrrrrqqquuemGoXHXVVVddddVV
+V1111VVXXXXVVVdd9cJQueqqq6666qqrrrrqqquuuuqqq6666oWhctVVV1111VVXXXXVVVddddVV
+V1111QtD5aqrrrrqqquuuuqqq6666qqrrrrqqheGylVXXXXVVVddddVVV1111VVXXXXVVS8Mlauu
+uuqqq6666qqrrrrqqquuuuqqq14YKlddddVVV1111VVXXXXVVVddddVVV70wVK666qqrrrrqqquu
+uuqqq6666qqrrnphqFx11VVXXXXVVVddddVVV1111VVXXfXCULnqqquuuuqqq6666qqrrrrqqquu
+uuqFoXLVVVddddVVV1111VVXXXXVVVddddULQ+Wqq6666qqrrrrqqquuuuqqq6666qoXhspVV111
+1VVXXXXVVVddddVVV1111VUvDJWrrrrqqquuuuqqq6666qqrrrrqqqteGCpXXXXVVVddddVVV111
+1VVXXXXVVVe9MFSuuuqqq6666qqrrrrqqquuuuqqq656YahcddVVV1111VVXXXXVVVddddVVV131
+wlC56qqrrrrqqquuuuqqq6666qqrrrrqhaFy1VVXXXXVVVddddVVV1111VVXXXXVC8M/AuyPYPMP
+wbpEAAAAAElFTkSuQmCC
+------=_Part_8_257112767.1777536492161--

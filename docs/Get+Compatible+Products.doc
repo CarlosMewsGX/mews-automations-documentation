@@ -1,0 +1,528 @@
+Date: Thu, 30 Apr 2026 08:08:34 +0000 (UTC)
+Message-ID: <218236136.41.1777536514457@aa31bc8d7d2e>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_2100372968.1777536514456"
+
+------=_Part_40_2100372968.1777536514456
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Compatible Products</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Compatible Products</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"1cefb049c8e5"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"e7aca2289408"><strong>Category:</strong> Billing &amp; Produ=
+cts</p>
+<h2 local-id=3D"13661c968583" id=3D"GetCompatibleProducts-Overview">Overvie=
+w</h2>
+<p local-id=3D"9d25a7efb0e9">The <strong>Get Compatible Products</strong> a=
+ction checks which products from a given list are compatible with a specifi=
+c reservation. It splits the provided products into two groups: those that =
+can be ordered for the reservation and those that cannot. This is useful fo=
+r filtering product options before presenting them to a guest or before aut=
+omatically adding products to a reservation =E2=80=94 for example, ensuring=
+ that only valid upsell products are offered during a pre-arrival workflow.=
+</p>
+<p local-id=3D"fe9085a4fffa">The component has two output ports: <strong>Co=
+mpatible Products</strong> and <strong>Incompatible Products</strong>. Each=
+ port provides the list of product IDs and product names for its respective=
+ group. If all products are compatible, only the <strong>Compatible Product=
+s</strong> port fires; if all are incompatible, only the <strong>Incompatib=
+le Products</strong> port fires.</p>
+<hr local-id=3D"9c455847-238c-43f4-bc85-15765eefff3b">
+<h2 local-id=3D"711297291f44" id=3D"GetCompatibleProducts-InputFields">Inpu=
+t Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"115054a6-fa57-408c-9ebf-5c3=
+662bd15d5" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"c0cbdc7f-e8af-42f6-8b3b-4d30bbae91b2">
+<th data-local-id=3D"9c094486-1f6d-48c4-8f6e-6a91347b74c9" class=3D"conflue=
+nceTh">
+<p local-id=3D"c29e6640f14d">Field</p></th>
+<th data-local-id=3D"46408477-cdbc-4617-bac7-8b4e65b6e0eb" class=3D"conflue=
+nceTh">
+<p local-id=3D"af7d3385c8d3">Required</p></th>
+<th data-local-id=3D"07c00ce1-b8fd-4033-884e-8f756e8036ba" class=3D"conflue=
+nceTh">
+<p local-id=3D"99c0430070e7">Type</p></th>
+<th data-local-id=3D"901e6074-ba75-45c4-8b59-14c2a95f922d" class=3D"conflue=
+nceTh">
+<p local-id=3D"9bdf9a76c120">Description</p></th>
+</tr>
+<tr data-local-id=3D"358a22cb-25d3-4708-97c9-57afb2d88584">
+<td data-local-id=3D"619a720f-2c4b-4e78-8ded-883edd4927af" class=3D"conflue=
+nceTd">
+<p local-id=3D"d600a83a7ceb"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"c983031e-f645-4e41-8588-b2f0c1b39f3a" class=3D"conflue=
+nceTd">
+<p local-id=3D"761b456325e0"><strong>Required</strong></p></td>
+<td data-local-id=3D"4577c45d-9d88-47b2-bb96-3c6188bdb322" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d8e43c88af9">Text (GUID)</p></td>
+<td data-local-id=3D"b5c81897-27c5-43e6-aca0-c07fb7d4ef3b" class=3D"conflue=
+nceTd">
+<p local-id=3D"c2a41f13d542">The unique identifier of the reservation to ch=
+eck product compatibility for. The reservation must exist and belong to the=
+ current property. Typically populated dynamically from a previous step in =
+the workflow (e.g., a trigger that provides a reservation ID).</p></td>
+</tr>
+<tr data-local-id=3D"892b516c-72a4-406e-9afa-004f8a64d233">
+<td data-local-id=3D"24170359-ce1e-4c3e-8916-4a560853f6a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"c7195527455e"><strong>Products</strong></p></td>
+<td data-local-id=3D"6e202c93-ddfd-4c87-ba08-292c5ab1537c" class=3D"conflue=
+nceTd">
+<p local-id=3D"31560854e3fd"><strong>Optional</strong></p></td>
+<td data-local-id=3D"f0cc563f-6390-4e8e-9429-6d50762ff388" class=3D"conflue=
+nceTd">
+<p local-id=3D"6fa5c8019df0">Multi-select</p></td>
+<td data-local-id=3D"6c80047b-dc89-4846-ac36-13f0f371b5a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"61e4b15fbbc2">The products to check for compatibility. The d=
+ropdown is populated dynamically with the products configured in your prope=
+rty. You can select one or more products. If no products are selected, both=
+ output ports will have empty results.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"9cdfbfb7fc43"><strong>Note:</strong> The <strong>Products</s=
+trong> field is populated from the list of all products available in your p=
+roperty. You can select multiple products to check at once.</p>
+<hr local-id=3D"545558df-1654-473c-8159-dd76e703a49e">
+<h2 local-id=3D"1bd86bfbe4c4" id=3D"GetCompatibleProducts-OutputFields">Out=
+put Fields</h2>
+<p local-id=3D"2cb103cc4910">The component has two output ports. Each port =
+fires only when it has at least one product in its group.</p>
+<h3 local-id=3D"811acc5be91a" id=3D"GetCompatibleProducts-CompatibleProduct=
+sport">Compatible Products port</h3>
+<p local-id=3D"56bb990c2692">Products that are valid and can be ordered for=
+ the reservation's service.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"24955222-9831-4802-bba0-46f=
+1ba509843" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a771d92b-d396-4c59-965d-4970379b3b77">
+<th data-local-id=3D"ebdf49de-9981-4327-a727-d28fef811d11" class=3D"conflue=
+nceTh">
+<p local-id=3D"08b5db4139da">Field</p></th>
+<th data-local-id=3D"e4892713-e9e5-4737-ac2b-5476de433ff3" class=3D"conflue=
+nceTh">
+<p local-id=3D"8e7c451354f2">Type</p></th>
+<th data-local-id=3D"0e557aaa-73ab-4777-ad5b-bc7e2ad4cb3c" class=3D"conflue=
+nceTh">
+<p local-id=3D"ba2e6720525b">Description</p></th>
+</tr>
+<tr data-local-id=3D"4f24da3d-719c-4ce1-8719-24022eafa9b3">
+<td data-local-id=3D"582f55d5-6331-4485-9ec9-907997db7477" class=3D"conflue=
+nceTd">
+<p local-id=3D"8eee191b0542"><strong>Compatible Product IDs</strong></p></t=
+d>
+<td data-local-id=3D"b1f4797e-4959-4737-af42-b5ef944d5478" class=3D"conflue=
+nceTd">
+<p local-id=3D"6be0d1308186">Array of Text (GUIDs)</p></td>
+<td data-local-id=3D"18c34a1a-9296-447b-bba1-c3f7b1ca8998" class=3D"conflue=
+nceTd">
+<p local-id=3D"cbc3ccea259b">The unique identifiers of the products that ar=
+e compatible with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"6dea3e7a-22a1-42a0-b6e8-c8acc97f0be6">
+<td data-local-id=3D"4cb67a45-7397-415b-aa88-06a330f79477" class=3D"conflue=
+nceTd">
+<p local-id=3D"e699bc6425a4"><strong>Compatible Product Names</strong></p><=
+/td>
+<td data-local-id=3D"b6b2e4cd-44aa-4bff-85ca-419da690c65b" class=3D"conflue=
+nceTd">
+<p local-id=3D"09a8ba0d40c2">Array of Text</p></td>
+<td data-local-id=3D"9c0eb637-4234-4aea-85a5-ca5bd0eb1ab3" class=3D"conflue=
+nceTd">
+<p local-id=3D"d5cfac7fee7d">The localized display names of the compatible =
+products.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"1cf682b75bb9" id=3D"GetCompatibleProducts-IncompatibleProdu=
+ctsport">Incompatible Products port</h3>
+<p local-id=3D"a841c924557e">Products that cannot be ordered for the reserv=
+ation due to one or more compatibility rules.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"d8682e49-6046-4cf3-8580-32b=
+66841875e" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"0d3afe79-ede1-4fb1-b3cd-70c789fc79eb">
+<th data-local-id=3D"e027863f-b200-4eb1-b9bc-a996d2c5d3fd" class=3D"conflue=
+nceTh">
+<p local-id=3D"479ec895cc48">Field</p></th>
+<th data-local-id=3D"2fbf8bc2-0047-491c-bcbd-b8ef4fd9b677" class=3D"conflue=
+nceTh">
+<p local-id=3D"a1036e758a62">Type</p></th>
+<th data-local-id=3D"d63d14b7-d2a1-4d26-b1cd-9899a9ce0df9" class=3D"conflue=
+nceTh">
+<p local-id=3D"f4e9bff97aeb">Description</p></th>
+</tr>
+<tr data-local-id=3D"918018aa-322f-4aa6-a834-b09963d77e64">
+<td data-local-id=3D"1c5621e6-fc87-4a3e-8f2e-656f917accc8" class=3D"conflue=
+nceTd">
+<p local-id=3D"af1b41164304"><strong>Incompatible Product IDs</strong></p><=
+/td>
+<td data-local-id=3D"128007bc-76ab-4caa-a6a8-cff556ac2491" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc0c19c38fc8">Array of Text (GUIDs)</p></td>
+<td data-local-id=3D"a4e93682-5673-4558-8734-4a1737759535" class=3D"conflue=
+nceTd">
+<p local-id=3D"e66db4e733d9">The unique identifiers of the products that ar=
+e not compatible with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"32b35d6c-53be-46db-9730-8f6650916a02">
+<td data-local-id=3D"0c0d4b5d-f495-40c8-b19d-6ad5fe002b8e" class=3D"conflue=
+nceTd">
+<p local-id=3D"8cf866a78de9"><strong>Incompatible Product Names</strong></p=
+></td>
+<td data-local-id=3D"59116495-baf6-4bfc-ba63-82b546690317" class=3D"conflue=
+nceTd">
+<p local-id=3D"a4a5ab1ca3d0">Array of Text</p></td>
+<td data-local-id=3D"ccd6886b-62a6-42f9-9c8d-2e8d8b7be662" class=3D"conflue=
+nceTd">
+<p local-id=3D"d7d0c6ebe265">The localized display names of the incompatibl=
+e products.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"6df85d2c-4158-4452-be79-3a2e8eadd37d">
+<h2 local-id=3D"f183f32faa4c" id=3D"GetCompatibleProducts-CompatibilityRule=
+s">Compatibility Rules</h2>
+<p local-id=3D"1629a17e8e3a">A product is considered <strong>compatible</st=
+rong> with a reservation when <em>all</em> of the following conditions are =
+met:</p>
+<ol start=3D"1" local-id=3D"05819ba5-c8c5-4ebe-8622-bcda67d60474">
+<li local-id=3D"b9622e02-04f7-42ae-8d7a-fcd1aaca80d6">
+<p local-id=3D"294b75c2409b"><strong>Same service</strong> =E2=80=94 The pr=
+oduct must belong to the same service (e.g., Accommodation) as the reservat=
+ion.</p></li>
+<li local-id=3D"5192be4f-adbf-465a-9dc5-0902210cc22c">
+<p local-id=3D"762785de4111"><strong>Not a default product</strong> =E2=80=
+=94 The product must not be marked as a default product in Mews. Default pr=
+oducts are automatically included with the service and cannot be added sepa=
+rately.</p></li>
+<li local-id=3D"dce4a108-fcef-42f2-b942-dc33d078d7cc">
+<p local-id=3D"a3ef67f82609"><strong>Offered to employees</strong> =E2=80=
+=94 The product must have the "Offer to Employee" option enabled, meaning i=
+t is available for manual or automated ordering.</p></li>
+</ol>
+<p local-id=3D"2274a9ee4272">If a product fails <em>any</em> of these condi=
+tions, it is classified as <strong>incompatible</strong>. Products that are=
+ not found (e.g., a deleted or invalid product ID) are also classified as i=
+ncompatible.</p>
+<p local-id=3D"deb0333a47a0"><strong>Important:</strong> A product belongin=
+g to a different service (e.g., a Spa product checked against an Accommodat=
+ion reservation) will always be incompatible, even if it meets all other cr=
+iteria.</p>
+<hr local-id=3D"38dd7112-fed3-4254-83f0-fcc78c2a194a">
+<h2 local-id=3D"7ddbd701ad3c" id=3D"GetCompatibleProducts-HowItWorks">How I=
+t Works</h2>
+<ol start=3D"1" local-id=3D"f8ecf42b-2d08-4db6-9d51-a80b152130cd">
+<li local-id=3D"f4328834-0a52-4c5d-aa46-aa40e990ff51">
+<p local-id=3D"4a64d2305417">The component receives a <strong>Reservation I=
+D</strong> and an optional list of <strong>Products</strong> from the previ=
+ous step in the workflow.</p></li>
+<li local-id=3D"970d2a30-3a48-4413-96b5-f3955b5a28ec">
+<p local-id=3D"440313972ba4">It validates that the reservation exists and b=
+elongs to the current property. If the reservation is not found, the compon=
+ent returns an error.</p></li>
+<li local-id=3D"a8a7ed1b-1884-4765-8020-d7f6b73fbb68">
+<p local-id=3D"5d6be3602c8f">Each selected product is evaluated against the=
+ compatibility rules (same service, not default, offered to employees).</p>=
+</li>
+<li local-id=3D"bd36f5db-ac45-4c9d-8103-7b6ee9e8a4c6">
+<p local-id=3D"6065483dc944">Products that pass all rules are sent to the <=
+strong>Compatible Products</strong> output port with their IDs and localize=
+d names.</p></li>
+<li local-id=3D"cee55007-befd-4a2a-b2c4-b5aab2d07367">
+<p local-id=3D"8fb35d2db3f3">Products that fail any rule are sent to the <s=
+trong>Incompatible Products</strong> output port with their IDs and localiz=
+ed names.</p></li>
+<li local-id=3D"525f48da-a58e-4403-8ee8-60d24d5b15ce">
+<p local-id=3D"c6693bab9158">If a group is empty (e.g., all products are co=
+mpatible), the corresponding output port does not fire.</p></li>
+</ol>
+<hr local-id=3D"d76491c3-6fbb-4f2a-b88c-4b2ba0a63acc">
+<h2 local-id=3D"bb9447c91845" id=3D"GetCompatibleProducts-ExampleUseCases">=
+Example Use Cases</h2>
+<ul local-id=3D"2194b44d-992a-4a51-aecc-68f4e120238e">
+<li local-id=3D"9d0aec6c-b95c-4c00-b135-912a5a5bae72">
+<p local-id=3D"b70ce6c34b50"><strong>Pre-arrival upsell filtering</strong> =
+=E2=80=94 Before sending a pre-arrival email with product offers, use this =
+component to filter out incompatible products so the guest only sees releva=
+nt options for their reservation.</p></li>
+<li local-id=3D"0d937600-bd59-49aa-9ea3-394ae1d57914">
+<p local-id=3D"8ffa799e0e77"><strong>Automated product ordering</strong> =
+=E2=80=94 In a workflow that automatically adds products to a reservation (=
+e.g., a welcome package), first validate that the products are compatible b=
+efore attempting to order them.</p></li>
+<li local-id=3D"4ab11399-8463-4a50-80e8-2e359e55b11d">
+<p local-id=3D"a00edca36968"><strong>Product catalog validation</strong> =
+=E2=80=94 When a property updates their product catalog, use this component=
+ to verify which products remain compatible with existing reservations and =
+flag any that need attention.</p></li>
+<li local-id=3D"3d8b6a32-87a2-4048-9048-440b307b1f09">
+<p local-id=3D"1117704e199e"><strong>Service-specific workflows</strong> =
+=E2=80=94 When handling reservations across multiple services (e.g., Accomm=
+odation and Spa), use this component to ensure that products are only added=
+ to reservations for their matching service.</p></li>
+</ul>
+<hr local-id=3D"5e54e7c7-7c43-494e-b006-294444df7369">
+<h2 local-id=3D"ce633395897c" id=3D"GetCompatibleProducts-ErrorHandling">Er=
+ror Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a8df6f2d-bde7-45d7-a872-e13=
+1316d49c4" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"79baecf0-d8c0-43c4-a8e0-5ef8b0250486">
+<th data-local-id=3D"3cdfd86c-e532-41bd-88af-233652147fb3" class=3D"conflue=
+nceTh">
+<p local-id=3D"5f2c06b1d66f">Error</p></th>
+<th data-local-id=3D"89f51e47-f8ab-4bdc-b400-1079caab9a95" class=3D"conflue=
+nceTh">
+<p local-id=3D"893cb55ffc3e">Cause</p></th>
+</tr>
+<tr data-local-id=3D"94299b1c-e8f2-4b63-9f39-08e8d51a34cc">
+<td data-local-id=3D"bc8d9bc3-cbf6-4917-9c4a-c6384ddc2946" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c694cc23dd1"><code>Reservation '{id}' was not found</code><=
+/p></td>
+<td data-local-id=3D"0c19e96d-f82e-47c4-bcb7-528b0b718b34" class=3D"conflue=
+nceTd">
+<p local-id=3D"f74d632f676c">The provided Reservation ID does not exist, ha=
+s been deleted, or does not belong to the current property.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_40_2100372968.1777536514456--

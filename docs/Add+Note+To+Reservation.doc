@@ -1,0 +1,632 @@
+Date: Thu, 30 Apr 2026 08:09:30 +0000 (UTC)
+Message-ID: <1902704176.89.1777536570716@9c1841cb6851>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_88_1545677521.1777536570716"
+
+------=_Part_88_1545677521.1777536570716
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Add Note To Reservation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Add Note To Reservation</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"d242a6541efe"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"acb05001fa48"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"48498704d98e" id=3D"AddNoteToReservation-Overview">Overview=
+</h2>
+<p local-id=3D"9cd589c1976f">The <strong>Add Note To Reservation</strong> a=
+ction adds a text note to one or more reservations in Mews. The same note t=
+ext is applied to every reservation specified, making it easy to annotate m=
+ultiple reservations at once =E2=80=94 for example, adding a special reques=
+t note to all reservations in a group booking, or recording an operational =
+remark when a guest issue is reported.</p>
+<p local-id=3D"3e43c477552d">When the notes are successfully created, the c=
+omponent outputs the generated note IDs, the reservation IDs, and the note =
+text on the <strong>out</strong> port, which can be used by subsequent step=
+s in your workflow.</p>
+<hr local-id=3D"d4353d0f-2efb-4f5f-b4bd-3f6474c4fea4">
+<h2 local-id=3D"fd4105444d4e" id=3D"AddNoteToReservation-InputFields">Input=
+ Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"38faf0e4-3916-4e5c-86bb-efc=
+d852eff31" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"7f226f0a-5a80-4674-a2d6-38825b483adc">
+<th data-local-id=3D"4c88e1c8-0cbc-4bec-b899-4f642d036272" class=3D"conflue=
+nceTh">
+<p local-id=3D"12715e2eebef">Field</p></th>
+<th data-local-id=3D"06381fcb-cdd0-4464-adee-6d0399437d2a" class=3D"conflue=
+nceTh">
+<p local-id=3D"850f34d8ee17">Required</p></th>
+<th data-local-id=3D"36f93f43-f475-4e30-a573-37caf705f9a7" class=3D"conflue=
+nceTh">
+<p local-id=3D"c7f14d58d152">Type</p></th>
+<th data-local-id=3D"4c9df459-5765-45a9-aa2e-ddec2c29ced1" class=3D"conflue=
+nceTh">
+<p local-id=3D"cd7c5d353d0d">Description</p></th>
+</tr>
+<tr data-local-id=3D"8b9161d2-b7e7-41b2-8a1e-76fd37f5bd4b">
+<td data-local-id=3D"5b769edb-3e03-414f-a85f-c4bdce55e11b" class=3D"conflue=
+nceTd">
+<p local-id=3D"d942263fc823"><strong>Reservation IDs</strong></p></td>
+<td data-local-id=3D"2145c796-38ee-4450-833b-9b9e5e40f02b" class=3D"conflue=
+nceTd">
+<p local-id=3D"d130df7b5e35"><strong>Required</strong></p></td>
+<td data-local-id=3D"22e3c74d-f82b-4cc6-a32b-608ad7b74c3e" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab2ef6bbd34e">Text (JSON array)</p></td>
+<td data-local-id=3D"4f1eeac6-3c75-4873-a3b9-c74ec236debb" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c12b45ceae7">One or more reservation IDs to add the note to=
+, provided as a JSON array =E2=80=94 for example, <code>["abc-123", "def-45=
+6"]</code>. A single reservation ID can also be provided as a plain string =
+value; it will be automatically wrapped into an array. At least one reserva=
+tion ID must be provided.</p></td>
+</tr>
+<tr data-local-id=3D"a0fb9e6c-aae2-493e-a897-e565c7a07229">
+<td data-local-id=3D"08d3c75d-152c-46a3-ac90-b09c61be985c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6fc5467e6cef"><strong>Note Text</strong></p></td>
+<td data-local-id=3D"8cc819d3-e765-44d1-a0a0-efde38382131" class=3D"conflue=
+nceTd">
+<p local-id=3D"d9604c11b5e3"><strong>Required</strong></p></td>
+<td data-local-id=3D"a9e924fc-eb7f-43a7-983c-b3497430df21" class=3D"conflue=
+nceTd">
+<p local-id=3D"bb7aacd58112">Textarea</p></td>
+<td data-local-id=3D"481a9d08-ca9a-42f5-a80c-728ab3d434d7" class=3D"conflue=
+nceTd">
+<p local-id=3D"10875ffd6ca8">The text content of the note to add to all sel=
+ected reservations. It cannot be empty or whitespace-only, and must not exc=
+eed <strong>1,000 characters</strong>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"7c45ec06e0a6"><strong>Tip:</strong> When this component foll=
+ows a trigger or another action in your workflow, the <strong>Reservation I=
+Ds</strong> field is typically populated dynamically from the output of a p=
+revious step (e.g., a reservation trigger that provides the reservation ID)=
+.</p>
+<hr local-id=3D"c7e26f1c-af77-4ee4-9d56-ede1b5a9060e">
+<h2 local-id=3D"ab0c53b4bece" id=3D"AddNoteToReservation-OutputFields">Outp=
+ut Fields</h2>
+<p local-id=3D"228bcf5251ad">When the notes are successfully created, the f=
+ollowing values are available on the <strong>out</strong> output port for u=
+se in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"5704a291-5391-46e8-ae44-de5=
+3e875315a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ab165137-350a-418e-8676-c552744fd6ad">
+<th data-local-id=3D"a1d481a0-aaf1-4f61-9674-783c9397afba" class=3D"conflue=
+nceTh">
+<p local-id=3D"ed83ea928ba1">Field</p></th>
+<th data-local-id=3D"9d4bede2-6930-4a53-9885-e054c691d1a5" class=3D"conflue=
+nceTh">
+<p local-id=3D"2fc260d26531">Type</p></th>
+<th data-local-id=3D"16f2fc91-c4a4-46aa-8567-f54748935968" class=3D"conflue=
+nceTh">
+<p local-id=3D"9e71dbb8fb22">Description</p></th>
+</tr>
+<tr data-local-id=3D"ba41afd4-bd63-4b87-bfd5-31fce13cab4b">
+<td data-local-id=3D"5bb554f9-4004-4a43-b751-2c8c85ab1c9c" class=3D"conflue=
+nceTd">
+<p local-id=3D"63bed6c3f2f7"><strong>Note IDs</strong></p></td>
+<td data-local-id=3D"5a613ab6-9790-43fe-b9b1-cb2d9345d895" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0626bb78204">Array of Text (GUIDs)</p></td>
+<td data-local-id=3D"73a65242-945c-49a7-8780-a8d2c5cd14e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"0b4661cb957a">The unique identifiers of the newly created no=
+tes, one per reservation that was annotated.</p></td>
+</tr>
+<tr data-local-id=3D"eb68ec12-e0fa-438f-a1c1-416a4b48d4d9">
+<td data-local-id=3D"0047119c-7311-453f-80fc-e43c96fc8200" class=3D"conflue=
+nceTd">
+<p local-id=3D"54fa604b7ed3"><strong>Reservation IDs</strong></p></td>
+<td data-local-id=3D"de74849f-b493-4eca-9716-4b9bdbad786a" class=3D"conflue=
+nceTd">
+<p local-id=3D"179fc623b432">Array of Text (GUIDs)</p></td>
+<td data-local-id=3D"a08cbc54-764d-42ab-bd3c-54ce59ff0b9f" class=3D"conflue=
+nceTd">
+<p local-id=3D"34fab313750d">The unique identifiers of the reservations tha=
+t received the note.</p></td>
+</tr>
+<tr data-local-id=3D"68c5d8c3-132b-4e72-a7c0-e27f9e32b6ee">
+<td data-local-id=3D"5a1aba2f-1e11-4b99-8c7f-76c67074ae45" class=3D"conflue=
+nceTd">
+<p local-id=3D"1ffc2113b29a"><strong>Text</strong></p></td>
+<td data-local-id=3D"2c012075-a5a4-45da-beac-10553f02eef0" class=3D"conflue=
+nceTd">
+<p local-id=3D"c4a18ecf9f31">Text</p></td>
+<td data-local-id=3D"e18a592f-0ec3-4c5b-9673-96aa8f94c12f" class=3D"conflue=
+nceTd">
+<p local-id=3D"20d6693f3f4f">The note text that was added to the reservatio=
+ns.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"522da169-a705-4d85-a6ab-5d75ff5c0302">
+<h2 local-id=3D"5df901aac8e0" id=3D"AddNoteToReservation-CooldownSettings">=
+Cooldown Settings</h2>
+<p local-id=3D"b2e682478fe9">The cooldown feature prevents the action from =
+running repeatedly for the same reservation within a defined time window. T=
+his is useful when a workflow may be triggered multiple times in quick succ=
+ession (e.g., multiple updates to the same reservation) and you want to avo=
+id creating duplicate notes.</p>
+<p local-id=3D"cf0b1e025bb8">Cooldown settings are located in the <strong>C=
+ooldown</strong> section of the component settings, which is collapsed by d=
+efault.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"06b641ee-47af-4234-bf54-f0c=
+f0ae063a3" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"7e9c4304-56e8-4311-9c84-a450095e1f21">
+<th data-local-id=3D"cbf5bcd1-70fd-43da-bede-5d053d57dfdb" class=3D"conflue=
+nceTh">
+<p local-id=3D"c0152bbaf5d8">Setting</p></th>
+<th data-local-id=3D"1f85a8d9-44c5-43bd-9e8e-57e5223d59fa" class=3D"conflue=
+nceTh">
+<p local-id=3D"ccaf7b1fa4c3">Required</p></th>
+<th data-local-id=3D"7d3832d7-451e-4aa7-964f-543ed60603ce" class=3D"conflue=
+nceTh">
+<p local-id=3D"095fdbecfa3f">Description</p></th>
+</tr>
+<tr data-local-id=3D"ffb415ff-1ea9-4857-ada1-8abb3a21d516">
+<td data-local-id=3D"5c533f7a-3ab1-4cd8-ab14-3b58c5557489" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb58ca88ac34"><strong>Cooldown period</strong></p></td>
+<td data-local-id=3D"2c696162-c9fd-423d-b11f-faf11508fe49" class=3D"conflue=
+nceTd">
+<p local-id=3D"b13a415d8f49"><strong>Optional</strong></p></td>
+<td data-local-id=3D"ec153515-9d69-4798-98ff-393d4872ee3c" class=3D"conflue=
+nceTd">
+<p local-id=3D"a621307e9e49">The number of time units during which the acti=
+on will not run again. Set to <code>0</code> (default) to disable the coold=
+own.</p></td>
+</tr>
+<tr data-local-id=3D"4be42bdb-dede-4626-beda-60c5249119c0">
+<td data-local-id=3D"26f76888-1faf-48a0-afc2-a529b7d88fba" class=3D"conflue=
+nceTd">
+<p local-id=3D"10e1a79e7569"><strong>Unit</strong></p></td>
+<td data-local-id=3D"be6d0744-49ef-412d-8aa1-bf97e0f62847" class=3D"conflue=
+nceTd">
+<p local-id=3D"c23b2510c8b6"><strong>Optional</strong></p></td>
+<td data-local-id=3D"bef4c32a-0b32-4a47-a24c-fae6588f338f" class=3D"conflue=
+nceTd">
+<p local-id=3D"3e5783fcafd5">The time unit for the cooldown period. Options=
+: <strong>Minutes</strong>, <strong>Hours</strong>, <strong>Days</strong> (=
+default), <strong>Weeks</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"d7be2000-909a-4b71-936f-e77fbede3e04">
+<td data-local-id=3D"931c0214-97e9-4239-8f2d-1a05a3124731" class=3D"conflue=
+nceTd">
+<p local-id=3D"d714813c9a0e"><strong>Track by</strong></p></td>
+<td data-local-id=3D"115aa686-b24c-43ed-8185-3990fa0b32bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"113cc05e059c"><strong>Optional</strong></p></td>
+<td data-local-id=3D"81557a87-fce1-4c67-a889-3ce204741848" class=3D"conflue=
+nceTd">
+<p local-id=3D"9a9162176efd">Determines the scope of the cooldown. Only vis=
+ible when the cooldown period is greater than 0.</p>
+<ul local-id=3D"adc51de7-3254-4015-8b6a-82e4ec6337a0">
+<li local-id=3D"c8680cd4-0d25-4cd3-b501-974586c5e551">
+<p local-id=3D"09dd58603596"><strong>None</strong> (default) =E2=80=94 A si=
+ngle global cooldown window for this component instance. When the cooldown =
+is active, the action is skipped entirely regardless of which reservations =
+are provided.</p></li>
+<li local-id=3D"3feeae3e-789e-4d51-b22e-fdc9026a91ed">
+<p local-id=3D"0c5e5f062e60"><strong>Reservation</strong> =E2=80=94 Each re=
+servation gets its own independent cooldown window. When multiple reservati=
+on IDs are provided, only the reservations that are still within their cool=
+down window are skipped; reservations whose cooldown has expired (or that h=
+ave never been processed) will still be annotated.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"3a830c9bbcba" id=3D"AddNoteToReservation-CooldownOutput">Co=
+oldown Output</h3>
+<p local-id=3D"fb9e21d8e828">When the cooldown is active (i.e., the action =
+is skipped because it already ran within the cooldown window), the componen=
+t outputs the following on the <strong>cooldown</strong> port instead of th=
+e <strong>out</strong> port:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"07ca9349-2c42-40ce-bde4-c95=
+e04a21ebb" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"8d5fe01e-674b-47fa-8198-a728481fc79d">
+<th data-local-id=3D"4d6b33b7-283b-4319-82dc-f35046215fe2" class=3D"conflue=
+nceTh">
+<p local-id=3D"eaa06d8de70f">Field</p></th>
+<th data-local-id=3D"d42aa8ea-cbe7-4359-a171-bf4aa925d6b6" class=3D"conflue=
+nceTh">
+<p local-id=3D"75259566c254">Type</p></th>
+<th data-local-id=3D"36a590f9-ebc5-4e20-8b7a-fa337d555624" class=3D"conflue=
+nceTh">
+<p local-id=3D"75a60dac645c">Description</p></th>
+</tr>
+<tr data-local-id=3D"f43acb07-4b09-4ac0-ab32-47fc7d23bed8">
+<td data-local-id=3D"bb27dcbf-ba5c-4a1b-8528-e090c704e38a" class=3D"conflue=
+nceTd">
+<p local-id=3D"e9d9dee43d2c"><strong>Expires at</strong></p></td>
+<td data-local-id=3D"adfbd650-9e28-4328-bf72-51d2247fbeaf" class=3D"conflue=
+nceTd">
+<p local-id=3D"e82fc77acb28">Date &amp; Time</p></td>
+<td data-local-id=3D"2dc4258c-444b-4942-bea9-e66a154e8339" class=3D"conflue=
+nceTd">
+<p local-id=3D"c4edfcb8e3fb">The date and time (UTC) when the cooldown wind=
+ow expires and the action can run again.</p></td>
+</tr>
+<tr data-local-id=3D"4d5c6df6-360f-4c2b-9aad-3620e74c3cb7">
+<td data-local-id=3D"20d92599-99c7-42c5-bccf-ed0d14d28d3c" class=3D"conflue=
+nceTd">
+<p local-id=3D"201a04bdeaab"><strong>Remaining (minutes)</strong></p></td>
+<td data-local-id=3D"c45528a6-9e8f-47ac-9346-9c631ef5d2ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"397ee3f07bf5">Number</p></td>
+<td data-local-id=3D"cd9cf57e-fd3f-423d-9efa-54ede39f3932" class=3D"conflue=
+nceTd">
+<p local-id=3D"8a192270abea">The number of minutes remaining until the cool=
+down expires.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"d228ba16cc25"><strong>Tip:</strong> You can connect the <str=
+ong>cooldown</strong> port to other components to handle the cooldown scena=
+rio =E2=80=94 for example, to log that the action was skipped or to notify =
+an operator.</p>
+<hr local-id=3D"2922a06b-1a92-4c37-b75e-ef97520b7200">
+<h2 local-id=3D"3e0c87ab4f5c" id=3D"AddNoteToReservation-HowItWorks">How It=
+ Works</h2>
+<ol start=3D"1" local-id=3D"357420a7-caeb-4678-a5d5-0a01c0f12d68">
+<li local-id=3D"be184e6d-a635-41c8-bc06-e37adff4bd2c">
+<p local-id=3D"9a7bf8697249">The component receives the <strong>Reservation=
+ IDs</strong> and <strong>Note Text</strong> from the previous step in the =
+workflow (or from manually configured values).</p></li>
+<li local-id=3D"edb348f9-2ba7-4e6c-bed2-00b7ecf3d7b3">
+<p local-id=3D"f68453090486">If the reservation IDs input is a single strin=
+g value, it is automatically normalized into an array. If the array is empt=
+y, the component immediately outputs an empty result on the <strong>out</st=
+rong> port without making any API call.</p></li>
+<li local-id=3D"5240f13a-7343-4e75-a47d-f990946c1fb3">
+<p local-id=3D"92916b0d3e49">If a cooldown is configured and the cooldown w=
+indow is still active for the tracked entity, the action is <strong>skipped=
+</strong> and the cooldown information is sent to the <strong>cooldown</str=
+ong> output port. When tracking by reservation, only the reservations still=
+ in their cooldown window are filtered out; the remaining reservations proc=
+eed normally.</p></li>
+<li local-id=3D"94412311-29ff-4dfd-8ab6-629299003253">
+<p local-id=3D"b071c557e9b5">The component sends a request to the Mews API =
+to create a note on each of the provided reservations with the given text.<=
+/p></li>
+<li local-id=3D"8b97f6a0-feda-4f2e-bba8-dbf82e62a7db">
+<p local-id=3D"377668221355">If the notes are created successfully, the not=
+e IDs, reservation IDs, and text are sent to the <strong>out</strong> outpu=
+t port.</p></li>
+<li local-id=3D"a3657cd1-2d0b-4350-8c99-cd8ff9c827b3">
+<p local-id=3D"f76c5988cab2">If the creation fails (e.g., due to invalid in=
+put or an API error), the component returns an error.</p></li>
+</ol>
+<hr local-id=3D"2cb9e406-6f63-40fe-b38e-c301820aef95">
+<h2 local-id=3D"158d24a83103" id=3D"AddNoteToReservation-ExampleUseCases">E=
+xample Use Cases</h2>
+<ul local-id=3D"b2b822be-edc8-48e2-b30c-33addaff5d88">
+<li local-id=3D"85d386ef-d8a9-484e-a737-9f1f9b8b1716">
+<p local-id=3D"50230308cc6d"><strong>Special request logging</strong> =E2=
+=80=94 When a guest submits a special request through an external channel, =
+automatically add the request text as a note to their reservation so the fr=
+ont desk team can see it in Mews.</p></li>
+<li local-id=3D"9bbe8a3a-9728-454f-9aa9-7faf636db0b4">
+<p local-id=3D"c84b1e75ff61"><strong>Group booking annotation</strong> =E2=
+=80=94 After a group reservation is created, add a shared note (e.g., "Corp=
+orate event =E2=80=94 special billing arrangements") to all reservations in=
+ the group at once.</p></li>
+<li local-id=3D"8a2ed0aa-01f8-40d7-b3cf-60c0e9810b90">
+<p local-id=3D"40a55f7e1d5d"><strong>Automated issue tracking</strong> =E2=
+=80=94 When a maintenance issue is reported, add a note to the affected res=
+ervation describing the issue and its status, providing context for staff d=
+uring the guest's stay.</p></li>
+<li local-id=3D"f95b331d-b1de-4036-888a-f398245c91ba">
+<p local-id=3D"66c0ebc7703e"><strong>Workflow audit trail</strong> =E2=80=
+=94 Use in combination with other actions (e.g., after upgrading a room or =
+adding a product) to leave a note on the reservation documenting what autom=
+ation was applied and when.</p></li>
+</ul>
+<hr local-id=3D"5d2220de-17dc-4a0b-880e-b8502e9c94a9">
+<h2 local-id=3D"bfa59b277b92" id=3D"AddNoteToReservation-ErrorHandling">Err=
+or Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"6a37c28e-fc36-4232-85bb-334=
+ab027a336" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"3c1d74fb-01f7-4e80-850c-a2b2db909cb3">
+<th data-local-id=3D"9175892d-c00e-4b79-a2b7-f59ecafd03c9" class=3D"conflue=
+nceTh">
+<p local-id=3D"77ce47c93cf9">Error</p></th>
+<th data-local-id=3D"d0ecb867-e068-4ce8-85ec-23c43ce26200" class=3D"conflue=
+nceTh">
+<p local-id=3D"8c498ae05f55">Cause</p></th>
+</tr>
+<tr data-local-id=3D"c8a0fe65-50f2-48a9-9dab-ab3b606c2870">
+<td data-local-id=3D"4e7eaa19-98f3-4948-a136-b1e21be90803" class=3D"conflue=
+nceTd">
+<p local-id=3D"9d15c11205a6"><code>At least one reservation ID must be prov=
+ided.</code></p></td>
+<td data-local-id=3D"e9a6578f-540f-4348-8084-26a169c3baed" class=3D"conflue=
+nceTd">
+<p local-id=3D"cc58766e51b6">The Reservation IDs field was left empty or re=
+solved to an empty array.</p></td>
+</tr>
+<tr data-local-id=3D"9054bc34-0a18-4063-b994-4d251d471e38">
+<td data-local-id=3D"61a762e8-cc77-4a6b-bb4b-88ebe2a27460" class=3D"conflue=
+nceTd">
+<p local-id=3D"c7fc3d6bb6ea"><code>Text must not be empty.</code></p></td>
+<td data-local-id=3D"708d4a2c-8087-4a07-aa75-c86314f21604" class=3D"conflue=
+nceTd">
+<p local-id=3D"a397440af211">The Note Text field was left empty or contains=
+ only whitespace.</p></td>
+</tr>
+<tr data-local-id=3D"00967705-5ee5-4eb1-ae2a-e073adfcbc21">
+<td data-local-id=3D"922d4ef8-cf87-473d-9707-edd024888bfc" class=3D"conflue=
+nceTd">
+<p local-id=3D"26d93c5aa678"><code>Text must not exceed 1000 characters.</c=
+ode></p></td>
+<td data-local-id=3D"8a5223a7-021d-4870-9338-d66786c4147e" class=3D"conflue=
+nceTd">
+<p local-id=3D"66fba1c4d038">The Note Text exceeds the maximum allowed leng=
+th of 1,000 characters. Shorten the text and try again.</p></td>
+</tr>
+<tr data-local-id=3D"58427434-9cc7-4941-8e7d-88e20f274d41">
+<td data-local-id=3D"dfa4eeed-7ac7-4e76-a7b7-13983d168212" class=3D"conflue=
+nceTd">
+<p local-id=3D"61ddfac27f4b"><code>The downstream API call was not successf=
+ul.</code></p></td>
+<td data-local-id=3D"137611c7-9cd8-42ce-8aae-2834f2757d8c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6b6c4de67eec">The request to create the note in Mews failed.=
+ This may indicate an invalid reservation ID or a temporary service issue.<=
+/p></td>
+</tr>
+<tr data-local-id=3D"d566fba0-3d37-4a69-8170-6dba9f23bfc0">
+<td data-local-id=3D"8aa32ee0-ec10-48ec-88fd-a804ce803263" class=3D"conflue=
+nceTd">
+<p local-id=3D"0e019ff22669"><code>An error occurred while processing your =
+request.</code></p></td>
+<td data-local-id=3D"82f781c5-00a4-4c51-b9bd-39d48dea4368" class=3D"conflue=
+nceTd">
+<p local-id=3D"ad9c599aae85">An unexpected error occurred while communicati=
+ng with the Mews API. Try again later or contact support if the issue persi=
+sts.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_88_1545677521.1777536570716--

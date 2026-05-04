@@ -1,0 +1,438 @@
+Date: Thu, 30 Apr 2026 08:08:47 +0000 (UTC)
+Message-ID: <347526399.49.1777536527336@bbd306284faf>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_48_11328049.1777536527336"
+
+------=_Part_48_11328049.1777536527336
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Occupancy</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Occupancy</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"2ad017c6442e"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"49b9dbd2c36c"><strong>Category:</strong> Spaces, Rates &amp;=
+ Occupancy</p>
+<h2 local-id=3D"94319950bf53" id=3D"GetOccupancy-Overview">Overview</h2>
+<p local-id=3D"1f94eb3973e5">The <strong>Get Occupancy</strong> action retr=
+ieves the occupancy percentage for your property on a specific date. It cal=
+culates how many of your bookable spaces (rooms) are occupied relative to t=
+he total available, returning a single percentage value. You can optionally=
+ filter by one or more bookable services to get the occupancy for a specifi=
+c subset of your property.</p>
+<p local-id=3D"4ae32ec62175">This component is useful for building workflow=
+s that react to occupancy levels =E2=80=94 for example, adjusting staffing =
+when occupancy is high, sending alerts when occupancy drops below a thresho=
+ld, or generating daily occupancy reports.</p>
+<p local-id=3D"ecebb609d511">When the occupancy is successfully retrieved, =
+the component outputs the date and the occupancy percentage on the <strong>=
+out</strong> port, which can be used by subsequent steps in your workflow.<=
+/p>
+<hr local-id=3D"91d7768c-b087-4521-8180-49e153b25141">
+<h2 local-id=3D"016390c5b64b" id=3D"GetOccupancy-InputFields">Input Fields<=
+/h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"5350d910-5514-43c5-8e07-04e=
+98e96bc68" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"531535e1-4ead-4028-8c5e-5d31edeaa083">
+<th data-local-id=3D"4eb71e58-5287-4f0d-80cc-66f4b16f4802" class=3D"conflue=
+nceTh">
+<p local-id=3D"413c5f3cf403">Field</p></th>
+<th data-local-id=3D"62af431f-6f60-47da-9eb4-4baae987d0c4" class=3D"conflue=
+nceTh">
+<p local-id=3D"f095b55a864e">Required</p></th>
+<th data-local-id=3D"bc8ece0c-7b2a-47b9-9e2e-cdd86291f63d" class=3D"conflue=
+nceTh">
+<p local-id=3D"2313656fcdd7">Type</p></th>
+<th data-local-id=3D"4400e76c-b410-4829-b959-ecff2cd786c9" class=3D"conflue=
+nceTh">
+<p local-id=3D"c642432d7976">Description</p></th>
+</tr>
+<tr data-local-id=3D"520916d8-3017-48a2-8d35-fcff9571d580">
+<td data-local-id=3D"aa5c5474-5fcf-411e-9bf5-aa4d26e25486" class=3D"conflue=
+nceTd">
+<p local-id=3D"4d3c73a3b9e6"><strong>Date</strong></p></td>
+<td data-local-id=3D"a6b70b5d-4142-4832-ac67-551c1e4749c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"2d38d2e5cbcc"><strong>Required</strong></p></td>
+<td data-local-id=3D"d28a39ce-8d6c-4659-a518-a646561c65f1" class=3D"conflue=
+nceTd">
+<p local-id=3D"330ddea19cc8">Date</p></td>
+<td data-local-id=3D"1ace8904-bc80-4d03-9cfc-4b20b634cf0a" class=3D"conflue=
+nceTd">
+<p local-id=3D"b227c67b2e40">The date to check occupancy for. Only the date=
+ portion is used (time is ignored). Accepted format: <code>YYYY-MM-DD</code=
+>. This can be set manually or populated dynamically from a previous step i=
+n the workflow.</p></td>
+</tr>
+<tr data-local-id=3D"0184ca00-d61c-456e-8d08-b6f9cae59d8e">
+<td data-local-id=3D"78f33b51-ea7d-4026-9f24-9b1d135451de" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8e800839316"><strong>Bookable Services</strong></p></td>
+<td data-local-id=3D"821452f0-6e96-4261-b70a-5e131d67c670" class=3D"conflue=
+nceTd">
+<p local-id=3D"6194828ab9f1"><strong>Optional</strong></p></td>
+<td data-local-id=3D"716559e3-8b80-47b2-98b9-9031b8e7f43c" class=3D"conflue=
+nceTd">
+<p local-id=3D"b90a5dc5bed5">Multi-select dropdown</p></td>
+<td data-local-id=3D"a6334577-3905-4c49-a728-03ca42170157" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ade5db4ce04">Select one or more bookable services to filter=
+ the occupancy calculation. The dropdown is populated dynamically with the =
+bookable services configured in your property. If no services are selected,=
+ all bookable services are included in the calculation.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"97fb800c90b1"><strong>Note:</strong> When no bookable servic=
+es are selected, the occupancy percentage reflects the overall occupancy ac=
+ross all bookable services in your property. If you select specific service=
+s, only the spaces associated with those services are considered.</p>
+<hr local-id=3D"b72af93d-5af9-4219-b375-5bc30d0f3246">
+<h2 local-id=3D"ea1990dc4244" id=3D"GetOccupancy-OutputFields">Output Field=
+s</h2>
+<p local-id=3D"2a5275e7467f">When the occupancy is successfully retrieved, =
+the following values are available on the <strong>out</strong> output port =
+for use in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"88fc3a30-5a43-4a71-a787-ba9=
+9da5e8dec" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"5057f8f5-f44b-41f7-b04e-94754b701a9f">
+<th data-local-id=3D"d46c0ef9-83a4-4693-88d4-b307681ff9e9" class=3D"conflue=
+nceTh">
+<p local-id=3D"9c2a7c1b573a">Field</p></th>
+<th data-local-id=3D"a36e07fd-6217-4301-9111-70c64b8663db" class=3D"conflue=
+nceTh">
+<p local-id=3D"0d1a55c7300d">Type</p></th>
+<th data-local-id=3D"be086d6f-9ba8-4d4f-b4de-5495201444e0" class=3D"conflue=
+nceTh">
+<p local-id=3D"bab40ceade4f">Description</p></th>
+</tr>
+<tr data-local-id=3D"84e92291-41a5-45ec-b95f-66b7bd0a8143">
+<td data-local-id=3D"0ba8a051-8695-45d5-b738-85450b5c1d77" class=3D"conflue=
+nceTd">
+<p local-id=3D"d927f1485d68"><strong>Date</strong></p></td>
+<td data-local-id=3D"0c4fed01-393d-4854-88f7-96c7eac0ec26" class=3D"conflue=
+nceTd">
+<p local-id=3D"0dac67d1743b">Date</p></td>
+<td data-local-id=3D"3776f714-9f3a-4b6d-96a3-3ce9d0c9696d" class=3D"conflue=
+nceTd">
+<p local-id=3D"e65ddbb6d0e6">The date for which the occupancy was calculate=
+d, in <code>YYYY-MM-DD</code> format.</p></td>
+</tr>
+<tr data-local-id=3D"207b3046-1572-4103-a060-734f8f1b31c8">
+<td data-local-id=3D"3551a1f6-440d-4c25-8eaa-0115e56bc5b4" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f565570ed99"><strong>Occupancy Percentage</strong></p></td>
+<td data-local-id=3D"ac6bfe67-6b52-4f09-976a-929917e8449c" class=3D"conflue=
+nceTd">
+<p local-id=3D"2fc2ace7839a">Number</p></td>
+<td data-local-id=3D"aa2d351b-537c-4655-9f32-3b973f1fb6d7" class=3D"conflue=
+nceTd">
+<p local-id=3D"576e7f99f48c">The occupancy percentage for the specified dat=
+e, expressed as a value between <code>0</code> and <code>100</code>, rounde=
+d to two decimal places. For example, <code>75.50</code> means 75.50% of av=
+ailable spaces are occupied.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"10118060-7e28-4ba5-bc1a-c206f3154bfa">
+<h2 local-id=3D"9bb9c6023911" id=3D"GetOccupancy-HowItWorks">How It Works</=
+h2>
+<ol start=3D"1" local-id=3D"8f7d5e37-80f3-40bc-b1e4-401764266b26">
+<li local-id=3D"da227811-7055-4c1b-9010-3b5af06b9dfd">
+<p local-id=3D"4d7d81053102">The component receives the target date and opt=
+ional bookable service filter from the previous step in the workflow (or fr=
+om manually configured values).</p></li>
+<li local-id=3D"cfae7504-3e89-41fa-8f77-1655d4be7d4c">
+<p local-id=3D"d33f32f6be3b">The date is normalized to its date-only form (=
+the time portion is stripped), and the system evaluates all activity within=
+ that single calendar day.</p></li>
+<li local-id=3D"31db46ac-a019-4317-8c8b-db27ed2db5db">
+<p local-id=3D"be618765768c">The system determines the <strong>total number=
+ of occupiable spaces</strong> =E2=80=94 these are the rooms/spaces assigne=
+d to the selected bookable services (or all bookable services if none are s=
+elected) within your property.</p></li>
+<li local-id=3D"f27ab2ce-ba4d-4727-9408-4db1f162e53a">
+<p local-id=3D"69cf2d0ab2b6">The system then determines which spaces are <s=
+trong>occupied</strong> on the target date by looking at:</p>
+<ul local-id=3D"771f3b41-9432-4932-b2e8-c1d016e74ee3">
+<li local-id=3D"a8588c96-5652-4979-aea1-784bb24538e8">
+<p local-id=3D"1a8321b6330d"><strong>Reservations</strong> =E2=80=94 Active=
+ reservations (not processed or canceled) that overlap with the target date=
+ and have an assigned space.</p></li>
+<li local-id=3D"5a8d210c-9375-496b-912f-d00f3b95a09f">
+<p local-id=3D"24908f862ed8"><strong>Out-of-order blocks</strong> =E2=80=94=
+ Resource blocks (e.g., maintenance, out-of-order) that overlap with the ta=
+rget date.</p></li>
+</ul></li>
+<li local-id=3D"61ca6fbb-2298-401b-a871-93a6bb665ca1">
+<p local-id=3D"76a29f05a160">For hierarchical space setups (e.g., a dorm be=
+d inside a dorm room), if any space in a hierarchy is occupied, all related=
+ parent and child spaces are also considered occupied.</p></li>
+<li local-id=3D"e1aae3d4-d31b-4059-8516-4d4a5792b91c">
+<p local-id=3D"4fe3e45a72f3">The occupancy percentage is calculated as: <co=
+de>(occupied spaces / total occupiable spaces) =C3=97 100</code>, rounded t=
+o two decimal places.</p></li>
+<li local-id=3D"03cf317a-ed39-4efd-bb02-4a33bca9b26e">
+<p local-id=3D"3155eb22d608">If there are no occupiable spaces (e.g., no se=
+rvices configured), the occupancy percentage is <code>0</code>.</p></li>
+<li local-id=3D"23e112cb-69b2-459a-80ac-27ac20092987">
+<p local-id=3D"6f26356c12f9">The result is sent to the <strong>out</strong>=
+ output port.</p></li>
+</ol>
+<p local-id=3D"7df6d0bda3d4"><strong>Important:</strong> Out-of-order block=
+s count as occupied spaces in the occupancy calculation. If a room is block=
+ed for maintenance, it is treated as occupied for the purposes of this comp=
+onent.</p>
+<hr local-id=3D"880fd756-0d64-462e-b3b7-3543b4075195">
+<h2 local-id=3D"900be53de7d4" id=3D"GetOccupancy-ExampleUseCases">Example U=
+se Cases</h2>
+<ul local-id=3D"0bdbfd64-edcb-4cc4-95c9-5935bb7567c8">
+<li local-id=3D"3bccfd75-797c-4ce4-b28c-9e7adb911924">
+<p local-id=3D"ccf2a41b0ce1"><strong>Daily occupancy report</strong> =E2=80=
+=94 Schedule a workflow that runs every morning, retrieves today's occupanc=
+y, and sends a summary notification to the operations team.</p></li>
+<li local-id=3D"0b25123a-ccb9-419a-9149-a3a7950ab4cd">
+<p local-id=3D"862e93052f82"><strong>Low-occupancy alert</strong> =E2=80=94=
+ Combine with a condition step to send an alert when occupancy drops below =
+a certain threshold, allowing the revenue team to take action.</p></li>
+<li local-id=3D"22e234d6-afd0-4d4e-a7f7-944245ac07e3">
+<p local-id=3D"08870237d182"><strong>High-occupancy staffing</strong> =E2=
+=80=94 When occupancy exceeds a threshold (e.g., 90%), automatically create=
+ tasks for additional housekeeping or front-desk staff.</p></li>
+<li local-id=3D"14686694-75db-433b-a0fc-83a32c1a3dce">
+<p local-id=3D"1f51721d7fdb"><strong>Service-specific monitoring</strong> =
+=E2=80=94 Track occupancy for a specific bookable service (e.g., only your =
+hotel rooms, excluding parking spaces) to get a more targeted view.</p></li=
+>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_48_11328049.1777536527336--

@@ -1,0 +1,1078 @@
+Date: Thu, 30 Apr 2026 08:08:21 +0000 (UTC)
+Message-ID: <220742921.21.1777536501152@ec673223d0fd>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_1294279265.1777536501152"
+
+------=_Part_20_1294279265.1777536501152
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Upgrade Assigned Room Category</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Upgrade Assigned Room Category</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"7a788479ba5a"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"648fae691669"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"8aea115792b6" id=3D"UpgradeAssignedRoomCategory-Overview">O=
+verview</h2>
+<p local-id=3D"ae05c27ef399">The <strong>Upgrade Assigned Room Category</st=
+rong> action automatically upgrades guests to higher-category rooms based o=
+n configurable upgrade paths and real-time room availability. You define wh=
+ich room categories can be upgraded to which target categories, and the com=
+ponent handles the rest =E2=80=94 checking availability, respecting buffer =
+limits, and processing upgrades in order.</p>
+<p local-id=3D"7b44b4deeb90">This is useful for maximizing occupancy and gu=
+est satisfaction. For example, you can automatically upgrade guests from a =
+Standard room to a Deluxe room when Deluxe rooms are available and underuti=
+lized, while always keeping a configurable number of rooms in reserve for l=
+ast-minute bookings.</p>
+<p local-id=3D"f1f0ab17c1aa">The component produces two separate outputs: s=
+uccessfully upgraded reservations are sent to the <strong>upgraded</strong>=
+ port, and reservations that could not be upgraded are sent to the <strong>=
+failed</strong> port with a reason explaining why.</p>
+<hr local-id=3D"39221260-25bb-4548-bfdd-7b14e763a0ef">
+<h2 local-id=3D"592d994c865c" id=3D"UpgradeAssignedRoomCategory-InputFields=
+">Input Fields</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"47=
+2b176f-27e9-4f93-aee3-2cb77af9bd4d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"884ec17b-06fb-4d8f-ba55-0bb2a110fdd1">
+<th data-local-id=3D"90d4f449-8583-4ff1-95e2-d8abb6f09491" class=3D"conflue=
+nceTh">
+<p local-id=3D"60127d66a1ce">Field</p></th>
+<th data-local-id=3D"020307b9-1bae-4dc1-a631-9490ee0a1ebf" class=3D"conflue=
+nceTh">
+<p local-id=3D"6faa46f7a9bd">Required</p></th>
+<th data-local-id=3D"881f8844-7f84-4dfb-8c90-9561a9a09ca1" class=3D"conflue=
+nceTh">
+<p local-id=3D"ba5fecd26edc">Type</p></th>
+<th data-local-id=3D"8d2a4463-bc2a-49a8-9513-00f69576e200" class=3D"conflue=
+nceTh">
+<p local-id=3D"e9b55b402de4">Description</p></th>
+</tr>
+<tr data-local-id=3D"8437b912-e296-4366-9eee-53c6c0d6493d">
+<td data-local-id=3D"c9b599c8-c737-4e8f-bbc8-dd03cfdba0cb" class=3D"conflue=
+nceTd">
+<p local-id=3D"8912cde00ae0"><strong>Reservation IDs</strong></p></td>
+<td data-local-id=3D"40550d6c-f129-4447-b1d4-5eea9f612d59" class=3D"conflue=
+nceTd">
+<p local-id=3D"2fb43f1808d2"><strong>Required</strong></p></td>
+<td data-local-id=3D"6694c241-4973-4154-a678-413603170f6b" class=3D"conflue=
+nceTd">
+<p local-id=3D"d18e4bf9aadf">Text (JSON array)</p></td>
+<td data-local-id=3D"d23fc5ec-d461-40ce-bbbc-eb9edfea29db" class=3D"conflue=
+nceTd">
+<p local-id=3D"c9eec52487dd">The list of reservation IDs to attempt upgrade=
+s for, provided as a JSON array (e.g. <code>["abc-123","def-456"]</code>). =
+Typically connected to the output of a <strong>Get Reservations</strong> co=
+mponent using the variable picker. A single reservation ID string is also a=
+ccepted and will be treated as a one-element list.</p></td>
+</tr>
+<tr data-local-id=3D"9e31c46e-9549-420c-84ca-e2e81041db6e">
+<td data-local-id=3D"a187b603-c816-4905-ada4-61195134d3fe" class=3D"conflue=
+nceTd">
+<p local-id=3D"c29adfb12e75"><strong>Upgrade Paths</strong></p></td>
+<td data-local-id=3D"194316ed-ff18-4df8-8543-64f54370bc3b" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f70c70bcd08"><strong>Required</strong></p></td>
+<td data-local-id=3D"83e5bc9e-66ed-4229-b922-27baec9bd08b" class=3D"conflue=
+nceTd">
+<p local-id=3D"80bf1314ee2a">Expression (list of rows)</p></td>
+<td data-local-id=3D"19f864fd-fa41-468c-ad68-928621669493" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b6c7330d554">Defines the room upgrade mappings. Each row ma=
+ps a <strong>From Room Category</strong> to a <strong>To Room Category</str=
+ong>. The dropdowns are populated dynamically with the room categories conf=
+igured in your property.</p>
+<ul local-id=3D"54bbd221-064f-40e3-8cd5-82c25722dab1">
+<li local-id=3D"80b98b0d-c022-4f35-a520-3c3324c78994">
+<p local-id=3D"e9903043a2a4">Each source category (<em>From</em>) can only =
+appear once to avoid conflicts.</p></li>
+<li local-id=3D"ee5a610b-ef9b-46be-8c79-178e9815d204">
+<p local-id=3D"e6dc58ad8d64">Paths can be chained to form cascading upgrade=
+s. For example, if you define Standard =E2=86=92 Deluxe and Deluxe =E2=86=
+=92 Suite, a guest in a Standard room may be upgraded to Deluxe first, and =
+if Deluxe is unavailable, the system will attempt Suite as a fallback.</p><=
+/li>
+</ul></td>
+</tr>
+<tr data-local-id=3D"38ec0e12-0c14-484f-afe9-1df2911d501a">
+<td data-local-id=3D"3589c059-b9ea-44d7-8c4a-55e6da00b6f4" class=3D"conflue=
+nceTd">
+<p local-id=3D"00e905a73271"><strong>Availability Buffer</strong></p></td>
+<td data-local-id=3D"01564065-bc01-4a9b-954b-193fd608ed4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8ce2a5882c0"><strong>Required</strong></p></td>
+<td data-local-id=3D"d7267568-ec9f-4ba3-b3cf-06a688f5bba9" class=3D"conflue=
+nceTd">
+<p local-id=3D"b0517b4dac2a">Number</p></td>
+<td data-local-id=3D"69b40367-b3ee-4b7f-95d3-20f6b588ec22" class=3D"conflue=
+nceTd">
+<p local-id=3D"247d3c70ca15">The minimum number of rooms to keep available =
+in each target category. Upgrades are only performed while at least this ma=
+ny rooms remain unoccupied in the target category. This ensures rooms are k=
+ept in reserve for last-minute direct bookings. Set to <code>0</code> to up=
+grade whenever any room is available.</p></td>
+</tr>
+<tr data-local-id=3D"def4b120-d18e-4155-a90c-8810bfccf046">
+<td data-local-id=3D"81d7f313-17b4-4450-bb9f-d0ce97356e41" class=3D"conflue=
+nceTd">
+<p local-id=3D"7230f9ae58db"><strong>Max Rooms to Upgrade</strong></p></td>
+<td data-local-id=3D"89d159ff-a7ff-49a9-b227-65d7282bd3bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"53049416074b"><strong>Optional</strong></p></td>
+<td data-local-id=3D"26d4c5df-636a-4d4d-ae73-71a0ed238550" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8f1df33b18d">Number</p></td>
+<td data-local-id=3D"64ab2d5a-3767-4fa3-8614-18de00a165b0" class=3D"conflue=
+nceTd">
+<p local-id=3D"58be624e1185">The maximum number of rooms to upgrade in a si=
+ngle run. Reservations are processed in the order they are provided; once t=
+his cap is reached, remaining reservations are reported as failed with the =
+reason <code>CAP_REACHED</code>. Leave empty to upgrade all eligible reserv=
+ations with no cap. Minimum value: <code>1</code>.</p></td>
+</tr>
+<tr data-local-id=3D"46721943-b1cc-4e3a-8cc8-2792b82786fe">
+<td data-local-id=3D"4886b555-3969-41db-8ad5-0b515720cf47" class=3D"conflue=
+nceTd">
+<p local-id=3D"829eaf3f6501"><strong>Per-Category Availability Overrides</s=
+trong></p></td>
+<td data-local-id=3D"4aad9a9b-3470-4d69-8f8e-6d2b1fe15510" class=3D"conflue=
+nceTd">
+<p local-id=3D"5f002a9483b7"><strong>Optional</strong></p></td>
+<td data-local-id=3D"2d611d8d-2217-4fa2-a9e7-c1795acc4787" class=3D"conflue=
+nceTd">
+<p local-id=3D"1f54a2a1a572">Expression (list of rows)</p></td>
+<td data-local-id=3D"c71834d8-22e2-419c-a62f-888e6641b1d5" class=3D"conflue=
+nceTd">
+<p local-id=3D"474ee6431b10">Overrides the global <strong>Availability Buff=
+er</strong> for specific room categories. Each row maps a <strong>Room Cate=
+gory</strong> to a custom <strong>Availability Buffer</strong> value. For e=
+xample, you might keep 3 Suites in reserve but only 1 Standard room. This f=
+ield is found under the <strong>Advanced</strong> section.</p>
+<ul local-id=3D"56b66ccc-b1d3-4fa6-a491-e9263a0700e8">
+<li local-id=3D"1ca1a7ad-3f95-45a5-b5f0-0b47bbb18f39">
+<p local-id=3D"7900a279e273">Each room category can only appear once.</p></=
+li>
+<li local-id=3D"48559cf2-74d7-46d1-8de9-1cd9de1dfe4b">
+<p local-id=3D"e851a455011b">Categories not listed here use the global Avai=
+lability Buffer value.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c14fed48440d"><strong>Note:</strong> The <strong>Per-Categor=
+y Availability Overrides</strong> field is located in the <strong>Advanced<=
+/strong> section of the component settings, which is collapsed by default.<=
+/p>
+<hr local-id=3D"d0fd277c-14a7-4783-afb0-548b48d6e6eb">
+<h2 local-id=3D"9516cf752ddc" id=3D"UpgradeAssignedRoomCategory-OutputPorts=
+">Output Ports</h2>
+<p local-id=3D"b4d75fa04a00">This component has three output ports: <strong=
+>upgraded</strong>, <strong>failed</strong>, and <strong>cooldown</strong>.=
+ Each port only fires when there is relevant data to send.</p>
+<h3 local-id=3D"413f83e02b76" id=3D"UpgradeAssignedRoomCategory-UpgradedPor=
+t">Upgraded Port</h3>
+<p local-id=3D"aadec0953146">Fires when at least one reservation was succes=
+sfully upgraded. The following output options are available:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"06=
+68307d-0130-4802-a424-6e23a3e20bd0" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"846fd077-08b5-4cbe-958e-785ad207eddb">
+<th data-local-id=3D"24a7672c-c6f6-43c2-8645-944a7c5ab8d1" class=3D"conflue=
+nceTh">
+<p local-id=3D"e4a8b10f5cd5">Output Option</p></th>
+<th data-local-id=3D"6d7c14fb-e152-4a8e-aadf-26dcbb6aae84" class=3D"conflue=
+nceTh">
+<p local-id=3D"84e175917d29">Type</p></th>
+<th data-local-id=3D"acbdc133-e105-44f1-9ffe-dd1459701d7a" class=3D"conflue=
+nceTh">
+<p local-id=3D"af9b4417f45c">Description</p></th>
+</tr>
+<tr data-local-id=3D"31d60fb5-c5d8-4674-99a4-d2466dee40d6">
+<td data-local-id=3D"3e9a99a0-0300-4b92-8e08-10eb42130016" class=3D"conflue=
+nceTd">
+<p local-id=3D"72bb1602d966"><strong>Upgraded Reservations</strong></p></td=
+>
+<td data-local-id=3D"5ce90557-4f2d-48c3-a51b-add35ab1d4d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce34e64c042c">Array of objects</p></td>
+<td data-local-id=3D"064ac652-a6ff-4c2b-a216-09fcbb352d23" class=3D"conflue=
+nceTd">
+<p local-id=3D"fdfc03573f0b">The full list of successfully upgraded reserva=
+tions. Each item contains the fields listed below.</p></td>
+</tr>
+<tr data-local-id=3D"67abd21e-9c70-4e01-ab94-796327302f6b">
+<td data-local-id=3D"4ee24ed5-e048-4687-b588-26ca658dc0fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"3a0d547032f7"><strong>Upgraded Count</strong></p></td>
+<td data-local-id=3D"c3864175-22eb-47d3-bdc1-108841d46f76" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff920bbf69c1">Number</p></td>
+<td data-local-id=3D"18529302-6a3e-4861-9219-b785bc696da8" class=3D"conflue=
+nceTd">
+<p local-id=3D"aee9f7925b2b">The total number of reservations that were suc=
+cessfully upgraded.</p></td>
+</tr>
+<tr data-local-id=3D"313c5de6-9f64-49bd-8bbb-2ca7e5bc5cc9">
+<td data-local-id=3D"bba9754e-3706-41e0-a3a6-f070070bb2d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"b14b23878a97"><strong>Upgraded Reservation IDs</strong></p><=
+/td>
+<td data-local-id=3D"cb649fa9-4d7f-4ffa-8d22-c0206a8bc5d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"054eca72242c">Array of strings</p></td>
+<td data-local-id=3D"9ae5fd94-96f3-4036-bbf9-259dca7ee64e" class=3D"conflue=
+nceTd">
+<p local-id=3D"191f6e76b125">A flat list of reservation IDs that were succe=
+ssfully upgraded. Useful for passing to subsequent workflow steps.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"d9a9c260e14d">Each item in the <strong>Upgraded Reservations=
+</strong> array contains:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"99=
+5cc6c8-a3a6-4118-9a3c-60eb5630afdc" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"7fb110b4-9cfa-4b0b-a921-0333d0ac123b">
+<th data-local-id=3D"2f735838-b172-4e62-b2c6-f9ea0a6a2f54" class=3D"conflue=
+nceTh">
+<p local-id=3D"7400540af21d">Field</p></th>
+<th data-local-id=3D"766e2640-bd0d-4c09-8157-47193f5aa57a" class=3D"conflue=
+nceTh">
+<p local-id=3D"3d248b6e2dd2">Type</p></th>
+<th data-local-id=3D"8a8533ed-4dcc-4d50-9f83-cf07f6958fa9" class=3D"conflue=
+nceTh">
+<p local-id=3D"d943f6642123">Description</p></th>
+</tr>
+<tr data-local-id=3D"8cbe0375-f08c-4862-938d-409f6b41a24f">
+<td data-local-id=3D"046afc20-1a15-4d2b-9eb9-d23b6abe0f32" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2bd5c913d65"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"8e420db2-d8e3-49d3-aa37-e8590d8db4e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b2ec135badf">Text (GUID)</p></td>
+<td data-local-id=3D"0b1c172a-5139-49f4-b664-00f3671a1f5a" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b7e363c4d35">The unique identifier of the upgraded reservat=
+ion.</p></td>
+</tr>
+<tr data-local-id=3D"ff916424-55bd-4af9-80b7-d5ab214c1cdd">
+<td data-local-id=3D"c62a467b-6f9e-4dfc-9546-4ac61b654679" class=3D"conflue=
+nceTd">
+<p local-id=3D"373fca99a54d"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"9a6408d0-a6e0-4d80-9e01-19f9401b2362" class=3D"conflue=
+nceTd">
+<p local-id=3D"80b95e06686e">Text (GUID)</p></td>
+<td data-local-id=3D"f60d516b-085e-4b61-83a4-c910b211176b" class=3D"conflue=
+nceTd">
+<p local-id=3D"a10078311978">The unique identifier of the guest associated =
+with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"bd416983-a1c6-4b33-8f0b-3264f1b3a330">
+<td data-local-id=3D"5c1efa86-24ad-4e5d-8535-a5b2d724443d" class=3D"conflue=
+nceTd">
+<p local-id=3D"88196c09e751"><strong>Guest Name</strong></p></td>
+<td data-local-id=3D"85033c0f-7164-4d74-b800-b1862f68d76a" class=3D"conflue=
+nceTd">
+<p local-id=3D"31a20c646df5">Text</p></td>
+<td data-local-id=3D"d937c0d4-e0d5-4ae8-afb2-bf0533388e08" class=3D"conflue=
+nceTd">
+<p local-id=3D"2aa68fc54fa9">The name of the guest.</p></td>
+</tr>
+<tr data-local-id=3D"fc5ba839-69d1-404d-8df2-19e2f503ff80">
+<td data-local-id=3D"2b529c35-7f65-4027-9c8c-678de0a962dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"eeb12a82562b"><strong>Previous Room Category</strong></p></t=
+d>
+<td data-local-id=3D"654a279c-a22d-4cdc-a771-e07784fddd27" class=3D"conflue=
+nceTd">
+<p local-id=3D"a22197fdcfb4">Text (GUID)</p></td>
+<td data-local-id=3D"ae29457b-8d94-4ec1-9341-6cc428e61123" class=3D"conflue=
+nceTd">
+<p local-id=3D"bcb0463b63bf">The identifier of the room category the guest =
+was in before the upgrade.</p></td>
+</tr>
+<tr data-local-id=3D"118f12d4-c574-4052-ada2-02c511f83717">
+<td data-local-id=3D"49dcde26-88b0-4933-9e99-500f187e1317" class=3D"conflue=
+nceTd">
+<p local-id=3D"c170a5d04d1b"><strong>New Room Category</strong></p></td>
+<td data-local-id=3D"fd36eea5-c04f-4f55-9644-1ce01e0d7efc" class=3D"conflue=
+nceTd">
+<p local-id=3D"a091492d82fb">Text (GUID)</p></td>
+<td data-local-id=3D"8d362ad8-fa89-432c-8cf3-ef02881d75c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"bc8c58b3a668">The identifier of the room category the guest =
+was upgraded to.</p></td>
+</tr>
+<tr data-local-id=3D"61d0f843-0cc2-4b14-b577-7c71ad56e781">
+<td data-local-id=3D"2d8e3d6d-5fba-4afa-993f-eb7e61a37c24" class=3D"conflue=
+nceTd">
+<p local-id=3D"3353b72a0029"><strong>Additional Charge</strong></p></td>
+<td data-local-id=3D"a4c1b54c-4f04-4fa4-947d-bb00ebf9f983" class=3D"conflue=
+nceTd">
+<p local-id=3D"b59cf71c0a89">Number</p></td>
+<td data-local-id=3D"2f4078db-43c8-4823-8749-856532c280ec" class=3D"conflue=
+nceTd">
+<p local-id=3D"cfd935a80d6e">Any additional charge associated with the upgr=
+ade.</p></td>
+</tr>
+<tr data-local-id=3D"a26e3ddc-bace-47c3-9e23-aad4df108dd4">
+<td data-local-id=3D"1b203e12-4181-40a9-bdb8-bb057f885410" class=3D"conflue=
+nceTd">
+<p local-id=3D"7076b7010630"><strong>Check-in Date</strong></p></td>
+<td data-local-id=3D"d22468a5-ce36-47cd-a235-e1532d912cf9" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f8df0e2142d">Text (Date)</p></td>
+<td data-local-id=3D"e261419d-5cef-49fe-be4b-3b6bc9528c87" class=3D"conflue=
+nceTd">
+<p local-id=3D"c813164461b3">The check-in date of the reservation (format: =
+<code>DD-MM-YYYY</code>).</p></td>
+</tr>
+<tr data-local-id=3D"6fda65d3-831d-4de2-95e9-3a0b64fddad3">
+<td data-local-id=3D"4e498f47-29a8-4e96-ac64-ec5277afd995" class=3D"conflue=
+nceTd">
+<p local-id=3D"4acb3289a2f7"><strong>Check-out Date</strong></p></td>
+<td data-local-id=3D"80fa0f16-acfb-462f-9edb-a6195c249d88" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2c0377ba13b">Text (Date)</p></td>
+<td data-local-id=3D"f39842bf-1261-4465-9273-0b42b3a1629e" class=3D"conflue=
+nceTd">
+<p local-id=3D"a2b52faf8b9c">The check-out date of the reservation (format:=
+ <code>DD-MM-YYYY</code>).</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"2a9d65156ed1" id=3D"UpgradeAssignedRoomCategory-FailedPort"=
+>Failed Port</h3>
+<p local-id=3D"b6adb8ced54b">Fires when at least one reservation could not =
+be upgraded. The following output options are available:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1c=
+f307b9-4bd6-40e1-8be0-498752ecd378" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"97a8aa24-418f-4762-a4b2-0f242e5bfef2">
+<th data-local-id=3D"368bd3c6-d0dc-4f04-a13d-c23da569455e" class=3D"conflue=
+nceTh">
+<p local-id=3D"0602c12d9d02">Output Option</p></th>
+<th data-local-id=3D"ec14922f-2035-478b-b1dd-bed9b1a9dc0d" class=3D"conflue=
+nceTh">
+<p local-id=3D"5c85b77dfc61">Type</p></th>
+<th data-local-id=3D"0c3633d0-d316-4882-afc2-135f5fe375d4" class=3D"conflue=
+nceTh">
+<p local-id=3D"ab75041afc36">Description</p></th>
+</tr>
+<tr data-local-id=3D"f3889b8a-07fb-498a-a9bf-be816241ce7b">
+<td data-local-id=3D"97ef35fa-bae1-41df-965b-723a061e0ea0" class=3D"conflue=
+nceTd">
+<p local-id=3D"73e870cd7b0b"><strong>Failed Reservations</strong></p></td>
+<td data-local-id=3D"6fae8039-3030-4be1-bd5f-1a72050a446a" class=3D"conflue=
+nceTd">
+<p local-id=3D"bd197607a525">Array of objects</p></td>
+<td data-local-id=3D"f3e2eb0c-fb4d-4cc5-8ce6-e815e045ace1" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f5c621be774">The full list of reservations that could not b=
+e upgraded. Each item contains the fields listed below.</p></td>
+</tr>
+<tr data-local-id=3D"225975f1-76f7-442f-aa0b-44647ef3f4c3">
+<td data-local-id=3D"47f14d21-20bd-4ab0-be56-17930a95b410" class=3D"conflue=
+nceTd">
+<p local-id=3D"f77053a9165a"><strong>Failed Count</strong></p></td>
+<td data-local-id=3D"1f974753-6c82-42d6-9f97-894bd0291237" class=3D"conflue=
+nceTd">
+<p local-id=3D"80ef06cec85a">Number</p></td>
+<td data-local-id=3D"2af45753-cbfa-4eaa-81c8-10c92fce6e19" class=3D"conflue=
+nceTd">
+<p local-id=3D"8a2e41a3d337">The total number of reservations that failed t=
+o upgrade.</p></td>
+</tr>
+<tr data-local-id=3D"b82b99a3-a39d-4430-ba51-e0a428ce01d5">
+<td data-local-id=3D"2dcea906-6524-469d-abd5-b2e3823d646b" class=3D"conflue=
+nceTd">
+<p local-id=3D"0e57c3f0253f"><strong>Failed Reservation IDs</strong></p></t=
+d>
+<td data-local-id=3D"8566d7cb-9c62-4f9b-a82e-5deb689c318d" class=3D"conflue=
+nceTd">
+<p local-id=3D"06da732c92e1">Array of strings</p></td>
+<td data-local-id=3D"88474fd3-7361-42ae-b198-f36dc25096a6" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c059b7d9e26">A flat list of reservation IDs that failed to =
+upgrade.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"54740b8bd42d">Each item in the <strong>Failed Reservations</=
+strong> array contains:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"12=
+f6b1c9-17fd-47c4-94d8-9179d47de25f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"5b1d35b4-63e1-4d66-84a7-b78bd99adff6">
+<th data-local-id=3D"ce49c379-905c-4fcf-91ae-9fbac730b689" class=3D"conflue=
+nceTh">
+<p local-id=3D"1af0f918397f">Field</p></th>
+<th data-local-id=3D"11e04d00-f66a-4b73-8fc7-13ac6e46453e" class=3D"conflue=
+nceTh">
+<p local-id=3D"165d854ae275">Type</p></th>
+<th data-local-id=3D"071c4e6a-9c61-443a-aa52-098bd3a5b698" class=3D"conflue=
+nceTh">
+<p local-id=3D"04bf9abc719b">Description</p></th>
+</tr>
+<tr data-local-id=3D"7980d03e-e7ad-4c6e-8d84-f8676be3f243">
+<td data-local-id=3D"0792df74-3e98-4348-94f7-5110bb84d489" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f13157b9f14"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"c2f76496-101b-4430-b554-5b29070147ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"0a61695db4a3">Text (GUID)</p></td>
+<td data-local-id=3D"bb85eea2-bd1a-4012-844a-e9d2b170d78c" class=3D"conflue=
+nceTd">
+<p local-id=3D"de39cf176377">The unique identifier of the reservation that =
+could not be upgraded.</p></td>
+</tr>
+<tr data-local-id=3D"5aef8ddd-d0b8-4512-9ea9-04149ab68c90">
+<td data-local-id=3D"b35d729e-4d50-4326-8ed0-03e93572bb6c" class=3D"conflue=
+nceTd">
+<p local-id=3D"f835e933cea9"><strong>Guest ID</strong></p></td>
+<td data-local-id=3D"c902ea90-0a91-49b6-8147-cf2021c8fb5d" class=3D"conflue=
+nceTd">
+<p local-id=3D"42c325ea124f">Text (GUID)</p></td>
+<td data-local-id=3D"ec2b39f4-5b1c-4ec4-b20e-b5325de01e55" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ce964b5252b">The unique identifier of the guest associated =
+with the reservation.</p></td>
+</tr>
+<tr data-local-id=3D"d38b1f32-f846-4912-9f8c-0114aeaa25e9">
+<td data-local-id=3D"c138d52e-b295-47bf-a653-42d02874a3e3" class=3D"conflue=
+nceTd">
+<p local-id=3D"3061499c46fa"><strong>Guest Name</strong></p></td>
+<td data-local-id=3D"7c0e6798-df3e-46ab-a558-22ee981b4183" class=3D"conflue=
+nceTd">
+<p local-id=3D"ca32f02b4a14">Text</p></td>
+<td data-local-id=3D"3882a28b-c787-4b63-80cb-3497eb9c2f52" class=3D"conflue=
+nceTd">
+<p local-id=3D"42ccb3834c7f">The name of the guest.</p></td>
+</tr>
+<tr data-local-id=3D"94855446-04c5-475a-a6dd-cb4b6ecda3dc">
+<td data-local-id=3D"eead42b4-6f29-4716-bab5-931f9e7297c2" class=3D"conflue=
+nceTd">
+<p local-id=3D"5b59f08dd5ae"><strong>Current Room Category</strong></p></td=
+>
+<td data-local-id=3D"16cb68fe-2c2c-4dbc-99b1-82a5dea6634b" class=3D"conflue=
+nceTd">
+<p local-id=3D"226ea74e8eb9">Text (GUID)</p></td>
+<td data-local-id=3D"6cf6fc97-2eec-4e7a-96e7-d67e4971ed21" class=3D"conflue=
+nceTd">
+<p local-id=3D"0cef4362a8c8">The identifier of the room category the guest =
+is currently assigned to.</p></td>
+</tr>
+<tr data-local-id=3D"2a3e969f-38f5-4b46-ad9c-9a4f2f4a70bf">
+<td data-local-id=3D"266b985e-1e36-4297-8e98-c6497af9f6d0" class=3D"conflue=
+nceTd">
+<p local-id=3D"6616a392045e"><strong>Target Room Category</strong></p></td>
+<td data-local-id=3D"6b3c047a-7649-4f84-bf4d-ad5796601a6b" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce9cdba54914">Text (GUID)</p></td>
+<td data-local-id=3D"1872d5be-f4b2-4104-9e5d-2785725703aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"65e23002e2cc">The identifier of the room category the system=
+ attempted to upgrade to (empty if no matching upgrade path was found).</p>=
+</td>
+</tr>
+<tr data-local-id=3D"731a74b7-ff70-4a7b-b58d-b9d26620d04e">
+<td data-local-id=3D"ad93f3ec-6de4-4d5a-aadd-38bc95fe909f" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c45eb99812c"><strong>Failure Reason</strong></p></td>
+<td data-local-id=3D"7a20aa19-5d5b-41f5-ae6e-1357ba8656d2" class=3D"conflue=
+nceTd">
+<p local-id=3D"27ab350c2d94">Text</p></td>
+<td data-local-id=3D"f6f6f977-bd4f-4782-978c-9dce1b39bbe3" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ed05943405e">Why the upgrade failed. Possible values:</p>
+<ul local-id=3D"00606e1c-ca11-4e9d-a6d3-e3e686ca6b4e">
+<li local-id=3D"5d0e9323-c8bd-4f93-b45b-a4809caf9422">
+<p local-id=3D"50e7eacd69a4"><code>NO_AVAILABILITY</code> =E2=80=94 The tar=
+get room category has no available rooms (after accounting for the availabi=
+lity buffer).</p></li>
+<li local-id=3D"5f783c12-b4a1-4452-87a4-4d6937a804b4">
+<p local-id=3D"c4b4a7d38efc"><code>CAP_REACHED</code> =E2=80=94 The maximum=
+ number of upgrades for this run has been reached.</p></li>
+<li local-id=3D"98543d32-4e55-43fb-bf6b-a88137c593d6">
+<p local-id=3D"3a45884e60e0"><code>NO_CATEGORY_FOUND</code> =E2=80=94 The r=
+eservation's current room category does not match any defined upgrade path.=
+</p></li>
+</ul></td>
+</tr>
+<tr data-local-id=3D"66281ac0-9003-47de-925f-80af8cb5f3c2">
+<td data-local-id=3D"f741c7d3-a4ea-4967-a9ad-417bc4911b0e" class=3D"conflue=
+nceTd">
+<p local-id=3D"edb2445602fc"><strong>Check-in Date</strong></p></td>
+<td data-local-id=3D"08111670-b106-4bd9-96c2-91aac274c702" class=3D"conflue=
+nceTd">
+<p local-id=3D"12c0d381b9bf">Text (Date)</p></td>
+<td data-local-id=3D"d4fd1b5c-19b1-4dde-a4f4-265728197b81" class=3D"conflue=
+nceTd">
+<p local-id=3D"13eb021226ff">The check-in date of the reservation (format: =
+<code>DD-MM-YYYY</code>).</p></td>
+</tr>
+<tr data-local-id=3D"6a3c7c3b-2564-41a9-86dc-5e5f4aec4c20">
+<td data-local-id=3D"f8cbd751-f5bb-4ae7-aee6-5f50cc2e45fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"732c28f60a99"><strong>Check-out Date</strong></p></td>
+<td data-local-id=3D"86ebf66a-dd58-4313-b507-a40fda307993" class=3D"conflue=
+nceTd">
+<p local-id=3D"424122d210bb">Text (Date)</p></td>
+<td data-local-id=3D"20aab043-e721-498e-9eb2-b82eb523dee5" class=3D"conflue=
+nceTd">
+<p local-id=3D"dd1882f58a6b">The check-out date of the reservation (format:=
+ <code>DD-MM-YYYY</code>).</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"870ae107-229e-4184-b9d0-8c2c17c1de14">
+<h2 local-id=3D"4083256f91fa" id=3D"UpgradeAssignedRoomCategory-CooldownSet=
+tings">Cooldown Settings</h2>
+<p local-id=3D"c38e22eddc32">The cooldown feature prevents the action from =
+processing the same reservation again within a defined time window. This is=
+ useful when a workflow may be triggered multiple times in quick succession=
+ and you want to avoid attempting duplicate upgrades for the same reservati=
+on.</p>
+<p local-id=3D"f54cdacdd1e3">Cooldown settings are located in the <strong>C=
+ooldown</strong> section of the component settings, which is collapsed by d=
+efault.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c6=
+e9c44f-b5e5-47a1-a575-fd9cecbee256" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"3d9a23b4-8d08-478e-a18d-fec885fc5e65">
+<th data-local-id=3D"5584a105-f664-47ac-9618-6c7f41ecdfad" class=3D"conflue=
+nceTh">
+<p local-id=3D"38c370419992">Setting</p></th>
+<th data-local-id=3D"6d1ee0fd-b341-498d-b2d5-e47c6bbb795f" class=3D"conflue=
+nceTh">
+<p local-id=3D"76e67ce23b4b">Required</p></th>
+<th data-local-id=3D"238a143e-5bfd-4cda-b826-74b2e9057541" class=3D"conflue=
+nceTh">
+<p local-id=3D"02c1a03cce32">Description</p></th>
+</tr>
+<tr data-local-id=3D"ffe479f1-ab50-4c13-b8ee-5cddc0b4ba26">
+<td data-local-id=3D"a4dfe724-9a61-4519-8e29-009f7379fc0c" class=3D"conflue=
+nceTd">
+<p local-id=3D"9fa74338fdb9"><strong>Cooldown period</strong></p></td>
+<td data-local-id=3D"ca64bf4d-877d-43da-a594-08ad3115846a" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c5e54c08c61"><strong>Optional</strong></p></td>
+<td data-local-id=3D"b7cf5409-672b-440f-abdf-41ed7f6c28ea" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e0a32f6381d">The number of time units during which the acti=
+on will not run again for the same tracked entity. Set to <code>0</code> (d=
+efault) to disable the cooldown.</p></td>
+</tr>
+<tr data-local-id=3D"b005e344-3c6d-404a-8b03-84366b87b3bf">
+<td data-local-id=3D"7d70c6a3-b40e-4b26-8acb-316041106d3d" class=3D"conflue=
+nceTd">
+<p local-id=3D"4d3d8931c0dc"><strong>Unit</strong></p></td>
+<td data-local-id=3D"aa254b52-2271-4c99-9ac1-a99b2f6ae1fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"437e5ff20e1d"><strong>Optional</strong></p></td>
+<td data-local-id=3D"b1c81208-bd40-492b-a704-50bc6b138a98" class=3D"conflue=
+nceTd">
+<p local-id=3D"dbf20e74d73d">The time unit for the cooldown period. Options=
+: <strong>Minutes</strong>, <strong>Hours</strong>, <strong>Days</strong> (=
+default), <strong>Weeks</strong>.</p></td>
+</tr>
+<tr data-local-id=3D"8df45a6e-87e1-4be7-8541-42f6bfaa9b2e">
+<td data-local-id=3D"7fa145e1-8cdb-4713-abe6-319af3eb2d1b" class=3D"conflue=
+nceTd">
+<p local-id=3D"455f1df37210"><strong>Track by</strong></p></td>
+<td data-local-id=3D"4d8310e4-21be-424f-b669-15df06d3ce5d" class=3D"conflue=
+nceTd">
+<p local-id=3D"39c7084a6816"><strong>Optional</strong></p></td>
+<td data-local-id=3D"8e7c7a03-1c9f-47a9-8d02-ca57c5562c1f" class=3D"conflue=
+nceTd">
+<p local-id=3D"324a51c1128e">Determines the scope of the cooldown. Only vis=
+ible when the cooldown period is greater than 0.</p>
+<ul local-id=3D"b29e5b4c-e23d-41d3-8484-f68f84e35941">
+<li local-id=3D"4aa08a42-8281-4730-8ac0-2ee000ae3b6c">
+<p local-id=3D"ee3f6f4aa8b6"><strong>None</strong> (default) =E2=80=94 A si=
+ngle global cooldown window for this component instance.</p></li>
+<li local-id=3D"daffbcc6-d51b-4318-9d01-530c2370e668">
+<p local-id=3D"e9b5c158872c"><strong>Reservation</strong> =E2=80=94 Each re=
+servation gets its own independent cooldown window. Reservations that are s=
+till within their cooldown period are filtered out before processing.</p></=
+li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"3f294e92e5e2" id=3D"UpgradeAssignedRoomCategory-CooldownOut=
+put">Cooldown Output</h3>
+<p local-id=3D"c9cdbe1d3d42">When the cooldown is active (i.e., the action =
+is skipped because it already ran within the cooldown window), the componen=
+t outputs the following on the <strong>cooldown</strong> port:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7c=
+431152-bf2a-420d-b827-6e3330bb5242" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"f0fc65ea-6174-441d-8f5b-61de558e1c1d">
+<th data-local-id=3D"5bc45e83-347d-4583-b6db-3e82322f22b8" class=3D"conflue=
+nceTh">
+<p local-id=3D"82425e16ca5a">Field</p></th>
+<th data-local-id=3D"0a24bb13-6554-460b-a118-5d4e00b2251c" class=3D"conflue=
+nceTh">
+<p local-id=3D"ef6029da5284">Type</p></th>
+<th data-local-id=3D"72f6579c-b983-428f-b09b-be404bcec7f8" class=3D"conflue=
+nceTh">
+<p local-id=3D"00be5b5370f6">Description</p></th>
+</tr>
+<tr data-local-id=3D"78215378-dfcc-4b2d-a859-de93a31977bf">
+<td data-local-id=3D"9bb70281-e66c-4c11-9a90-a0e801a24b9c" class=3D"conflue=
+nceTd">
+<p local-id=3D"f377352e511e"><strong>Expires at</strong></p></td>
+<td data-local-id=3D"1373cb2e-d771-461c-b754-b5601324b38c" class=3D"conflue=
+nceTd">
+<p local-id=3D"67cc7fe5c8a0">Date &amp; Time</p></td>
+<td data-local-id=3D"7077baa3-d16a-4097-9821-36aa9dc00cb9" class=3D"conflue=
+nceTd">
+<p local-id=3D"c5320845a2de">The date and time (UTC) when the cooldown wind=
+ow expires and the action can run again.</p></td>
+</tr>
+<tr data-local-id=3D"05244467-37fd-4796-9db2-3e1c71baa432">
+<td data-local-id=3D"43ae097a-0e84-4515-8a56-260a0fe724aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"eedfc2daa8e1"><strong>Remaining (minutes)</strong></p></td>
+<td data-local-id=3D"0a506bac-5e12-4b6f-b759-ae1488248a32" class=3D"conflue=
+nceTd">
+<p local-id=3D"35efcdbfe9db">Number</p></td>
+<td data-local-id=3D"3be0f941-1183-4a37-ade4-239b2ceca262" class=3D"conflue=
+nceTd">
+<p local-id=3D"5abb35bd74c3">The number of minutes remaining until the cool=
+down expires.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"daea3f036b53"><strong>Tip:</strong> You can connect the <str=
+ong>cooldown</strong> port to other components to handle the cooldown scena=
+rio =E2=80=94 for example, to log that the upgrade was skipped or to notify=
+ an operator.</p>
+<hr local-id=3D"3f252f29-72f4-490f-a6ed-1aaf2646929e">
+<h2 local-id=3D"18dbd64c9cdf" id=3D"UpgradeAssignedRoomCategory-HowItWorks"=
+>How It Works</h2>
+<ol start=3D"1" local-id=3D"e8cae9e9-ca13-44de-9d6b-1c53673ef6d6">
+<li local-id=3D"7f0e2f80-54f6-4b44-93f7-a6ac94988c02">
+<p local-id=3D"760c75818425">The component receives a list of reservation I=
+Ds and upgrade path definitions from the previous step in the workflow (or =
+from manually configured values).</p></li>
+<li local-id=3D"c45e1ce9-9882-41fc-89f4-53c0ee81f873">
+<p local-id=3D"420beba1be2f">If a cooldown is configured and active, reserv=
+ations still within their cooldown window are filtered out before processin=
+g. If all reservations are filtered, the cooldown information is sent to th=
+e <strong>cooldown</strong> port.</p></li>
+<li local-id=3D"769eb4b2-a3d4-40a4-9c34-86b2ac0604ae">
+<p local-id=3D"4f3fcd05cb7b">For each reservation, the system looks up the =
+guest's currently assigned room category.</p></li>
+<li local-id=3D"d7c02bbf-8ed7-428d-b20e-379c6bd8af6b">
+<p local-id=3D"6e886a3b35dd">The system checks whether the reservation's cu=
+rrent room category matches any defined upgrade path. Upgrade paths support=
+ <strong>cascading</strong>: if a direct upgrade target has no availability=
+, the system follows the chain to try the next target in the path (e.g., St=
+andard =E2=86=92 Deluxe =E2=86=92 Suite).</p></li>
+<li local-id=3D"48ec2d8e-86d9-4181-96e3-5b9a16cdb5ef">
+<p local-id=3D"67f3acd0ee5e">Before performing an upgrade, the system check=
+s <strong>real-time room availability</strong> in the target category. This=
+ accounts for existing reservations, room blocks, and the resource hierarch=
+y (parent/child rooms). The upgrade is only attempted if the number of avai=
+lable rooms exceeds the configured availability buffer (or the per-category=
+ override, if set).</p></li>
+<li local-id=3D"160bf5f3-163f-432f-a08d-5b78ab5f7577">
+<p local-id=3D"da630178422c">If the <strong>Max Rooms to Upgrade</strong> c=
+ap has been reached, all remaining reservations are marked as failed with t=
+he <code>CAP_REACHED</code> reason.</p></li>
+<li local-id=3D"91e244da-f605-4eb4-8099-b542fbd7bebe">
+<p local-id=3D"b9ce3adaedee">Reservations whose assigned room is locked (ma=
+nually assigned by staff) are skipped and reported as failed.</p></li>
+<li local-id=3D"ee7785fe-6092-4d01-a2a7-a00d1aa2b772">
+<p local-id=3D"7567bc9c9dd2">Successfully upgraded reservations are sent to=
+ the <strong>upgraded</strong> output port. Failed reservations are sent to=
+ the <strong>failed</strong> output port with a reason.</p></li>
+</ol>
+<p local-id=3D"7b18deb78b46"><strong>Important:</strong> Reservations are p=
+rocessed sequentially in the order they are provided. Each successful upgra=
+de updates the availability count for subsequent reservations, ensuring acc=
+urate capacity tracking within a single run.</p>
+<hr local-id=3D"281d35c2-b752-4461-88d4-85b8749ffdd9">
+<h2 local-id=3D"01ec2859322b" id=3D"UpgradeAssignedRoomCategory-UpgradePath=
+Cascading">Upgrade Path Cascading</h2>
+<p local-id=3D"2938be62cefd">Upgrade paths can be chained to create cascadi=
+ng upgrade sequences. The system uses the defined paths to build a graph, a=
+nd attempts upgrades in order of proximity (closest upgrade first).</p>
+<h3 local-id=3D"dcec1fc2e0ae" id=3D"UpgradeAssignedRoomCategory-Cascadingac=
+rosssteps">Cascading across steps</h3>
+<p local-id=3D"a49918bbbba5">You can chain upgrade paths so that when a dir=
+ect upgrade target has no availability, the system follows the chain to try=
+ the next step.</p>
+<p local-id=3D"0110c9b70eaf"><strong>Example:</strong> If you define the fo=
+llowing upgrade paths:</p>
+<ul local-id=3D"7712625d-85e3-40d3-9bca-5dbbff68b1ec">
+<li local-id=3D"8885abf1-cda5-4fd9-9d03-44bbaaa80fa3">
+<p local-id=3D"5143a8e56f2a">Standard =E2=86=92 Deluxe</p></li>
+<li local-id=3D"4ba6342d-2f64-4625-8fec-15d620b9252b">
+<p local-id=3D"92de0deea95a">Deluxe =E2=86=92 Suite</p></li>
+</ul>
+<p local-id=3D"9bb1d4e2cb9f">A guest currently in a <strong>Standard</stron=
+g> room will first be considered for a <strong>Deluxe</strong> upgrade. If =
+no Deluxe rooms are available (after accounting for the buffer), the system=
+ will follow the chain and attempt to upgrade directly to a <strong>Suite</=
+strong>.</p>
+<h3 local-id=3D"eeaf18f05793" id=3D"UpgradeAssignedRoomCategory-Multipletar=
+getsperstep">Multiple targets per step</h3>
+<p local-id=3D"3d33dd903443">You can also define multiple upgrade targets f=
+or the same source category within a single step. The system will try each =
+target in order until one succeeds.</p>
+<p local-id=3D"07467b365fdf"><strong>Example:</strong> If you define the fo=
+llowing upgrade paths:</p>
+<ul local-id=3D"b2775c5c-5448-47bf-b3c3-57566758f89b">
+<li local-id=3D"53ba8acb-2f59-4964-add2-4b18e35566cc">
+<p local-id=3D"cced3c210302">Standard =E2=86=92 Deluxe</p></li>
+<li local-id=3D"bdd9f6d8-89a1-453d-9bbf-79fbe1e1c917">
+<p local-id=3D"aaa44ce360c7">Standard =E2=86=92 Superior Deluxe</p></li>
+</ul>
+<p local-id=3D"b376362dc00e">A guest currently in a <strong>Standard</stron=
+g> room will first be considered for a <strong>Deluxe</strong> upgrade. If =
+no Deluxe rooms are available, the system will then try <strong>Superior De=
+luxe</strong> before moving on.</p>
+<h3 local-id=3D"e0b6309c69af" id=3D"UpgradeAssignedRoomCategory-Combiningbo=
+thstrategies">Combining both strategies</h3>
+<p local-id=3D"14acc6f4bfe2">These two approaches can be combined for maxim=
+um flexibility. You can define multiple targets at the same level <em>and</=
+em> chain them to further steps.</p>
+<p local-id=3D"2e08f3a8a0e9"><strong>Example:</strong> If you define the fo=
+llowing upgrade paths:</p>
+<ul local-id=3D"7bd4c74c-7ed1-441c-a41e-b7755a8b20f5">
+<li local-id=3D"8458ee4c-92d6-4d23-9f19-45c8c028f971">
+<p local-id=3D"3c40681819de">Standard =E2=86=92 Deluxe</p></li>
+<li local-id=3D"bf326110-a713-4ebb-8fde-339926b123a3">
+<p local-id=3D"faa75e661730">Standard =E2=86=92 Superior Deluxe</p></li>
+<li local-id=3D"eb4b70f3-45e3-4495-870f-55e5502d1d3d">
+<p local-id=3D"e25c12052503">Deluxe =E2=86=92 Suite</p></li>
+<li local-id=3D"4e9eeda1-3511-43fd-959c-8d7b673fa272">
+<p local-id=3D"d7b9adfb41e2">Superior Deluxe =E2=86=92 Suite</p></li>
+</ul>
+<p local-id=3D"4f225e7eb879">A guest in a <strong>Standard</strong> room wi=
+ll be evaluated in this order: <strong>Deluxe</strong> first, then <strong>=
+Superior Deluxe</strong>, and finally <strong>Suite</strong> (reached throu=
+gh the cascading chain). The first target with available rooms (above the b=
+uffer threshold) wins.</p>
+<p local-id=3D"fe8f818ac21c"><strong>Note:</strong> Reservations that are a=
+lready assigned to a category that is a target of an upgrade path (but not =
+a source) are automatically skipped =E2=80=94 they are considered already a=
+t the end of an upgrade path and do not appear in the failed output.</p>
+<hr local-id=3D"30ef5f8a-9e93-4a65-b098-8d9e924e0ac6">
+<h2 local-id=3D"6bd355a9c16c" id=3D"UpgradeAssignedRoomCategory-FailureReas=
+ons">Failure Reasons</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"51=
+7a2272-3546-4221-8979-9dc6f12bbf90" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a5284933-e6ca-495e-aefb-7fe172ce8f1f">
+<th data-local-id=3D"ba59c6d9-a11a-4046-8238-67386e8aa188" class=3D"conflue=
+nceTh">
+<p local-id=3D"93b6c581b1b3">Reason</p></th>
+<th data-local-id=3D"a8acfc63-b64b-409c-a75f-8775684574de" class=3D"conflue=
+nceTh">
+<p local-id=3D"f237a4de7590">Description</p></th>
+</tr>
+<tr data-local-id=3D"59fc44ca-a1d2-4a8e-bbc4-ca1064d27934">
+<td data-local-id=3D"b2c6a78e-c139-4e51-9627-d81662dd57ae" class=3D"conflue=
+nceTd">
+<p local-id=3D"72ccb4feb3f1"><code>NO_AVAILABILITY</code></p></td>
+<td data-local-id=3D"588372bd-0e54-4368-bf23-5f5babbb762b" class=3D"conflue=
+nceTd">
+<p local-id=3D"eb6fe5061370">All target room categories in the upgrade path=
+ are fully occupied or do not have enough rooms available above the configu=
+red availability buffer. This also applies when the reservation's assigned =
+room is locked by staff.</p></td>
+</tr>
+<tr data-local-id=3D"28a56532-60aa-4546-982c-f20303305fb7">
+<td data-local-id=3D"ea6fd43c-2aa2-49bd-ab93-d7e3bd8160d1" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d0e6c45818b"><code>CAP_REACHED</code></p></td>
+<td data-local-id=3D"78140cb8-c82c-4939-b5e0-1769355ca47d" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e8058e75c0c">The maximum number of upgrades (<strong>Max Ro=
+oms to Upgrade</strong>) for this run has already been reached. The reserva=
+tion was not evaluated for availability.</p></td>
+</tr>
+<tr data-local-id=3D"3c7cfade-f857-48ad-a167-9a35cfe9f75b">
+<td data-local-id=3D"c36eb285-08e0-4ef3-899c-0a86e4ae5f43" class=3D"conflue=
+nceTd">
+<p local-id=3D"964bfac66065"><code>NO_CATEGORY_FOUND</code></p></td>
+<td data-local-id=3D"4020eb52-b510-420e-8fd7-4eda4cc5a438" class=3D"conflue=
+nceTd">
+<p local-id=3D"f1a6b2275e18">The reservation's current room category does n=
+ot match any <em>From</em> category in the defined upgrade paths, and it is=
+ not a target category either.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"1e680afe-ba87-41fa-9635-5f0e8702157c">
+<h2 local-id=3D"632a2ab3b05b" id=3D"UpgradeAssignedRoomCategory-ExampleUseC=
+ases">Example Use Cases</h2>
+<ul local-id=3D"7f45743a-e285-4ef5-b834-26b09694517e">
+<li local-id=3D"4a2b2474-d77f-481b-b213-608a0a19cb2b">
+<p local-id=3D"3b0eee309ce3"><strong>Daily automated upgrades</strong> =E2=
+=80=94 Schedule a workflow to run each morning that fetches today's arrivin=
+g reservations and upgrades eligible guests from Standard to Deluxe rooms, =
+keeping 2 Deluxe rooms in reserve for walk-in guests.</p></li>
+<li local-id=3D"bf14246d-ad5b-40c6-83ba-477470b2ad14">
+<p local-id=3D"8113a99d8f94"><strong>VIP guest upgrades</strong> =E2=80=94 =
+When a reservation is tagged as VIP, automatically attempt to upgrade the g=
+uest to the best available room category using cascading paths (Standard =
+=E2=86=92 Deluxe =E2=86=92 Suite), with a per-category buffer to always kee=
+p 1 Suite available.</p></li>
+<li local-id=3D"6db8ebc2-15d5-444b-b602-c48e5808e3ae">
+<p local-id=3D"ba0668bbb5e8"><strong>Occupancy optimization</strong> =E2=80=
+=94 Run upgrades for all arriving reservations when occupancy in higher cat=
+egories is below a threshold, maximizing room utilization while maintaining=
+ availability buffers.</p></li>
+<li local-id=3D"55446c07-97c1-4bbc-b425-ea0e89460317">
+<p local-id=3D"85487fa925b5"><strong>Controlled batch upgrades</strong> =E2=
+=80=94 Use the <strong>Max Rooms to Upgrade</strong> setting to limit upgra=
+des to 5 per run, ensuring a gradual rollout that can be reviewed by staff.=
+</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_20_1294279265.1777536501152--

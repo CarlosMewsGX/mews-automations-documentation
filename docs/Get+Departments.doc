@@ -1,0 +1,365 @@
+Date: Thu, 30 Apr 2026 08:09:13 +0000 (UTC)
+Message-ID: <841883710.13.1777536553866@141b5dfb2d4b>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1187669883.1777536553865"
+
+------=_Part_12_1187669883.1777536553865
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Departments</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Departments</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"a179e9ea4c86"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"0b3072b1e444"><strong>Category:</strong> Property Configurat=
+ion</p>
+<h2 local-id=3D"9b809bb2ac4b" id=3D"GetDepartments-Overview">Overview</h2>
+<p local-id=3D"4b70cd38388f">The <strong>Get Departments</strong> action re=
+trieves all the departments configured for your property (e.g., Housekeepin=
+g, Maintenance, Front Office). Departments represent the organizational uni=
+ts within your property that can be assigned to tasks and other operational=
+ items in Mews Operations.</p>
+<p local-id=3D"162661170b85">This component requires no input fields =E2=80=
+=94 it automatically retrieves all active departments for the connected pro=
+perty. The component outputs a list of departments on the <strong>out</stro=
+ng> port, where each item contains a unique identifier and a display name. =
+This is commonly used as a helper step within a workflow to provide a list =
+of available departments for downstream actions or conditions =E2=80=94 for=
+ example, to assign a department when creating a task, or to route workflow=
+ logic based on the department involved.</p>
+<hr local-id=3D"7631c264-cb9f-4ee0-ba6b-78ba3b03fa4c">
+<h2 local-id=3D"673842f4f0d2" id=3D"GetDepartments-InputFields">Input Field=
+s</h2>
+<p local-id=3D"6fc68c5a6c6c">This component has no input fields. It automat=
+ically retrieves all departments configured for the property associated wit=
+h the connected Mews account.</p>
+<hr local-id=3D"7983fbc8-8894-47d3-92dd-2ccc1dc2df6c">
+<h2 local-id=3D"4df6edc9c60e" id=3D"GetDepartments-OutputFields">Output Fie=
+lds</h2>
+<p local-id=3D"60e1b6a6c300">When the departments are successfully retrieve=
+d, the following values are available on the <strong>out</strong> output po=
+rt as an array called <strong>Items</strong>. Each item in the array contai=
+ns:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a52643e6-feae-468a-964d-7a5=
+342176599" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"d6d35980-ab34-4c49-8939-d92911f85a4a">
+<th data-local-id=3D"a997de8a-5f1f-44e6-9694-8b342692f5f7" class=3D"conflue=
+nceTh">
+<p local-id=3D"ffd487d88a9d">Field</p></th>
+<th data-local-id=3D"8c3a78fc-152d-4a9a-93f0-a312d58dbea1" class=3D"conflue=
+nceTh">
+<p local-id=3D"152f421afbd2">Type</p></th>
+<th data-local-id=3D"d2cf3c57-97a9-4024-b1c5-40776e9a375b" class=3D"conflue=
+nceTh">
+<p local-id=3D"be22aecfc75a">Description</p></th>
+</tr>
+<tr data-local-id=3D"e76aa907-fb3e-46d5-80c0-1ea167bd4dcb">
+<td data-local-id=3D"ba4ef152-057b-40e8-9b48-1e6d892fc79f" class=3D"conflue=
+nceTd">
+<p local-id=3D"dde27113f4a5"><strong>Value</strong></p></td>
+<td data-local-id=3D"9bf96a8e-89b4-4b15-9c6f-1a1353e363ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"c5a0741e430d">Text (GUID)</p></td>
+<td data-local-id=3D"f2504b2d-847e-46b7-b670-bdad8fbf8781" class=3D"conflue=
+nceTd">
+<p local-id=3D"724c210dcabe">The unique identifier of the department. This =
+ID can be used in subsequent workflow steps to reference a specific departm=
+ent =E2=80=94 for example, when assigning a department to a new task.</p></=
+td>
+</tr>
+<tr data-local-id=3D"2c6685e1-33fe-46ff-8c87-0b62aefbf716">
+<td data-local-id=3D"c82f4590-34ed-423b-994d-32a9c0919d6d" class=3D"conflue=
+nceTd">
+<p local-id=3D"c54f6fe29a8f"><strong>Label</strong></p></td>
+<td data-local-id=3D"a42d4945-6559-454a-8efe-41674b24b915" class=3D"conflue=
+nceTd">
+<p local-id=3D"78e505542b83">Text</p></td>
+<td data-local-id=3D"7bd5578d-6b73-4771-8ae3-557623b0169c" class=3D"conflue=
+nceTd">
+<p local-id=3D"9cf5867bee4f">The display name of the department as configur=
+ed in your property settings (e.g., "Housekeeping", "Maintenance", "Front O=
+ffice").</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"928836d6a1d6"><strong>Note:</strong> The results are sorted =
+alphabetically by the department name to make it easier to find specific de=
+partments in the list.</p>
+<hr local-id=3D"42848c23-787d-4344-82b0-17d71655794f">
+<h2 local-id=3D"76fdf39d4f4a" id=3D"GetDepartments-HowItWorks">How It Works=
+</h2>
+<ol start=3D"1" local-id=3D"3c8ef84f-7665-4adf-b442-8e722fdd6933">
+<li local-id=3D"59d14596-df86-4a68-8650-adaff6311ca6">
+<p local-id=3D"bf68b9927746">The component is triggered by a previous step =
+in the workflow (no input configuration is needed).</p></li>
+<li local-id=3D"f83d81ec-8c05-43ea-8c16-5615e107c087">
+<p local-id=3D"e657e69d8fda">A request is sent to retrieve all active depar=
+tments for the property associated with the connected Mews account.</p></li=
+>
+<li local-id=3D"0af27e2b-507a-4203-8fa5-dc222f4871e2">
+<p local-id=3D"edd2bc9a91cf">Only active departments are included =E2=80=94=
+ any departments that have been deactivated or deleted in your property set=
+tings are excluded from the results.</p></li>
+<li local-id=3D"c529972d-0f37-4d7c-b170-db4f93e0d878">
+<p local-id=3D"c4d0c1f8e1ea">Each department is mapped to a label (display =
+name) and value (unique ID), sorted alphabetically by name.</p></li>
+<li local-id=3D"3fcaf841-71d4-4624-96b6-47bf5f78548d">
+<p local-id=3D"c758dffe50e8">The list of departments is sent to the <strong=
+>out</strong> output port as an array of items.</p></li>
+</ol>
+<hr local-id=3D"84a1c06f-26b3-4757-9833-12714c569eb3">
+<h2 local-id=3D"57bb07455e42" id=3D"GetDepartments-ExampleUseCases">Example=
+ Use Cases</h2>
+<ul local-id=3D"9155a9c5-0871-46ce-b224-4a70fce94562">
+<li local-id=3D"fa83c907-9d00-40c5-b3fe-cd9e80471954">
+<p local-id=3D"7f284faa1bb0"><strong>Task assignment</strong> =E2=80=94 Use=
+ Get Departments to retrieve the list of departments, then use the departme=
+nt ID in a subsequent <strong>Add Task</strong> action to assign the newly =
+created task to a specific department (e.g., Housekeeping).</p></li>
+<li local-id=3D"c3b035f9-fd09-4562-a322-505b1a427461">
+<p local-id=3D"e61630ecac8a"><strong>Department-based routing</strong> =E2=
+=80=94 Retrieve all departments and use them in a conditional step to apply=
+ different workflow logic depending on which department is involved (e.g., =
+route maintenance requests to one flow and housekeeping requests to another=
+).</p></li>
+<li local-id=3D"25828140-890d-470a-97cb-56794c3b7b49">
+<p local-id=3D"4aeae46999f5"><strong>Dropdown population</strong> =E2=80=94=
+ Provide a dynamic list of departments as selectable options in other compo=
+nents that accept a department input, ensuring the options always reflect t=
+he current property configuration.</p></li>
+</ul>
+<hr local-id=3D"f6c374d1-bd39-44b8-8927-4ba261100794">
+<h2 local-id=3D"d1da6742a01f" id=3D"GetDepartments-Caching">Caching</h2>
+<p local-id=3D"17d39094e0d5">The results of this component are cached to im=
+prove performance. Departments are relatively static data that does not cha=
+nge frequently. If you have recently added or modified departments in your =
+property settings, there may be a short delay before the updated department=
+s appear in the component's output.</p>
+    </div>
+</body>
+</html>
+------=_Part_12_1187669883.1777536553865--

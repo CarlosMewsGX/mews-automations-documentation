@@ -1,0 +1,430 @@
+Date: Thu, 30 Apr 2026 08:08:51 +0000 (UTC)
+Message-ID: <1406024768.25.1777536531394@48b79e00b84a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_1817784459.1777536531394"
+
+------=_Part_24_1817784459.1777536531394
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Get Products For Reservations</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Get Products For Reservations</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"cf1bf6d881d3"><strong>Component type:</strong> Actio=
+n</p>
+<p local-id=3D"7ab9f2bf1469"><strong>Category:</strong> Reservations</p>
+<h2 local-id=3D"243e7492f8ad" id=3D"GetProductsForReservations-Overview">Ov=
+erview</h2>
+<p local-id=3D"b384408da569">The <strong>Get Products for Reservations</str=
+ong> action retrieves the list of products that can be ordered for a specif=
+ic reservation. Given a reservation, the component looks up the service (e.=
+g., accommodation) that the reservation belongs to and returns all availabl=
+e products configured for that service.</p>
+<p local-id=3D"136b6fc184a8">Only products that are marked as <strong>order=
+able by employees</strong> are returned. Default (automatically posted) pro=
+ducts are excluded, since they are not meant to be manually ordered.</p>
+<p local-id=3D"366a4f63e4f7">Each product is returned as a <strong>value/la=
+bel</strong> pair, where the value is the product's unique identifier and t=
+he label is the product's name displayed in the property's language. This m=
+akes the output ideal for use as a dropdown source in subsequent workflow s=
+teps =E2=80=94 for example, letting a user select which product to add to a=
+ reservation.</p>
+<hr local-id=3D"c1fbc916-237a-4c5d-b8fb-bdf50b5f9056">
+<h2 local-id=3D"8c66f6eb7581" id=3D"GetProductsForReservations-InputFields"=
+>Input Fields</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"43e0e484-864e-45ee-9c0b-40f=
+a773680b5" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"e16fd0c9-219c-400c-aa6b-754302c62f2a">
+<th data-local-id=3D"9da8b0c5-f08a-42f0-9687-4d52bb645a04" class=3D"conflue=
+nceTh">
+<p local-id=3D"44cac8b5691e">Field</p></th>
+<th data-local-id=3D"53a19f2a-7d97-423e-874d-9443ca1a8a94" class=3D"conflue=
+nceTh">
+<p local-id=3D"bb8cd15dd306">Required</p></th>
+<th data-local-id=3D"bff2139e-012d-4a0f-b3bd-1255442f3ae9" class=3D"conflue=
+nceTh">
+<p local-id=3D"864b25ffbd04">Type</p></th>
+<th data-local-id=3D"5c4ca49d-be2f-47a9-89dc-39e828788beb" class=3D"conflue=
+nceTh">
+<p local-id=3D"a4c04e32b7a5">Description</p></th>
+</tr>
+<tr data-local-id=3D"acb183b1-1c72-49bd-97bd-4370d711ca95">
+<td data-local-id=3D"e7adb6ba-fe16-42e0-909b-7ade6bd01048" class=3D"conflue=
+nceTd">
+<p local-id=3D"3200c2cdf5e2"><strong>Reservation ID</strong></p></td>
+<td data-local-id=3D"92581b8e-bfd8-4bb5-9a97-20dba7eef946" class=3D"conflue=
+nceTd">
+<p local-id=3D"612016cc7223"><strong>Required</strong></p></td>
+<td data-local-id=3D"919186d1-569c-4a4f-9347-e71b22ea8987" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab5cfd7e90ef">Text (GUID)</p></td>
+<td data-local-id=3D"e583ec66-5858-4049-bff5-48214544c8d2" class=3D"conflue=
+nceTd">
+<p local-id=3D"a24e4f248b13">The unique identifier of the reservation for w=
+hich to retrieve available products. This is typically populated dynamicall=
+y from a previous step in the workflow (e.g., a reservation trigger or a "G=
+et Eligible Arrivals" action).</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr local-id=3D"920b0782-4d09-4d98-9159-017d3248ee14">
+<h2 local-id=3D"47f948361e95" id=3D"GetProductsForReservations-OutputFields=
+">Output Fields</h2>
+<p local-id=3D"eaf06f53c5c2">When products are successfully retrieved, the =
+following values are available on the <strong>out</strong> output port for =
+use in subsequent workflow steps:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"4856e1ad-6575-415f-b56e-116=
+38be6fd05" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a98a1f65-0326-4f3e-9197-cbd35f3a6da2">
+<th data-local-id=3D"d145cf3e-f0db-46ad-a1be-4bd74310d65f" class=3D"conflue=
+nceTh">
+<p local-id=3D"c41d9d8cd351">Field</p></th>
+<th data-local-id=3D"f56cb9f1-c341-42cd-8a6a-803106358bfd" class=3D"conflue=
+nceTh">
+<p local-id=3D"ed75891f27a0">Type</p></th>
+<th data-local-id=3D"6344dc5b-34eb-4c0c-b227-8566fc58cb4e" class=3D"conflue=
+nceTh">
+<p local-id=3D"a60c3409e4f9">Description</p></th>
+</tr>
+<tr data-local-id=3D"b5f8bbee-e736-4583-bb42-3c949c72a9df">
+<td data-local-id=3D"f7fea38c-2088-4cde-9937-16ad807c5abd" class=3D"conflue=
+nceTd">
+<p local-id=3D"183621788637"><strong>Items</strong></p></td>
+<td data-local-id=3D"6b11ba54-6634-4a1c-8d0f-3426799ef929" class=3D"conflue=
+nceTd">
+<p local-id=3D"83b75dfb1cda">Array of objects</p></td>
+<td data-local-id=3D"db7d21f8-4c90-455c-8118-1cd2d905d13a" class=3D"conflue=
+nceTd">
+<p local-id=3D"090a7afe3f03">A list of available products for the reservati=
+on. Each item in the array contains:</p>
+<ul local-id=3D"222561b8-7677-4f63-80f5-e67c6f24dba2">
+<li local-id=3D"2cbb1b1a-9652-486c-b0f0-f6a9787c2be1">
+<p local-id=3D"88c29c5378e7"><strong>Value</strong> =E2=80=94 The unique id=
+entifier (GUID) of the product. Use this value when passing the product to =
+other components (e.g., "Add Product to Reservation").</p></li>
+<li local-id=3D"b681b0a9-ab11-4dfc-85d5-c1899b89f8c0">
+<p local-id=3D"ffca91629e38"><strong>Label</strong> =E2=80=94 The localized=
+ display name of the product, shown in the language configured for the prop=
+erty.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"1dba5254fe9f"><strong>Note:</strong> If no orderable product=
+s are configured for the reservation's service, the <strong>Items</strong> =
+array will be empty.</p>
+<hr local-id=3D"a39c2ce1-d071-4ee7-9819-b1f7e9d00f42">
+<h2 local-id=3D"7387378d89f3" id=3D"GetProductsForReservations-HowItWorks">=
+How It Works</h2>
+<ol start=3D"1" local-id=3D"da54950a-033f-4683-b1a4-aeb0e219ef90">
+<li local-id=3D"b09849e5-0bf5-429a-b135-f241bae5bf53">
+<p local-id=3D"c879c2556b9e">The component receives the <strong>Reservation=
+ ID</strong> from the previous step in the workflow (or from a manually con=
+figured value).</p></li>
+<li local-id=3D"a2d6ed81-b859-4c9c-8c27-6c5f394d1754">
+<p local-id=3D"bf681330ab67">The system looks up the reservation and identi=
+fies which <strong>service</strong> (e.g., accommodation) it belongs to. It=
+ also verifies that the reservation belongs to the current property.</p></l=
+i>
+<li local-id=3D"2579afe8-707a-418f-b57b-44e90f388089">
+<p local-id=3D"41ea262b2b8f">If the reservation is not found or does not be=
+long to the property, the component returns an error.</p></li>
+<li local-id=3D"d75db44b-8eb9-442e-abe5-2e4f93c3daad">
+<p local-id=3D"d8cae3f8a3e8">The system then queries all <strong>active pro=
+ducts</strong> associated with that service, filtering to include only:</p>
+<ul local-id=3D"db385f13-eeda-4cf0-bce2-067cd191ca93">
+<li local-id=3D"ba54e9a1-c92b-4fac-a282-2de7c35dc122">
+<p local-id=3D"959224f18e11">Products that are <strong>orderable by employe=
+es</strong> (i.e., products configured to be available for manual ordering =
+by staff).</p></li>
+<li local-id=3D"4942c83b-d25d-42a3-9169-1f0c7c765fd0">
+<p local-id=3D"e0c7727dd28f">Products that are <strong>not default</strong>=
+ (default products are automatically posted and are not intended for manual=
+ selection).</p></li>
+</ul></li>
+<li local-id=3D"0493c8a9-3034-401e-9139-c487736e0375">
+<p local-id=3D"396bb08f38c2">Each matching product is returned with its uni=
+que identifier and its localized name.</p></li>
+<li local-id=3D"4db389e8-ed10-4480-bc2e-62b4122c1a30">
+<p local-id=3D"654fe7bba355">The list of products is sent to the <strong>ou=
+t</strong> output port.</p></li>
+</ol>
+<hr local-id=3D"9310633a-7d5f-4845-b4be-2ac0ed8a48a5">
+<h2 local-id=3D"faec5eb66701" id=3D"GetProductsForReservations-ExampleUseCa=
+ses">Example Use Cases</h2>
+<ul local-id=3D"a4440385-791e-4720-a4ca-8fc5aaa9e43f">
+<li local-id=3D"8c15f63c-b0ce-4561-a996-f3645b4d0682">
+<p local-id=3D"09af982db26a"><strong>Product selection dropdown</strong> =
+=E2=80=94 Use this component to populate a dynamic dropdown in a subsequent=
+ step, allowing users to select which product to add to a reservation.</p><=
+/li>
+<li local-id=3D"7f280ce6-5573-4a5a-9ce3-4ba4ed0118ec">
+<p local-id=3D"740d6d6dc49d"><strong>Automated product ordering</strong> =
+=E2=80=94 Combine with the "Add Product to Reservation" action to automatic=
+ally add a specific product to a reservation when certain conditions are me=
+t (e.g., a VIP guest arrives).</p></li>
+<li local-id=3D"8e2934d0-9917-4427-b9f5-f9692329966e">
+<p local-id=3D"0d8f05276085"><strong>Product availability check</strong> =
+=E2=80=94 Use the output to verify whether specific products are available =
+for a reservation before proceeding with a workflow.</p></li>
+</ul>
+<hr local-id=3D"84f5ce3d-c324-44ca-ba6e-84def2b038a9">
+<h2 local-id=3D"7b900a466e17" id=3D"GetProductsForReservations-ErrorHandlin=
+g">Error Handling</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"7d2ec3b0-c3f7-4f7b-86f2-6f0=
+f3d887330" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"77388670-902d-4c94-9e3d-0c4e4993ca89">
+<th data-local-id=3D"a8180768-f7c2-4560-aba7-42dac31a7fc3" class=3D"conflue=
+nceTh">
+<p local-id=3D"8cb58ee574f0">Error</p></th>
+<th data-local-id=3D"9bd21c19-0718-47b1-b491-4cebe1cd33e0" class=3D"conflue=
+nceTh">
+<p local-id=3D"871ab9f8f623">Cause</p></th>
+</tr>
+<tr data-local-id=3D"b8fc56ee-6825-4128-a02b-2b77e421e881">
+<td data-local-id=3D"36228439-2341-4fa3-8243-f03da1815e60" class=3D"conflue=
+nceTd">
+<p local-id=3D"3e8f7e20e471"><code>Reservation '{id}' was not found</code><=
+/p></td>
+<td data-local-id=3D"d589be52-622c-4ede-8dbf-65341841a6ba" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d4df3230206">The provided Reservation ID does not match any=
+ active reservation in the current property. This can happen if the ID is i=
+ncorrect, the reservation has been deleted, or it belongs to a different pr=
+operty.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_24_1817784459.1777536531394--

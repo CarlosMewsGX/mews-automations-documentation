@@ -1,3 +1,17 @@
+function Screenshot({ file, alt }: { file: string; alt: string }) {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  return (
+    <div className="my-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+      <img
+        src={`${base}/screenshots/${file}`}
+        alt={alt}
+        className="w-full"
+        onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
+      />
+    </div>
+  );
+}
+
 function ConfigTable({ rows }: { rows: { field: string; default: string; status: 'required' | 'recommended' | 'optional'; desc: string }[] }) {
   return (
     <div className="overflow-x-auto">
@@ -61,6 +75,7 @@ export function TemplatesSection() {
               notification, and any reservations where the upgrade failed are marked with a note for manual
               review by your team.
             </p>
+            <Screenshot file="upgrade-room-flow.png" alt="Upgrade Room for Loyalty Members flow" />
           </div>
 
           <div>
@@ -229,6 +244,7 @@ export function TemplatesSection() {
               team to prepare the gift, and sends an SMS to the guest informing them about the amenity. It
               ensures VIP guests receive a personalized touch without manual intervention.
             </p>
+            <Screenshot file="welcome-gift-flow.png" alt="Welcome Gift for VIP Guests flow" />
           </div>
 
           <div>

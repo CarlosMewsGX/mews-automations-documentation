@@ -5,9 +5,26 @@ function Screenshot({ file, alt }: { file: string; alt: string }) {
       <img
         src={`${base}/screenshots/${file}`}
         alt={alt}
-        className="w-full"
-        onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
+        className="w-full block"
+        onError={(e) => {
+          const img = e.target as HTMLImageElement;
+          img.style.display = 'none';
+          const placeholder = img.parentElement!.querySelector('.screenshot-placeholder') as HTMLElement;
+          if (placeholder) placeholder.style.display = 'flex';
+        }}
       />
+      <div
+        className="screenshot-placeholder w-full bg-gray-100 border-2 border-dashed border-gray-300 rounded flex flex-col items-center justify-center py-12 gap-2"
+        style={{ display: 'none' }}
+      >
+        <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="2" strokeWidth="1.5" />
+          <circle cx="8.5" cy="8.5" r="1.5" strokeWidth="1.5" />
+          <path d="M21 15l-5-5L5 21" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <span className="text-sm text-gray-500 font-medium">{alt}</span>
+        <span className="text-xs text-gray-400">{file}</span>
+      </div>
     </div>
   );
 }

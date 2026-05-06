@@ -4,6 +4,7 @@ import { GettingStartedSection } from './components/GettingStartedSection';
 import { TemplatesSection } from './components/TemplatesSection';
 import { OverviewSection } from './components/OverviewSection';
 import { ComponentsSection } from './components/ComponentsSection';
+import { ClaudeSkillSection } from './components/ClaudeSkillSection';
 
 const gettingStartedItems = [
   { id: 'what-are-automations', label: 'What are Automations?' },
@@ -184,6 +185,10 @@ export default function App() {
               )}
             </div>
 
+            {/* Claude Skill */}
+            <button onClick={() => navigate('claude-skill')} className={sectionCls('claude-skill')}>
+              Claude Skill
+            </button>
 
           </nav>
         </aside>
@@ -197,12 +202,14 @@ export default function App() {
                 {activeSection === 'getting-started' && 'Getting Started with Mews Automations'}
                 {activeSection === 'templates' && 'Templates'}
                 {activeSection === 'components' && 'Components'}
+                {activeSection === 'claude-skill' && 'Claude Skill for Mews Automations'}
               </h1>
               <p className="text-gray-600 text-lg">
                 {activeSection === 'overview' && 'Welcome to Mews Automations Documentation'}
                 {activeSection === 'getting-started' && 'Learn how to get started with Mews Automations'}
                 {activeSection === 'templates' && 'Explore pre-built automation templates'}
                 {activeSection === 'components' && 'Browse available automation components'}
+                {activeSection === 'claude-skill' && 'An AI assistant skill that gives Claude expert knowledge of Mews Automations'}
               </p>
             </div>
             <div className="space-y-10">
@@ -210,6 +217,7 @@ export default function App() {
               {activeSection === 'templates' && <TemplatesSection />}
               {activeSection === 'overview' && <OverviewSection />}
               {activeSection === 'components' && <ComponentsSection />}
+              {activeSection === 'claude-skill' && <ClaudeSkillSection />}
             </div>
           </div>
         </div>

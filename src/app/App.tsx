@@ -5,6 +5,7 @@ import { TemplatesSection } from './components/TemplatesSection';
 import { OverviewSection } from './components/OverviewSection';
 import { ComponentsSection } from './components/ComponentsSection';
 import { ClaudeSkillSection } from './components/ClaudeSkillSection';
+import { OtherComponentsSection } from './components/OtherComponentsSection';
 
 const gettingStartedItems = [
   { id: 'what-are-automations', label: 'What are Automations?' },
@@ -160,10 +161,10 @@ export default function App() {
               )}
             </div>
 
-            {/* Components */}
+            {/* Mews Components */}
             <div>
               <button onClick={() => { navigate('components'); toggleExpand('components'); }} className={sectionCls('components')}>
-                <span>Components</span>
+                <span>Mews Components</span>
                 <ChevronDown className={`w-4 h-4 flex-shrink-0 transition-transform duration-200 ${expanded.includes('components') ? 'rotate-180' : ''}`} />
               </button>
               {expanded.includes('components') && (
@@ -185,6 +186,11 @@ export default function App() {
               )}
             </div>
 
+            {/* Other Components */}
+            <button onClick={() => navigate('other-components')} className={sectionCls('other-components')}>
+              Other Components
+            </button>
+
             {/* Claude Skill */}
             <button onClick={() => navigate('claude-skill')} className={sectionCls('claude-skill')}>
               Claude Skill
@@ -201,14 +207,16 @@ export default function App() {
                 {activeSection === 'overview' && 'Overview'}
                 {activeSection === 'getting-started' && 'Getting Started with Mews Automations'}
                 {activeSection === 'templates' && 'Templates'}
-                {activeSection === 'components' && 'Components'}
+                {activeSection === 'components' && 'Mews Components'}
+                {activeSection === 'other-components' && 'Other Components'}
                 {activeSection === 'claude-skill' && 'Claude Skill for Mews Automations'}
               </h1>
               <p className="text-gray-600 text-lg">
                 {activeSection === 'overview' && 'Welcome to Mews Automations Documentation'}
                 {activeSection === 'getting-started' && 'Learn how to get started with Mews Automations'}
                 {activeSection === 'templates' && 'Explore pre-built automation templates'}
-                {activeSection === 'components' && 'Browse available automation components'}
+                {activeSection === 'components' && 'Browse native Mews automation components'}
+                {activeSection === 'other-components' && 'Third-party connectors available in Mews Automations'}
                 {activeSection === 'claude-skill' && 'An AI assistant skill that gives Claude expert knowledge of Mews Automations'}
               </p>
             </div>
@@ -217,6 +225,7 @@ export default function App() {
               {activeSection === 'templates' && <TemplatesSection />}
               {activeSection === 'overview' && <OverviewSection />}
               {activeSection === 'components' && <ComponentsSection />}
+              {activeSection === 'other-components' && <OtherComponentsSection />}
               {activeSection === 'claude-skill' && <ClaudeSkillSection />}
             </div>
           </div>

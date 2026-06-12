@@ -6,6 +6,7 @@ import { OverviewSection } from './components/OverviewSection';
 import { ComponentsSection } from './components/ComponentsSection';
 import { ClaudeSkillSection } from './components/ClaudeSkillSection';
 import { OtherComponentsSection } from './components/OtherComponentsSection';
+import { RoadmapSection } from './components/RoadmapSection';
 
 const gettingStartedItems = [
   { id: 'what-are-automations', label: 'What are Automations?' },
@@ -191,6 +192,11 @@ export default function App() {
               Other Components
             </button>
 
+            {/* Roadmap */}
+            <button onClick={() => navigate('roadmap')} className={sectionCls('roadmap')}>
+              Components Roadmap
+            </button>
+
             {/* Claude Skill */}
             <button onClick={() => navigate('claude-skill')} className={sectionCls('claude-skill')}>
               Claude Skill
@@ -209,6 +215,7 @@ export default function App() {
                 {activeSection === 'templates' && 'Templates'}
                 {activeSection === 'components' && 'Mews Components'}
                 {activeSection === 'other-components' && 'Other Components'}
+                {activeSection === 'roadmap' && 'Components Roadmap'}
                 {activeSection === 'claude-skill' && 'Claude Skill for Mews Automations'}
               </h1>
               <p className="text-gray-600 text-lg">
@@ -217,6 +224,7 @@ export default function App() {
                 {activeSection === 'templates' && 'Explore pre-built automation templates'}
                 {activeSection === 'components' && 'Browse native Mews automation components'}
                 {activeSection === 'other-components' && 'Third-party connectors available in Mews Automations'}
+                {activeSection === 'roadmap' && 'What\'s live, in refinement, and planned across all phases'}
                 {activeSection === 'claude-skill' && 'An AI assistant skill that gives Claude expert knowledge of Mews Automations'}
               </p>
             </div>
@@ -226,6 +234,7 @@ export default function App() {
               {activeSection === 'overview' && <OverviewSection />}
               {activeSection === 'components' && <ComponentsSection />}
               {activeSection === 'other-components' && <OtherComponentsSection />}
+              {activeSection === 'roadmap' && <RoadmapSection />}
               {activeSection === 'claude-skill' && <ClaudeSkillSection />}
             </div>
           </div>

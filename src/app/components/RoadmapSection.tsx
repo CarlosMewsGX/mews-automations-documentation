@@ -211,42 +211,6 @@ export function RoadmapSection() {
         <span className="ml-auto text-xs text-gray-400">{total} total · {upsellCount} upsell-bet components</span>
       </section>
 
-      {/* Component definition checklist */}
-      <section className="border border-gray-200 rounded-lg overflow-hidden">
-        <button
-          onClick={(e) => {
-            const el = e.currentTarget.nextElementSibling as HTMLElement;
-            el.style.display = el.style.display === 'none' ? 'block' : 'none';
-          }}
-          className="w-full flex items-center justify-between px-6 py-4 bg-gray-50 hover:bg-gray-100 transition-colors text-left"
-        >
-          <span className="text-sm font-semibold text-gray-700">Component definition checklist</span>
-          <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-        <div style={{ display: 'none' }} className="px-6 py-5 bg-white">
-          <p className="text-sm text-gray-600 mb-4">Every component is defined against these eight points:</p>
-          <ol className="space-y-2">
-            {[
-              ['Identity', 'Name, type (Trigger / Action / Utility), category, and canonical doc name where the partner-facing name differs.'],
-              ['Purpose', 'One line: what it does and where it sits in a flow.'],
-              ['Inputs', 'Per field: name, Required/Optional, type, source (static vs dynamic from property), notes.'],
-              ['Outputs', 'Per port: payload shape (single object vs array Items), field names and types.'],
-              ['Behaviour', 'Ordered processing logic, including caching and localisation.'],
-              ['Ports & error handling', 'Success port(s), failure/empty behaviour, documented error messages.'],
-              ['Cross-cutting settings', 'Cooldown (track by None/Reservation/Guest) and caching policy.'],
-              ['Example use cases', 'At least two concrete hotel scenarios to validate usefulness.'],
-            ].map(([label, desc]) => (
-              <li key={label} className="flex gap-3 text-sm">
-                <span className="font-semibold text-gray-900 w-44 flex-shrink-0">{label}</span>
-                <span className="text-gray-600">{desc}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
       {/* Priority groups */}
       {groups.map((group) => (
         <PrioritySection key={group.priority} group={group} />

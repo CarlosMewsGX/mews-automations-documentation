@@ -7,6 +7,7 @@ import { ComponentsSection } from './components/ComponentsSection';
 import { ClaudeSkillSection } from './components/ClaudeSkillSection';
 import { OtherComponentsSection } from './components/OtherComponentsSection';
 import { RoadmapSection } from './components/RoadmapSection';
+import { ExtendingSection } from './components/ExtendingSection';
 
 const gettingStartedItems = [
   { id: 'what-are-automations', label: 'What are Automations?' },
@@ -197,6 +198,11 @@ export default function App() {
               Components Roadmap
             </button>
 
+            {/* Extending Mews Automations */}
+            <button onClick={() => navigate('extending')} className={sectionCls('extending')}>
+              Extending Mews Automations
+            </button>
+
             {/* Claude Skill */}
             <button onClick={() => navigate('claude-skill')} className={sectionCls('claude-skill')}>
               Claude Skill
@@ -216,6 +222,7 @@ export default function App() {
                 {activeSection === 'components' && 'Mews Components'}
                 {activeSection === 'other-components' && 'Other Components'}
                 {activeSection === 'roadmap' && 'Components Roadmap'}
+                {activeSection === 'extending' && 'Extending Mews Automations: Collaboration Model'}
                 {activeSection === 'claude-skill' && 'Claude Skill for Mews Automations'}
               </h1>
               <p className="text-gray-600 text-lg">
@@ -225,6 +232,7 @@ export default function App() {
                 {activeSection === 'components' && 'Browse native Mews automation components'}
                 {activeSection === 'other-components' && 'Third-party connectors available in Mews Automations'}
                 {activeSection === 'roadmap' && 'What\'s live, in refinement, and planned across all phases'}
+                {activeSection === 'extending' && 'Contributor guide, component development, and template publishing'}
                 {activeSection === 'claude-skill' && 'An AI assistant skill that gives Claude expert knowledge of Mews Automations'}
               </p>
             </div>
@@ -235,6 +243,7 @@ export default function App() {
               {activeSection === 'components' && <ComponentsSection />}
               {activeSection === 'other-components' && <OtherComponentsSection />}
               {activeSection === 'roadmap' && <RoadmapSection />}
+              {activeSection === 'extending' && <ExtendingSection />}
               {activeSection === 'claude-skill' && <ClaudeSkillSection />}
             </div>
           </div>

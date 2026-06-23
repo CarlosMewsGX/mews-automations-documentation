@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { GettingStartedSection } from './components/GettingStartedSection';
 import { TemplatesSection } from './components/TemplatesSection';
@@ -62,11 +62,30 @@ const actionItems = [
   { id: 'get-products-for-reservations', label: 'Get Products For Reservations' },
 ];
 
+const validSections = ['overview', 'getting-started', 'templates', 'components', 'other-components', 'roadmap', 'extending', 'claude-skill'];
+
+function getHashSection() {
+  const hash = window.location.hash.replace('#', '');
+  return validSections.includes(hash) ? hash : 'overview';
+}
+
 export default function App() {
-  const [activeSection, setActiveSection] = useState('overview');
+  const [activeSection, setActiveSection] = useState(getHashSection);
   const [activeItem, setActiveItem] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<string[]>([]);
   const contentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setActiveSection(getHashSection());
+      setActiveItem(null);
+      setTimeout(() => {
+        if (contentRef.current) contentRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 50);
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   const toggleExpand = (key: string) => {
     setExpanded(prev =>
@@ -77,6 +96,7 @@ export default function App() {
   const navigate = (section: string) => {
     setActiveSection(section);
     setActiveItem(null);
+    window.location.hash = section;
     setTimeout(() => {
       if (contentRef.current) contentRef.current.scrollTo({ top: 0, behavior: 'smooth' });
     }, 50);
